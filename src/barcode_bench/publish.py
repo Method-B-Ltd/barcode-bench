@@ -202,27 +202,49 @@ def _fmt_encoders(data: RunData, symbology: str, output_format: str) -> list[str
     ]
 
 
-def _time_cell(v: float | None, best: float | None, kind: str) -> str:
+def _time_cell(
+    v: float | None, best: float | None, kind: str, partial: bool = False, misdecoded: bool = False
+) -> str:
     if v is None:
-        return "ERR" if kind == "encode_error" else "—"
+        # no valid sample at all. `—` is reserved for "not attempted"
+        # (unsupported); anything that was attempted and failed - every trial
+        # raised, or every symbol misdecoded - is an `ERR`, not a blank.
+        if kind == "encode_error" or misdecoded:
+            return "ERR"
+        return "—"
     text = _fmt_ms(v)
     if v == best:
         text = f"**{text}**"
-    if kind == "encode_error":
+    if partial:
+        # some trials didn't contribute a valid sample - raised at encode or
+        # misdecoded - so the median is over the survivors. The dagger points
+        # the reader at Exceptions for which and why; the *reason* is recorded
+        # there, the cell just flags that the number is incomplete.
         text += " †"
     return text
 
 
-def _int_cell(v: int | None, best: int | None, kind: str, comma: bool = False) -> str:
+def _int_cell(
+    v: int | None,
+    best: int | None,
+    kind: str,
+    comma: bool = False,
+    partial: bool = False,
+    misdecoded: bool = False,
+) -> str:
     if v is None:
-        return "ERR" if kind == "encode_error" else "—"
+        # mirror _time_cell: `—` only for "not attempted" (unsupported); a
+        # symbol that was produced but every trial raised or misdecoded is ERR.
+        if kind == "encode_error" or misdecoded:
+            return "ERR"
+        return "—"
     disp = f"{v:,}" if comma else f"{v}"
     if v == best:
         text = f"**{disp}**"
     else:
         assert best is not None
         text = f"{disp} (+{(v - best) / best * 100:.0f}%)"
-    if kind == "encode_error":
+    if partial:
         text += " †"
     return text
 
@@ -270,7 +292,7 @@ def _run_header(data: RunData, symbology: str, encoders: list[str]) -> list[str]
 
 
 def _outcome_summary(data: RunData, enc: str, cases: list[dict]) -> str:
-    counts = {"ok": 0, "partial": 0, "unsup.": 0, "err": 0}
+    counts = {"ok": 0, "partial": 0, "misdecode": 0, "unsup.": 0, "err": 0}
     for c in cases:
         cid = c["case_id"]
         has_samples = (enc, cid) in data.samples
@@ -283,6 +305,11 @@ def _outcome_summary(data: RunData, enc: str, cases: list[dict]) -> str:
             counts["ok"] += 1
         elif kind == "encode_error":
             counts["err"] += 1
+        elif data.misdecoded_trials(enc, cid):
+            # encoded fine (status=ok) but no trial decode-verified: the symbol
+            # is wrong, not absent. Without this bucket the case would fall
+            # through every branch and vanish from the counts.
+            counts["misdecode"] += 1
     return ", ".join(f"{n} {k}" for k, n in counts.items() if n) or "—"
 
 
@@ -297,10 +324,12 @@ def _coverage_section(data: RunData, symbology: str, encoders: list[str]) -> lis
         "",
         "Cases by outcome for this symbology, PNG and SVG axes shown separately: "
         "*ok* = every trial decode-verified against its payload (zxing-cpp; SVG "
-        "rasterised host-side first); *partial* = some trials raised; *err* = every "
-        "trial raised; *unsup.* = options the encoder cannot honour. Non-ok outcomes "
-        "are listed verbatim under [Exceptions](#exceptions). *Verified symbols* "
-        "counts decode-verified (symbol, trial) pairs across the PNG and SVG axes.",
+        "rasterised host-side first); *partial* = some trials raised; *misdecode* = "
+        "the symbol was produced but the reference decoder read it back as different "
+        "content (a charset-ambiguous byte-mode symbol, say); *err* = every trial "
+        "raised; *unsup.* = options the encoder cannot honour. Non-ok outcomes are "
+        "listed under [Exceptions](#exceptions). *Verified symbols* counts "
+        "decode-verified (symbol, trial) pairs across the PNG and SVG axes.",
         "",
         "| encoder | PNG | SVG | verified symbols |",
         "|---|---|---|---:|",
@@ -362,9 +391,12 @@ def _encode_time_section(data: RunData, symbology: str, output_format: str) -> l
     if output_format == "png":
         caption = (
             "Median ms of decode-verified samples, rows ordered by payload length. "
-            "**Bold** = row minimum. `—` = unsupported (see [Exceptions](#exceptions)), "
-            "`ERR` = every trial raised, `†` = some raised (median of survivors). Chart "
-            "dots are individual samples (trials × rounds); the tick/line is the median."
+            "**Bold** = row minimum. `†` = some trials were excluded from the median "
+            "(raised at encode, or the symbol misdecoded) — see "
+            "[Exceptions](#exceptions) for which and why. `ERR` = every trial failed "
+            "(raised, or the symbol misdecoded); `—` = not attempted (unsupported). "
+            "Chart dots are individual samples (trials × rounds); the tick/line is the "
+            "median."
         )
         if "treepoem" in encoders:
             caption += (
@@ -391,12 +423,23 @@ def _encode_time_section(data: RunData, symbology: str, output_format: str) -> l
     for case in cases:
         cid = case["case_id"]
         chars = int(statistics.median(len(t) for t in case["trials"]))
+        n_trials = len(case["trials"])
         med = {e: data.median_ms(e, cid) for e in encoders}
         values = [v for v in med.values() if v is not None]
         best = min(values) if values else None
         row = [f"`{cid}`", f"{case['category']} ({chars})"]
         for e in encoders:
-            row.append(_time_cell(med[e], best, data.exceptions.get((e, cid), ("",))[0]))
+            # partial = the median rests on fewer than all trials because some
+            # raised or misdecoded; flag it so a clean-looking number isn't read
+            # as a clean run. misdecoded tells an all-failed cell apart from an
+            # unsupported one (ERR vs —) when there's no valid sample.
+            partial = 0 < len(data.valid_trials(e, cid)) < n_trials
+            misdecoded = bool(data.misdecoded_trials(e, cid))
+            row.append(
+                _time_cell(
+                    med[e], best, data.exceptions.get((e, cid), ("",))[0], partial, misdecoded
+                )
+            )
         lines.append("| " + " | ".join(row) + " |")
     lines.append("")
     return lines
@@ -452,37 +495,105 @@ def _symbol_size_section(data: RunData, symbology: str) -> list[str]:
             " A full-range Aztec's footprint includes its reference-grid lines, so it "
             "can exceed a compact symbol of similar data capacity."
         )
-    caption += " **Bold** = row minimum; percentages are overhead vs it."
+    caption += (
+        " **Bold** = row minimum; percentages are overhead vs it. Only decode-verified "
+        "symbols are measured: `ERR` = every trial failed (raised, or the symbol "
+        "misdecoded — see [Exceptions](#exceptions)); `—` = not attempted (unsupported); "
+        "`†` = measured over a subset of trials (the rest raised or misdecoded)."
+    )
     caption += svg_only_note
 
     lines = ["## Symbol size", "", caption, "", header, rule]
     for case in cases:
         cid = case["case_id"]
+        svg_cid = f"{cid}-svg"
+        n_trials = len(case["trials"])
         area = {e: data.median_area(e, cid) for e in encoders}
         values = [v for v in area.values() if v is not None]
         best = min(values) if values else None
         row = [f"`{cid}`"]
         for e in encoders:
-            row.append(_int_cell(area[e], best, data.exceptions.get((e, cid), ("",))[0], comma=True))
+            # size draws from the PNG case or its SVG twin, so validity/misdecode
+            # are checked across both (same conventions as the timing cell).
+            valid_ts = data.valid_trials(e, cid) | data.valid_trials(e, svg_cid)
+            partial = 0 < len(valid_ts) < n_trials
+            misdecoded = bool(data.misdecoded_trials(e, cid)) or bool(
+                data.misdecoded_trials(e, svg_cid)
+            )
+            row.append(
+                _int_cell(
+                    area[e],
+                    best,
+                    data.exceptions.get((e, cid), ("",))[0],
+                    comma=True,
+                    partial=partial,
+                    misdecoded=misdecoded,
+                )
+            )
         lines.append("| " + " | ".join(row) + " |")
     lines.append("")
     return lines
 
 
+def _misdecode_reason(measures: list[dict]) -> str:
+    """Human reason for a misdecode: how many trials produced no decodable
+    symbol vs decoded to different content, with a sample of what the reader
+    actually read back (captured by the measure stage) when available."""
+    no_decode = sum(1 for m in measures if not m["decode_ok"])
+    mismatched = [m for m in measures if m["decode_ok"] and not m["content_match"]]
+    parts: list[str] = []
+    if no_decode:
+        parts.append(f"{no_decode} produced no decodable symbol")
+    if mismatched:
+        sample = next((m.get("decoded_text") for m in mismatched if m.get("decoded_text")), None)
+        detail = f" (read back e.g. `{_table_safe(sample)}`)" if sample else ""
+        parts.append(f"{len(mismatched)} decoded to different content{detail}")
+    return "; ".join(parts)
+
+
+def _table_safe(s: str, limit: int = 40) -> str:
+    """Trim and escape decoder output for a Markdown table cell."""
+    s = s.replace("|", "\\|").replace("\n", " ")
+    return s if len(s) <= limit else s[:limit] + "…"
+
+
+def _misdecode_items(
+    data: RunData, sym_cids: set[str]
+) -> list[tuple[tuple[str, str], tuple[str, str, int]]]:
+    """Produced-but-invalid outcomes for this symbology, in the same
+    (key, (kind, reason, n)) shape as ``data.exceptions`` so both fold into one
+    table. These carry ``status=ok`` timing records, so they are absent from
+    ``data.exceptions`` - the gap this surfaces."""
+    items = []
+    for enc in data.encoders:
+        for cid in sym_cids:
+            bad = data.misdecoded_trials(enc, cid)
+            if bad:
+                items.append(
+                    ((enc, cid), ("misdecode", _misdecode_reason(list(bad.values())), len(bad)))
+                )
+    return items
+
+
 def _exceptions_section(data: RunData, symbology: str) -> list[str]:
     sym_cids = {cid for cid, c in data.cases.items() if c["symbology"] == symbology}
-    items = sorted((k, v) for k, v in data.exceptions.items() if k[1] in sym_cids)
+    items = sorted(
+        [(k, v) for k, v in data.exceptions.items() if k[1] in sym_cids]
+        + _misdecode_items(data, sym_cids)
+    )
     lines = [
         "## Exceptions",
         "",
-        "Every non-ok outcome for this symbology, with the recorded reason verbatim.",
+        "Every non-ok outcome for this symbology: unsupported options and encode "
+        "errors carry the recorded reason verbatim; a *misdecode* (the symbol was "
+        "produced but failed the decode-verify gate) shows how it failed.",
         "",
     ]
     if not items:
         lines += ["_None — every case decode-verified for every participating encoder._", ""]
         return lines
     lines += [
-        "| encoder | case | outcome | trials | recorded reason |",
+        "| encoder | case | outcome | trials | reason |",
         "|---|---|---|---:|---|",
     ]
     for (enc, cid), (kind, reason, n) in items:

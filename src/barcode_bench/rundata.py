@@ -102,6 +102,22 @@ class RunData:
         """Trials of (encoder, case) whose produced symbol decode-verified."""
         return {t for (e, cid, t) in self.valid if e == encoder and cid == case_id}
 
+    def misdecoded_trials(self, encoder: str, case_id: str) -> dict[int, dict]:
+        """Trials whose symbol was produced (a measurement exists) but failed
+        the decode-verify gate - the decoder either couldn't read it or read it
+        back as different content. Keyed by trial -> measurement record, so a
+        consumer can explain *how* it failed. A trial that raised at encode time
+        has no measurement (the file is unlinked), so it never appears here -
+        those are the ``encode_error`` exceptions instead. This is the outcome
+        the timing statuses alone miss: the encode succeeds (``status=ok``) yet
+        the symbol is wrong, so it belongs to neither ``samples`` nor
+        ``exceptions`` without this."""
+        return {
+            t: m
+            for (e, cid, t), m in self.measures.items()
+            if e == encoder and cid == case_id and not (m["decode_ok"] and m["content_match"])
+        }
+
     def encoders_for(self, symbology: str) -> list[str]:
         return [
             e
@@ -131,10 +147,14 @@ class RunData:
         # Fall back to the SVG twin: SVG-only encoders (qrcodegen,
         # ppf.datamatrix) carry no PNG measurement, so their size lives on the
         # `-svg` case. The twin is the same symbol, so mixing is exact.
+        # Only decode-verified symbols count: a misdecoded symbol has a real
+        # module footprint, but reporting it (and letting it win a row) would
+        # present a symbol that fails the same validity gate the timing table
+        # excludes. Same rule both tables - a misdecode contributes nowhere.
         twins = (case_id, f"{case_id}-svg")
         vals = [
             a
-            for (e, cid, _t), a in self.symbol_area.items()
-            if e == encoder and cid in twins and a is not None
+            for (e, cid, t), a in self.symbol_area.items()
+            if e == encoder and cid in twins and a is not None and (e, cid, t) in self.valid
         ]
         return int(statistics.median(vals)) if vals else None

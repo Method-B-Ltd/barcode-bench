@@ -136,13 +136,14 @@ def _size_dict(pa: PixelArea | None) -> dict[str, Any] | None:
 
 def _rasterise_svg(
     svg_bytes: bytes, symbology: str, payload: str
-) -> tuple[bool, bool, list[int], Image.Image | None]:
+) -> tuple[bool, bool, str | None, list[int], Image.Image | None]:
     """Rasterise an SVG (host-side, untimed) and run the decode-verify gate.
-    Returns (decode_ok, content_match, px, raster) where ``raster`` is the
-    greyscale image that decoded (for the pixel measurer) or the last one
-    attempted. Tries increasing zooms so a large symbol that comes out
-    under-resolved at the first zoom still gets a fair read; the last attempted
-    image's size is reported either way."""
+    Returns (decode_ok, content_match, decoded_text, px, raster) where
+    ``decoded_text`` is what the reader read back (used to explain a content
+    mismatch in reports) and ``raster`` is the greyscale image that decoded (for
+    the pixel measurer) or the last one attempted. Tries increasing zooms so a
+    large symbol that comes out under-resolved at the first zoom still gets a
+    fair read; the last attempted image's size is reported either way."""
     px: list[int] = [0, 0]
     raster: Image.Image | None = None
     for zoom in _SVG_RASTER_ZOOMS:
@@ -154,8 +155,8 @@ def _rasterise_svg(
         raster = img
         result = zxingcpp.read_barcode(img, formats=_FORMATS[symbology])
         if result is not None and result.valid:
-            return True, result.text == payload, px, img
-    return False, False, px, raster
+            return True, result.text == payload, result.text, px, img
+    return False, False, None, px, raster
 
 
 def _rsvg_convert(svg_bytes: bytes, zoom: int) -> bytes | None:
@@ -187,6 +188,11 @@ def _measure_one(
         "output_format": "svg" if is_svg else "png",
         "decode_ok": False,
         "content_match": False,
+        # What the reference decoder read back, when it decoded to *something*
+        # other than the payload (a content mismatch). None when the symbol
+        # didn't decode at all or round-tripped exactly - reports use it to
+        # show how a misdecode failed (e.g. Latin-1 bytes read as katakana).
+        "decoded_text": None,
         "file_bytes": out_file.stat().st_size,
         "px": None,
         # Module footprint measured from the pixels (pixel_measure.PixelArea) or
@@ -194,11 +200,13 @@ def _measure_one(
         "size": None,
     }
     if is_svg:
-        decode_ok, content_match, px, raster = _rasterise_svg(
+        decode_ok, content_match, decoded_text, px, raster = _rasterise_svg(
             out_file.read_bytes(), symbology, payload
         )
         record["decode_ok"] = decode_ok
         record["content_match"] = content_match
+        if decode_ok and not content_match:
+            record["decoded_text"] = decoded_text
         record["px"] = px
         if decode_ok and raster is not None:
             record["size"] = _size_dict(measure_pixel_area(raster, symbology))
@@ -211,5 +219,7 @@ def _measure_one(
             return record
         record["decode_ok"] = True
         record["content_match"] = result.text == payload
+        if not record["content_match"]:
+            record["decoded_text"] = result.text
         record["size"] = _size_dict(measure_pixel_area(img, symbology))
     return record

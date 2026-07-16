@@ -22,14 +22,14 @@ Encoder labels use the exact PyPI distribution name; the **PyPI package** column
 
 ## Correctness and coverage
 
-Cases by outcome for this symbology, PNG and SVG axes shown separately: *ok* = every trial decode-verified against its payload (zxing-cpp; SVG rasterised host-side first); *partial* = some trials raised; *err* = every trial raised; *unsup.* = options the encoder cannot honour. Non-ok outcomes are listed verbatim under [Exceptions](#exceptions). *Verified symbols* counts decode-verified (symbol, trial) pairs across the PNG and SVG axes.
+Cases by outcome for this symbology, PNG and SVG axes shown separately: *ok* = every trial decode-verified against its payload (zxing-cpp; SVG rasterised host-side first); *partial* = some trials raised; *misdecode* = the symbol was produced but the reference decoder read it back as different content (a charset-ambiguous byte-mode symbol, say); *err* = every trial raised; *unsup.* = options the encoder cannot honour. Non-ok outcomes are listed under [Exceptions](#exceptions). *Verified symbols* counts decode-verified (symbol, trial) pairs across the PNG and SVG axes.
 
 | encoder | PNG | SVG | verified symbols |
 |---|---|---|---:|
 | pystrich | 26 ok | 26 ok | 260 |
 | pystrich-git | 26 ok | 26 ok | 260 |
-| zxing-cpp | 24 ok | 24 ok | 240 |
-| segno | 24 ok | 24 ok | 240 |
+| zxing-cpp | 24 ok, 2 misdecode | 24 ok, 2 misdecode | 240 |
+| segno | 24 ok, 2 misdecode | 24 ok, 2 misdecode | 240 |
 | qrcode | 22 ok, 4 unsup. | 22 ok, 4 unsup. | 220 |
 | qrcodegen | 26 unsup. | 22 ok, 4 unsup. | 110 |
 | opencv-python-headless | 26 ok | 26 unsup. | 130 |
@@ -56,7 +56,7 @@ Encoder stack = full image size minus the shared Python base — i.e. the librar
 
 ![QR Code PNG encode times](charts/timing_qr.svg)
 
-Median ms of decode-verified samples, rows ordered by payload length. **Bold** = row minimum. `—` = unsupported (see [Exceptions](#exceptions)), `ERR` = every trial raised, `†` = some raised (median of survivors). Chart dots are individual samples (trials × rounds); the tick/line is the median. treepoem's timings include a ghostscript subprocess per encode — part of its cost of use, not an artefact.
+Median ms of decode-verified samples, rows ordered by payload length. **Bold** = row minimum. `†` = some trials were excluded from the median (raised at encode, or the symbol misdecoded) — see [Exceptions](#exceptions) for which and why. `ERR` = every trial failed (raised, or the symbol misdecoded); `—` = not attempted (unsupported). Chart dots are individual samples (trials × rounds); the tick/line is the median. treepoem's timings include a ghostscript subprocess per encode — part of its cost of use, not an artefact.
 
 | case | payload (chars) | pystrich | pystrich-git | zxing-cpp | segno | qrcode | opencv-python-headless | treepoem |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -72,8 +72,8 @@ Median ms of decode-verified samples, rows ordered by payload length. **Bold** =
 | `qr-latin1-eclM` | latin1 (78) | 2.68 | 2.60 | **0.99** | 7.21 | — | 14.1 | 2,412 |
 | `qr-latin1-eclM-auto` | latin1 (78) | 2.60 | 2.63 | **0.98** | 7.56 | 8.19 | 14.1 | — |
 | `qr-url-eclM` | url (78) | 2.64 | 2.60 | **1.05** | 6.95 | 7.69 | 13.7 | 2,412 |
-| `qr-latin1_ambiguous-eclM` | latin1_ambiguous (89) | 3.23 | **3.18** | — | — | — | 21.3 | 2,423 |
-| `qr-latin1_ambiguous-eclM-auto` | latin1_ambiguous (89) | **3.06** | 3.09 | — | — | 11.4 | 21.3 | — |
+| `qr-latin1_ambiguous-eclM` | latin1_ambiguous (89) | 3.23 | **3.18** | ERR | ERR | — | 21.3 | 2,423 |
+| `qr-latin1_ambiguous-eclM-auto` | latin1_ambiguous (89) | **3.06** | 3.09 | ERR | ERR | 11.4 | 21.3 | — |
 | `qr-bcbp-eclM` | bcbp (97) | 2.80 | 2.75 | **0.95** | 7.08 | 7.82 | 13.3 | 2,401 |
 | `qr-numeric_long-eclM` | numeric_long (113) | 2.91 | 2.90 | **0.91** | 5.54 | 5.86 | 12.5 | 2,363 |
 | `qr-mixed_modes-eclM` | mixed_modes (144) | 3.99 | 3.94 | **1.38** | 11.8 | 13.3 | 25.9 | 2,419 |
@@ -107,8 +107,8 @@ Same conventions and columns as the PNG table above, for SVG output — the *sam
 | `qr-latin1-eclM-auto-svg` | latin1 (78) | 2.40 | 2.40 | **0.92** | 6.65 | 11.1 | 14.7 |
 | `qr-latin1-eclM-svg` | latin1 (78) | 2.38 | 2.33 | **0.93** | 6.69 | — | — |
 | `qr-url-eclM-svg` | url (78) | 2.31 | 2.33 | **0.88** | 6.49 | 10.7 | 13.7 |
-| `qr-latin1_ambiguous-eclM-auto-svg` | latin1_ambiguous (89) | **2.89** | 2.90 | — | — | 15.3 | 18.7 |
-| `qr-latin1_ambiguous-eclM-svg` | latin1_ambiguous (89) | 2.84 | **2.79** | — | — | — | — |
+| `qr-latin1_ambiguous-eclM-auto-svg` | latin1_ambiguous (89) | **2.89** | 2.90 | ERR | ERR | 15.3 | 18.7 |
+| `qr-latin1_ambiguous-eclM-svg` | latin1_ambiguous (89) | 2.84 | **2.79** | ERR | ERR | — | — |
 | `qr-bcbp-eclM-svg` | bcbp (97) | 2.52 | 2.54 | **0.86** | 6.37 | 10.3 | 13.9 |
 | `qr-numeric_long-eclM-svg` | numeric_long (113) | 2.37 | 2.37 | **0.69** | 5.03 | 8.23 | 10.0 |
 | `qr-mixed_modes-eclM-svg` | mixed_modes (144) | 3.45 | 3.45 | **1.32** | 11.1 | 18.5 | 22.1 |
@@ -124,7 +124,7 @@ Same conventions and columns as the PNG table above, for SVG output — the *sam
 
 ## Symbol size
 
-Median module footprint (modules² excluding quiet zones), measured from the rendered symbol's module grid — render scale and quiet zones cancel out, so every encoder is on the same scale. **Bold** = row minimum; percentages are overhead vs it. Sizes for qrcodegen are measured from their decoded SVG (SVG-only libraries; the symbol is identical to the PNG a raster encoder would emit).
+Median module footprint (modules² excluding quiet zones), measured from the rendered symbol's module grid — render scale and quiet zones cancel out, so every encoder is on the same scale. **Bold** = row minimum; percentages are overhead vs it. Only decode-verified symbols are measured: `ERR` = every trial failed (raised, or the symbol misdecoded — see [Exceptions](#exceptions)); `—` = not attempted (unsupported); `†` = measured over a subset of trials (the rest raised or misdecoded). Sizes for qrcodegen are measured from their decoded SVG (SVG-only libraries; the symbol is identical to the PNG a raster encoder would emit).
 
 | case | pystrich | pystrich-git | zxing-cpp | segno | qrcode | qrcodegen | opencv-python-headless | treepoem |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -140,8 +140,8 @@ Median module footprint (modules² excluding quiet zones), measured from the ren
 | `qr-latin1-eclM` | **1,369** | **1,369** | **1,369** | **1,369** | — | — | **1,369** | **1,369** |
 | `qr-latin1-eclM-auto` | **1,369** | **1,369** | **1,369** | **1,369** | **1,369** | **1,369** | **1,369** | — |
 | `qr-url-eclM` | **1,369** | **1,369** | **1,369** | **1,369** | **1,369** | **1,369** | **1,369** | **1,369** |
-| `qr-latin1_ambiguous-eclM` | **1,681** | **1,681** | **1,681** | **1,681** | — | — | 2,025 (+20%) | **1,681** |
-| `qr-latin1_ambiguous-eclM-auto` | **1,681** | **1,681** | **1,681** | **1,681** | 2,025 (+20%) | 2,025 (+20%) | 2,025 (+20%) | — |
+| `qr-latin1_ambiguous-eclM` | **1,681** | **1,681** | ERR | ERR | — | — | 2,025 (+20%) | **1,681** |
+| `qr-latin1_ambiguous-eclM-auto` | **1,681** | **1,681** | ERR | ERR | 2,025 (+20%) | 2,025 (+20%) | 2,025 (+20%) | — |
 | `qr-bcbp-eclM` | **1,369** | **1,369** | **1,369** | **1,369** | **1,369** | **1,369** | **1,369** | **1,369** |
 | `qr-numeric_long-eclM` | **1,089** | **1,089** | **1,089** | **1,089** | **1,089** | **1,089** | **1,089** | **1,089** |
 | `qr-mixed_modes-eclM` | **2,025** | **2,025** | **2,025** | 2,401 (+19%) | 2,401 (+19%) | 2,401 (+19%) | 2,401 (+19%) | **2,025** |
@@ -157,9 +157,9 @@ Median module footprint (modules² excluding quiet zones), measured from the ren
 
 ## Exceptions
 
-Every non-ok outcome for this symbology, with the recorded reason verbatim.
+Every non-ok outcome for this symbology: unsupported options and encode errors carry the recorded reason verbatim; a *misdecode* (the symbol was produced but failed the decode-verify gate) shows how it failed.
 
-| encoder | case | outcome | trials | recorded reason |
+| encoder | case | outcome | trials | reason |
 |---|---|---|---:|---|
 | opencv-python-headless | `qr-alnum-eclH-svg` | unsupported | 20 | no native SVG writer |
 | opencv-python-headless | `qr-alnum-eclL-svg` | unsupported | 20 | no native SVG writer |
@@ -225,6 +225,10 @@ Every non-ok outcome for this symbology, with the recorded reason verbatim.
 | qrcodegen | `qr-utf8-eclM-auto` | unsupported | 20 | no documented raster output (vector-only library) |
 | qrcodegen | `qr-utf8-eclM-svg` | unsupported | 20 | no charset/ECI support for 'utf-8' payloads |
 | qrcodegen | `qr-xml_nc-eclM` | unsupported | 20 | no documented raster output (vector-only library) |
+| segno | `qr-latin1_ambiguous-eclM` | misdecode | 5 | 5 decoded to different content (read back e.g. `77ｱ6ｰC ､51 30ｱ6ｰC ｣ 61ｱ5ｰC ､17 35ｱ4ｰC ｽ …`) |
+| segno | `qr-latin1_ambiguous-eclM-auto` | misdecode | 5 | 5 decoded to different content (read back e.g. `77ｱ6ｰC ､51 30ｱ6ｰC ｣ 61ｱ5ｰC ､17 35ｱ4ｰC ｽ …`) |
+| segno | `qr-latin1_ambiguous-eclM-auto-svg` | misdecode | 5 | 5 decoded to different content (read back e.g. `77ｱ6ｰC ､51 30ｱ6ｰC ｣ 61ｱ5ｰC ､17 35ｱ4ｰC ｽ …`) |
+| segno | `qr-latin1_ambiguous-eclM-svg` | misdecode | 5 | 5 decoded to different content (read back e.g. `77ｱ6ｰC ､51 30ｱ6ｰC ｣ 61ｱ5ｰC ､17 35ｱ4ｰC ｽ …`) |
 | treepoem | `qr-alnum-eclH-svg` | unsupported | 20 | no native SVG writer |
 | treepoem | `qr-alnum-eclL-svg` | unsupported | 20 | no native SVG writer |
 | treepoem | `qr-alnum-eclM-svg` | unsupported | 20 | no native SVG writer |
@@ -255,6 +259,10 @@ Every non-ok outcome for this symbology, with the recorded reason verbatim.
 | treepoem | `qr-utf8-eclM-auto-svg` | unsupported | 20 | no native SVG writer |
 | treepoem | `qr-utf8-eclM-svg` | unsupported | 20 | no native SVG writer |
 | treepoem | `qr-xml_nc-eclM-svg` | unsupported | 20 | no native SVG writer |
+| zxing-cpp | `qr-latin1_ambiguous-eclM` | misdecode | 5 | 5 decoded to different content (read back e.g. `77ｱ6ｰC ､51 30ｱ6ｰC ｣ 61ｱ5ｰC ､17 35ｱ4ｰC ｽ …`) |
+| zxing-cpp | `qr-latin1_ambiguous-eclM-auto` | misdecode | 5 | 5 decoded to different content (read back e.g. `77ｱ6ｰC ､51 30ｱ6ｰC ｣ 61ｱ5ｰC ､17 35ｱ4ｰC ｽ …`) |
+| zxing-cpp | `qr-latin1_ambiguous-eclM-auto-svg` | misdecode | 5 | 5 decoded to different content (read back e.g. `77ｱ6ｰC ､51 30ｱ6ｰC ｣ 61ｱ5ｰC ､17 35ｱ4ｰC ｽ …`) |
+| zxing-cpp | `qr-latin1_ambiguous-eclM-svg` | misdecode | 5 | 5 decoded to different content (read back e.g. `77ｱ6ｰC ､51 30ｱ6ｰC ｣ 61ｱ5ｰC ､17 35ｱ4ｰC ｽ …`) |
 
 ## Methodology
 
