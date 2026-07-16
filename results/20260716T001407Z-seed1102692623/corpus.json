@@ -1,0 +1,1203 @@
+{
+ "cases": [
+  {
+   "case_id": "qr-numeric_short-eclM",
+   "category": "numeric_short",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "digits(6..12)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "454440",
+    "513832913",
+    "792873588590",
+    "245622",
+    "8311026836"
+   ]
+  },
+  {
+   "case_id": "qr-numeric_long-eclM",
+   "category": "numeric_long",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "digits(100..150)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "60162872518234782340377498717209288979003785600275542304652458705182552080194278653159088366877328717480331157333",
+    "62055664512309837699426034230996308377246272716830969905758022363112470695744873649673658136549756698114326855915792370196",
+    "522789330666875407324624858946302419582648234250075438518817224724168705793141439921136326526000670406",
+    "1457866067102893151114863815896620749356969080118448154839190382883639668195372163623982047087312287163574055129239559780756004993360341",
+    "1658440046070441109496885227920155548250755361084256901280768326263477619320777072595077440176002591"
+   ]
+  },
+  {
+   "case_id": "qr-alnum-eclL",
+   "category": "alnum",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "L",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "qr_alnum(25..50)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "O3*ST*TWD:C182%ZYWP95J513-HU8 8:MNI6S0K+.0Z",
+    "3OZMRPGMVA7IH3*ZQAJ4$KYAXL%QI7N$VVJPGUQ1CV3:80X",
+    "W%L F.+WCV+50YB+P$3OT0C+18FLD8RX.9 S:2",
+    "THNH/RW%J0TZ5QKCLM0T3EJH02 88RN3QELR-GB+",
+    "P$7%AYYC9/L+Y.GHDA*N/ HQ2Z0O-Q27-RI-Q8ZK1FTC9"
+   ]
+  },
+  {
+   "case_id": "qr-alnum-eclM",
+   "category": "alnum",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "qr_alnum(25..50)",
+   "quick": true,
+   "symbology": "qr",
+   "trials": [
+    "5VW88MRZ+-S4F502Q:6QSI%TD:D4U",
+    "J$4D6WO01.BS73H5 NT3PY1%3D1+.$WJBV..X3RAKCYM:AAN*",
+    "--LY%XPNIKZFR.*690%0HO/RPJ1DP 3V*E3*",
+    "VP$/N+UC5*GHQ .2AHW:H3 I6+R7UPC$ZOK2 :U%YQY%E",
+    "8C:H9RU2QGO*ESN+TQHYXB-/G 83A8YB.4"
+   ]
+  },
+  {
+   "case_id": "qr-alnum-eclQ",
+   "category": "alnum",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "Q",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "qr_alnum(25..50)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "9%XP4A7XP4$4/AGPM3NAZ-E58NGMWC:-VMMJ7PVOCNJE5862OP",
+    "L$Z/WIQ/DMH8BU05G8MV15B% :8 8-9AUK4ZT/A",
+    ":H5PMQE%S$O0K8%89R07VHZ%4OYK*4",
+    "*K6%AAZL.VM.QIBR.BCWP9HQ%S7WF*3TJAM1SB*FPFPZ3",
+    "B:O-7S6H09.11S-S0LVPI4H-%S8I2XO.H*S$7R$7D**GH-J$"
+   ]
+  },
+  {
+   "case_id": "qr-alnum-eclH",
+   "category": "alnum",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "H",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "qr_alnum(25..50)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "7D/ 4MR1SBQSJC46K VNP4:KI46RN.ZG+M*2C",
+    ".$EJ-RXRT14TLFW.5A5WEF/EV40",
+    "5D2I$6GJ/7*AR7:T.0%QHC/CMN9SSJT3 LY:DVW1B8Y%//",
+    "F%-DAAZL08* V-MO.1QX8%6RWD318B4.$28KX1YUN7%7N065QG",
+    "Q3RZ0C2XHJ49O4-T8Q3*TM2DMG4SJ++*6:TIBY$Z.LN.O:DLI"
+   ]
+  },
+  {
+   "case_id": "qr-mixed_modes-eclM",
+   "category": "mixed_modes",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "mixed_blocks(3..5)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "QXSQYHQNU16906526305_rd_ALPZWNNB17179507843680wyoofYOCEMYBH43760651731541572yf#kBKXRPCOIONC58364394596507jjby#z_QGSPOSBT7851466472252735874yglcfvrn",
+    "MZJDSSKWOKX041282212691i_hzz##gNAMVSNTX5401274855948635bmqkgbJBLBIOVLONV11744721637627221484nhbudrmn",
+    "CLWPQUTKVGIK0301558606717784mjheCFVSBLWY69922784430199g_@y#imIWLIKXSNMDJ253082243829wimvxgfw",
+    "ZWZDRZEN056453596951971065pdbqJLNAEEKT04474639311239486997nbzo_KPKQVYCLO6831344214093896kk@c_yuICRMDHWR04278799596175165917ibeusjpgLQMENSBL621112128744173768xpmoryu#",
+    "JZSYDQQCH3698725433945mfvmmesLWLEEMPH741532111350uqnalNEXSSAIPAPZ640736975242675794sinhxiBBUZBTXB46322401810hpdozCEFIDWWAEF48923561950252044wo@d"
+   ]
+  },
+  {
+   "case_id": "qr-url-eclM",
+   "category": "url",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "url()",
+   "quick": true,
+   "symbology": "qr",
+   "trials": [
+    "https://addressemail.example/tracking/depot/route?id=657111654833&ref=L6KHC3P5ZR",
+    "https://manifestamount.example/address?id=806791015051&ref=SAE7KWCCRZ",
+    "https://parcelstandard.example/account/time/carrier?id=761117843604&ref=PZ43FRG7ZB",
+    "https://phonebatch.example/centre/code?id=124811742488&ref=SVR34BMUHF",
+    "https://deliverylocation.example/depot/postcode?id=615022753938&ref=LMEE2B7TQA"
+   ]
+  },
+  {
+   "case_id": "qr-text_para-eclM",
+   "category": "text_para",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "text_ascii(200..500)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "Amount order item street item dock email amount postcode product. Reference item parcel update product depot package item invoice code status. Package scan city gate value priority return location. Return city label package total warehouse tracking. Carrier street gate service standard manifest invoice value parcel scan route. Depot dock service shipment status manifest. Express",
+    "Route label tracking date account city dock parcel centre amount. Service amount depot route product scan time update street code code. Customer scan gate country country shipment. Code number product carrier dock location email item address account depot tracking. Invoice carrier customer phone contact invoice warehouse country shipment address number. Status priority gate product gate service address code. Invoice shipment account date warehouse c",
+    "Reference centre gate street item warehouse. Package amount status dock code batch date item contact order. Invoice reference batch amount location reference amount. Phone product street status value route quant",
+    "Tracking package shipment depot dock shipment reference warehouse serial. Priority route order street country code carrier account. Gate scan service service code order value gate phone delivery serial label. Express carrier product time scan account tracking street centre r",
+    "Express item value code location delivery standard. Postcode city parcel phone centre update. Location gate parcel number package scan quantity time postcode. Update label scan location account priority. Return service priority express reference delivery account scan priority item email country. Street product package order status customer quantity batch parcel. Service batch dock centre update email product location city tracking parcel phone. Account scan update street"
+   ]
+  },
+  {
+   "case_id": "qr-latin1-eclM",
+   "category": "latin1",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": "iso-8859-1",
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "latin1_text(40..120)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "caf\u00e9 jalape\u00f1o voil\u00e0 cr\u00e8me Z\u00fcrich quantity serial time statu",
+    "postcode account manifest se\u00f1or 25\u00b0C contact tracking serial se\u00f1",
+    "r\u00e9sum\u00e9 caf\u00e9 status se\u00f1or phone invoice status priority k\u00f6nigsberg invoice na\u00efve amount k\u00f6nigsberg se\u00f1or gate dock o",
+    "reference total k\u00f6nigsberg postcode delivery \u00fcber date warehouse total express",
+    "amount \u00a3100 d\u00e9j\u00e0 centre gate r\u00e9sum\u00e9 m\u00fcller package cr\u00e8me account delivery item route cr\u00e8me m\u00fcller deliv"
+   ]
+  },
+  {
+   "case_id": "qr-latin1_ambiguous-eclM",
+   "category": "latin1_ambiguous",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": "iso-8859-1",
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "latin1_ambiguous(40..120)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "77\u00b16\u00b0C \u00a451 30\u00b16\u00b0C \u00a3 61\u00b15\u00b0C \u00a417 35\u00b14\u00b0C \u00bd 1\u00b11\u00b0C 77\u00b18\u00b0C 10\u00b16\u00b0C 24\u00b12\u00b0C \u00a5 phone country 43\u00b17\u00b0C",
+    "22\u00b16\u00b0C \u00a48439 \u00a473239 status 67\u00b19\u00b0C warehouse \u00bd \u00be \u00bb \u00a3232 \u00bd \u00a4544 \u00a4619 \u00a4981 63\u00b18\u00b0C \u00a5835 \u00a316 47\u00b11\u00b0C 41\u00b18\u00b0C \u00bc 18\u00b11\u00b0C",
+    "express 83\u00b16\u00b0C \u00a5442 \u00a5566 5\u00b18\u00b0C \u00a435 77\u00b19\u00b0C 31\u00b13\u00b0C 87\u00b11\u00b0C \u00be \u00a5",
+    "\u00a3 date \u00a478425 \u00a44520 74\u00b17\u00b0C \u00a55183 \u00a425927 87\u00b19\u00b0C 53\u00b11\u00b0C 23\u00b14\u00b0C standard \u00a354986 \u00a553142 \u00ae order \u00a595 postcode st",
+    "address 66\u00b17\u00b0C serial \u00a3446 tracking scan \u00a37717 \u00a458 \u00a5"
+   ]
+  },
+  {
+   "case_id": "qr-utf8-eclM",
+   "category": "utf8",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": "utf-8",
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "utf8_text(4..8 tokens)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "scan service address number \u65e5\u672c\u8a9e \ud83d\ude42",
+    "\ud55c\uad6d\uc5b4 amount \u65e5\u672c\u8a9e M\u00fcnchen M\u00fcnchen",
+    "\ud83d\ude42 carrier \u20ac49.99 \u65e5\u672c\u8a9e postcode scan",
+    "\ud83d\ude42 warehouse carrier scan number \ud55c\uad6d\uc5b4",
+    "email status customer carrier"
+   ]
+  },
+  {
+   "case_id": "qr-kanji-eclM",
+   "category": "kanji",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": "shift_jis",
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "kanji(10..30)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "\u30ab\u5316\u643a\u5316\u962a\u5927\u8a71\u3061\u53f7\u5b57\u30ca\u53f7\u30ab\u8a9e\u30ca\u30ab\u4eac\u5b57\u4e16\u30c8\u4e16\u306f\u30c8\u6771\u306f\u306f\u8a9e\u8a66\u5927",
+    "\u306f\u5e2f\u672c\u90fd\u306b\u4e16\u53f7\u30c6\u6f22\u4eac",
+    "\u3093\u30b9\u30c6\u90fd\u90fd\u6f22\u756a\u643a\u8a66\u5831\u30ab\u5831\u30ab\u672c\u756a\u643a\u6771\u8a71\u4eac\u90fd\u5831\u306b\u5b57\u30ab\u5e2f\u53f7\u30ca\u5b57\u3061\u60c5",
+    "\u754c\u306f\u8a71\u65e5\u30ab\u756a\u4e16\u7b26\u7b26\u30bf\u306f\u4eac\u756a\u5e2f\u3061\u5831\u6771\u8a66\u30b9\u5e2f\u5927",
+    "\u5316\u8a9e\u96fb\u306f\u8a9e\u6771\u3093\u4e16\u53f7\u672c\u30c6\u90fd\u3053\u672c\u5831\u30bf\u53f7\u60c5\u30ab\u5831\u5831\u4eac\u90fd\u60c5\u30ab\u6587\u8a66\u8a9e"
+   ]
+  },
+  {
+   "case_id": "qr-near_capacity-eclL",
+   "category": "near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "L",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "text_ascii(len=2510)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "Delivery country warehouse code item total package email reference service. Postcode quantity amount shipment date warehouse. Package package delivery shipment service gate package amount scan manifest address. Phone manifest code depot contact amount phone postcode serial tracking delivery account. Serial reference contact package serial return address city country. Package package route batch total value scan service depot. Shipment shipment update route time contact package. Package centre postcode service status tracking route country customer warehouse. Gate return time order standard update time. Location shipment city street number invoice carrier invoice reference manifest batch account. Phone value tracking phone standard customer. Package shipment address manifest contact address service quantity. Reference gate scan country reference parcel carrier route. Label order postcode date depot location delivery address. Amount email amount code reference city shipment. Item item delivery package item label update. Invoice city centre product value address. Serial total amount date standard customer time contact. Customer return scan manifest phone service address carrier reference express. Scan order shipment reference warehouse serial code package total country return reference. Route phone return route total country customer total customer contact status. Dock dock label service standard total. Batch country batch code parcel amount street phone. Route express label city manifest serial time scan. Time manifest carrier tracking service product account email. Centre order item product depot number batch address number email package. Centre batch express route email gate. Date dock product code update value priority. Route standard value dock delivery label. Standard invoice dock item time dock standard. Label serial scan quantity route total update total warehouse status parcel. Update package product number street amount serial customer status parcel. Service country dock depot priority contact shipment product centre phone. Tracking service priority delivery scan serial manifest location priority. Package status address route package gate serial express postcode scan total. Warehouse gate batch time product reference phone centre label delivery. Parcel amount update delivery express package label route. Depot status batch value package centre express priority delivery product location product. Street standard street update order product. Value parcel number v",
+    "Service manifest shipment parcel reference location street carrier street invoice. Item amount manifest warehouse dock product code item value postcode. Express code warehouse time account warehouse code. Tracking account invoice express phone batch product update manifest city batch postcode. Tracking shipment standard account amount tracking date amount update dock. Time city standard manifest address delivery depot postcode country. Priority manifest number update account parcel label express item gate value serial. Update account carrier standard order invoice express code. Order city code street tracking shipment tracking email item dock. Batch product tracking country code package invoice account postcode. Number contact country account order time serial item return dock serial. Shipment shipment postcode status shipment standard quantity delivery. Tracking country serial city delivery shipment address item account scan scan. Warehouse route email date service reference phone standard time customer postcode centre. Warehouse total quantity update email serial batch city contact value amount. Order contact priority gate priority dock time express express city product. Order invoice code delivery customer carrier service. Delivery street street scan parcel package total. Total product date location quantity update warehouse carrier. Express status service order location update value contact. Centre total phone centre centre manifest total. Scan depot standard total product priority city status tracking serial. Invoice express shipment address depot amount gate depot date phone. Value amount route product dock street scan item city. Carrier account invoice phone status city scan. Amount time return invoice express scan total contact value product order scan. Order warehouse location parcel standard customer. Tracking item reference number parcel country number warehouse number update. Parcel serial invoice express depot account package invoice manifest parcel. Contact express package scan warehouse centre order service. Order date customer priority service manifest. Tracking code package manifest value update express country. Manifest amount country quantity express package address. Code city invoice priority invoice manifest tracking warehouse amount scan. Serial number time standard centre scan warehouse. Manifest scan manifest item label parcel time depot manifest standard label email. Value centre depot code country shipment number value. Country item batch a",
+    "Address dock priority route dock order. Serial time amount status total route country. Number priority address centre priority total account. Update serial gate centre parcel item customer shipment serial location parcel. Service dock amount email dock number service account country. Reference total priority parcel scan item. Street reference address country email amount. Dock status account account address value manifest address city. Standard invoice time express dock city depot. Carrier date postcode amount shipment carrier email address date package. Location code reference serial parcel label invoice street email number dock date. Date update address package time depot. Tracking value status manifest parcel total priority phone date reference. Parcel tracking package time order dock route parcel. Express warehouse label country label standard centre delivery shipment priority express product. Account depot scan carrier contact contact serial priority. Parcel value manifest package city amount express parcel date invoice. Shipment customer tracking postcode shipment time status code customer invoice shipment. Return route route serial contact priority email customer date email dock. Label amount amount return product parcel. Delivery product customer standard shipment express email parcel country status account. Priority quantity product serial email country customer manifest. Product address package depot location shipment postcode customer depot item phone status. Route reference address address delivery delivery return. Quantity dock quantity return product standard serial country customer standard code order. Amount city delivery centre street order total tracking warehouse. Postcode dock standard street total postcode. Parcel date parcel invoice email return account country express dock standard shipment. Postcode account express amount location date. Amount dock value total account total. City account package priority invoice number delivery express express. Street shipment invoice email route priority service priority manifest. Customer status email code date phone dock update centre. Item invoice item serial phone location standard account route customer. Dock manifest scan centre gate value contact. Postcode number depot value label tracking customer code date manifest depot time. Label quantity package street contact standard. City batch invoice value return account item express. Amount label reference code standard email. Account parcel number shipmen",
+    "Delivery standard label centre express address phone delivery phone order warehouse quantity. Amount product phone delivery delivery depot carrier. Phone account label priority reference city. Address city carrier reference delivery contact centre. Centre amount postcode parcel invoice priority scan status location item. Contact manifest account depot gate scan order value delivery dock standard delivery. Street location number depot depot time gate address email phone. Country depot country item phone centre postcode scan gate manifest. City carrier delivery code total customer scan. Status total status value depot time label. Number manifest depot express standard warehouse order customer contact country. Tracking account express scan carrier return status serial. Depot manifest status product manifest centre. Customer shipment manifest email update reference. Quantity warehouse serial carrier total country. Standard manifest number route contact dock date status carrier. Postcode phone return customer order route depot dock city order. Warehouse product depot status order product priority. Time centre parcel scan email phone. Standard standard order shipment city status delivery city customer customer. Address centre value service express status item. Gate return express customer address postcode order delivery order serial country. Code total contact country postcode express item customer. Product number product dock update status date product update city. Parcel code shipment total reference date warehouse. Update batch product phone country time tracking label route phone. Label standard address label country centre label total address delivery. Update item manifest quantity phone address express. Manifest quantity location status standard gate route update country warehouse. Serial serial serial status postcode service postcode street. Number time item batch tracking priority parcel package postcode city depot return. Package location customer time update status label postcode country. Reference total express standard route express quantity code number priority. Reference country warehouse code quantity label. Order parcel country invoice scan warehouse. Standard update dock item status serial value scan manifest value. Quantity value package contact date customer date. Total parcel invoice priority shipment gate address. Route centre tracking status account tracking reference value value status depot depot. Country date dock city contact shipment standard lo",
+    "Account street city depot address update postcode account return. Delivery email quantity scan dock shipment return package customer account delivery account. Route batch contact customer delivery amount shipment scan number. Warehouse manifest phone centre number gate label contact dock. Street customer phone address item delivery country dock. City city label depot customer street reference. Serial shipment phone city package amount route invoice location time dock. Standard city gate account invoice quantity location label. Update package product label depot delivery product package label. Item reference time number service scan gate code value contact priority. Phone postcode standard address item update route product location contact. Priority standard country label parcel total order. Time number status parcel priority invoice number reference. Account package item parcel service package city tracking reference product invoice. Location item phone contact batch city centre reference order. Manifest dock standard phone delivery item. Location location product shipment city service street package carrier return update status. Code item route tracking phone amount express address label gate phone. City scan manifest tracking status city express product serial code parcel. Customer city shipment product date invoice value service postcode. Warehouse location product package product scan express. Route date account centre customer invoice location phone. Customer contact carrier scan manifest standard country carrier. Depot depot carrier carrier scan status priority centre city. Warehouse value carrier postcode account phone number standard total. Postcode package quantity customer location depot dock number time phone gate. Gate order status invoice update email delivery gate warehouse. Scan value address status street route number dock update. Warehouse serial customer reference amount location street street warehouse. Amount code standard gate customer time product phone date contact standard. Depot label invoice invoice product amount serial order package gate manifest. Address date tracking time contact time. Express manifest shipment date express code tracking amount code value street. Tracking dock address amount postcode quantity express reference number invoice shipment. Route carrier status time date express standard. Priority account status city code dock serial account contact scan package item. Tracking number centre postcode delivery value carrier acc"
+   ]
+  },
+  {
+   "case_id": "qr-near_capacity-eclM",
+   "category": "near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "text_ascii(len=1981)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "Parcel time contact phone service label warehouse phone. Account scan label quantity item customer tracking. Warehouse account update order return amount label postcode route. Express quantity update route email depot number. Package scan product date carrier location standard carrier account city email location. Serial route serial dock phone package shipment express order. Manifest standard return phone order country invoice total location standard. Location code status batch priority date carrier carrier parcel route. Priority contact depot centre route parcel priority gate location address reference. Warehouse depot invoice postcode tracking return value postcode priority. Item route standard amount customer contact value centre gate. Account package location parcel serial item status. Customer contact location gate time update date number street. Order update standard code express gate shipment route account total. City parcel scan package account parcel scan country. Status address manifest reference return address number. Depot tracking city amount carrier location return. Warehouse centre warehouse number number package manifest. Service total gate order postcode code batch email address. Batch route batch product contact quantity postcode shipment package. Package dock total value label value centre express order update. Postcode postcode code route depot carrier contact standard phone. Value package gate parcel dock standard reference postcode item country. Scan value serial date location priority value service. Priority warehouse postcode product value tracking route number contact address manifest. Item tracking parcel postcode dock carrier depot product amount serial postcode total. Delivery account invoice street gate return quantity account. Item order scan tracking location route city route update phone status. Invoice location package depot priority phone city address. Total code time order date batch. Reference contact update exp",
+    "Priority delivery reference centre address email service. Return standard country quantity status express address shipment contact street contact centre. Depot warehouse warehouse parcel account phone number carrier. Service postcode package depot scan delivery tracking date package street quantity. Delivery parcel location service reference item dock number. Manifest product update customer number order carrier service. Route batch account address serial number package location. Contact service batch status customer account product status. Customer status postcode carrier email priority standard location. Item product gate tracking tracking priority amount amount shipment. Serial quantity quantity carrier centre route time location status contact email scan. Priority priority invoice email product customer route location quantity street. Parcel package email address customer quantity warehouse standard city serial product total. Carrier value quantity product manifest update scan street tracking depot quantity status. Return delivery update reference batch date tracking batch phone time. Invoice code gate delivery postcode phone account. Value update warehouse label city total number standard serial item street. Order item update centre order reference invoice phone date. Label location tracking package code shipment. Time dock location address priority city standard reference order country. Total date postcode email postcode parcel code gate label invoice city package. Centre product scan amount invoice value city order shipment. Quantity product product serial centre date address dock route status status priority. Centre product country return priority status tracking quantity time batch serial. Time status customer product parcel update warehouse scan serial number location express. Dock total update location postcode parcel account update. Postcode express address dock time carrier country shipment reference priority value. Street country gat",
+    "Total reference service order standard tracking dock customer dock. Value postcode country centre customer street centre depot. Parcel contact serial route order account parcel batch product warehouse account. Order date carrier centre tracking postcode warehouse. Contact delivery manifest shipment dock account scan location country. Quantity standard standard dock standard phone amount total customer express item express. Number return number service city product express. Code label status product delivery contact location street amount contact. Item date account street product priority label quantity delivery status tracking. Express street code item email phone reference. Quantity carrier location contact parcel country reference scan update carrier serial manifest. Product value location postcode gate carrier number. Carrier batch address address total centre code warehouse route delivery manifest phone. Customer quantity carrier city date delivery. Status product country label product amount country delivery warehouse priority. Priority serial serial code depot warehouse phone time country country product. Customer priority scan country serial number shipment postcode. Reference value carrier delivery status package city quantity quantity code value. Update shipment serial postcode product package dock warehouse country status city dock. City standard centre product street phone reference location reference item invoice gate. Tracking gate gate priority address depot date amount dock gate. Gate product order package country country depot service. Item centre centre serial service time. Shipment centre location country time street street quantity parcel tracking item. Amount service postcode total code value shipment update contact standard service. Depot total order postcode update product service location location standard email number. Account country item order reference location reference account scan scan code parcel. Manifest contact qu",
+    "Value item address quantity invoice update priority delivery. Reference item email item express contact standard order service value carrier. Manifest gate standard amount order dock invoice return status invoice standard. Carrier order product street route invoice. Standard route reference product route amount label. Total route address total tracking serial delivery product update street street. Centre account update amount gate serial shipment. Phone country phone phone item scan parcel time country dock address carrier. Label manifest amount service total code code tracking. Status time amount phone delivery status contact email contact serial dock return. Express dock invoice street parcel priority location. Express delivery batch time number phone return serial email depot priority depot. Reference depot total tracking invoice dock. Route amount dock status date shipment location service postcode. Total tracking return scan priority street standard scan code country amount. Amount time invoice total city route depot priority order. Postcode depot serial time label centre return manifest. Address country batch value number route item manifest. Quantity tracking standard reference package customer depot shipment. Street service email depot country shipment return package street. Return reference status batch address tracking return postcode postcode label label phone. Centre location item priority value depot country. Product amount label customer location address carrier label delivery total status reference. Depot time package postcode number item order. Dock date product express contact depot parcel. Time route shipment manifest account parcel label value invoice shipment. Shipment express invoice standard scan status. Dock product location code amount parcel amount delivery postcode package street warehouse. Quantity item order shipment email tracking depot service. Product delivery postcode contact customer product product order batch val",
+    "Return update time gate location tracking package service dock. Serial service time city carrier express order quantity postcode number standard. Dock value contact update location serial express amount. Location express centre manifest shipment standard location email amount address. City status route package standard status. Warehouse shipment route order priority time. Route product scan invoice return order country tracking gate postcode email. Product value batch scan label centre total order. Manifest carrier gate phone standard order customer invoice. Centre email express date contact address serial. Dock depot parcel package parcel label street tracking city parcel carrier. Warehouse dock email gate item amount email address. Return batch manifest serial time update depot warehouse. Email amount package location city amount gate route depot country gate. Quantity label code total carrier invoice. Invoice street priority centre carrier value email delivery. Delivery scan manifest invoice manifest warehouse parcel product route date update amount. Return phone label address account customer time delivery express. Item shipment address express delivery priority date code express update product priority. Customer serial phone product dock country update label manifest item. Postcode code street product street tracking priority email contact total carrier label. Route phone postcode express country service carrier amount warehouse contact depot. Street total express date batch return dock code contact location customer number. Depot carrier item batch depot depot order quantity number time. City date item delivery update time. Item city carrier update batch amount priority shipment. Customer express manifest number customer reference date return city order. Centre total dock item phone shipment batch product. Serial shipment parcel priority package email express return tracking phone time total. Phone depot manifest tracking email number dock p"
+   ]
+  },
+  {
+   "case_id": "qr-near_capacity-eclQ",
+   "category": "near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "Q",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "text_ascii(len=1413)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "Customer city parcel email route reference package update account. Value contact time status tracking manifest priority shipment serial return. Standard customer code parcel gate priority. Delivery country status standard order delivery scan contact. Location city manifest address quantity dock location carrier service status. Express city amount date value dock express item depot value. Postcode return location amount return city order standard date email. Street priority time time parcel manifest. Time account serial gate city batch serial. Delivery parcel reference centre package value warehouse location email date status. Dock invoice parcel number city date. Priority scan account email warehouse code. Product return priority depot warehouse delivery. Address delivery update date scan customer update warehouse date. Amount status quantity package location shipment quantity gate. Invoice quantity street tracking account batch carrier account return code serial. Manifest dock package item street quantity email label. Warehouse express invoice dock total route account standard priority street. Email amount date product customer dock item. Shipment code order quantity country value update. Return serial country city return email. Dock invoice service postcode depot delivery. Country code account centre phone return. Manifest serial location time number scan location contact customer. Amount",
+    "Number manifest priority shipment dock value. Amount gate phone street parcel contact batch. Code date city gate location quantity customer phone account delivery date time. Return update gate quantity service priority gate. Contact batch warehouse phone manifest route batch customer warehouse dock account. Status serial serial update tracking scan update. Warehouse gate invoice customer centre amount. Parcel amount reference delivery dock product delivery scan package update standard. Scan depot warehouse centre order gate contact dock contact return invoice batch. Depot scan invoice scan serial street carrier standard package time label gate. Update package city status status phone account. Code contact email location contact carrier shipment value. Standard update centre centre item tracking scan postcode. Postcode serial serial centre time depot postcode. Tracking parcel priority country parcel depot gate. Serial scan date parcel centre package value return scan date address update. Standard date product account tracking order batch serial street account tracking service. Email depot batch product quantity priority invoice product route package warehouse. Batch package order status scan return warehouse return. Express street street update tracking customer. Quantity reference product status street time number time. Status serial carrier tracking item shipment customer location. Route r",
+    "Serial postcode phone invoice serial address street quantity depot return invoice value. Country phone order shipment total postcode express scan product depot. Gate carrier route invoice invoice product country route account route invoice invoice. Carrier amount batch warehouse quantity status. Dock total service product order carrier total serial. Customer phone date priority warehouse item status time dock warehouse dock. Amount label manifest manifest dock phone reference number standard. Item account city standard scan amount update street. Amount return depot return standard address street email email invoice invoice. Address parcel gate batch item standard amount centre product phone value dock. Standard shipment priority email update priority reference manifest. Update tracking phone location service contact delivery dock route. Reference update invoice date order address gate time time depot. Status standard total express priority route. Route shipment number invoice contact scan standard account city invoice invoice priority. Postcode tracking return location street location. City update carrier route service update value depot service return. Phone reference tracking code street route item parcel standard depot date total. Express number shipment time gate standard shipment customer manifest country country. Location account service centre scan batch email total order date update",
+    "Contact scan serial return return scan time. Gate tracking batch date gate value country street code. Postcode phone parcel time order serial. City return gate country location street value shipment contact shipment country country. Carrier route total reference route service. Route status parcel batch route gate item street delivery time. Express value priority standard gate label carrier route centre. Time location serial item shipment country route package country country. Phone order postcode express label depot time scan. Shipment email amount address shipment quantity location number. Priority carrier update number label package contact. Invoice batch warehouse label warehouse shipment status postcode address item. Carrier address dock value tracking product standard return delivery gate. Reference contact package number quantity country phone serial. Account reference phone city time serial service reference. Number customer tracking centre customer order delivery. Contact city postcode item address code standard customer tracking status. Customer customer order city contact email parcel item service code. Update invoice warehouse update order shipment address item. Shipment customer label code item total status total priority. Service quantity manifest amount location invoice. Code route label postcode carrier location street priority code code express. Tracking delivery label postc",
+    "Customer order city customer customer return invoice delivery depot product route dock. Centre phone postcode scan account serial city. Express package status total amount scan label route product value. Route number priority invoice account label tracking phone time. Location warehouse dock number value update. Quantity value amount city delivery reference update street delivery carrier update serial. Standard address phone order delivery contact location reference manifest. Priority code account label country time number invoice postcode. Tracking label location service service account gate. Account label tracking shipment account quantity status batch value value. Centre package priority country number route serial. Serial route scan depot address serial warehouse. Warehouse street postcode reference time parcel tracking. Express priority serial quantity city update manifest time date date email. Parcel code delivery scan express update country. Invoice date depot service delivery gate service postcode. Item service route number email status total serial update scan country. Order date carrier standard reference centre date postcode. Scan number product account reference country email phone quantity batch standard. Express tracking phone scan batch return shipment value phone number. City reference email value product serial street street centre service gate street. Phone city manifest p"
+   ]
+  },
+  {
+   "case_id": "qr-near_capacity-eclH",
+   "category": "near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "H",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "text_ascii(len=1082)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "City label quantity express quantity location total street. Item serial date product number account standard carrier customer shipment priority. Location time time standard warehouse postcode account route return. Item quantity update item status reference label. Contact route centre invoice date email email batch contact. Street express total service depot city centre phone country. Address email amount amount standard tracking status quantity package. Number postcode total amount postcode route depot package. Batch phone priority tracking depot contact customer. Postcode order shipment amount order parcel label number. Postcode dock gate express standard location dock street amount express. Amount time product item city centre value standard label gate. Label amount quantity amount account delivery scan date. City warehouse product address item time shipment total centre label number manifest. Total package quantity time depot email invoice warehouse manifest priority. Phone street contact service order product status. Address express code phone order scan email c",
+    "Number value total package dock update carrier. Date item scan product email parcel phone. Item parcel gate contact country value location manifest phone dock gate. Customer location city depot status batch postcode return code. Phone centre manifest address label package depot. Serial priority phone serial item parcel priority postcode address phone priority. Depot customer standard phone warehouse scan. Return address serial delivery tracking gate. Invoice package tracking batch location service manifest package. Customer priority label quantity total return standard phone. Product express value postcode email priority. Update parcel street shipment value route batch dock. Carrier invoice location reference gate batch. Time centre total standard city dock return. Date batch route country package phone value. Status tracking country update contact account date amount. Order warehouse tracking carrier code email. Account centre delivery route shipment amount country amount dock priority. Contact time reference priority label product customer country. Postcode accoun",
+    "Address date customer status priority status total item parcel country order. Warehouse code reference carrier country service street service carrier account standard customer. Order street serial label customer parcel. Contact time address return street date. Quantity amount total city shipment total time invoice warehouse gate invoice. City code label account code contact. Warehouse phone phone status quantity warehouse code quantity. Quantity quantity amount amount postcode dock phone date code reference express. Standard route tracking scan delivery city batch. Invoice address dock standard code quantity account product total quantity shipment. Date batch date postcode total status account gate scan dock batch. Account country service order customer invoice reference. Date street country delivery product parcel warehouse total shipment reference carrier express. Quantity address manifest number centre tracking quantity order. Street delivery route carrier address item route. Return account label delivery value tracking gate city amount date. Product return updat",
+    "Parcel carrier postcode standard update return. Standard value tracking warehouse package account. Account manifest status account dock parcel parcel express package delivery serial. Return centre status parcel depot manifest location. Status code warehouse order express invoice contact delivery. Street tracking shipment product manifest phone priority express amount carrier return city. Number contact parcel address package total phone date. Address email standard contact order value phone carrier. Return account route city reference value carrier express service amount batch. Value priority product route reference carrier. Warehouse priority street manifest centre email dock service. Express carrier country manifest country street. Value batch return manifest item quantity status label manifest date. Scan invoice customer update number dock code reference route manifest carrier carrier. Email quantity address location city total city serial order product warehouse. Gate street phone invoice location account product service label email return. Postcode standard car",
+    "Warehouse order dock status contact manifest product manifest delivery. Account amount dock delivery code express. Warehouse country street update service customer date city location label manifest parcel. Code invoice depot gate email email tracking. Warehouse label route street route date order time order warehouse. Total email email reference amount account city priority invoice batch delivery. Delivery date batch warehouse product dock invoice location express time. Scan parcel warehouse code address phone package gate service product. Code batch gate customer batch phone. Service manifest total postcode parcel serial return. Postcode package tracking invoice country street depot. Serial invoice address address product product street. Total package dock manifest code depot location status value. Manifest parcel phone priority scan return. Service email code postcode gate contact. Centre amount reference order dock date route priority contact package. Value number batch order code number. Email return number customer time route quantity scan city. Delivery tracki"
+   ]
+  },
+  {
+   "case_id": "qr-xml_nc-eclM",
+   "category": "xml_near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "xml(len=1981)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?><manifest><item id=\"5002686640\" status=\"total\"><name>priority order</name><qty>617</qty></item><item id=\"1641206242\" status=\"serial\"><name>carrier contact</name><qty>278</qty></item><item id=\"8801094842\" status=\"parcel\"><name>scan warehouse</name><qty>827</qty></item><item id=\"7243723353\" status=\"order\"><name>route contact</name><qty>704</qty></item><item id=\"1582077672\" status=\"batch\"><name>value street</name><qty>871</qty></item><item id=\"8093224229\" status=\"code\"><name>status depot</name><qty>562</qty></item><item id=\"4667536091\" status=\"dock\"><name>parcel label</name><qty>519</qty></item><item id=\"9956705844\" status=\"code\"><name>service amount</name><qty>196</qty></item><item id=\"6612695722\" status=\"country\"><name>package manifest</name><qty>502</qty></item><item id=\"9006481393\" status=\"phone\"><name>item postcode</name><qty>444</qty></item><item id=\"5202799554\" status=\"gate\"><name>code carrier</name><qty>61</qty></item><item id=\"3457864451\" status=\"number\"><name>total order</name><qty>206</qty></item><item id=\"9436384067\" status=\"serial\"><name>gate package</name><qty>61</qty></item><item id=\"8817727903\" status=\"carrier\"><name>dock status</name><qty>220</qty></item><item id=\"6271714510\" status=\"contact\"><name>priority invoice</name><qty>164</qty></item><item id=\"8822004046\" status=\"gate\"><name>depot street</name><qty>931</qty></item><item id=\"6562670190\" status=\"item\"><name>location centre</name><qty>151</qty></item><item id=\"3693965606\" status=\"status\"><name>date route</name><qty>291</qty></item><item id=\"8700457332\" status=\"location\"><name>total shipment</name><qty>137</qty></item><item id=\"0861125140\" status=\"location\"><name>gate centre</name><qty>865</qty></item><item id=\"3859919107\" status=\"shipment\"><name>country time</name><qty>780</qty></item><item id=\"6911636447\" status=\"location\"><name>street carrier</name><qty>444</qty></item><pad>rfdptniezoegooxsnueqhljbjxbgxvdrnwcgpryhqbenwvadb</pad></manifest>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?><manifest><item id=\"9897110226\" status=\"status\"><name>depot tracking</name><qty>147</qty></item><item id=\"8774372045\" status=\"amount\"><name>date warehouse</name><qty>661</qty></item><item id=\"6055652005\" status=\"contact\"><name>return parcel</name><qty>249</qty></item><item id=\"8261996224\" status=\"postcode\"><name>order shipment</name><qty>235</qty></item><item id=\"7409517844\" status=\"carrier\"><name>email gate</name><qty>276</qty></item><item id=\"8033214899\" status=\"value\"><name>standard express</name><qty>840</qty></item><item id=\"7106664611\" status=\"account\"><name>city priority</name><qty>709</qty></item><item id=\"4253796784\" status=\"reference\"><name>street return</name><qty>332</qty></item><item id=\"2720109793\" status=\"item\"><name>carrier postcode</name><qty>261</qty></item><item id=\"6660739230\" status=\"postcode\"><name>address email</name><qty>771</qty></item><item id=\"2282498402\" status=\"postcode\"><name>city number</name><qty>319</qty></item><item id=\"5228889240\" status=\"scan\"><name>batch product</name><qty>779</qty></item><item id=\"1101830739\" status=\"total\"><name>centre standard</name><qty>291</qty></item><item id=\"0396123825\" status=\"return\"><name>postcode code</name><qty>280</qty></item><item id=\"9568693110\" status=\"shipment\"><name>gate code</name><qty>581</qty></item><item id=\"8197349276\" status=\"customer\"><name>street code</name><qty>432</qty></item><item id=\"0567708026\" status=\"tracking\"><name>city customer</name><qty>478</qty></item><item id=\"0359593633\" status=\"contact\"><name>gate number</name><qty>284</qty></item><item id=\"3774435005\" status=\"package\"><name>status street</name><qty>948</qty></item><item id=\"0001006990\" status=\"batch\"><name>account date</name><qty>803</qty></item><item id=\"6284550783\" status=\"update\"><name>delivery service</name><qty>234</qty></item><item id=\"4489880526\" status=\"update\"><name>centre total</name><qty>66</qty></item><pad>orzhqcvhvefskltjwyewpyseryhiew</pad></manifest>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?><manifest><item id=\"5943119446\" status=\"product\"><name>manifest date</name><qty>90</qty></item><item id=\"6616071799\" status=\"total\"><name>country priority</name><qty>640</qty></item><item id=\"0202701531\" status=\"customer\"><name>date shipment</name><qty>898</qty></item><item id=\"9744542376\" status=\"value\"><name>account status</name><qty>509</qty></item><item id=\"3188246456\" status=\"city\"><name>country value</name><qty>323</qty></item><item id=\"0713114347\" status=\"return\"><name>date standard</name><qty>815</qty></item><item id=\"8012057584\" status=\"serial\"><name>email country</name><qty>167</qty></item><item id=\"3106546768\" status=\"centre\"><name>express address</name><qty>542</qty></item><item id=\"5054376098\" status=\"express\"><name>package number</name><qty>371</qty></item><item id=\"5624536814\" status=\"contact\"><name>street standard</name><qty>360</qty></item><item id=\"8855429381\" status=\"scan\"><name>phone parcel</name><qty>953</qty></item><item id=\"0883344513\" status=\"email\"><name>item service</name><qty>299</qty></item><item id=\"7160750425\" status=\"standard\"><name>depot parcel</name><qty>596</qty></item><item id=\"9520012131\" status=\"express\"><name>customer address</name><qty>142</qty></item><item id=\"7386723185\" status=\"standard\"><name>reference depot</name><qty>859</qty></item><item id=\"7696700292\" status=\"batch\"><name>label customer</name><qty>226</qty></item><item id=\"2344854695\" status=\"manifest\"><name>time status</name><qty>562</qty></item><item id=\"6141819856\" status=\"customer\"><name>order shipment</name><qty>664</qty></item><item id=\"4599803140\" status=\"shipment\"><name>item address</name><qty>408</qty></item><item id=\"9778590995\" status=\"delivery\"><name>invoice batch</name><qty>541</qty></item><item id=\"7731068234\" status=\"city\"><name>product email</name><qty>427</qty></item><item id=\"0435304978\" status=\"route\"><name>shipment carrier</name><qty>544</qty></item><pad>abpirfenmdphzsjvvehlbt</pad></manifest>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?><manifest><item id=\"8057255085\" status=\"value\"><name>tracking item</name><qty>996</qty></item><item id=\"8365087565\" status=\"tracking\"><name>dock serial</name><qty>373</qty></item><item id=\"5737730149\" status=\"serial\"><name>label amount</name><qty>502</qty></item><item id=\"8833020674\" status=\"serial\"><name>product shipment</name><qty>71</qty></item><item id=\"4384669261\" status=\"package\"><name>status time</name><qty>182</qty></item><item id=\"6141137444\" status=\"code\"><name>postcode phone</name><qty>698</qty></item><item id=\"2811825271\" status=\"dock\"><name>route express</name><qty>347</qty></item><item id=\"1042049303\" status=\"return\"><name>delivery warehouse</name><qty>442</qty></item><item id=\"9837769820\" status=\"centre\"><name>street warehouse</name><qty>356</qty></item><item id=\"6174050218\" status=\"return\"><name>batch serial</name><qty>220</qty></item><item id=\"7218730049\" status=\"dock\"><name>postcode priority</name><qty>925</qty></item><item id=\"3339326831\" status=\"service\"><name>standard label</name><qty>872</qty></item><item id=\"0750056101\" status=\"return\"><name>city amount</name><qty>367</qty></item><item id=\"1910038660\" status=\"dock\"><name>warehouse invoice</name><qty>220</qty></item><item id=\"0922824833\" status=\"street\"><name>invoice quantity</name><qty>994</qty></item><item id=\"9872945261\" status=\"value\"><name>quantity contact</name><qty>902</qty></item><item id=\"0938116528\" status=\"country\"><name>shipment batch</name><qty>114</qty></item><item id=\"2382954431\" status=\"item\"><name>city priority</name><qty>355</qty></item><item id=\"3243247505\" status=\"batch\"><name>delivery value</name><qty>359</qty></item><item id=\"3197283583\" status=\"code\"><name>tracking express</name><qty>208</qty></item><item id=\"1152186652\" status=\"serial\"><name>time centre</name><qty>475</qty></item><item id=\"8250837122\" status=\"return\"><name>contact total</name><qty>674</qty></item><pad>cwchvmmqkfwjurrvwlcffzcjjnxxvo</pad></manifest>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?><manifest><item id=\"3531397919\" status=\"standard\"><name>total quantity</name><qty>244</qty></item><item id=\"0643627224\" status=\"postcode\"><name>invoice express</name><qty>506</qty></item><item id=\"6841968560\" status=\"time\"><name>centre service</name><qty>293</qty></item><item id=\"4257413499\" status=\"customer\"><name>total status</name><qty>369</qty></item><item id=\"3965346626\" status=\"product\"><name>express number</name><qty>380</qty></item><item id=\"5684243547\" status=\"express\"><name>value product</name><qty>840</qty></item><item id=\"6550786574\" status=\"route\"><name>tracking phone</name><qty>417</qty></item><item id=\"0724420113\" status=\"contact\"><name>priority dock</name><qty>594</qty></item><item id=\"6828645184\" status=\"label\"><name>city quantity</name><qty>297</qty></item><item id=\"3919550434\" status=\"value\"><name>email code</name><qty>220</qty></item><item id=\"6688595742\" status=\"update\"><name>product number</name><qty>293</qty></item><item id=\"4749002803\" status=\"carrier\"><name>service priority</name><qty>110</qty></item><item id=\"0282978802\" status=\"return\"><name>contact time</name><qty>808</qty></item><item id=\"7707951597\" status=\"quantity\"><name>amount standard</name><qty>463</qty></item><item id=\"8398815577\" status=\"update\"><name>carrier scan</name><qty>371</qty></item><item id=\"3264566007\" status=\"batch\"><name>service gate</name><qty>358</qty></item><item id=\"3650681019\" status=\"standard\"><name>depot carrier</name><qty>945</qty></item><item id=\"0277623485\" status=\"code\"><name>serial update</name><qty>117</qty></item><item id=\"5113336771\" status=\"depot\"><name>label dock</name><qty>873</qty></item><item id=\"3832575547\" status=\"street\"><name>depot order</name><qty>428</qty></item><item id=\"3300769462\" status=\"manifest\"><name>country tracking</name><qty>847</qty></item><item id=\"4424994038\" status=\"quantity\"><name>number contact</name><qty>797</qty></item><pad>iowgloclxewtsxidfhfsqxldzqbf</pad></manifest>"
+   ]
+  },
+  {
+   "case_id": "qr-json_nc-eclM",
+   "category": "json_near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "json(len=1981)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "{\"orders\":[{\"id\":\"6294514343\",\"status\":\"delivery\",\"name\":\"manifest code\",\"qty\":551},{\"id\":\"7035383562\",\"status\":\"reference\",\"name\":\"parcel service\",\"qty\":862},{\"id\":\"3074683712\",\"status\":\"code\",\"name\":\"address date\",\"qty\":682},{\"id\":\"1379903228\",\"status\":\"express\",\"name\":\"batch value\",\"qty\":951},{\"id\":\"2295965711\",\"status\":\"label\",\"name\":\"shipment postcode\",\"qty\":666},{\"id\":\"5145875920\",\"status\":\"amount\",\"name\":\"label label\",\"qty\":196},{\"id\":\"7865119812\",\"status\":\"total\",\"name\":\"product phone\",\"qty\":35},{\"id\":\"8431750971\",\"status\":\"label\",\"name\":\"scan country\",\"qty\":411},{\"id\":\"9010792941\",\"status\":\"total\",\"name\":\"delivery parcel\",\"qty\":733},{\"id\":\"4637646506\",\"status\":\"city\",\"name\":\"city number\",\"qty\":692},{\"id\":\"4781404071\",\"status\":\"shipment\",\"name\":\"phone warehouse\",\"qty\":97},{\"id\":\"4035361572\",\"status\":\"manifest\",\"name\":\"shipment number\",\"qty\":633},{\"id\":\"3870725268\",\"status\":\"label\",\"name\":\"manifest update\",\"qty\":839},{\"id\":\"1789220084\",\"status\":\"standard\",\"name\":\"amount status\",\"qty\":254},{\"id\":\"6013297634\",\"status\":\"phone\",\"name\":\"batch account\",\"qty\":764},{\"id\":\"2258456035\",\"status\":\"gate\",\"name\":\"centre tracking\",\"qty\":705},{\"id\":\"5890067489\",\"status\":\"parcel\",\"name\":\"number scan\",\"qty\":989},{\"id\":\"6816497306\",\"status\":\"city\",\"name\":\"shipment invoice\",\"qty\":467},{\"id\":\"1266101745\",\"status\":\"customer\",\"name\":\"time amount\",\"qty\":182},{\"id\":\"9901902507\",\"status\":\"carrier\",\"name\":\"street time\",\"qty\":559},{\"id\":\"9787285379\",\"status\":\"warehouse\",\"name\":\"phone item\",\"qty\":433},{\"id\":\"7004142347\",\"status\":\"batch\",\"name\":\"manifest parcel\",\"qty\":671},{\"id\":\"3773993063\",\"status\":\"value\",\"name\":\"product delivery\",\"qty\":27},{\"id\":\"0415114756\",\"status\":\"order\",\"name\":\"scan tracking\",\"qty\":217},{\"id\":\"7313687670\",\"status\":\"return\",\"name\":\"email standard\",\"qty\":444},{\"id\":\"2526510853\",\"status\":\"express\",\"name\":\"code phone\",\"qty\":74},{\"id\":\"0656593462\",\"status\":\"service\",\"name\":\"street update\",\"qty\":789}],\"pad\":\"uurtsiywoncdyfaxlyguxtehxmvaoboehstzeqth\"}",
+    "{\"orders\":[{\"id\":\"1071903613\",\"status\":\"update\",\"name\":\"phone package\",\"qty\":972},{\"id\":\"8843367884\",\"status\":\"item\",\"name\":\"manifest account\",\"qty\":659},{\"id\":\"9560618120\",\"status\":\"scan\",\"name\":\"account parcel\",\"qty\":315},{\"id\":\"3560668870\",\"status\":\"date\",\"name\":\"tracking serial\",\"qty\":241},{\"id\":\"6527840153\",\"status\":\"return\",\"name\":\"value parcel\",\"qty\":249},{\"id\":\"4055564874\",\"status\":\"manifest\",\"name\":\"address date\",\"qty\":342},{\"id\":\"0861948288\",\"status\":\"number\",\"name\":\"parcel number\",\"qty\":138},{\"id\":\"7460610036\",\"status\":\"dock\",\"name\":\"express centre\",\"qty\":611},{\"id\":\"6861205574\",\"status\":\"order\",\"name\":\"serial email\",\"qty\":331},{\"id\":\"5361941297\",\"status\":\"priority\",\"name\":\"manifest postcode\",\"qty\":875},{\"id\":\"5984951812\",\"status\":\"number\",\"name\":\"standard total\",\"qty\":110},{\"id\":\"4246114799\",\"status\":\"postcode\",\"name\":\"date gate\",\"qty\":833},{\"id\":\"0893305008\",\"status\":\"service\",\"name\":\"delivery contact\",\"qty\":416},{\"id\":\"9999913304\",\"status\":\"standard\",\"name\":\"warehouse return\",\"qty\":874},{\"id\":\"9673257757\",\"status\":\"quantity\",\"name\":\"express reference\",\"qty\":953},{\"id\":\"2191352027\",\"status\":\"product\",\"name\":\"email status\",\"qty\":918},{\"id\":\"6720877096\",\"status\":\"product\",\"name\":\"contact invoice\",\"qty\":701},{\"id\":\"3862328281\",\"status\":\"amount\",\"name\":\"depot express\",\"qty\":993},{\"id\":\"8255948785\",\"status\":\"account\",\"name\":\"delivery standard\",\"qty\":512},{\"id\":\"1569249901\",\"status\":\"carrier\",\"name\":\"warehouse label\",\"qty\":99},{\"id\":\"3510508348\",\"status\":\"return\",\"name\":\"route order\",\"qty\":793},{\"id\":\"9879890806\",\"status\":\"priority\",\"name\":\"date carrier\",\"qty\":509},{\"id\":\"1134158299\",\"status\":\"scan\",\"name\":\"route phone\",\"qty\":435},{\"id\":\"3551976905\",\"status\":\"email\",\"name\":\"warehouse account\",\"qty\":816},{\"id\":\"8025388350\",\"status\":\"carrier\",\"name\":\"standard invoice\",\"qty\":137},{\"id\":\"6465507996\",\"status\":\"reference\",\"name\":\"express delivery\",\"qty\":920},{\"id\":\"5810830458\",\"status\":\"batch\",\"name\":\"shipment customer\",\"qty\":822}],\"pad\":\"mrogc\"}",
+    "{\"orders\":[{\"id\":\"7738776011\",\"status\":\"manifest\",\"name\":\"standard email\",\"qty\":320},{\"id\":\"2913662369\",\"status\":\"priority\",\"name\":\"label update\",\"qty\":687},{\"id\":\"0594606087\",\"status\":\"customer\",\"name\":\"centre warehouse\",\"qty\":79},{\"id\":\"7149597664\",\"status\":\"total\",\"name\":\"phone update\",\"qty\":219},{\"id\":\"0048954046\",\"status\":\"invoice\",\"name\":\"city time\",\"qty\":284},{\"id\":\"6575464210\",\"status\":\"date\",\"name\":\"service express\",\"qty\":387},{\"id\":\"3954918970\",\"status\":\"item\",\"name\":\"service date\",\"qty\":486},{\"id\":\"3687604996\",\"status\":\"value\",\"name\":\"item express\",\"qty\":427},{\"id\":\"7173308031\",\"status\":\"email\",\"name\":\"express warehouse\",\"qty\":745},{\"id\":\"8489408688\",\"status\":\"item\",\"name\":\"email serial\",\"qty\":324},{\"id\":\"3766039197\",\"status\":\"package\",\"name\":\"date customer\",\"qty\":732},{\"id\":\"9034001791\",\"status\":\"date\",\"name\":\"reference total\",\"qty\":689},{\"id\":\"5599612257\",\"status\":\"item\",\"name\":\"warehouse country\",\"qty\":288},{\"id\":\"4864304270\",\"status\":\"shipment\",\"name\":\"code quantity\",\"qty\":34},{\"id\":\"3644860940\",\"status\":\"postcode\",\"name\":\"serial label\",\"qty\":822},{\"id\":\"2379023329\",\"status\":\"package\",\"name\":\"location serial\",\"qty\":131},{\"id\":\"5150299098\",\"status\":\"label\",\"name\":\"date priority\",\"qty\":442},{\"id\":\"6294546363\",\"status\":\"order\",\"name\":\"postcode update\",\"qty\":40},{\"id\":\"2727923717\",\"status\":\"delivery\",\"name\":\"contact amount\",\"qty\":7},{\"id\":\"7282442120\",\"status\":\"priority\",\"name\":\"email email\",\"qty\":505},{\"id\":\"7694924348\",\"status\":\"number\",\"name\":\"warehouse express\",\"qty\":658},{\"id\":\"2598726511\",\"status\":\"return\",\"name\":\"phone amount\",\"qty\":505},{\"id\":\"9101129429\",\"status\":\"location\",\"name\":\"route email\",\"qty\":596},{\"id\":\"8899415379\",\"status\":\"address\",\"name\":\"date service\",\"qty\":977},{\"id\":\"6999161593\",\"status\":\"route\",\"name\":\"address customer\",\"qty\":559},{\"id\":\"5823772118\",\"status\":\"street\",\"name\":\"dock express\",\"qty\":422},{\"id\":\"9698619397\",\"status\":\"batch\",\"name\":\"total label\",\"qty\":808}],\"pad\":\"htmpslvszcfnymzjtvuvamyuajhmftdptyxv\"}",
+    "{\"orders\":[{\"id\":\"6063215786\",\"status\":\"account\",\"name\":\"product manifest\",\"qty\":136},{\"id\":\"5868494282\",\"status\":\"tracking\",\"name\":\"return total\",\"qty\":755},{\"id\":\"8781854627\",\"status\":\"scan\",\"name\":\"delivery postcode\",\"qty\":92},{\"id\":\"1221650783\",\"status\":\"shipment\",\"name\":\"delivery scan\",\"qty\":377},{\"id\":\"7040155699\",\"status\":\"centre\",\"name\":\"return amount\",\"qty\":316},{\"id\":\"9250197482\",\"status\":\"quantity\",\"name\":\"status standard\",\"qty\":134},{\"id\":\"4615338246\",\"status\":\"order\",\"name\":\"manifest address\",\"qty\":477},{\"id\":\"6568766001\",\"status\":\"city\",\"name\":\"delivery value\",\"qty\":266},{\"id\":\"9326548788\",\"status\":\"shipment\",\"name\":\"standard express\",\"qty\":451},{\"id\":\"5674002559\",\"status\":\"carrier\",\"name\":\"product quantity\",\"qty\":178},{\"id\":\"1674787089\",\"status\":\"value\",\"name\":\"status time\",\"qty\":412},{\"id\":\"0056572074\",\"status\":\"label\",\"name\":\"email total\",\"qty\":402},{\"id\":\"9414060692\",\"status\":\"amount\",\"name\":\"address account\",\"qty\":207},{\"id\":\"5012216520\",\"status\":\"time\",\"name\":\"order delivery\",\"qty\":199},{\"id\":\"8492766608\",\"status\":\"serial\",\"name\":\"time standard\",\"qty\":804},{\"id\":\"8550214452\",\"status\":\"postcode\",\"name\":\"package label\",\"qty\":21},{\"id\":\"8738312760\",\"status\":\"dock\",\"name\":\"standard route\",\"qty\":248},{\"id\":\"7026500248\",\"status\":\"customer\",\"name\":\"contact dock\",\"qty\":930},{\"id\":\"3924361606\",\"status\":\"city\",\"name\":\"contact code\",\"qty\":381},{\"id\":\"7507173194\",\"status\":\"quantity\",\"name\":\"street return\",\"qty\":611},{\"id\":\"6037739159\",\"status\":\"package\",\"name\":\"route package\",\"qty\":838},{\"id\":\"0379740972\",\"status\":\"manifest\",\"name\":\"date parcel\",\"qty\":440},{\"id\":\"3546437765\",\"status\":\"priority\",\"name\":\"return warehouse\",\"qty\":109},{\"id\":\"4393723088\",\"status\":\"delivery\",\"name\":\"parcel time\",\"qty\":225},{\"id\":\"7638403542\",\"status\":\"scan\",\"name\":\"serial tracking\",\"qty\":356},{\"id\":\"8256727784\",\"status\":\"contact\",\"name\":\"batch depot\",\"qty\":786},{\"id\":\"3931844133\",\"status\":\"street\",\"name\":\"gate express\",\"qty\":835}],\"pad\":\"izfwteqdjbdcsjvukxnwrj\"}",
+    "{\"orders\":[{\"id\":\"9709994791\",\"status\":\"service\",\"name\":\"order dock\",\"qty\":688},{\"id\":\"0899357052\",\"status\":\"order\",\"name\":\"centre value\",\"qty\":420},{\"id\":\"4969457398\",\"status\":\"serial\",\"name\":\"manifest number\",\"qty\":479},{\"id\":\"1694857594\",\"status\":\"item\",\"name\":\"service shipment\",\"qty\":151},{\"id\":\"4540895071\",\"status\":\"gate\",\"name\":\"warehouse street\",\"qty\":737},{\"id\":\"1601135621\",\"status\":\"city\",\"name\":\"centre amount\",\"qty\":428},{\"id\":\"0883232543\",\"status\":\"update\",\"name\":\"parcel value\",\"qty\":251},{\"id\":\"5712734905\",\"status\":\"invoice\",\"name\":\"serial code\",\"qty\":730},{\"id\":\"4603464107\",\"status\":\"quantity\",\"name\":\"time email\",\"qty\":628},{\"id\":\"0002969298\",\"status\":\"quantity\",\"name\":\"quantity date\",\"qty\":27},{\"id\":\"1445886362\",\"status\":\"total\",\"name\":\"batch standard\",\"qty\":806},{\"id\":\"8377636056\",\"status\":\"status\",\"name\":\"serial carrier\",\"qty\":610},{\"id\":\"8055155620\",\"status\":\"manifest\",\"name\":\"address status\",\"qty\":495},{\"id\":\"9323820466\",\"status\":\"standard\",\"name\":\"total manifest\",\"qty\":304},{\"id\":\"0607698829\",\"status\":\"scan\",\"name\":\"priority standard\",\"qty\":844},{\"id\":\"2173202019\",\"status\":\"priority\",\"name\":\"update city\",\"qty\":982},{\"id\":\"8603416259\",\"status\":\"return\",\"name\":\"scan country\",\"qty\":850},{\"id\":\"1051394361\",\"status\":\"service\",\"name\":\"shipment batch\",\"qty\":509},{\"id\":\"8233121452\",\"status\":\"item\",\"name\":\"serial order\",\"qty\":795},{\"id\":\"4580421597\",\"status\":\"product\",\"name\":\"location quantity\",\"qty\":292},{\"id\":\"1851791837\",\"status\":\"batch\",\"name\":\"manifest parcel\",\"qty\":466},{\"id\":\"2143093320\",\"status\":\"location\",\"name\":\"city shipment\",\"qty\":756},{\"id\":\"0889258558\",\"status\":\"standard\",\"name\":\"scan priority\",\"qty\":759},{\"id\":\"2348283639\",\"status\":\"time\",\"name\":\"carrier quantity\",\"qty\":377},{\"id\":\"7557698358\",\"status\":\"return\",\"name\":\"label code\",\"qty\":52},{\"id\":\"7871053560\",\"status\":\"carrier\",\"name\":\"country value\",\"qty\":833},{\"id\":\"9101887071\",\"status\":\"tracking\",\"name\":\"location label\",\"qty\":270}],\"pad\":\"xubkargsnnrjzvultaxcgmagwynsc\"}"
+   ]
+  },
+  {
+   "case_id": "qr-base64_nc-eclM",
+   "category": "base64_near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "base64(len=1981)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "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"
+   ]
+  },
+  {
+   "case_id": "qr-url_nc-eclM",
+   "category": "url_near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "url_long(len=1981)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "https://service-value.example/number%20priority/serial/country/code%20contact?src=reference&date1=PhB%261D3S%C3%BC%C3%BC0f%E2%82%ACdEPFc&postcode2=EF4S%269C%C3%A9SfXG%C3%A9u%2Fc%3Di%E2%82%AC&email3=YLGiVp%2F%20o%C3%BCfofK6buI4Ud%26aC&dock4=sLsBnIa%C3%A9%20SE%20Z%2F%2Fekc0g&gate5=2VCk4wQBVnf%2F%264qD%26&city6=AK%20g%26M%20%26&value7=oYCB%C3%BCo5OYnE0rlumg%E2%82%ACuf&country8=tV%2F1%E2%82%AC%3DgD%E2%82%ACnfc&order9=X%C3%A9w%3Der%C3%A9O%20%C3%A9Qy%C3%A9&carrier10=USmgB6frHO1e%C3%BCG%E2%82%ACODb%26T8%E2%82%ACbk&warehouse11=XX%26z%3DC%20r&address12=%2FyqJPk%26%26%26&tracking13=qEInZ1TvA%2FD&street14=ks%26%26%265Hz9%3Dj%E2%82%ACEpj3&city15=yDYp%C3%A9pcotqC&code16=R%C3%BCj%20pF6%E2%82%AC%26ugBD&time17=813ZL%C3%BCoM%E2%82%AC%C3%A9KXsFf&invoice18=%E2%82%ACB3Uyu%C3%A9B%3DUAwk%2093yf7%C3%BCJ%2FJ%C3%A9&update19=ffTXhCMf%2F%203%20ho%20bHtj%E2%82%AC&status20=n%20Mn%3DUO%26F%C3%A9Lq&order21=Cn%20If%2F3%C3%BClzpbCA2jCJG%26o%2F%C3%BC&dock22=%C3%BCN4c4snbg%3DR%E2%82%ACAc%E2%82%AC&shipment23=GA6zYD%C3%BCta&reference24=X%26%C3%BCDaxG7%20&package25=jE%2F%2FT8EFpKbLx5A&total26=F%C3%A9g%2F%3D%2F%C3%A98GS5&total27=1%E2%82%ACUek8a%20InI%20c%2F40%2F2N&order28=%20j8JIzOEG%2FA%C3%A9%E2%82%ACW2&depot29=Nuj%20%20%3D21TWW%C3%BCsIXa&standard30=tGRx%20sHV7%C3%BC%E2%82%AC%20&delivery31=H0D%C3%A9%C3%BCMM3%26pH%C3%A9%20j%C3%BCQk&account32=W8jp%2FpW8h%C3%A9J&reference33=FUxeRuXr2hJeZ%20%2Flr%26zY&postcode34=%2FQQyqpGt&number35=%203nQyiGZLFS%C3%BCz&label36=im%E2%82%ACL%2FMf9F2BfMvI&label37=%3D7wg%C3%A9I%26MO%3D%C3%A9B&street38=NK%C3%A9vEzW%E2%82%ACI%20%3DI%20N&gate39=lne%C3%A9UM%C3%A95ylcld4Wm&depot40=Xzh%C3%A9qyNo%2F%3D%3D%2FjgVYB%E2%82%AC&address41=HPD6oSM%3DIvZ%C3%A9xM7%C3%BC%C3%A9%3Df2RN&email42=Mw%20RJh%3DWPmikF&serial43=q5b%3DU%E2%82%AC%E2%82%AC098%3DP7e%2FKs7IpJXh&status44=Y%E2%82%AC%3DCI%C3%A9Kz%2Fh%2FP%C3%BCtBs%C3%A92u%20zm%3D&invoice45=Kt%C3%BCU%C3%BCFp%E2%82%ACJN&total46=OpD%2F%2F3%C3%A9bGt%C3%A9JJh%3DFjY2oe%20g&standard47=LqiSx%C3%A9e%26D%26%202%E2%82%AC%20ruF6&tracking48=",
+    "https://email-email.example/email/email%20shipment/tracking?src=serial&time1=uWJgBJ%E2%82%AC%26k&city2=%C3%A9qBTPS%E2%82%ACB7Rce%C3%BC4Ln43nM&customer3=N6HBM%C3%BCPJ6eB6fNn%E2%82%AC2R&delivery4=6b%C3%BCci%E2%82%ACP%3DonYukXn7%2Fr&depot5=P%2F%C3%A9Jw%208%C3%BCA0%20pZ6XH4%C3%BC%2Fb%3DIiM&time6=Ys%2Fbb%26FBjW%C3%A9M&gate7=9wF5Azg39Uv8e%C3%A9&date8=%26PqYLkRMynI%C3%A9ry6&total9=NR7ZJ%C3%A9%E2%82%ACxfYHy%E2%82%ACQ%E2%82%ACN4lXs%201&update10=8%26LDk8OC%26cuMwt%C3%BCKGf%C3%A9ZO&scan11=R%3Drr%20D%E2%82%ACt&amount12=v86%E2%82%ACqLZfxQHPlBA3pH&depot13=F3o%C3%A9jNk02F%20%20NzDC%E2%82%ACHTV5q&package14=uqd%3DsGxsD%C3%A9R1&number15=nrrsOSlCcLRvFU2%20OEu%3Dp%26aF&code16=bMbWd%C3%BC%2FP0AymQ%C3%A9RvR%E2%82%ACCE&scan17=yp%209pD46ok7ys%2FqRl%20dHi&city18=JjsqoeZS3%C3%A9LrSO%26ua&time19=4s%C3%BCD%E2%82%ACHyBN&invoice20=yAgDq%C3%A9zZ&contact21=v%E2%82%ACoA3%3DLQRnreBzm%E2%82%AC%20%E2%82%ACh%2F%C3%A9&invoice22=2bE%E2%82%ACHC6tg%26O%C3%A9KN%C3%BCEX%2FrM%26BJ&number23=laO%20fK%20%2F%20%26eX%2FQ%C3%BCsogK&route24=d%26%3DNlBL0Q&status25=GmA%C3%BCJ%26%C3%BC%C3%A9y&order26=vgmfYYTPwIw%C3%A9h%3D&city27=%C3%BCmSfOjqZBqfSvx%2F%C3%A97sQF%C3%BCBK&reference28=pyGL7D%26f%E2%82%ACwTfSV%26&code29=vMo%C3%A9o%C3%A9%C3%BCf%C3%BC%C3%A9%3D0p2h%C3%BC&update30=%26Big%E2%82%AC%3D%C3%BCCimeD%E2%82%ACY&shipment31=SY%2FHy%3DRQ9RQR&quantity32=wN%2F9AW%E2%82%ACNN%3DNj9%3D%3DT&time33=%2Fn%C3%BC%C3%BC4fr2V%C3%A9%E2%82%AC3Y%20&priority34=%C3%A9%E2%82%AC%3DR%C3%A9RJVOy%3D%2FDsWH53G%2FB%26i&code35=7%26%E2%82%AC%E2%82%AC1IPlS%20AGzGnF3T%E2%82%ACVq%201%C3%BC&standard36=tUDaVt6F%C3%A9DGS%C3%BCW&amount37=Kj%C3%BCz59%C3%BClSyp%C3%BCwCjVB%E2%82%AC&address38=UANPf9M%C3%BC4RA%3D3GG3%20H%26T&shipment39=Y%3DI%26CA%3DS07PY%2Fq59fW%3DUo5g2&label40=wSn%2Fo3RJQ&date41=D1%20NSg%C3%BC%26p8d%C3%A9%C3%BCd9YVg&street42=9%266D%26%C3%A9%2Fua%E2%82%ACh%20%C3%A9OL%E2%82%ACA&parcel43=%208yY%2FWb2r%260JL%26oIqo%C3%BCr5&manifest44=Bm%E2%82%ACSFj38x%C3%BCee%C3%BCai%E2%82%ACLF1d&date45=8%C3%A9W%26o3WNr95IBE&address46=TeHdgw%2F",
+    "https://centre-address.example/express/account?src=order&number1=iWrTxC%C3%A9D%26X3M9Bit&quantity2=M%E2%82%ACk%E2%82%AC%20mG%2F%C3%A9%C3%A9%C3%A9d%C3%BCZZyJ%20DAJU&postcode3=rZd%2FtdWO%C3%BC&label4=vvJaCzIYw%3D%E2%82%AC4Z%C3%BC%3Dr%C3%BCV&number5=B%C3%A9GAFkZ%3D%3DnemjEAVmE&postcode6=O%2FWyYyhl%E2%82%ACP6%C3%A9F7zA%20Ze7%E2%82%AC49&scan7=%E2%82%ACoqplLPb%26U9P%E2%82%AC&item8=Uv%E2%82%AC%20tzy%E2%82%ACib%20WQIyt&reference9=wuD%2F%20te%C3%BCS%3DO%E2%82%AC%2FTeDg&dock10=H%C3%BC%20%3DIj97R%2FFN%20f%2FixWA%C3%A9Vm&product11=%26Hl%3D9KT%3DjXqs%E2%82%AC&customer12=kA%E2%82%AC%20S4aXYs%C3%BC8G%C3%A9&service13=fYqbA%3DIt0CKOh%E2%82%AC2t%26GjFIQ%C3%A9M&gate14=q%E2%82%ACAI%C3%BC0%20KAgjTZo%E2%82%ACwyz%C3%BC%C3%BCdNr&batch15=U%20r%20npyztA1ymP8ra%C3%A9&total16=NIsQH%C3%BCL%203Q5R%3D%C3%A9b&priority17=lmmHNG%E2%82%AC%20BlGbzbvq&scan18=%C3%A9w%3DvOn6G&parcel19=xdD3%26%26H%20NP%C3%BCio%20%C3%A9c%C3%A9&customer20=zr%C3%BCCxBd2I&package21=LpUZ2bt%206G%E2%82%ACO1a9%3Ds&service22=%2F%20t%E2%82%AC%C3%A9q%266hZIa&order23=lW%C3%A9n%C3%BC%3DmrA%C3%A9%20oy1a%2F%2F%2F&street24=y6WltOSgnRMImH%3Dn&amount25=pMzeh%20yy&email26=y%C3%A9Z%C3%BCn%3DbG%3DIZqWu%20s%C3%BC8%E2%82%ACEB%C3%BCn&code27=zqLg%20tf%26%C3%BCSqZCP%2FRIEaY&parcel28=W%20Da%26T9%3Dy&date29=%20K%C3%BC4U%C3%BCK8iWYv&centre30=HX7%E2%82%AC%E2%82%AC%3D%C3%A9GiMeL%3Dt&customer31=%C3%BC0c%3DB2BtCmg%2F&centre32=%20Gu%26jQiJ%26VKwj6%C3%A9&item33=g10Um%26H%26P3%C3%A9&batch34=%3DM%3DZN6%C3%A9BjVxHaob&priority35=2oX%C3%BCLy8PJsW%2FHG%20SH%3D&number36=l%E2%82%AC%2Fn%C3%BC7%3DVRaSzZ%20IV%C3%A9&value37=zJU6H1Vy4QBTF%2Ft%20ie%C3%A9%26%3D&carrier38=xC%20%2FH%3Dguo%2FmQc5%C3%A9yiEwm&postcode39=Y36IpB%C3%BCr%3Deuz%2Fjkqr%3D&standard40=9rX%2Fe%C3%A97%C3%A9&scan41=CI%E2%82%AC1f6YOX%C3%A9%26u1%C3%BCJV%C3%A9X%20S0ym5&return42=gA%C3%BC%E2%82%ACpMkfi%2FbEB&update43=cX%20%3D%3D%E2%82%AC%26%3D%20a%2F%3Dp%26pL%E2%82%ACUL&express44=BP%3DfP9kPy%C3%BCv%C3%BCtng%2FHltBdF%E2%82%AC&number45=YSd%E2%82%ACQJMd1go%C3%A9go1%E2%82%ACK&express46=%20%26",
+    "https://return-customer.example/parcel%20label/postcode/email?src=city&order1=%26%C3%BC%C3%BC%3Dd%E2%82%ACzfKo&route2=74iC%C3%BCIbe&parcel3=mo3sKC7f%C3%A97Ooikc%3D77PQ%26&priority4=4mO6J%C3%A9uLQ8&return5=6%3DWUb%C3%A9LlX%E2%82%AC&depot6=udsBF%20%26w%26%203qn%26&dock7=%C3%A9mwN%20%3D%20THo%C3%A90%269IvbhuS%20X&phone8=%C3%A9R%2F%C3%A9%C3%BC%26s%E2%82%AC09fDApr%E2%82%AC8x&depot9=%20%2F%E2%82%AC%26W%E2%82%AC%3Ddee%E2%82%ACa&serial10=xMNB%2Fp7%2F%20l&customer11=w%20mnBR%C3%A9A&centre12=Zp%E2%82%AC%C3%BCmA6a8dOEXtb%C3%BCb%C3%BC%20sPOzp&location13=pdZ%E2%82%AC%E2%82%ACmuP%C3%BCJJEKO%3Dn&serial14=f%2Fi%3DOR%C3%A9%3DsL%E2%82%AC%2011uyDfpqv&dock15=y%C3%BC%C3%A9%C3%A9n%3Dp4%C3%BC&tracking16=%3Ddr%26%26pHyMG&return17=h4%3DBWzY%2FP%C3%BCiZ&date18=ENl%3D%3D%C3%A9%26qHocgTPo%E2%82%AC%2F%2Fqj%E2%82%ACA2&date19=Z%E2%82%AC%3DR6%2FAb%C3%BCiaDw&email20=R4Xhjq%C3%A9FTb%269zpNbj%20&city21=8%26z%20wx2%26%E2%82%ACRmVTBZgR%3DC%E2%82%ACHH%E2%82%AC%20&label22=bRWdIvUn6T&manifest23=%C3%BCh%C3%A9jDdSz%2FAU%2F%C3%BCK%C3%BC4%26%26t%C3%A92kH&account24=x%2F%E2%82%AC5%C3%A9T%E2%82%ACO5%3DULAR&dock25=%C3%BCKbsJvmyTzA%C3%A9J5&customer26=IwWn%3D7Pphq%2FmrJT1k%E2%82%ACnOF7XI&dock27=CuL%E2%82%ACQyv%3DI%20hqG&express28=KVr%C3%BCdm%C3%BC%3Dn%26dTM%C3%A9%20wSu%2F&delivery29=Wc8%C3%A99Q%3D%C3%A9oS8GG3rHG9hAhV&date30=TP2dqEWC%2FD%20eU&scan31=Lq9%C3%BCj%2FG%E2%82%AC%26qDr%C3%A9Ug0gi4&centre32=h%C3%A9HbZO%2F8CfyH%C3%BCm%26sR%C3%BC&street33=UiVd%26%2Fk%3D%26%26RL&depot34=Agsrlw51h&batch35=Xc1%E2%82%AC%20Dj%E2%82%ACaj56&parcel36=UFT%26WbXI&postcode37=%26IIemoc9%20ehPFc&location38=%20C%C3%A9DW%C3%BCIY%2FDo&invoice39=%E2%82%ACoCP%26g2EM%E2%82%AC%E2%82%ACboK&email40=%3DJP8TzHOg%C3%A9%3DH2e&city41=kjWd%26i%2Fct%E2%82%ACvUXE&total42=%E2%82%ACN1vOZHooi7Q&carrier43=wBwsiXo%26M%C3%A9KwwK2Ad%E2%82%AC&value44=k%E2%82%AC%20G%C3%A9s%E2%82%ACRqg%C3%A9&city45=xgOWb%C3%A9iIHKD%E2%82%AC%206WnN9j6&parcel46=9%C3%BC8%E2%82%ACrRogw%E2%82%AC9%20&order47=%2002%C3%BC%C3%BCd2q3iMx91C&batch48=%2Frj%20m3uUCoyPz9%2F&exp",
+    "https://invoice-status.example/depot/status?src=reference&order1=vMP%E2%82%ACEqn0MY%26%26%2F%E2%82%ACdr%E2%82%AC&warehouse2=uqT%20VydYib%209v%205&location3=B%2F4Ffd9%C3%A9eSxOcQ2%C3%BCthyKcoV%E2%82%AC&account4=%E2%82%AC3RBunKE&time5=l5%3DwholHIEYZ%3D%2F%20st5c%C3%BCLI&service6=%E2%82%AChuR%E2%82%ACo%2F9&centre7=2%E2%82%ACNh7VFHagPryYv%20Stq%C3%BC%20&postcode8=6%26h7%2F%20%E2%82%AC%2F%3D%2Fsz%E2%82%AC0p9zcOaxe&warehouse9=%C3%A9x%C3%BC%267f9DL%E2%82%ACD%20Z%20%3D%E2%82%AC%2Fwc&update10=sd%2F%20%C3%BCkMI%C3%A9AZig%C3%A9&street11=x%C3%A9HA2vS0p%26xLOql&label12=OW%E2%82%ACk%2FsLYbC8g%26&total13=I%2FwR%E2%82%AC%C3%A9uZ&delivery14=oF%26%26%26WT%E2%82%AC%26&route15=W%C3%BCU%E2%82%ACP%E2%82%AC%2Fo%C3%A9rua&postcode16=%20J%26R%C3%BCt%26l&route17=K%2FCjeM%E2%82%AC%26%261nv&date18=bxYyZMm%3DM%3D%C3%BCvCBi%C3%BCUZdZ%3Dn&customer19=seqiW%C3%BC%3D%E2%82%ACor%C3%BC%E2%82%ACAKI&priority20=%C3%BCSJCc4%26uahF5wTu%C3%A9mbJJ%20nKY&location21=l%20D%2FFC70%E2%82%ACmh%C3%BC6kvT&package22=JIYo9ZRzi%C3%BCRw%2053%C3%BC%2F&street23=88z%C3%A9%C3%A9%26VUXE%2FdNP%3Dn&warehouse24=YwmjV%3D%C3%BCd%2F%26rS71k&label25=jXJcdIT2&phone26=%E2%82%AC%2FX%2FNStr%E2%82%AC%20XC&return27=7%E2%82%AC%C3%BCciW%C3%BCrY5U%E2%82%AC%2Fsv%3DYS&warehouse28=%C3%A9%E2%82%AC%26csU%E2%82%AC%C3%BCwV606vqh&contact29=D%C3%A9%C3%BCWbGk6G%C3%A9iX6W%3Dr&phone30=3EqYS8qK%C3%A9%3DN%3DFNA&quantity31=%C3%A927%C3%A9xr%C3%BCUQrtNK&shipment32=zoJ%E2%82%ACj%E2%82%ACP51%E2%82%ACz%26%2FUoc&manifest33=l5jbeF3hJvA%C3%BCFJlbC&quantity34=2%C3%A9DzB%E2%82%AC1Nv9%E2%82%ACPgstE&delivery35=TUa%26bUM43nYLQvpehkSg&standard36=rK%26%20DAt%C3%BC%C3%A95fO&depot37=TA0xxO%C3%BCp%26vF%26kp%E2%82%ACufs10I&number38=4kYULdC%3D%209o5T0fFxzCT%C3%BC%E2%82%ACu%3D&parcel39=%3D%26M%C3%BCn%20yIh%3D%C3%A9%26B%26Yav%C3%BC&serial40=2UVaRv%20%E2%82%AC&batch41=2N%20e%3Db%C3%BC%266RG%C3%BCA0DAG%2FZD&manifest42=%C3%BCcZ%2F4sG%2F&invoice43=4OOQ0%2F%26dAEcln%C3%BC%E2%82%AC&number44=%3Dz%C3%A9mU6%3DuZBi3M&label45=4o%20oPKz%26F%E2%82%ACM9yR8%E2%82%ACQDQETfqv"
+   ]
+  },
+  {
+   "case_id": "qr-bcbp-eclM",
+   "category": "bcbp",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "bcbp(1..3 legs)",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "M1MULLER/SEAN         EWCZTYA SINSFOEI 8281 294M039D0142 100",
+    "M2ROSSI/SEAN          ETEYWY1 YYZLHRUA 2648 235Y038C0002 100TTBGMZ SYDDUBDL 9112 147M006D0240 100",
+    "M1ROSSI/JOHN          E4WCVQW SINJFKBA 7175 296Y003E0037 100",
+    "M2TANAKA/SEAN         E4WKVDC MADEDIEI 5617 181F015D0238 100S3ZZ1G DXBORDVS 8540 066Y023F0104 100",
+    "M3SMITH/SEAN          EEKEM1B SYDFRAIB 2222 171F037F0143 100NBZKFL SYDYYZVS 9520 325J042D0133 100DDXNCU CDGJFKKL 5506 074J033E0020 100"
+   ]
+  },
+  {
+   "case_id": "qr-latin1-eclM-auto",
+   "category": "latin1",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "latin1_text(40..120) [payloads = qr-latin1-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "caf\u00e9 jalape\u00f1o voil\u00e0 cr\u00e8me Z\u00fcrich quantity serial time statu",
+    "postcode account manifest se\u00f1or 25\u00b0C contact tracking serial se\u00f1",
+    "r\u00e9sum\u00e9 caf\u00e9 status se\u00f1or phone invoice status priority k\u00f6nigsberg invoice na\u00efve amount k\u00f6nigsberg se\u00f1or gate dock o",
+    "reference total k\u00f6nigsberg postcode delivery \u00fcber date warehouse total express",
+    "amount \u00a3100 d\u00e9j\u00e0 centre gate r\u00e9sum\u00e9 m\u00fcller package cr\u00e8me account delivery item route cr\u00e8me m\u00fcller deliv"
+   ]
+  },
+  {
+   "case_id": "qr-latin1_ambiguous-eclM-auto",
+   "category": "latin1_ambiguous",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "latin1_ambiguous(40..120) [payloads = qr-latin1_ambiguous-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "77\u00b16\u00b0C \u00a451 30\u00b16\u00b0C \u00a3 61\u00b15\u00b0C \u00a417 35\u00b14\u00b0C \u00bd 1\u00b11\u00b0C 77\u00b18\u00b0C 10\u00b16\u00b0C 24\u00b12\u00b0C \u00a5 phone country 43\u00b17\u00b0C",
+    "22\u00b16\u00b0C \u00a48439 \u00a473239 status 67\u00b19\u00b0C warehouse \u00bd \u00be \u00bb \u00a3232 \u00bd \u00a4544 \u00a4619 \u00a4981 63\u00b18\u00b0C \u00a5835 \u00a316 47\u00b11\u00b0C 41\u00b18\u00b0C \u00bc 18\u00b11\u00b0C",
+    "express 83\u00b16\u00b0C \u00a5442 \u00a5566 5\u00b18\u00b0C \u00a435 77\u00b19\u00b0C 31\u00b13\u00b0C 87\u00b11\u00b0C \u00be \u00a5",
+    "\u00a3 date \u00a478425 \u00a44520 74\u00b17\u00b0C \u00a55183 \u00a425927 87\u00b19\u00b0C 53\u00b11\u00b0C 23\u00b14\u00b0C standard \u00a354986 \u00a553142 \u00ae order \u00a595 postcode st",
+    "address 66\u00b17\u00b0C serial \u00a3446 tracking scan \u00a37717 \u00a458 \u00a5"
+   ]
+  },
+  {
+   "case_id": "qr-utf8-eclM-auto",
+   "category": "utf8",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "utf8_text(4..8 tokens) [payloads = qr-utf8-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "scan service address number \u65e5\u672c\u8a9e \ud83d\ude42",
+    "\ud55c\uad6d\uc5b4 amount \u65e5\u672c\u8a9e M\u00fcnchen M\u00fcnchen",
+    "\ud83d\ude42 carrier \u20ac49.99 \u65e5\u672c\u8a9e postcode scan",
+    "\ud83d\ude42 warehouse carrier scan number \ud55c\uad6d\uc5b4",
+    "email status customer carrier"
+   ]
+  },
+  {
+   "case_id": "qr-kanji-eclM-auto",
+   "category": "kanji",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "png",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "kanji(10..30) [payloads = qr-kanji-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "\u30ab\u5316\u643a\u5316\u962a\u5927\u8a71\u3061\u53f7\u5b57\u30ca\u53f7\u30ab\u8a9e\u30ca\u30ab\u4eac\u5b57\u4e16\u30c8\u4e16\u306f\u30c8\u6771\u306f\u306f\u8a9e\u8a66\u5927",
+    "\u306f\u5e2f\u672c\u90fd\u306b\u4e16\u53f7\u30c6\u6f22\u4eac",
+    "\u3093\u30b9\u30c6\u90fd\u90fd\u6f22\u756a\u643a\u8a66\u5831\u30ab\u5831\u30ab\u672c\u756a\u643a\u6771\u8a71\u4eac\u90fd\u5831\u306b\u5b57\u30ab\u5e2f\u53f7\u30ca\u5b57\u3061\u60c5",
+    "\u754c\u306f\u8a71\u65e5\u30ab\u756a\u4e16\u7b26\u7b26\u30bf\u306f\u4eac\u756a\u5e2f\u3061\u5831\u6771\u8a66\u30b9\u5e2f\u5927",
+    "\u5316\u8a9e\u96fb\u306f\u8a9e\u6771\u3093\u4e16\u53f7\u672c\u30c6\u90fd\u3053\u672c\u5831\u30bf\u53f7\u60c5\u30ab\u5831\u5831\u4eac\u90fd\u60c5\u30ab\u6587\u8a66\u8a9e"
+   ]
+  },
+  {
+   "case_id": "qr-numeric_short-eclM-svg",
+   "category": "numeric_short",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "digits(6..12) [payloads = qr-numeric_short-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "454440",
+    "513832913",
+    "792873588590",
+    "245622",
+    "8311026836"
+   ]
+  },
+  {
+   "case_id": "qr-numeric_long-eclM-svg",
+   "category": "numeric_long",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "digits(100..150) [payloads = qr-numeric_long-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "60162872518234782340377498717209288979003785600275542304652458705182552080194278653159088366877328717480331157333",
+    "62055664512309837699426034230996308377246272716830969905758022363112470695744873649673658136549756698114326855915792370196",
+    "522789330666875407324624858946302419582648234250075438518817224724168705793141439921136326526000670406",
+    "1457866067102893151114863815896620749356969080118448154839190382883639668195372163623982047087312287163574055129239559780756004993360341",
+    "1658440046070441109496885227920155548250755361084256901280768326263477619320777072595077440176002591"
+   ]
+  },
+  {
+   "case_id": "qr-alnum-eclL-svg",
+   "category": "alnum",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "L",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "qr_alnum(25..50) [payloads = qr-alnum-eclL]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "O3*ST*TWD:C182%ZYWP95J513-HU8 8:MNI6S0K+.0Z",
+    "3OZMRPGMVA7IH3*ZQAJ4$KYAXL%QI7N$VVJPGUQ1CV3:80X",
+    "W%L F.+WCV+50YB+P$3OT0C+18FLD8RX.9 S:2",
+    "THNH/RW%J0TZ5QKCLM0T3EJH02 88RN3QELR-GB+",
+    "P$7%AYYC9/L+Y.GHDA*N/ HQ2Z0O-Q27-RI-Q8ZK1FTC9"
+   ]
+  },
+  {
+   "case_id": "qr-alnum-eclM-svg",
+   "category": "alnum",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "qr_alnum(25..50) [payloads = qr-alnum-eclM]",
+   "quick": true,
+   "symbology": "qr",
+   "trials": [
+    "5VW88MRZ+-S4F502Q:6QSI%TD:D4U",
+    "J$4D6WO01.BS73H5 NT3PY1%3D1+.$WJBV..X3RAKCYM:AAN*",
+    "--LY%XPNIKZFR.*690%0HO/RPJ1DP 3V*E3*",
+    "VP$/N+UC5*GHQ .2AHW:H3 I6+R7UPC$ZOK2 :U%YQY%E",
+    "8C:H9RU2QGO*ESN+TQHYXB-/G 83A8YB.4"
+   ]
+  },
+  {
+   "case_id": "qr-alnum-eclQ-svg",
+   "category": "alnum",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "Q",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "qr_alnum(25..50) [payloads = qr-alnum-eclQ]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "9%XP4A7XP4$4/AGPM3NAZ-E58NGMWC:-VMMJ7PVOCNJE5862OP",
+    "L$Z/WIQ/DMH8BU05G8MV15B% :8 8-9AUK4ZT/A",
+    ":H5PMQE%S$O0K8%89R07VHZ%4OYK*4",
+    "*K6%AAZL.VM.QIBR.BCWP9HQ%S7WF*3TJAM1SB*FPFPZ3",
+    "B:O-7S6H09.11S-S0LVPI4H-%S8I2XO.H*S$7R$7D**GH-J$"
+   ]
+  },
+  {
+   "case_id": "qr-alnum-eclH-svg",
+   "category": "alnum",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "H",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "qr_alnum(25..50) [payloads = qr-alnum-eclH]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "7D/ 4MR1SBQSJC46K VNP4:KI46RN.ZG+M*2C",
+    ".$EJ-RXRT14TLFW.5A5WEF/EV40",
+    "5D2I$6GJ/7*AR7:T.0%QHC/CMN9SSJT3 LY:DVW1B8Y%//",
+    "F%-DAAZL08* V-MO.1QX8%6RWD318B4.$28KX1YUN7%7N065QG",
+    "Q3RZ0C2XHJ49O4-T8Q3*TM2DMG4SJ++*6:TIBY$Z.LN.O:DLI"
+   ]
+  },
+  {
+   "case_id": "qr-mixed_modes-eclM-svg",
+   "category": "mixed_modes",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "mixed_blocks(3..5) [payloads = qr-mixed_modes-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "QXSQYHQNU16906526305_rd_ALPZWNNB17179507843680wyoofYOCEMYBH43760651731541572yf#kBKXRPCOIONC58364394596507jjby#z_QGSPOSBT7851466472252735874yglcfvrn",
+    "MZJDSSKWOKX041282212691i_hzz##gNAMVSNTX5401274855948635bmqkgbJBLBIOVLONV11744721637627221484nhbudrmn",
+    "CLWPQUTKVGIK0301558606717784mjheCFVSBLWY69922784430199g_@y#imIWLIKXSNMDJ253082243829wimvxgfw",
+    "ZWZDRZEN056453596951971065pdbqJLNAEEKT04474639311239486997nbzo_KPKQVYCLO6831344214093896kk@c_yuICRMDHWR04278799596175165917ibeusjpgLQMENSBL621112128744173768xpmoryu#",
+    "JZSYDQQCH3698725433945mfvmmesLWLEEMPH741532111350uqnalNEXSSAIPAPZ640736975242675794sinhxiBBUZBTXB46322401810hpdozCEFIDWWAEF48923561950252044wo@d"
+   ]
+  },
+  {
+   "case_id": "qr-url-eclM-svg",
+   "category": "url",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "url() [payloads = qr-url-eclM]",
+   "quick": true,
+   "symbology": "qr",
+   "trials": [
+    "https://addressemail.example/tracking/depot/route?id=657111654833&ref=L6KHC3P5ZR",
+    "https://manifestamount.example/address?id=806791015051&ref=SAE7KWCCRZ",
+    "https://parcelstandard.example/account/time/carrier?id=761117843604&ref=PZ43FRG7ZB",
+    "https://phonebatch.example/centre/code?id=124811742488&ref=SVR34BMUHF",
+    "https://deliverylocation.example/depot/postcode?id=615022753938&ref=LMEE2B7TQA"
+   ]
+  },
+  {
+   "case_id": "qr-text_para-eclM-svg",
+   "category": "text_para",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "text_ascii(200..500) [payloads = qr-text_para-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "Amount order item street item dock email amount postcode product. Reference item parcel update product depot package item invoice code status. Package scan city gate value priority return location. Return city label package total warehouse tracking. Carrier street gate service standard manifest invoice value parcel scan route. Depot dock service shipment status manifest. Express",
+    "Route label tracking date account city dock parcel centre amount. Service amount depot route product scan time update street code code. Customer scan gate country country shipment. Code number product carrier dock location email item address account depot tracking. Invoice carrier customer phone contact invoice warehouse country shipment address number. Status priority gate product gate service address code. Invoice shipment account date warehouse c",
+    "Reference centre gate street item warehouse. Package amount status dock code batch date item contact order. Invoice reference batch amount location reference amount. Phone product street status value route quant",
+    "Tracking package shipment depot dock shipment reference warehouse serial. Priority route order street country code carrier account. Gate scan service service code order value gate phone delivery serial label. Express carrier product time scan account tracking street centre r",
+    "Express item value code location delivery standard. Postcode city parcel phone centre update. Location gate parcel number package scan quantity time postcode. Update label scan location account priority. Return service priority express reference delivery account scan priority item email country. Street product package order status customer quantity batch parcel. Service batch dock centre update email product location city tracking parcel phone. Account scan update street"
+   ]
+  },
+  {
+   "case_id": "qr-latin1-eclM-svg",
+   "category": "latin1",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": "iso-8859-1",
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "latin1_text(40..120) [payloads = qr-latin1-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "caf\u00e9 jalape\u00f1o voil\u00e0 cr\u00e8me Z\u00fcrich quantity serial time statu",
+    "postcode account manifest se\u00f1or 25\u00b0C contact tracking serial se\u00f1",
+    "r\u00e9sum\u00e9 caf\u00e9 status se\u00f1or phone invoice status priority k\u00f6nigsberg invoice na\u00efve amount k\u00f6nigsberg se\u00f1or gate dock o",
+    "reference total k\u00f6nigsberg postcode delivery \u00fcber date warehouse total express",
+    "amount \u00a3100 d\u00e9j\u00e0 centre gate r\u00e9sum\u00e9 m\u00fcller package cr\u00e8me account delivery item route cr\u00e8me m\u00fcller deliv"
+   ]
+  },
+  {
+   "case_id": "qr-latin1_ambiguous-eclM-svg",
+   "category": "latin1_ambiguous",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": "iso-8859-1",
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "latin1_ambiguous(40..120) [payloads = qr-latin1_ambiguous-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "77\u00b16\u00b0C \u00a451 30\u00b16\u00b0C \u00a3 61\u00b15\u00b0C \u00a417 35\u00b14\u00b0C \u00bd 1\u00b11\u00b0C 77\u00b18\u00b0C 10\u00b16\u00b0C 24\u00b12\u00b0C \u00a5 phone country 43\u00b17\u00b0C",
+    "22\u00b16\u00b0C \u00a48439 \u00a473239 status 67\u00b19\u00b0C warehouse \u00bd \u00be \u00bb \u00a3232 \u00bd \u00a4544 \u00a4619 \u00a4981 63\u00b18\u00b0C \u00a5835 \u00a316 47\u00b11\u00b0C 41\u00b18\u00b0C \u00bc 18\u00b11\u00b0C",
+    "express 83\u00b16\u00b0C \u00a5442 \u00a5566 5\u00b18\u00b0C \u00a435 77\u00b19\u00b0C 31\u00b13\u00b0C 87\u00b11\u00b0C \u00be \u00a5",
+    "\u00a3 date \u00a478425 \u00a44520 74\u00b17\u00b0C \u00a55183 \u00a425927 87\u00b19\u00b0C 53\u00b11\u00b0C 23\u00b14\u00b0C standard \u00a354986 \u00a553142 \u00ae order \u00a595 postcode st",
+    "address 66\u00b17\u00b0C serial \u00a3446 tracking scan \u00a37717 \u00a458 \u00a5"
+   ]
+  },
+  {
+   "case_id": "qr-utf8-eclM-svg",
+   "category": "utf8",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": "utf-8",
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "utf8_text(4..8 tokens) [payloads = qr-utf8-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "scan service address number \u65e5\u672c\u8a9e \ud83d\ude42",
+    "\ud55c\uad6d\uc5b4 amount \u65e5\u672c\u8a9e M\u00fcnchen M\u00fcnchen",
+    "\ud83d\ude42 carrier \u20ac49.99 \u65e5\u672c\u8a9e postcode scan",
+    "\ud83d\ude42 warehouse carrier scan number \ud55c\uad6d\uc5b4",
+    "email status customer carrier"
+   ]
+  },
+  {
+   "case_id": "qr-kanji-eclM-svg",
+   "category": "kanji",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": "shift_jis",
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "kanji(10..30) [payloads = qr-kanji-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "\u30ab\u5316\u643a\u5316\u962a\u5927\u8a71\u3061\u53f7\u5b57\u30ca\u53f7\u30ab\u8a9e\u30ca\u30ab\u4eac\u5b57\u4e16\u30c8\u4e16\u306f\u30c8\u6771\u306f\u306f\u8a9e\u8a66\u5927",
+    "\u306f\u5e2f\u672c\u90fd\u306b\u4e16\u53f7\u30c6\u6f22\u4eac",
+    "\u3093\u30b9\u30c6\u90fd\u90fd\u6f22\u756a\u643a\u8a66\u5831\u30ab\u5831\u30ab\u672c\u756a\u643a\u6771\u8a71\u4eac\u90fd\u5831\u306b\u5b57\u30ab\u5e2f\u53f7\u30ca\u5b57\u3061\u60c5",
+    "\u754c\u306f\u8a71\u65e5\u30ab\u756a\u4e16\u7b26\u7b26\u30bf\u306f\u4eac\u756a\u5e2f\u3061\u5831\u6771\u8a66\u30b9\u5e2f\u5927",
+    "\u5316\u8a9e\u96fb\u306f\u8a9e\u6771\u3093\u4e16\u53f7\u672c\u30c6\u90fd\u3053\u672c\u5831\u30bf\u53f7\u60c5\u30ab\u5831\u5831\u4eac\u90fd\u60c5\u30ab\u6587\u8a66\u8a9e"
+   ]
+  },
+  {
+   "case_id": "qr-near_capacity-eclL-svg",
+   "category": "near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "L",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "text_ascii(len=2510) [payloads = qr-near_capacity-eclL]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "Delivery country warehouse code item total package email reference service. Postcode quantity amount shipment date warehouse. Package package delivery shipment service gate package amount scan manifest address. Phone manifest code depot contact amount phone postcode serial tracking delivery account. Serial reference contact package serial return address city country. Package package route batch total value scan service depot. Shipment shipment update route time contact package. Package centre postcode service status tracking route country customer warehouse. Gate return time order standard update time. Location shipment city street number invoice carrier invoice reference manifest batch account. Phone value tracking phone standard customer. Package shipment address manifest contact address service quantity. Reference gate scan country reference parcel carrier route. Label order postcode date depot location delivery address. Amount email amount code reference city shipment. Item item delivery package item label update. Invoice city centre product value address. Serial total amount date standard customer time contact. Customer return scan manifest phone service address carrier reference express. Scan order shipment reference warehouse serial code package total country return reference. Route phone return route total country customer total customer contact status. Dock dock label service standard total. Batch country batch code parcel amount street phone. Route express label city manifest serial time scan. Time manifest carrier tracking service product account email. Centre order item product depot number batch address number email package. Centre batch express route email gate. Date dock product code update value priority. Route standard value dock delivery label. Standard invoice dock item time dock standard. Label serial scan quantity route total update total warehouse status parcel. Update package product number street amount serial customer status parcel. Service country dock depot priority contact shipment product centre phone. Tracking service priority delivery scan serial manifest location priority. Package status address route package gate serial express postcode scan total. Warehouse gate batch time product reference phone centre label delivery. Parcel amount update delivery express package label route. Depot status batch value package centre express priority delivery product location product. Street standard street update order product. Value parcel number v",
+    "Service manifest shipment parcel reference location street carrier street invoice. Item amount manifest warehouse dock product code item value postcode. Express code warehouse time account warehouse code. Tracking account invoice express phone batch product update manifest city batch postcode. Tracking shipment standard account amount tracking date amount update dock. Time city standard manifest address delivery depot postcode country. Priority manifest number update account parcel label express item gate value serial. Update account carrier standard order invoice express code. Order city code street tracking shipment tracking email item dock. Batch product tracking country code package invoice account postcode. Number contact country account order time serial item return dock serial. Shipment shipment postcode status shipment standard quantity delivery. Tracking country serial city delivery shipment address item account scan scan. Warehouse route email date service reference phone standard time customer postcode centre. Warehouse total quantity update email serial batch city contact value amount. Order contact priority gate priority dock time express express city product. Order invoice code delivery customer carrier service. Delivery street street scan parcel package total. Total product date location quantity update warehouse carrier. Express status service order location update value contact. Centre total phone centre centre manifest total. Scan depot standard total product priority city status tracking serial. Invoice express shipment address depot amount gate depot date phone. Value amount route product dock street scan item city. Carrier account invoice phone status city scan. Amount time return invoice express scan total contact value product order scan. Order warehouse location parcel standard customer. Tracking item reference number parcel country number warehouse number update. Parcel serial invoice express depot account package invoice manifest parcel. Contact express package scan warehouse centre order service. Order date customer priority service manifest. Tracking code package manifest value update express country. Manifest amount country quantity express package address. Code city invoice priority invoice manifest tracking warehouse amount scan. Serial number time standard centre scan warehouse. Manifest scan manifest item label parcel time depot manifest standard label email. Value centre depot code country shipment number value. Country item batch a",
+    "Address dock priority route dock order. Serial time amount status total route country. Number priority address centre priority total account. Update serial gate centre parcel item customer shipment serial location parcel. Service dock amount email dock number service account country. Reference total priority parcel scan item. Street reference address country email amount. Dock status account account address value manifest address city. Standard invoice time express dock city depot. Carrier date postcode amount shipment carrier email address date package. Location code reference serial parcel label invoice street email number dock date. Date update address package time depot. Tracking value status manifest parcel total priority phone date reference. Parcel tracking package time order dock route parcel. Express warehouse label country label standard centre delivery shipment priority express product. Account depot scan carrier contact contact serial priority. Parcel value manifest package city amount express parcel date invoice. Shipment customer tracking postcode shipment time status code customer invoice shipment. Return route route serial contact priority email customer date email dock. Label amount amount return product parcel. Delivery product customer standard shipment express email parcel country status account. Priority quantity product serial email country customer manifest. Product address package depot location shipment postcode customer depot item phone status. Route reference address address delivery delivery return. Quantity dock quantity return product standard serial country customer standard code order. Amount city delivery centre street order total tracking warehouse. Postcode dock standard street total postcode. Parcel date parcel invoice email return account country express dock standard shipment. Postcode account express amount location date. Amount dock value total account total. City account package priority invoice number delivery express express. Street shipment invoice email route priority service priority manifest. Customer status email code date phone dock update centre. Item invoice item serial phone location standard account route customer. Dock manifest scan centre gate value contact. Postcode number depot value label tracking customer code date manifest depot time. Label quantity package street contact standard. City batch invoice value return account item express. Amount label reference code standard email. Account parcel number shipmen",
+    "Delivery standard label centre express address phone delivery phone order warehouse quantity. Amount product phone delivery delivery depot carrier. Phone account label priority reference city. Address city carrier reference delivery contact centre. Centre amount postcode parcel invoice priority scan status location item. Contact manifest account depot gate scan order value delivery dock standard delivery. Street location number depot depot time gate address email phone. Country depot country item phone centre postcode scan gate manifest. City carrier delivery code total customer scan. Status total status value depot time label. Number manifest depot express standard warehouse order customer contact country. Tracking account express scan carrier return status serial. Depot manifest status product manifest centre. Customer shipment manifest email update reference. Quantity warehouse serial carrier total country. Standard manifest number route contact dock date status carrier. Postcode phone return customer order route depot dock city order. Warehouse product depot status order product priority. Time centre parcel scan email phone. Standard standard order shipment city status delivery city customer customer. Address centre value service express status item. Gate return express customer address postcode order delivery order serial country. Code total contact country postcode express item customer. Product number product dock update status date product update city. Parcel code shipment total reference date warehouse. Update batch product phone country time tracking label route phone. Label standard address label country centre label total address delivery. Update item manifest quantity phone address express. Manifest quantity location status standard gate route update country warehouse. Serial serial serial status postcode service postcode street. Number time item batch tracking priority parcel package postcode city depot return. Package location customer time update status label postcode country. Reference total express standard route express quantity code number priority. Reference country warehouse code quantity label. Order parcel country invoice scan warehouse. Standard update dock item status serial value scan manifest value. Quantity value package contact date customer date. Total parcel invoice priority shipment gate address. Route centre tracking status account tracking reference value value status depot depot. Country date dock city contact shipment standard lo",
+    "Account street city depot address update postcode account return. Delivery email quantity scan dock shipment return package customer account delivery account. Route batch contact customer delivery amount shipment scan number. Warehouse manifest phone centre number gate label contact dock. Street customer phone address item delivery country dock. City city label depot customer street reference. Serial shipment phone city package amount route invoice location time dock. Standard city gate account invoice quantity location label. Update package product label depot delivery product package label. Item reference time number service scan gate code value contact priority. Phone postcode standard address item update route product location contact. Priority standard country label parcel total order. Time number status parcel priority invoice number reference. Account package item parcel service package city tracking reference product invoice. Location item phone contact batch city centre reference order. Manifest dock standard phone delivery item. Location location product shipment city service street package carrier return update status. Code item route tracking phone amount express address label gate phone. City scan manifest tracking status city express product serial code parcel. Customer city shipment product date invoice value service postcode. Warehouse location product package product scan express. Route date account centre customer invoice location phone. Customer contact carrier scan manifest standard country carrier. Depot depot carrier carrier scan status priority centre city. Warehouse value carrier postcode account phone number standard total. Postcode package quantity customer location depot dock number time phone gate. Gate order status invoice update email delivery gate warehouse. Scan value address status street route number dock update. Warehouse serial customer reference amount location street street warehouse. Amount code standard gate customer time product phone date contact standard. Depot label invoice invoice product amount serial order package gate manifest. Address date tracking time contact time. Express manifest shipment date express code tracking amount code value street. Tracking dock address amount postcode quantity express reference number invoice shipment. Route carrier status time date express standard. Priority account status city code dock serial account contact scan package item. Tracking number centre postcode delivery value carrier acc"
+   ]
+  },
+  {
+   "case_id": "qr-near_capacity-eclM-svg",
+   "category": "near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "text_ascii(len=1981) [payloads = qr-near_capacity-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "Parcel time contact phone service label warehouse phone. Account scan label quantity item customer tracking. Warehouse account update order return amount label postcode route. Express quantity update route email depot number. Package scan product date carrier location standard carrier account city email location. Serial route serial dock phone package shipment express order. Manifest standard return phone order country invoice total location standard. Location code status batch priority date carrier carrier parcel route. Priority contact depot centre route parcel priority gate location address reference. Warehouse depot invoice postcode tracking return value postcode priority. Item route standard amount customer contact value centre gate. Account package location parcel serial item status. Customer contact location gate time update date number street. Order update standard code express gate shipment route account total. City parcel scan package account parcel scan country. Status address manifest reference return address number. Depot tracking city amount carrier location return. Warehouse centre warehouse number number package manifest. Service total gate order postcode code batch email address. Batch route batch product contact quantity postcode shipment package. Package dock total value label value centre express order update. Postcode postcode code route depot carrier contact standard phone. Value package gate parcel dock standard reference postcode item country. Scan value serial date location priority value service. Priority warehouse postcode product value tracking route number contact address manifest. Item tracking parcel postcode dock carrier depot product amount serial postcode total. Delivery account invoice street gate return quantity account. Item order scan tracking location route city route update phone status. Invoice location package depot priority phone city address. Total code time order date batch. Reference contact update exp",
+    "Priority delivery reference centre address email service. Return standard country quantity status express address shipment contact street contact centre. Depot warehouse warehouse parcel account phone number carrier. Service postcode package depot scan delivery tracking date package street quantity. Delivery parcel location service reference item dock number. Manifest product update customer number order carrier service. Route batch account address serial number package location. Contact service batch status customer account product status. Customer status postcode carrier email priority standard location. Item product gate tracking tracking priority amount amount shipment. Serial quantity quantity carrier centre route time location status contact email scan. Priority priority invoice email product customer route location quantity street. Parcel package email address customer quantity warehouse standard city serial product total. Carrier value quantity product manifest update scan street tracking depot quantity status. Return delivery update reference batch date tracking batch phone time. Invoice code gate delivery postcode phone account. Value update warehouse label city total number standard serial item street. Order item update centre order reference invoice phone date. Label location tracking package code shipment. Time dock location address priority city standard reference order country. Total date postcode email postcode parcel code gate label invoice city package. Centre product scan amount invoice value city order shipment. Quantity product product serial centre date address dock route status status priority. Centre product country return priority status tracking quantity time batch serial. Time status customer product parcel update warehouse scan serial number location express. Dock total update location postcode parcel account update. Postcode express address dock time carrier country shipment reference priority value. Street country gat",
+    "Total reference service order standard tracking dock customer dock. Value postcode country centre customer street centre depot. Parcel contact serial route order account parcel batch product warehouse account. Order date carrier centre tracking postcode warehouse. Contact delivery manifest shipment dock account scan location country. Quantity standard standard dock standard phone amount total customer express item express. Number return number service city product express. Code label status product delivery contact location street amount contact. Item date account street product priority label quantity delivery status tracking. Express street code item email phone reference. Quantity carrier location contact parcel country reference scan update carrier serial manifest. Product value location postcode gate carrier number. Carrier batch address address total centre code warehouse route delivery manifest phone. Customer quantity carrier city date delivery. Status product country label product amount country delivery warehouse priority. Priority serial serial code depot warehouse phone time country country product. Customer priority scan country serial number shipment postcode. Reference value carrier delivery status package city quantity quantity code value. Update shipment serial postcode product package dock warehouse country status city dock. City standard centre product street phone reference location reference item invoice gate. Tracking gate gate priority address depot date amount dock gate. Gate product order package country country depot service. Item centre centre serial service time. Shipment centre location country time street street quantity parcel tracking item. Amount service postcode total code value shipment update contact standard service. Depot total order postcode update product service location location standard email number. Account country item order reference location reference account scan scan code parcel. Manifest contact qu",
+    "Value item address quantity invoice update priority delivery. Reference item email item express contact standard order service value carrier. Manifest gate standard amount order dock invoice return status invoice standard. Carrier order product street route invoice. Standard route reference product route amount label. Total route address total tracking serial delivery product update street street. Centre account update amount gate serial shipment. Phone country phone phone item scan parcel time country dock address carrier. Label manifest amount service total code code tracking. Status time amount phone delivery status contact email contact serial dock return. Express dock invoice street parcel priority location. Express delivery batch time number phone return serial email depot priority depot. Reference depot total tracking invoice dock. Route amount dock status date shipment location service postcode. Total tracking return scan priority street standard scan code country amount. Amount time invoice total city route depot priority order. Postcode depot serial time label centre return manifest. Address country batch value number route item manifest. Quantity tracking standard reference package customer depot shipment. Street service email depot country shipment return package street. Return reference status batch address tracking return postcode postcode label label phone. Centre location item priority value depot country. Product amount label customer location address carrier label delivery total status reference. Depot time package postcode number item order. Dock date product express contact depot parcel. Time route shipment manifest account parcel label value invoice shipment. Shipment express invoice standard scan status. Dock product location code amount parcel amount delivery postcode package street warehouse. Quantity item order shipment email tracking depot service. Product delivery postcode contact customer product product order batch val",
+    "Return update time gate location tracking package service dock. Serial service time city carrier express order quantity postcode number standard. Dock value contact update location serial express amount. Location express centre manifest shipment standard location email amount address. City status route package standard status. Warehouse shipment route order priority time. Route product scan invoice return order country tracking gate postcode email. Product value batch scan label centre total order. Manifest carrier gate phone standard order customer invoice. Centre email express date contact address serial. Dock depot parcel package parcel label street tracking city parcel carrier. Warehouse dock email gate item amount email address. Return batch manifest serial time update depot warehouse. Email amount package location city amount gate route depot country gate. Quantity label code total carrier invoice. Invoice street priority centre carrier value email delivery. Delivery scan manifest invoice manifest warehouse parcel product route date update amount. Return phone label address account customer time delivery express. Item shipment address express delivery priority date code express update product priority. Customer serial phone product dock country update label manifest item. Postcode code street product street tracking priority email contact total carrier label. Route phone postcode express country service carrier amount warehouse contact depot. Street total express date batch return dock code contact location customer number. Depot carrier item batch depot depot order quantity number time. City date item delivery update time. Item city carrier update batch amount priority shipment. Customer express manifest number customer reference date return city order. Centre total dock item phone shipment batch product. Serial shipment parcel priority package email express return tracking phone time total. Phone depot manifest tracking email number dock p"
+   ]
+  },
+  {
+   "case_id": "qr-near_capacity-eclQ-svg",
+   "category": "near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "Q",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "text_ascii(len=1413) [payloads = qr-near_capacity-eclQ]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "Customer city parcel email route reference package update account. Value contact time status tracking manifest priority shipment serial return. Standard customer code parcel gate priority. Delivery country status standard order delivery scan contact. Location city manifest address quantity dock location carrier service status. Express city amount date value dock express item depot value. Postcode return location amount return city order standard date email. Street priority time time parcel manifest. Time account serial gate city batch serial. Delivery parcel reference centre package value warehouse location email date status. Dock invoice parcel number city date. Priority scan account email warehouse code. Product return priority depot warehouse delivery. Address delivery update date scan customer update warehouse date. Amount status quantity package location shipment quantity gate. Invoice quantity street tracking account batch carrier account return code serial. Manifest dock package item street quantity email label. Warehouse express invoice dock total route account standard priority street. Email amount date product customer dock item. Shipment code order quantity country value update. Return serial country city return email. Dock invoice service postcode depot delivery. Country code account centre phone return. Manifest serial location time number scan location contact customer. Amount",
+    "Number manifest priority shipment dock value. Amount gate phone street parcel contact batch. Code date city gate location quantity customer phone account delivery date time. Return update gate quantity service priority gate. Contact batch warehouse phone manifest route batch customer warehouse dock account. Status serial serial update tracking scan update. Warehouse gate invoice customer centre amount. Parcel amount reference delivery dock product delivery scan package update standard. Scan depot warehouse centre order gate contact dock contact return invoice batch. Depot scan invoice scan serial street carrier standard package time label gate. Update package city status status phone account. Code contact email location contact carrier shipment value. Standard update centre centre item tracking scan postcode. Postcode serial serial centre time depot postcode. Tracking parcel priority country parcel depot gate. Serial scan date parcel centre package value return scan date address update. Standard date product account tracking order batch serial street account tracking service. Email depot batch product quantity priority invoice product route package warehouse. Batch package order status scan return warehouse return. Express street street update tracking customer. Quantity reference product status street time number time. Status serial carrier tracking item shipment customer location. Route r",
+    "Serial postcode phone invoice serial address street quantity depot return invoice value. Country phone order shipment total postcode express scan product depot. Gate carrier route invoice invoice product country route account route invoice invoice. Carrier amount batch warehouse quantity status. Dock total service product order carrier total serial. Customer phone date priority warehouse item status time dock warehouse dock. Amount label manifest manifest dock phone reference number standard. Item account city standard scan amount update street. Amount return depot return standard address street email email invoice invoice. Address parcel gate batch item standard amount centre product phone value dock. Standard shipment priority email update priority reference manifest. Update tracking phone location service contact delivery dock route. Reference update invoice date order address gate time time depot. Status standard total express priority route. Route shipment number invoice contact scan standard account city invoice invoice priority. Postcode tracking return location street location. City update carrier route service update value depot service return. Phone reference tracking code street route item parcel standard depot date total. Express number shipment time gate standard shipment customer manifest country country. Location account service centre scan batch email total order date update",
+    "Contact scan serial return return scan time. Gate tracking batch date gate value country street code. Postcode phone parcel time order serial. City return gate country location street value shipment contact shipment country country. Carrier route total reference route service. Route status parcel batch route gate item street delivery time. Express value priority standard gate label carrier route centre. Time location serial item shipment country route package country country. Phone order postcode express label depot time scan. Shipment email amount address shipment quantity location number. Priority carrier update number label package contact. Invoice batch warehouse label warehouse shipment status postcode address item. Carrier address dock value tracking product standard return delivery gate. Reference contact package number quantity country phone serial. Account reference phone city time serial service reference. Number customer tracking centre customer order delivery. Contact city postcode item address code standard customer tracking status. Customer customer order city contact email parcel item service code. Update invoice warehouse update order shipment address item. Shipment customer label code item total status total priority. Service quantity manifest amount location invoice. Code route label postcode carrier location street priority code code express. Tracking delivery label postc",
+    "Customer order city customer customer return invoice delivery depot product route dock. Centre phone postcode scan account serial city. Express package status total amount scan label route product value. Route number priority invoice account label tracking phone time. Location warehouse dock number value update. Quantity value amount city delivery reference update street delivery carrier update serial. Standard address phone order delivery contact location reference manifest. Priority code account label country time number invoice postcode. Tracking label location service service account gate. Account label tracking shipment account quantity status batch value value. Centre package priority country number route serial. Serial route scan depot address serial warehouse. Warehouse street postcode reference time parcel tracking. Express priority serial quantity city update manifest time date date email. Parcel code delivery scan express update country. Invoice date depot service delivery gate service postcode. Item service route number email status total serial update scan country. Order date carrier standard reference centre date postcode. Scan number product account reference country email phone quantity batch standard. Express tracking phone scan batch return shipment value phone number. City reference email value product serial street street centre service gate street. Phone city manifest p"
+   ]
+  },
+  {
+   "case_id": "qr-near_capacity-eclH-svg",
+   "category": "near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "H",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "text_ascii(len=1082) [payloads = qr-near_capacity-eclH]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "City label quantity express quantity location total street. Item serial date product number account standard carrier customer shipment priority. Location time time standard warehouse postcode account route return. Item quantity update item status reference label. Contact route centre invoice date email email batch contact. Street express total service depot city centre phone country. Address email amount amount standard tracking status quantity package. Number postcode total amount postcode route depot package. Batch phone priority tracking depot contact customer. Postcode order shipment amount order parcel label number. Postcode dock gate express standard location dock street amount express. Amount time product item city centre value standard label gate. Label amount quantity amount account delivery scan date. City warehouse product address item time shipment total centre label number manifest. Total package quantity time depot email invoice warehouse manifest priority. Phone street contact service order product status. Address express code phone order scan email c",
+    "Number value total package dock update carrier. Date item scan product email parcel phone. Item parcel gate contact country value location manifest phone dock gate. Customer location city depot status batch postcode return code. Phone centre manifest address label package depot. Serial priority phone serial item parcel priority postcode address phone priority. Depot customer standard phone warehouse scan. Return address serial delivery tracking gate. Invoice package tracking batch location service manifest package. Customer priority label quantity total return standard phone. Product express value postcode email priority. Update parcel street shipment value route batch dock. Carrier invoice location reference gate batch. Time centre total standard city dock return. Date batch route country package phone value. Status tracking country update contact account date amount. Order warehouse tracking carrier code email. Account centre delivery route shipment amount country amount dock priority. Contact time reference priority label product customer country. Postcode accoun",
+    "Address date customer status priority status total item parcel country order. Warehouse code reference carrier country service street service carrier account standard customer. Order street serial label customer parcel. Contact time address return street date. Quantity amount total city shipment total time invoice warehouse gate invoice. City code label account code contact. Warehouse phone phone status quantity warehouse code quantity. Quantity quantity amount amount postcode dock phone date code reference express. Standard route tracking scan delivery city batch. Invoice address dock standard code quantity account product total quantity shipment. Date batch date postcode total status account gate scan dock batch. Account country service order customer invoice reference. Date street country delivery product parcel warehouse total shipment reference carrier express. Quantity address manifest number centre tracking quantity order. Street delivery route carrier address item route. Return account label delivery value tracking gate city amount date. Product return updat",
+    "Parcel carrier postcode standard update return. Standard value tracking warehouse package account. Account manifest status account dock parcel parcel express package delivery serial. Return centre status parcel depot manifest location. Status code warehouse order express invoice contact delivery. Street tracking shipment product manifest phone priority express amount carrier return city. Number contact parcel address package total phone date. Address email standard contact order value phone carrier. Return account route city reference value carrier express service amount batch. Value priority product route reference carrier. Warehouse priority street manifest centre email dock service. Express carrier country manifest country street. Value batch return manifest item quantity status label manifest date. Scan invoice customer update number dock code reference route manifest carrier carrier. Email quantity address location city total city serial order product warehouse. Gate street phone invoice location account product service label email return. Postcode standard car",
+    "Warehouse order dock status contact manifest product manifest delivery. Account amount dock delivery code express. Warehouse country street update service customer date city location label manifest parcel. Code invoice depot gate email email tracking. Warehouse label route street route date order time order warehouse. Total email email reference amount account city priority invoice batch delivery. Delivery date batch warehouse product dock invoice location express time. Scan parcel warehouse code address phone package gate service product. Code batch gate customer batch phone. Service manifest total postcode parcel serial return. Postcode package tracking invoice country street depot. Serial invoice address address product product street. Total package dock manifest code depot location status value. Manifest parcel phone priority scan return. Service email code postcode gate contact. Centre amount reference order dock date route priority contact package. Value number batch order code number. Email return number customer time route quantity scan city. Delivery tracki"
+   ]
+  },
+  {
+   "case_id": "qr-xml_nc-eclM-svg",
+   "category": "xml_near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "xml(len=1981) [payloads = qr-xml_nc-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?><manifest><item id=\"5002686640\" status=\"total\"><name>priority order</name><qty>617</qty></item><item id=\"1641206242\" status=\"serial\"><name>carrier contact</name><qty>278</qty></item><item id=\"8801094842\" status=\"parcel\"><name>scan warehouse</name><qty>827</qty></item><item id=\"7243723353\" status=\"order\"><name>route contact</name><qty>704</qty></item><item id=\"1582077672\" status=\"batch\"><name>value street</name><qty>871</qty></item><item id=\"8093224229\" status=\"code\"><name>status depot</name><qty>562</qty></item><item id=\"4667536091\" status=\"dock\"><name>parcel label</name><qty>519</qty></item><item id=\"9956705844\" status=\"code\"><name>service amount</name><qty>196</qty></item><item id=\"6612695722\" status=\"country\"><name>package manifest</name><qty>502</qty></item><item id=\"9006481393\" status=\"phone\"><name>item postcode</name><qty>444</qty></item><item id=\"5202799554\" status=\"gate\"><name>code carrier</name><qty>61</qty></item><item id=\"3457864451\" status=\"number\"><name>total order</name><qty>206</qty></item><item id=\"9436384067\" status=\"serial\"><name>gate package</name><qty>61</qty></item><item id=\"8817727903\" status=\"carrier\"><name>dock status</name><qty>220</qty></item><item id=\"6271714510\" status=\"contact\"><name>priority invoice</name><qty>164</qty></item><item id=\"8822004046\" status=\"gate\"><name>depot street</name><qty>931</qty></item><item id=\"6562670190\" status=\"item\"><name>location centre</name><qty>151</qty></item><item id=\"3693965606\" status=\"status\"><name>date route</name><qty>291</qty></item><item id=\"8700457332\" status=\"location\"><name>total shipment</name><qty>137</qty></item><item id=\"0861125140\" status=\"location\"><name>gate centre</name><qty>865</qty></item><item id=\"3859919107\" status=\"shipment\"><name>country time</name><qty>780</qty></item><item id=\"6911636447\" status=\"location\"><name>street carrier</name><qty>444</qty></item><pad>rfdptniezoegooxsnueqhljbjxbgxvdrnwcgpryhqbenwvadb</pad></manifest>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?><manifest><item id=\"9897110226\" status=\"status\"><name>depot tracking</name><qty>147</qty></item><item id=\"8774372045\" status=\"amount\"><name>date warehouse</name><qty>661</qty></item><item id=\"6055652005\" status=\"contact\"><name>return parcel</name><qty>249</qty></item><item id=\"8261996224\" status=\"postcode\"><name>order shipment</name><qty>235</qty></item><item id=\"7409517844\" status=\"carrier\"><name>email gate</name><qty>276</qty></item><item id=\"8033214899\" status=\"value\"><name>standard express</name><qty>840</qty></item><item id=\"7106664611\" status=\"account\"><name>city priority</name><qty>709</qty></item><item id=\"4253796784\" status=\"reference\"><name>street return</name><qty>332</qty></item><item id=\"2720109793\" status=\"item\"><name>carrier postcode</name><qty>261</qty></item><item id=\"6660739230\" status=\"postcode\"><name>address email</name><qty>771</qty></item><item id=\"2282498402\" status=\"postcode\"><name>city number</name><qty>319</qty></item><item id=\"5228889240\" status=\"scan\"><name>batch product</name><qty>779</qty></item><item id=\"1101830739\" status=\"total\"><name>centre standard</name><qty>291</qty></item><item id=\"0396123825\" status=\"return\"><name>postcode code</name><qty>280</qty></item><item id=\"9568693110\" status=\"shipment\"><name>gate code</name><qty>581</qty></item><item id=\"8197349276\" status=\"customer\"><name>street code</name><qty>432</qty></item><item id=\"0567708026\" status=\"tracking\"><name>city customer</name><qty>478</qty></item><item id=\"0359593633\" status=\"contact\"><name>gate number</name><qty>284</qty></item><item id=\"3774435005\" status=\"package\"><name>status street</name><qty>948</qty></item><item id=\"0001006990\" status=\"batch\"><name>account date</name><qty>803</qty></item><item id=\"6284550783\" status=\"update\"><name>delivery service</name><qty>234</qty></item><item id=\"4489880526\" status=\"update\"><name>centre total</name><qty>66</qty></item><pad>orzhqcvhvefskltjwyewpyseryhiew</pad></manifest>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?><manifest><item id=\"5943119446\" status=\"product\"><name>manifest date</name><qty>90</qty></item><item id=\"6616071799\" status=\"total\"><name>country priority</name><qty>640</qty></item><item id=\"0202701531\" status=\"customer\"><name>date shipment</name><qty>898</qty></item><item id=\"9744542376\" status=\"value\"><name>account status</name><qty>509</qty></item><item id=\"3188246456\" status=\"city\"><name>country value</name><qty>323</qty></item><item id=\"0713114347\" status=\"return\"><name>date standard</name><qty>815</qty></item><item id=\"8012057584\" status=\"serial\"><name>email country</name><qty>167</qty></item><item id=\"3106546768\" status=\"centre\"><name>express address</name><qty>542</qty></item><item id=\"5054376098\" status=\"express\"><name>package number</name><qty>371</qty></item><item id=\"5624536814\" status=\"contact\"><name>street standard</name><qty>360</qty></item><item id=\"8855429381\" status=\"scan\"><name>phone parcel</name><qty>953</qty></item><item id=\"0883344513\" status=\"email\"><name>item service</name><qty>299</qty></item><item id=\"7160750425\" status=\"standard\"><name>depot parcel</name><qty>596</qty></item><item id=\"9520012131\" status=\"express\"><name>customer address</name><qty>142</qty></item><item id=\"7386723185\" status=\"standard\"><name>reference depot</name><qty>859</qty></item><item id=\"7696700292\" status=\"batch\"><name>label customer</name><qty>226</qty></item><item id=\"2344854695\" status=\"manifest\"><name>time status</name><qty>562</qty></item><item id=\"6141819856\" status=\"customer\"><name>order shipment</name><qty>664</qty></item><item id=\"4599803140\" status=\"shipment\"><name>item address</name><qty>408</qty></item><item id=\"9778590995\" status=\"delivery\"><name>invoice batch</name><qty>541</qty></item><item id=\"7731068234\" status=\"city\"><name>product email</name><qty>427</qty></item><item id=\"0435304978\" status=\"route\"><name>shipment carrier</name><qty>544</qty></item><pad>abpirfenmdphzsjvvehlbt</pad></manifest>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?><manifest><item id=\"8057255085\" status=\"value\"><name>tracking item</name><qty>996</qty></item><item id=\"8365087565\" status=\"tracking\"><name>dock serial</name><qty>373</qty></item><item id=\"5737730149\" status=\"serial\"><name>label amount</name><qty>502</qty></item><item id=\"8833020674\" status=\"serial\"><name>product shipment</name><qty>71</qty></item><item id=\"4384669261\" status=\"package\"><name>status time</name><qty>182</qty></item><item id=\"6141137444\" status=\"code\"><name>postcode phone</name><qty>698</qty></item><item id=\"2811825271\" status=\"dock\"><name>route express</name><qty>347</qty></item><item id=\"1042049303\" status=\"return\"><name>delivery warehouse</name><qty>442</qty></item><item id=\"9837769820\" status=\"centre\"><name>street warehouse</name><qty>356</qty></item><item id=\"6174050218\" status=\"return\"><name>batch serial</name><qty>220</qty></item><item id=\"7218730049\" status=\"dock\"><name>postcode priority</name><qty>925</qty></item><item id=\"3339326831\" status=\"service\"><name>standard label</name><qty>872</qty></item><item id=\"0750056101\" status=\"return\"><name>city amount</name><qty>367</qty></item><item id=\"1910038660\" status=\"dock\"><name>warehouse invoice</name><qty>220</qty></item><item id=\"0922824833\" status=\"street\"><name>invoice quantity</name><qty>994</qty></item><item id=\"9872945261\" status=\"value\"><name>quantity contact</name><qty>902</qty></item><item id=\"0938116528\" status=\"country\"><name>shipment batch</name><qty>114</qty></item><item id=\"2382954431\" status=\"item\"><name>city priority</name><qty>355</qty></item><item id=\"3243247505\" status=\"batch\"><name>delivery value</name><qty>359</qty></item><item id=\"3197283583\" status=\"code\"><name>tracking express</name><qty>208</qty></item><item id=\"1152186652\" status=\"serial\"><name>time centre</name><qty>475</qty></item><item id=\"8250837122\" status=\"return\"><name>contact total</name><qty>674</qty></item><pad>cwchvmmqkfwjurrvwlcffzcjjnxxvo</pad></manifest>",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?><manifest><item id=\"3531397919\" status=\"standard\"><name>total quantity</name><qty>244</qty></item><item id=\"0643627224\" status=\"postcode\"><name>invoice express</name><qty>506</qty></item><item id=\"6841968560\" status=\"time\"><name>centre service</name><qty>293</qty></item><item id=\"4257413499\" status=\"customer\"><name>total status</name><qty>369</qty></item><item id=\"3965346626\" status=\"product\"><name>express number</name><qty>380</qty></item><item id=\"5684243547\" status=\"express\"><name>value product</name><qty>840</qty></item><item id=\"6550786574\" status=\"route\"><name>tracking phone</name><qty>417</qty></item><item id=\"0724420113\" status=\"contact\"><name>priority dock</name><qty>594</qty></item><item id=\"6828645184\" status=\"label\"><name>city quantity</name><qty>297</qty></item><item id=\"3919550434\" status=\"value\"><name>email code</name><qty>220</qty></item><item id=\"6688595742\" status=\"update\"><name>product number</name><qty>293</qty></item><item id=\"4749002803\" status=\"carrier\"><name>service priority</name><qty>110</qty></item><item id=\"0282978802\" status=\"return\"><name>contact time</name><qty>808</qty></item><item id=\"7707951597\" status=\"quantity\"><name>amount standard</name><qty>463</qty></item><item id=\"8398815577\" status=\"update\"><name>carrier scan</name><qty>371</qty></item><item id=\"3264566007\" status=\"batch\"><name>service gate</name><qty>358</qty></item><item id=\"3650681019\" status=\"standard\"><name>depot carrier</name><qty>945</qty></item><item id=\"0277623485\" status=\"code\"><name>serial update</name><qty>117</qty></item><item id=\"5113336771\" status=\"depot\"><name>label dock</name><qty>873</qty></item><item id=\"3832575547\" status=\"street\"><name>depot order</name><qty>428</qty></item><item id=\"3300769462\" status=\"manifest\"><name>country tracking</name><qty>847</qty></item><item id=\"4424994038\" status=\"quantity\"><name>number contact</name><qty>797</qty></item><pad>iowgloclxewtsxidfhfsqxldzqbf</pad></manifest>"
+   ]
+  },
+  {
+   "case_id": "qr-json_nc-eclM-svg",
+   "category": "json_near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "json(len=1981) [payloads = qr-json_nc-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "{\"orders\":[{\"id\":\"6294514343\",\"status\":\"delivery\",\"name\":\"manifest code\",\"qty\":551},{\"id\":\"7035383562\",\"status\":\"reference\",\"name\":\"parcel service\",\"qty\":862},{\"id\":\"3074683712\",\"status\":\"code\",\"name\":\"address date\",\"qty\":682},{\"id\":\"1379903228\",\"status\":\"express\",\"name\":\"batch value\",\"qty\":951},{\"id\":\"2295965711\",\"status\":\"label\",\"name\":\"shipment postcode\",\"qty\":666},{\"id\":\"5145875920\",\"status\":\"amount\",\"name\":\"label label\",\"qty\":196},{\"id\":\"7865119812\",\"status\":\"total\",\"name\":\"product phone\",\"qty\":35},{\"id\":\"8431750971\",\"status\":\"label\",\"name\":\"scan country\",\"qty\":411},{\"id\":\"9010792941\",\"status\":\"total\",\"name\":\"delivery parcel\",\"qty\":733},{\"id\":\"4637646506\",\"status\":\"city\",\"name\":\"city number\",\"qty\":692},{\"id\":\"4781404071\",\"status\":\"shipment\",\"name\":\"phone warehouse\",\"qty\":97},{\"id\":\"4035361572\",\"status\":\"manifest\",\"name\":\"shipment number\",\"qty\":633},{\"id\":\"3870725268\",\"status\":\"label\",\"name\":\"manifest update\",\"qty\":839},{\"id\":\"1789220084\",\"status\":\"standard\",\"name\":\"amount status\",\"qty\":254},{\"id\":\"6013297634\",\"status\":\"phone\",\"name\":\"batch account\",\"qty\":764},{\"id\":\"2258456035\",\"status\":\"gate\",\"name\":\"centre tracking\",\"qty\":705},{\"id\":\"5890067489\",\"status\":\"parcel\",\"name\":\"number scan\",\"qty\":989},{\"id\":\"6816497306\",\"status\":\"city\",\"name\":\"shipment invoice\",\"qty\":467},{\"id\":\"1266101745\",\"status\":\"customer\",\"name\":\"time amount\",\"qty\":182},{\"id\":\"9901902507\",\"status\":\"carrier\",\"name\":\"street time\",\"qty\":559},{\"id\":\"9787285379\",\"status\":\"warehouse\",\"name\":\"phone item\",\"qty\":433},{\"id\":\"7004142347\",\"status\":\"batch\",\"name\":\"manifest parcel\",\"qty\":671},{\"id\":\"3773993063\",\"status\":\"value\",\"name\":\"product delivery\",\"qty\":27},{\"id\":\"0415114756\",\"status\":\"order\",\"name\":\"scan tracking\",\"qty\":217},{\"id\":\"7313687670\",\"status\":\"return\",\"name\":\"email standard\",\"qty\":444},{\"id\":\"2526510853\",\"status\":\"express\",\"name\":\"code phone\",\"qty\":74},{\"id\":\"0656593462\",\"status\":\"service\",\"name\":\"street update\",\"qty\":789}],\"pad\":\"uurtsiywoncdyfaxlyguxtehxmvaoboehstzeqth\"}",
+    "{\"orders\":[{\"id\":\"1071903613\",\"status\":\"update\",\"name\":\"phone package\",\"qty\":972},{\"id\":\"8843367884\",\"status\":\"item\",\"name\":\"manifest account\",\"qty\":659},{\"id\":\"9560618120\",\"status\":\"scan\",\"name\":\"account parcel\",\"qty\":315},{\"id\":\"3560668870\",\"status\":\"date\",\"name\":\"tracking serial\",\"qty\":241},{\"id\":\"6527840153\",\"status\":\"return\",\"name\":\"value parcel\",\"qty\":249},{\"id\":\"4055564874\",\"status\":\"manifest\",\"name\":\"address date\",\"qty\":342},{\"id\":\"0861948288\",\"status\":\"number\",\"name\":\"parcel number\",\"qty\":138},{\"id\":\"7460610036\",\"status\":\"dock\",\"name\":\"express centre\",\"qty\":611},{\"id\":\"6861205574\",\"status\":\"order\",\"name\":\"serial email\",\"qty\":331},{\"id\":\"5361941297\",\"status\":\"priority\",\"name\":\"manifest postcode\",\"qty\":875},{\"id\":\"5984951812\",\"status\":\"number\",\"name\":\"standard total\",\"qty\":110},{\"id\":\"4246114799\",\"status\":\"postcode\",\"name\":\"date gate\",\"qty\":833},{\"id\":\"0893305008\",\"status\":\"service\",\"name\":\"delivery contact\",\"qty\":416},{\"id\":\"9999913304\",\"status\":\"standard\",\"name\":\"warehouse return\",\"qty\":874},{\"id\":\"9673257757\",\"status\":\"quantity\",\"name\":\"express reference\",\"qty\":953},{\"id\":\"2191352027\",\"status\":\"product\",\"name\":\"email status\",\"qty\":918},{\"id\":\"6720877096\",\"status\":\"product\",\"name\":\"contact invoice\",\"qty\":701},{\"id\":\"3862328281\",\"status\":\"amount\",\"name\":\"depot express\",\"qty\":993},{\"id\":\"8255948785\",\"status\":\"account\",\"name\":\"delivery standard\",\"qty\":512},{\"id\":\"1569249901\",\"status\":\"carrier\",\"name\":\"warehouse label\",\"qty\":99},{\"id\":\"3510508348\",\"status\":\"return\",\"name\":\"route order\",\"qty\":793},{\"id\":\"9879890806\",\"status\":\"priority\",\"name\":\"date carrier\",\"qty\":509},{\"id\":\"1134158299\",\"status\":\"scan\",\"name\":\"route phone\",\"qty\":435},{\"id\":\"3551976905\",\"status\":\"email\",\"name\":\"warehouse account\",\"qty\":816},{\"id\":\"8025388350\",\"status\":\"carrier\",\"name\":\"standard invoice\",\"qty\":137},{\"id\":\"6465507996\",\"status\":\"reference\",\"name\":\"express delivery\",\"qty\":920},{\"id\":\"5810830458\",\"status\":\"batch\",\"name\":\"shipment customer\",\"qty\":822}],\"pad\":\"mrogc\"}",
+    "{\"orders\":[{\"id\":\"7738776011\",\"status\":\"manifest\",\"name\":\"standard email\",\"qty\":320},{\"id\":\"2913662369\",\"status\":\"priority\",\"name\":\"label update\",\"qty\":687},{\"id\":\"0594606087\",\"status\":\"customer\",\"name\":\"centre warehouse\",\"qty\":79},{\"id\":\"7149597664\",\"status\":\"total\",\"name\":\"phone update\",\"qty\":219},{\"id\":\"0048954046\",\"status\":\"invoice\",\"name\":\"city time\",\"qty\":284},{\"id\":\"6575464210\",\"status\":\"date\",\"name\":\"service express\",\"qty\":387},{\"id\":\"3954918970\",\"status\":\"item\",\"name\":\"service date\",\"qty\":486},{\"id\":\"3687604996\",\"status\":\"value\",\"name\":\"item express\",\"qty\":427},{\"id\":\"7173308031\",\"status\":\"email\",\"name\":\"express warehouse\",\"qty\":745},{\"id\":\"8489408688\",\"status\":\"item\",\"name\":\"email serial\",\"qty\":324},{\"id\":\"3766039197\",\"status\":\"package\",\"name\":\"date customer\",\"qty\":732},{\"id\":\"9034001791\",\"status\":\"date\",\"name\":\"reference total\",\"qty\":689},{\"id\":\"5599612257\",\"status\":\"item\",\"name\":\"warehouse country\",\"qty\":288},{\"id\":\"4864304270\",\"status\":\"shipment\",\"name\":\"code quantity\",\"qty\":34},{\"id\":\"3644860940\",\"status\":\"postcode\",\"name\":\"serial label\",\"qty\":822},{\"id\":\"2379023329\",\"status\":\"package\",\"name\":\"location serial\",\"qty\":131},{\"id\":\"5150299098\",\"status\":\"label\",\"name\":\"date priority\",\"qty\":442},{\"id\":\"6294546363\",\"status\":\"order\",\"name\":\"postcode update\",\"qty\":40},{\"id\":\"2727923717\",\"status\":\"delivery\",\"name\":\"contact amount\",\"qty\":7},{\"id\":\"7282442120\",\"status\":\"priority\",\"name\":\"email email\",\"qty\":505},{\"id\":\"7694924348\",\"status\":\"number\",\"name\":\"warehouse express\",\"qty\":658},{\"id\":\"2598726511\",\"status\":\"return\",\"name\":\"phone amount\",\"qty\":505},{\"id\":\"9101129429\",\"status\":\"location\",\"name\":\"route email\",\"qty\":596},{\"id\":\"8899415379\",\"status\":\"address\",\"name\":\"date service\",\"qty\":977},{\"id\":\"6999161593\",\"status\":\"route\",\"name\":\"address customer\",\"qty\":559},{\"id\":\"5823772118\",\"status\":\"street\",\"name\":\"dock express\",\"qty\":422},{\"id\":\"9698619397\",\"status\":\"batch\",\"name\":\"total label\",\"qty\":808}],\"pad\":\"htmpslvszcfnymzjtvuvamyuajhmftdptyxv\"}",
+    "{\"orders\":[{\"id\":\"6063215786\",\"status\":\"account\",\"name\":\"product manifest\",\"qty\":136},{\"id\":\"5868494282\",\"status\":\"tracking\",\"name\":\"return total\",\"qty\":755},{\"id\":\"8781854627\",\"status\":\"scan\",\"name\":\"delivery postcode\",\"qty\":92},{\"id\":\"1221650783\",\"status\":\"shipment\",\"name\":\"delivery scan\",\"qty\":377},{\"id\":\"7040155699\",\"status\":\"centre\",\"name\":\"return amount\",\"qty\":316},{\"id\":\"9250197482\",\"status\":\"quantity\",\"name\":\"status standard\",\"qty\":134},{\"id\":\"4615338246\",\"status\":\"order\",\"name\":\"manifest address\",\"qty\":477},{\"id\":\"6568766001\",\"status\":\"city\",\"name\":\"delivery value\",\"qty\":266},{\"id\":\"9326548788\",\"status\":\"shipment\",\"name\":\"standard express\",\"qty\":451},{\"id\":\"5674002559\",\"status\":\"carrier\",\"name\":\"product quantity\",\"qty\":178},{\"id\":\"1674787089\",\"status\":\"value\",\"name\":\"status time\",\"qty\":412},{\"id\":\"0056572074\",\"status\":\"label\",\"name\":\"email total\",\"qty\":402},{\"id\":\"9414060692\",\"status\":\"amount\",\"name\":\"address account\",\"qty\":207},{\"id\":\"5012216520\",\"status\":\"time\",\"name\":\"order delivery\",\"qty\":199},{\"id\":\"8492766608\",\"status\":\"serial\",\"name\":\"time standard\",\"qty\":804},{\"id\":\"8550214452\",\"status\":\"postcode\",\"name\":\"package label\",\"qty\":21},{\"id\":\"8738312760\",\"status\":\"dock\",\"name\":\"standard route\",\"qty\":248},{\"id\":\"7026500248\",\"status\":\"customer\",\"name\":\"contact dock\",\"qty\":930},{\"id\":\"3924361606\",\"status\":\"city\",\"name\":\"contact code\",\"qty\":381},{\"id\":\"7507173194\",\"status\":\"quantity\",\"name\":\"street return\",\"qty\":611},{\"id\":\"6037739159\",\"status\":\"package\",\"name\":\"route package\",\"qty\":838},{\"id\":\"0379740972\",\"status\":\"manifest\",\"name\":\"date parcel\",\"qty\":440},{\"id\":\"3546437765\",\"status\":\"priority\",\"name\":\"return warehouse\",\"qty\":109},{\"id\":\"4393723088\",\"status\":\"delivery\",\"name\":\"parcel time\",\"qty\":225},{\"id\":\"7638403542\",\"status\":\"scan\",\"name\":\"serial tracking\",\"qty\":356},{\"id\":\"8256727784\",\"status\":\"contact\",\"name\":\"batch depot\",\"qty\":786},{\"id\":\"3931844133\",\"status\":\"street\",\"name\":\"gate express\",\"qty\":835}],\"pad\":\"izfwteqdjbdcsjvukxnwrj\"}",
+    "{\"orders\":[{\"id\":\"9709994791\",\"status\":\"service\",\"name\":\"order dock\",\"qty\":688},{\"id\":\"0899357052\",\"status\":\"order\",\"name\":\"centre value\",\"qty\":420},{\"id\":\"4969457398\",\"status\":\"serial\",\"name\":\"manifest number\",\"qty\":479},{\"id\":\"1694857594\",\"status\":\"item\",\"name\":\"service shipment\",\"qty\":151},{\"id\":\"4540895071\",\"status\":\"gate\",\"name\":\"warehouse street\",\"qty\":737},{\"id\":\"1601135621\",\"status\":\"city\",\"name\":\"centre amount\",\"qty\":428},{\"id\":\"0883232543\",\"status\":\"update\",\"name\":\"parcel value\",\"qty\":251},{\"id\":\"5712734905\",\"status\":\"invoice\",\"name\":\"serial code\",\"qty\":730},{\"id\":\"4603464107\",\"status\":\"quantity\",\"name\":\"time email\",\"qty\":628},{\"id\":\"0002969298\",\"status\":\"quantity\",\"name\":\"quantity date\",\"qty\":27},{\"id\":\"1445886362\",\"status\":\"total\",\"name\":\"batch standard\",\"qty\":806},{\"id\":\"8377636056\",\"status\":\"status\",\"name\":\"serial carrier\",\"qty\":610},{\"id\":\"8055155620\",\"status\":\"manifest\",\"name\":\"address status\",\"qty\":495},{\"id\":\"9323820466\",\"status\":\"standard\",\"name\":\"total manifest\",\"qty\":304},{\"id\":\"0607698829\",\"status\":\"scan\",\"name\":\"priority standard\",\"qty\":844},{\"id\":\"2173202019\",\"status\":\"priority\",\"name\":\"update city\",\"qty\":982},{\"id\":\"8603416259\",\"status\":\"return\",\"name\":\"scan country\",\"qty\":850},{\"id\":\"1051394361\",\"status\":\"service\",\"name\":\"shipment batch\",\"qty\":509},{\"id\":\"8233121452\",\"status\":\"item\",\"name\":\"serial order\",\"qty\":795},{\"id\":\"4580421597\",\"status\":\"product\",\"name\":\"location quantity\",\"qty\":292},{\"id\":\"1851791837\",\"status\":\"batch\",\"name\":\"manifest parcel\",\"qty\":466},{\"id\":\"2143093320\",\"status\":\"location\",\"name\":\"city shipment\",\"qty\":756},{\"id\":\"0889258558\",\"status\":\"standard\",\"name\":\"scan priority\",\"qty\":759},{\"id\":\"2348283639\",\"status\":\"time\",\"name\":\"carrier quantity\",\"qty\":377},{\"id\":\"7557698358\",\"status\":\"return\",\"name\":\"label code\",\"qty\":52},{\"id\":\"7871053560\",\"status\":\"carrier\",\"name\":\"country value\",\"qty\":833},{\"id\":\"9101887071\",\"status\":\"tracking\",\"name\":\"location label\",\"qty\":270}],\"pad\":\"xubkargsnnrjzvultaxcgmagwynsc\"}"
+   ]
+  },
+  {
+   "case_id": "qr-base64_nc-eclM-svg",
+   "category": "base64_near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "base64(len=1981) [payloads = qr-base64_nc-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "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"
+   ]
+  },
+  {
+   "case_id": "qr-url_nc-eclM-svg",
+   "category": "url_near_capacity",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "url_long(len=1981) [payloads = qr-url_nc-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "https://service-value.example/number%20priority/serial/country/code%20contact?src=reference&date1=PhB%261D3S%C3%BC%C3%BC0f%E2%82%ACdEPFc&postcode2=EF4S%269C%C3%A9SfXG%C3%A9u%2Fc%3Di%E2%82%AC&email3=YLGiVp%2F%20o%C3%BCfofK6buI4Ud%26aC&dock4=sLsBnIa%C3%A9%20SE%20Z%2F%2Fekc0g&gate5=2VCk4wQBVnf%2F%264qD%26&city6=AK%20g%26M%20%26&value7=oYCB%C3%BCo5OYnE0rlumg%E2%82%ACuf&country8=tV%2F1%E2%82%AC%3DgD%E2%82%ACnfc&order9=X%C3%A9w%3Der%C3%A9O%20%C3%A9Qy%C3%A9&carrier10=USmgB6frHO1e%C3%BCG%E2%82%ACODb%26T8%E2%82%ACbk&warehouse11=XX%26z%3DC%20r&address12=%2FyqJPk%26%26%26&tracking13=qEInZ1TvA%2FD&street14=ks%26%26%265Hz9%3Dj%E2%82%ACEpj3&city15=yDYp%C3%A9pcotqC&code16=R%C3%BCj%20pF6%E2%82%AC%26ugBD&time17=813ZL%C3%BCoM%E2%82%AC%C3%A9KXsFf&invoice18=%E2%82%ACB3Uyu%C3%A9B%3DUAwk%2093yf7%C3%BCJ%2FJ%C3%A9&update19=ffTXhCMf%2F%203%20ho%20bHtj%E2%82%AC&status20=n%20Mn%3DUO%26F%C3%A9Lq&order21=Cn%20If%2F3%C3%BClzpbCA2jCJG%26o%2F%C3%BC&dock22=%C3%BCN4c4snbg%3DR%E2%82%ACAc%E2%82%AC&shipment23=GA6zYD%C3%BCta&reference24=X%26%C3%BCDaxG7%20&package25=jE%2F%2FT8EFpKbLx5A&total26=F%C3%A9g%2F%3D%2F%C3%A98GS5&total27=1%E2%82%ACUek8a%20InI%20c%2F40%2F2N&order28=%20j8JIzOEG%2FA%C3%A9%E2%82%ACW2&depot29=Nuj%20%20%3D21TWW%C3%BCsIXa&standard30=tGRx%20sHV7%C3%BC%E2%82%AC%20&delivery31=H0D%C3%A9%C3%BCMM3%26pH%C3%A9%20j%C3%BCQk&account32=W8jp%2FpW8h%C3%A9J&reference33=FUxeRuXr2hJeZ%20%2Flr%26zY&postcode34=%2FQQyqpGt&number35=%203nQyiGZLFS%C3%BCz&label36=im%E2%82%ACL%2FMf9F2BfMvI&label37=%3D7wg%C3%A9I%26MO%3D%C3%A9B&street38=NK%C3%A9vEzW%E2%82%ACI%20%3DI%20N&gate39=lne%C3%A9UM%C3%A95ylcld4Wm&depot40=Xzh%C3%A9qyNo%2F%3D%3D%2FjgVYB%E2%82%AC&address41=HPD6oSM%3DIvZ%C3%A9xM7%C3%BC%C3%A9%3Df2RN&email42=Mw%20RJh%3DWPmikF&serial43=q5b%3DU%E2%82%AC%E2%82%AC098%3DP7e%2FKs7IpJXh&status44=Y%E2%82%AC%3DCI%C3%A9Kz%2Fh%2FP%C3%BCtBs%C3%A92u%20zm%3D&invoice45=Kt%C3%BCU%C3%BCFp%E2%82%ACJN&total46=OpD%2F%2F3%C3%A9bGt%C3%A9JJh%3DFjY2oe%20g&standard47=LqiSx%C3%A9e%26D%26%202%E2%82%AC%20ruF6&tracking48=",
+    "https://email-email.example/email/email%20shipment/tracking?src=serial&time1=uWJgBJ%E2%82%AC%26k&city2=%C3%A9qBTPS%E2%82%ACB7Rce%C3%BC4Ln43nM&customer3=N6HBM%C3%BCPJ6eB6fNn%E2%82%AC2R&delivery4=6b%C3%BCci%E2%82%ACP%3DonYukXn7%2Fr&depot5=P%2F%C3%A9Jw%208%C3%BCA0%20pZ6XH4%C3%BC%2Fb%3DIiM&time6=Ys%2Fbb%26FBjW%C3%A9M&gate7=9wF5Azg39Uv8e%C3%A9&date8=%26PqYLkRMynI%C3%A9ry6&total9=NR7ZJ%C3%A9%E2%82%ACxfYHy%E2%82%ACQ%E2%82%ACN4lXs%201&update10=8%26LDk8OC%26cuMwt%C3%BCKGf%C3%A9ZO&scan11=R%3Drr%20D%E2%82%ACt&amount12=v86%E2%82%ACqLZfxQHPlBA3pH&depot13=F3o%C3%A9jNk02F%20%20NzDC%E2%82%ACHTV5q&package14=uqd%3DsGxsD%C3%A9R1&number15=nrrsOSlCcLRvFU2%20OEu%3Dp%26aF&code16=bMbWd%C3%BC%2FP0AymQ%C3%A9RvR%E2%82%ACCE&scan17=yp%209pD46ok7ys%2FqRl%20dHi&city18=JjsqoeZS3%C3%A9LrSO%26ua&time19=4s%C3%BCD%E2%82%ACHyBN&invoice20=yAgDq%C3%A9zZ&contact21=v%E2%82%ACoA3%3DLQRnreBzm%E2%82%AC%20%E2%82%ACh%2F%C3%A9&invoice22=2bE%E2%82%ACHC6tg%26O%C3%A9KN%C3%BCEX%2FrM%26BJ&number23=laO%20fK%20%2F%20%26eX%2FQ%C3%BCsogK&route24=d%26%3DNlBL0Q&status25=GmA%C3%BCJ%26%C3%BC%C3%A9y&order26=vgmfYYTPwIw%C3%A9h%3D&city27=%C3%BCmSfOjqZBqfSvx%2F%C3%A97sQF%C3%BCBK&reference28=pyGL7D%26f%E2%82%ACwTfSV%26&code29=vMo%C3%A9o%C3%A9%C3%BCf%C3%BC%C3%A9%3D0p2h%C3%BC&update30=%26Big%E2%82%AC%3D%C3%BCCimeD%E2%82%ACY&shipment31=SY%2FHy%3DRQ9RQR&quantity32=wN%2F9AW%E2%82%ACNN%3DNj9%3D%3DT&time33=%2Fn%C3%BC%C3%BC4fr2V%C3%A9%E2%82%AC3Y%20&priority34=%C3%A9%E2%82%AC%3DR%C3%A9RJVOy%3D%2FDsWH53G%2FB%26i&code35=7%26%E2%82%AC%E2%82%AC1IPlS%20AGzGnF3T%E2%82%ACVq%201%C3%BC&standard36=tUDaVt6F%C3%A9DGS%C3%BCW&amount37=Kj%C3%BCz59%C3%BClSyp%C3%BCwCjVB%E2%82%AC&address38=UANPf9M%C3%BC4RA%3D3GG3%20H%26T&shipment39=Y%3DI%26CA%3DS07PY%2Fq59fW%3DUo5g2&label40=wSn%2Fo3RJQ&date41=D1%20NSg%C3%BC%26p8d%C3%A9%C3%BCd9YVg&street42=9%266D%26%C3%A9%2Fua%E2%82%ACh%20%C3%A9OL%E2%82%ACA&parcel43=%208yY%2FWb2r%260JL%26oIqo%C3%BCr5&manifest44=Bm%E2%82%ACSFj38x%C3%BCee%C3%BCai%E2%82%ACLF1d&date45=8%C3%A9W%26o3WNr95IBE&address46=TeHdgw%2F",
+    "https://centre-address.example/express/account?src=order&number1=iWrTxC%C3%A9D%26X3M9Bit&quantity2=M%E2%82%ACk%E2%82%AC%20mG%2F%C3%A9%C3%A9%C3%A9d%C3%BCZZyJ%20DAJU&postcode3=rZd%2FtdWO%C3%BC&label4=vvJaCzIYw%3D%E2%82%AC4Z%C3%BC%3Dr%C3%BCV&number5=B%C3%A9GAFkZ%3D%3DnemjEAVmE&postcode6=O%2FWyYyhl%E2%82%ACP6%C3%A9F7zA%20Ze7%E2%82%AC49&scan7=%E2%82%ACoqplLPb%26U9P%E2%82%AC&item8=Uv%E2%82%AC%20tzy%E2%82%ACib%20WQIyt&reference9=wuD%2F%20te%C3%BCS%3DO%E2%82%AC%2FTeDg&dock10=H%C3%BC%20%3DIj97R%2FFN%20f%2FixWA%C3%A9Vm&product11=%26Hl%3D9KT%3DjXqs%E2%82%AC&customer12=kA%E2%82%AC%20S4aXYs%C3%BC8G%C3%A9&service13=fYqbA%3DIt0CKOh%E2%82%AC2t%26GjFIQ%C3%A9M&gate14=q%E2%82%ACAI%C3%BC0%20KAgjTZo%E2%82%ACwyz%C3%BC%C3%BCdNr&batch15=U%20r%20npyztA1ymP8ra%C3%A9&total16=NIsQH%C3%BCL%203Q5R%3D%C3%A9b&priority17=lmmHNG%E2%82%AC%20BlGbzbvq&scan18=%C3%A9w%3DvOn6G&parcel19=xdD3%26%26H%20NP%C3%BCio%20%C3%A9c%C3%A9&customer20=zr%C3%BCCxBd2I&package21=LpUZ2bt%206G%E2%82%ACO1a9%3Ds&service22=%2F%20t%E2%82%AC%C3%A9q%266hZIa&order23=lW%C3%A9n%C3%BC%3DmrA%C3%A9%20oy1a%2F%2F%2F&street24=y6WltOSgnRMImH%3Dn&amount25=pMzeh%20yy&email26=y%C3%A9Z%C3%BCn%3DbG%3DIZqWu%20s%C3%BC8%E2%82%ACEB%C3%BCn&code27=zqLg%20tf%26%C3%BCSqZCP%2FRIEaY&parcel28=W%20Da%26T9%3Dy&date29=%20K%C3%BC4U%C3%BCK8iWYv&centre30=HX7%E2%82%AC%E2%82%AC%3D%C3%A9GiMeL%3Dt&customer31=%C3%BC0c%3DB2BtCmg%2F&centre32=%20Gu%26jQiJ%26VKwj6%C3%A9&item33=g10Um%26H%26P3%C3%A9&batch34=%3DM%3DZN6%C3%A9BjVxHaob&priority35=2oX%C3%BCLy8PJsW%2FHG%20SH%3D&number36=l%E2%82%AC%2Fn%C3%BC7%3DVRaSzZ%20IV%C3%A9&value37=zJU6H1Vy4QBTF%2Ft%20ie%C3%A9%26%3D&carrier38=xC%20%2FH%3Dguo%2FmQc5%C3%A9yiEwm&postcode39=Y36IpB%C3%BCr%3Deuz%2Fjkqr%3D&standard40=9rX%2Fe%C3%A97%C3%A9&scan41=CI%E2%82%AC1f6YOX%C3%A9%26u1%C3%BCJV%C3%A9X%20S0ym5&return42=gA%C3%BC%E2%82%ACpMkfi%2FbEB&update43=cX%20%3D%3D%E2%82%AC%26%3D%20a%2F%3Dp%26pL%E2%82%ACUL&express44=BP%3DfP9kPy%C3%BCv%C3%BCtng%2FHltBdF%E2%82%AC&number45=YSd%E2%82%ACQJMd1go%C3%A9go1%E2%82%ACK&express46=%20%26",
+    "https://return-customer.example/parcel%20label/postcode/email?src=city&order1=%26%C3%BC%C3%BC%3Dd%E2%82%ACzfKo&route2=74iC%C3%BCIbe&parcel3=mo3sKC7f%C3%A97Ooikc%3D77PQ%26&priority4=4mO6J%C3%A9uLQ8&return5=6%3DWUb%C3%A9LlX%E2%82%AC&depot6=udsBF%20%26w%26%203qn%26&dock7=%C3%A9mwN%20%3D%20THo%C3%A90%269IvbhuS%20X&phone8=%C3%A9R%2F%C3%A9%C3%BC%26s%E2%82%AC09fDApr%E2%82%AC8x&depot9=%20%2F%E2%82%AC%26W%E2%82%AC%3Ddee%E2%82%ACa&serial10=xMNB%2Fp7%2F%20l&customer11=w%20mnBR%C3%A9A&centre12=Zp%E2%82%AC%C3%BCmA6a8dOEXtb%C3%BCb%C3%BC%20sPOzp&location13=pdZ%E2%82%AC%E2%82%ACmuP%C3%BCJJEKO%3Dn&serial14=f%2Fi%3DOR%C3%A9%3DsL%E2%82%AC%2011uyDfpqv&dock15=y%C3%BC%C3%A9%C3%A9n%3Dp4%C3%BC&tracking16=%3Ddr%26%26pHyMG&return17=h4%3DBWzY%2FP%C3%BCiZ&date18=ENl%3D%3D%C3%A9%26qHocgTPo%E2%82%AC%2F%2Fqj%E2%82%ACA2&date19=Z%E2%82%AC%3DR6%2FAb%C3%BCiaDw&email20=R4Xhjq%C3%A9FTb%269zpNbj%20&city21=8%26z%20wx2%26%E2%82%ACRmVTBZgR%3DC%E2%82%ACHH%E2%82%AC%20&label22=bRWdIvUn6T&manifest23=%C3%BCh%C3%A9jDdSz%2FAU%2F%C3%BCK%C3%BC4%26%26t%C3%A92kH&account24=x%2F%E2%82%AC5%C3%A9T%E2%82%ACO5%3DULAR&dock25=%C3%BCKbsJvmyTzA%C3%A9J5&customer26=IwWn%3D7Pphq%2FmrJT1k%E2%82%ACnOF7XI&dock27=CuL%E2%82%ACQyv%3DI%20hqG&express28=KVr%C3%BCdm%C3%BC%3Dn%26dTM%C3%A9%20wSu%2F&delivery29=Wc8%C3%A99Q%3D%C3%A9oS8GG3rHG9hAhV&date30=TP2dqEWC%2FD%20eU&scan31=Lq9%C3%BCj%2FG%E2%82%AC%26qDr%C3%A9Ug0gi4&centre32=h%C3%A9HbZO%2F8CfyH%C3%BCm%26sR%C3%BC&street33=UiVd%26%2Fk%3D%26%26RL&depot34=Agsrlw51h&batch35=Xc1%E2%82%AC%20Dj%E2%82%ACaj56&parcel36=UFT%26WbXI&postcode37=%26IIemoc9%20ehPFc&location38=%20C%C3%A9DW%C3%BCIY%2FDo&invoice39=%E2%82%ACoCP%26g2EM%E2%82%AC%E2%82%ACboK&email40=%3DJP8TzHOg%C3%A9%3DH2e&city41=kjWd%26i%2Fct%E2%82%ACvUXE&total42=%E2%82%ACN1vOZHooi7Q&carrier43=wBwsiXo%26M%C3%A9KwwK2Ad%E2%82%AC&value44=k%E2%82%AC%20G%C3%A9s%E2%82%ACRqg%C3%A9&city45=xgOWb%C3%A9iIHKD%E2%82%AC%206WnN9j6&parcel46=9%C3%BC8%E2%82%ACrRogw%E2%82%AC9%20&order47=%2002%C3%BC%C3%BCd2q3iMx91C&batch48=%2Frj%20m3uUCoyPz9%2F&exp",
+    "https://invoice-status.example/depot/status?src=reference&order1=vMP%E2%82%ACEqn0MY%26%26%2F%E2%82%ACdr%E2%82%AC&warehouse2=uqT%20VydYib%209v%205&location3=B%2F4Ffd9%C3%A9eSxOcQ2%C3%BCthyKcoV%E2%82%AC&account4=%E2%82%AC3RBunKE&time5=l5%3DwholHIEYZ%3D%2F%20st5c%C3%BCLI&service6=%E2%82%AChuR%E2%82%ACo%2F9&centre7=2%E2%82%ACNh7VFHagPryYv%20Stq%C3%BC%20&postcode8=6%26h7%2F%20%E2%82%AC%2F%3D%2Fsz%E2%82%AC0p9zcOaxe&warehouse9=%C3%A9x%C3%BC%267f9DL%E2%82%ACD%20Z%20%3D%E2%82%AC%2Fwc&update10=sd%2F%20%C3%BCkMI%C3%A9AZig%C3%A9&street11=x%C3%A9HA2vS0p%26xLOql&label12=OW%E2%82%ACk%2FsLYbC8g%26&total13=I%2FwR%E2%82%AC%C3%A9uZ&delivery14=oF%26%26%26WT%E2%82%AC%26&route15=W%C3%BCU%E2%82%ACP%E2%82%AC%2Fo%C3%A9rua&postcode16=%20J%26R%C3%BCt%26l&route17=K%2FCjeM%E2%82%AC%26%261nv&date18=bxYyZMm%3DM%3D%C3%BCvCBi%C3%BCUZdZ%3Dn&customer19=seqiW%C3%BC%3D%E2%82%ACor%C3%BC%E2%82%ACAKI&priority20=%C3%BCSJCc4%26uahF5wTu%C3%A9mbJJ%20nKY&location21=l%20D%2FFC70%E2%82%ACmh%C3%BC6kvT&package22=JIYo9ZRzi%C3%BCRw%2053%C3%BC%2F&street23=88z%C3%A9%C3%A9%26VUXE%2FdNP%3Dn&warehouse24=YwmjV%3D%C3%BCd%2F%26rS71k&label25=jXJcdIT2&phone26=%E2%82%AC%2FX%2FNStr%E2%82%AC%20XC&return27=7%E2%82%AC%C3%BCciW%C3%BCrY5U%E2%82%AC%2Fsv%3DYS&warehouse28=%C3%A9%E2%82%AC%26csU%E2%82%AC%C3%BCwV606vqh&contact29=D%C3%A9%C3%BCWbGk6G%C3%A9iX6W%3Dr&phone30=3EqYS8qK%C3%A9%3DN%3DFNA&quantity31=%C3%A927%C3%A9xr%C3%BCUQrtNK&shipment32=zoJ%E2%82%ACj%E2%82%ACP51%E2%82%ACz%26%2FUoc&manifest33=l5jbeF3hJvA%C3%BCFJlbC&quantity34=2%C3%A9DzB%E2%82%AC1Nv9%E2%82%ACPgstE&delivery35=TUa%26bUM43nYLQvpehkSg&standard36=rK%26%20DAt%C3%BC%C3%A95fO&depot37=TA0xxO%C3%BCp%26vF%26kp%E2%82%ACufs10I&number38=4kYULdC%3D%209o5T0fFxzCT%C3%BC%E2%82%ACu%3D&parcel39=%3D%26M%C3%BCn%20yIh%3D%C3%A9%26B%26Yav%C3%BC&serial40=2UVaRv%20%E2%82%AC&batch41=2N%20e%3Db%C3%BC%266RG%C3%BCA0DAG%2FZD&manifest42=%C3%BCcZ%2F4sG%2F&invoice43=4OOQ0%2F%26dAEcln%C3%BC%E2%82%AC&number44=%3Dz%C3%A9mU6%3DuZBi3M&label45=4o%20oPKz%26F%E2%82%ACM9yR8%E2%82%ACQDQETfqv"
+   ]
+  },
+  {
+   "case_id": "qr-bcbp-eclM-svg",
+   "category": "bcbp",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "bcbp(1..3 legs) [payloads = qr-bcbp-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "M1MULLER/SEAN         EWCZTYA SINSFOEI 8281 294M039D0142 100",
+    "M2ROSSI/SEAN          ETEYWY1 YYZLHRUA 2648 235Y038C0002 100TTBGMZ SYDDUBDL 9112 147M006D0240 100",
+    "M1ROSSI/JOHN          E4WCVQW SINJFKBA 7175 296Y003E0037 100",
+    "M2TANAKA/SEAN         E4WKVDC MADEDIEI 5617 181F015D0238 100S3ZZ1G DXBORDVS 8540 066Y023F0104 100",
+    "M3SMITH/SEAN          EEKEM1B SYDFRAIB 2222 171F037F0143 100NBZKFL SYDYYZVS 9520 325J042D0133 100DDXNCU CDGJFKKL 5506 074J033E0020 100"
+   ]
+  },
+  {
+   "case_id": "qr-latin1-eclM-auto-svg",
+   "category": "latin1",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "latin1_text(40..120) [payloads = qr-latin1-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "caf\u00e9 jalape\u00f1o voil\u00e0 cr\u00e8me Z\u00fcrich quantity serial time statu",
+    "postcode account manifest se\u00f1or 25\u00b0C contact tracking serial se\u00f1",
+    "r\u00e9sum\u00e9 caf\u00e9 status se\u00f1or phone invoice status priority k\u00f6nigsberg invoice na\u00efve amount k\u00f6nigsberg se\u00f1or gate dock o",
+    "reference total k\u00f6nigsberg postcode delivery \u00fcber date warehouse total express",
+    "amount \u00a3100 d\u00e9j\u00e0 centre gate r\u00e9sum\u00e9 m\u00fcller package cr\u00e8me account delivery item route cr\u00e8me m\u00fcller deliv"
+   ]
+  },
+  {
+   "case_id": "qr-latin1_ambiguous-eclM-auto-svg",
+   "category": "latin1_ambiguous",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "latin1_ambiguous(40..120) [payloads = qr-latin1_ambiguous-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "77\u00b16\u00b0C \u00a451 30\u00b16\u00b0C \u00a3 61\u00b15\u00b0C \u00a417 35\u00b14\u00b0C \u00bd 1\u00b11\u00b0C 77\u00b18\u00b0C 10\u00b16\u00b0C 24\u00b12\u00b0C \u00a5 phone country 43\u00b17\u00b0C",
+    "22\u00b16\u00b0C \u00a48439 \u00a473239 status 67\u00b19\u00b0C warehouse \u00bd \u00be \u00bb \u00a3232 \u00bd \u00a4544 \u00a4619 \u00a4981 63\u00b18\u00b0C \u00a5835 \u00a316 47\u00b11\u00b0C 41\u00b18\u00b0C \u00bc 18\u00b11\u00b0C",
+    "express 83\u00b16\u00b0C \u00a5442 \u00a5566 5\u00b18\u00b0C \u00a435 77\u00b19\u00b0C 31\u00b13\u00b0C 87\u00b11\u00b0C \u00be \u00a5",
+    "\u00a3 date \u00a478425 \u00a44520 74\u00b17\u00b0C \u00a55183 \u00a425927 87\u00b19\u00b0C 53\u00b11\u00b0C 23\u00b14\u00b0C standard \u00a354986 \u00a553142 \u00ae order \u00a595 postcode st",
+    "address 66\u00b17\u00b0C serial \u00a3446 tracking scan \u00a37717 \u00a458 \u00a5"
+   ]
+  },
+  {
+   "case_id": "qr-utf8-eclM-auto-svg",
+   "category": "utf8",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "utf8_text(4..8 tokens) [payloads = qr-utf8-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "scan service address number \u65e5\u672c\u8a9e \ud83d\ude42",
+    "\ud55c\uad6d\uc5b4 amount \u65e5\u672c\u8a9e M\u00fcnchen M\u00fcnchen",
+    "\ud83d\ude42 carrier \u20ac49.99 \u65e5\u672c\u8a9e postcode scan",
+    "\ud83d\ude42 warehouse carrier scan number \ud55c\uad6d\uc5b4",
+    "email status customer carrier"
+   ]
+  },
+  {
+   "case_id": "qr-kanji-eclM-auto-svg",
+   "category": "kanji",
+   "options": {
+    "dm_force_square": false,
+    "ec_level": "M",
+    "encoding": null,
+    "module_px": 4,
+    "output_format": "svg",
+    "pdf417_columns": null,
+    "symbology": "qr"
+   },
+   "payload_spec": "kanji(10..30) [payloads = qr-kanji-eclM]",
+   "quick": false,
+   "symbology": "qr",
+   "trials": [
+    "\u30ab\u5316\u643a\u5316\u962a\u5927\u8a71\u3061\u53f7\u5b57\u30ca\u53f7\u30ab\u8a9e\u30ca\u30ab\u4eac\u5b57\u4e16\u30c8\u4e16\u306f\u30c8\u6771\u306f\u306f\u8a9e\u8a66\u5927",
+    "\u306f\u5e2f\u672c\u90fd\u306b\u4e16\u53f7\u30c6\u6f22\u4eac",
+    "\u3093\u30b9\u30c6\u90fd\u90fd\u6f22\u756a\u643a\u8a66\u5831\u30ab\u5831\u30ab\u672c\u756a\u643a\u6771\u8a71\u4eac\u90fd\u5831\u306b\u5b57\u30ab\u5e2f\u53f7\u30ca\u5b57\u3061\u60c5",
+    "\u754c\u306f\u8a71\u65e5\u30ab\u756a\u4e16\u7b26\u7b26\u30bf\u306f\u4eac\u756a\u5e2f\u3061\u5831\u6771\u8a66\u30b9\u5e2f\u5927",
+    "\u5316\u8a9e\u96fb\u306f\u8a9e\u6771\u3093\u4e16\u53f7\u672c\u30c6\u90fd\u3053\u672c\u5831\u30bf\u53f7\u60c5\u30ab\u5831\u5831\u4eac\u90fd\u60c5\u30ab\u6587\u8a66\u8a9e"
+   ]
+  }
+ ],
+ "schema_version": 1,
+ "seed": 1102692623,
+ "trials_per_case": 5
+}

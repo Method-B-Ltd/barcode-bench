@@ -1,0 +1,2 @@
+pystrich==0.17
+pillow==12.3.0

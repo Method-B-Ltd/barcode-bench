@@ -1,0 +1,26 @@
+# Benchmark run outputs (raw JSONL, PNGs, per-run corpora) are ephemeral and
+# potentially large; curated summaries worth keeping are copied into results/.
+runs/
+
+# Never stage the per-encoder raw image dirs even when a run is curated into results/
+results/*/raw/
+
+# Python virtualenv (created by `uv sync`) and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Tooling caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Packaging build artifacts
+*.egg-info/
+build/
+dist/
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp

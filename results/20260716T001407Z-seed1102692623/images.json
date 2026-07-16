@@ -1,0 +1,57 @@
+{
+ "base": {
+  "tag": "barcode-bench-base",
+  "bytes": 129092753,
+  "id": "de127dbae5fa262513a649b20234df58db1797c84d546110fcb4a7a8072a05fd"
+ },
+ "encoders": {
+  "pystrich": {
+   "tag": "barcode-bench-pystrich",
+   "bytes": 192706198,
+   "id": "87bcd36acc39dc06478a4aae05764b0e18ea285af0dbf77e03afc07008141b9e",
+   "delta_bytes": 31809536
+  },
+  "pystrich-git": {
+   "tag": "barcode-bench-pystrich-git",
+   "bytes": 192706406,
+   "id": "1e53f9422f286b5485f01f9863477f323fef7565a1b95eaf005055d6b4ad3c5a",
+   "delta_bytes": 31810560
+  },
+  "zxingcpp": {
+   "tag": "barcode-bench-zxingcpp",
+   "bytes": 192891542,
+   "id": "46d59b65b551727efbbb531ace85f5294e5a08eb24d9d08739bc06c2977ef856",
+   "delta_bytes": 31902208
+  },
+  "segno": {
+   "tag": "barcode-bench-segno",
+   "bytes": 147577489,
+   "id": "244023e8030c3fd879cfd32ad1e7aec7857c6489deedd1c60ca53c448565ac33",
+   "delta_bytes": 9245184
+  },
+  "qrcode": {
+   "tag": "barcode-bench-qrcode",
+   "bytes": 189607572,
+   "id": "e91cbf49da91166d0d766281ceced3d58563ce2c66aa8dc85422d8a47286716c",
+   "delta_bytes": 30260224
+  },
+  "qrcodegen": {
+   "tag": "barcode-bench-qrcodegen",
+   "bytes": 146550421,
+   "id": "27d28fc014890979bd3ac09190f303a0f1a7d40b044e44c0e2efec0ce9957146",
+   "delta_bytes": 8731648
+  },
+  "opencv": {
+   "tag": "barcode-bench-opencv",
+   "bytes": 605652630,
+   "id": "df9bb57945998bc4049d35a6aab253cc210bcd857c24abf2b25af8b432d71888",
+   "delta_bytes": 238282752
+  },
+  "treepoem": {
+   "tag": "barcode-bench-treepoem",
+   "bytes": 332077731,
+   "id": "d5bb6dff3cd6ae9d1ce5f3cd5e02eaf68354a21ff7c46c50a3ce3e862e5e0b2f",
+   "delta_bytes": 101495296
+  }
+ }
+}

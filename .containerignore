@@ -1,0 +1,7 @@
+# Keep the build context to what the Containerfile actually COPYs
+# (containers/requirements/). The venv and run outputs are large and
+# irrelevant to image builds.
+.venv/
+runs/
+results/
+src/

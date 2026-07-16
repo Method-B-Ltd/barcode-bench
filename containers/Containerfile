@@ -1,0 +1,64 @@
+# One parametrised Containerfile for every encoder image.
+#
+# Two stages: `base` is the common environment every encoder shares - pinned
+# Python on pinned Debian, and nothing else. Pillow is NOT here:
+# it is the rendering dependency of most (but not all) encoders, so it belongs
+# in each encoder's own install weight, not a shared base. segno needs no
+# Pillow and its stack reflects that; every other encoder pins pillow in its
+# requirements file (a real dependency, or the bench's PNG shim). Each encoder
+# image builds FROM the base and adds only its own stack: a pip install of one
+# pinned requirements file, plus apt packages where the library shells out to
+# system binaries (treepoem -> ghostscript).
+#
+# Because every encoder image extends the same base stage in the same file,
+# `podman image inspect .Size` minus the base size is exactly the weight of
+# the encoder stack (library + its deps, incl. Pillow where used) - that is
+# what `barcode-bench weigh` reports.
+#
+# Bench source code is NOT copied in. The runner is bind-mounted
+# at run time (-v bench/src:/bench/src + PYTHONPATH), so images stay
+# encoder-only: weighing is uncontaminated and editing bench code never
+# invalidates image caches.
+
+FROM docker.io/library/python:3.12-slim-bookworm AS base
+
+# --- pystrich from git HEAD ---------------------------------------------
+# Builder stage: clone + build the wheel + record the commit sha. None of
+# this stage's layers reach the final image, so git and the source tree
+# never count toward the weighed stack. CACHE_BUST is passed by the
+# orchestrator on every build - a cached clone layer would silently pin an
+# old HEAD while claiming to be current.
+FROM base AS pystrich-git-builder
+ARG CACHE_BUST=0
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends git \
+    && rm -rf /var/lib/apt/lists/*
+RUN echo "cache-bust: $CACHE_BUST" \
+    && git clone --depth 1 https://github.com/mmulqueen/pyStrich.git /src \
+    && git -C /src rev-parse HEAD > /pystrich-git.sha \
+    && pip wheel --no-deps -w /wheels /src
+
+# Final stage: install the wheel via a build-time bind mount so not even the
+# wheel file itself becomes a layer - the weighed delta is the installed
+# package plus its PyPI deps, directly comparable to the PyPI pystrich
+# image. The sha file (41 bytes) is the version provenance the adapter
+# reports. ARG ENCODER exists so `weigh` can identify this stage's layers in
+# the image history, same as the generic encoder stage.
+FROM base AS pystrich-git
+ARG ENCODER=pystrich-git
+COPY --from=pystrich-git-builder /pystrich-git.sha /pystrich-git.sha
+RUN --mount=type=bind,from=pystrich-git-builder,source=/wheels,target=/wheels \
+    pip install --no-cache-dir /wheels/*.whl
+
+# APT_PACKAGES are runtime deps and stay in the image (they belong to the
+# stack's install weight): treepoem's ghostscript, pylibdmtx's libdmtx.
+FROM base AS encoder
+ARG ENCODER
+ARG APT_PACKAGES=""
+COPY containers/requirements/${ENCODER}.txt /tmp/requirements.txt
+RUN if [ -n "$APT_PACKAGES" ]; then \
+        apt-get update \
+        && apt-get install -y --no-install-recommends $APT_PACKAGES; \
+    fi \
+    && pip install --no-cache-dir -r /tmp/requirements.txt \
+    && rm -rf /var/lib/apt/lists/*

@@ -1,0 +1,93 @@
+# uv project for the encoder benchmark suite.
+#
+# Everything benchmarked must come from PyPI as published: this project
+# carries no [tool.uv.sources] overrides, so no local checkout can leak into
+# the benchmarked environment.
+#
+# The host-side dependency set below is intentionally tiny: the orchestrator,
+# corpus generator, measurement and report layers need only Pillow and
+# zxing-cpp (to decode produced PNGs and derive symbol sizes). The encoder
+# libraries themselves live in per-encoder podman images built from
+# containers/Containerfile, so that each stack can be weighed and run in an
+# identical OS/Python environment.
+
+[project]
+name = "barcode-bench"
+version = "0.1.0"
+description = "Encoder benchmark suite: runtime, symbol size and install weight across barcode encoder libraries"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+
+dependencies = [
+    "pillow>=10",
+    "zxing-cpp>=3",
+    "matplotlib>=3.9",
+    # host-side pixel measurement (pixel_measure.py): threshold, trim, grid-fit.
+    # The vector axis rasterises SVGs with rsvg-convert (librsvg), a system
+    # binary rather than a pip dep - see README prerequisites; containers never
+    # rasterise.
+    "numpy>=1.26",
+]
+
+[project.scripts]
+barcode-bench = "barcode_bench.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=9",
+    "ruff",
+    "mypy",
+]
+# Opt-in group for smoke-testing adapters on the host without containers
+# (`uv sync --group local-encoders`). Containers remain authoritative for
+# benchmark numbers - this group exists purely for fast iteration. treepoem
+# additionally needs ghostscript on the host to actually render.
+local-encoders = [
+    "pystrich>=0.16",
+    "segno",
+    "qrcode",
+    "qrcodegen",
+    "treepoem",
+    "aztec-code-generator",
+    "pdf417gen",
+    "pylibdmtx",
+    "ppf-datamatrix",
+    "opencv-python-headless",
+    "setuptools>=82",  # pylibdmtx 0.1.10 imports distutils (removed in py3.12)
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff.lint]
+# Beyond the E4/E7/E9/F defaults: bugbear (B), simplify (SIM), pyupgrade (UP)
+# and import sorting (I). Line length stays unchecked - long table literals
+# and captions are the norm here.
+extend-select = ["B", "SIM", "UP", "I"]
+# SIM905 wants list literals for the corpus vocabulary strings; the prose
+# form is the point there (readable word lists).
+ignore = ["SIM905"]
+
+[[tool.mypy.overrides]]
+# Encoder libraries without type stubs. zxingcpp is also absent entirely
+# unless the venv has it (containers only have their own encoder).
+module = [
+    "zxingcpp",
+    "qrcodegen",
+    "treepoem",
+    "qrcode.*",
+    "segno",
+    "aztec_code_generator",
+    "pdf417gen",
+    "pylibdmtx.*",
+    "ppf.*",
+    "pystrich.*",
+    "cv2",
+]
+ignore_missing_imports = true
+follow_untyped_imports = false
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/barcode_bench"]

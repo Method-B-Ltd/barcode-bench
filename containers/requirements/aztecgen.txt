@@ -1,0 +1,2 @@
+aztec-code-generator==0.12
+pillow==12.3.0

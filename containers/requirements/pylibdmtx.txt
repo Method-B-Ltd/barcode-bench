@@ -1,0 +1,3 @@
+pylibdmtx==0.1.10
+setuptools>=82
+pillow==12.3.0
