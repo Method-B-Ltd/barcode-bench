@@ -563,8 +563,15 @@ def _case_defs() -> list[_CaseDef]:
     dm("dm-url", "url", quick=True)
     dm("dm-text_para", "text_para")
     dm("dm-latin1", "latin1", encoding="iso-8859-1")
+    # Charset-ambiguity probe (see `_latin1_ambiguous` / qr-latin1_ambiguous):
+    # Data Matrix's no-ECI byte-mode default is also ISO-8859-1, so the same
+    # 0xA0..0xBF payloads separate ECI-emitting encoders from default-reliant.
+    dm("dm-latin1_ambiguous", "latin1_ambiguous", encoding="iso-8859-1")
     dm("dm-utf8", "utf8", encoding="utf-8")
     auto_sibling("dm-latin1", "latin1", EncodeOptions("datamatrix", dm_force_square=True))
+    auto_sibling(
+        "dm-latin1_ambiguous", "latin1_ambiguous", EncodeOptions("datamatrix", dm_force_square=True)
+    )
     auto_sibling("dm-utf8", "utf8", EncodeOptions("datamatrix", dm_force_square=True))
     dm("dm-near_capacity", "near_capacity")
     dm("dm-xml_nc", "xml_near_capacity")
@@ -602,8 +609,15 @@ def _case_defs() -> list[_CaseDef]:
     az("az-url-ecc23", "url", "23", quick=True)
     az("az-text_para-ecc23", "text_para", "23")
     az("az-latin1-ecc23", "latin1", "23", encoding="iso-8859-1")
+    # Charset-ambiguity probe (see `_latin1_ambiguous` / qr-latin1_ambiguous):
+    # Aztec's no-ECI default is also ISO-8859-1 (ISO/IEC 24778), so the same
+    # 0xA0..0xBF payloads separate ECI-emitting encoders from default-reliant.
+    az("az-latin1_ambiguous-ecc23", "latin1_ambiguous", "23", encoding="iso-8859-1")
     az("az-utf8-ecc23", "utf8", "23", encoding="utf-8")
     auto_sibling("az-latin1-ecc23", "latin1", EncodeOptions("aztec", ec_level="23"))
+    auto_sibling(
+        "az-latin1_ambiguous-ecc23", "latin1_ambiguous", EncodeOptions("aztec", ec_level="23")
+    )
     auto_sibling("az-utf8-ecc23", "utf8", EncodeOptions("aztec", ec_level="23"))
     az("az-near_capacity-ecc23", "near_capacity", "23")
     az("az-xml_nc-ecc23", "xml_near_capacity", "23")
@@ -640,8 +654,15 @@ def _case_defs() -> list[_CaseDef]:
     pdf("pdf-text_para-ecl2-cols6", "text_para", "2", columns=6)
     pdf("pdf-text_para-ecl2-cols12", "text_para", "2", columns=12)
     pdf("pdf-latin1-ecl2", "latin1", "2", encoding="iso-8859-1")
+    # Charset-ambiguity probe (see `_latin1_ambiguous` / qr-latin1_ambiguous):
+    # PDF417 byte compaction with no ECI likewise defaults to ISO-8859-1, so
+    # the same 0xA0..0xBF payloads apply.
+    pdf("pdf-latin1_ambiguous-ecl2", "latin1_ambiguous", "2", encoding="iso-8859-1")
     pdf("pdf-utf8-ecl2", "utf8", "2", encoding="utf-8")
     auto_sibling("pdf-latin1-ecl2", "latin1", EncodeOptions("pdf417", ec_level="2"))
+    auto_sibling(
+        "pdf-latin1_ambiguous-ecl2", "latin1_ambiguous", EncodeOptions("pdf417", ec_level="2")
+    )
     auto_sibling("pdf-utf8-ecl2", "utf8", EncodeOptions("pdf417", ec_level="2"))
     pdf("pdf-near_capacity-ecl5", "near_capacity", "5")
     # ecl5 matches pdf-near_capacity: higher EC would breach the 929-codeword
