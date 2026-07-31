@@ -1,0 +1,1249 @@
+encoder,case_id,symbology,category,ec_level,encoding,pdf417_columns,status,detail,n_samples,n_trials_valid,validity_rate,median_ms,mean_ms,stddev_ms,min_ms,median_area_modules,median_file_bytes
+aztecgen,az-alnum-ecc10,aztec,alnum,10,,,ok,,25,5,1.0,1.5713,1.5574,0.2626,1.1393,529,258
+aztecgen,az-alnum-ecc10-svg,aztec,alnum,10,,,ok,,25,5,1.0,1.3443,1.3645,0.236,1.0153,529,1278
+aztecgen,az-alnum-ecc23,aztec,alnum,23,,,ok,,25,5,1.0,2.0269,1.93,0.2275,1.6076,729,309
+aztecgen,az-alnum-ecc23-svg,aztec,alnum,23,,,ok,,25,5,1.0,1.8293,1.7358,0.2102,1.4417,729,1678
+aztecgen,az-alnum-ecc50,aztec,alnum,50,,,ok,,25,5,1.0,1.9284,1.7667,0.2546,1.3531,729,301
+aztecgen,az-alnum-ecc50-svg,aztec,alnum,50,,,ok,,25,5,1.0,1.7023,1.5813,0.2964,1.1749,729,1739
+aztecgen,az-base64_nc-ecc23,aztec,base64_near_capacity,23,,,ok,,25,5,1.0,189.5463,191.4591,4.7579,185.997,19321,3548
+aztecgen,az-base64_nc-ecc23-svg,aztec,base64_near_capacity,23,,,ok,,25,5,1.0,184.7575,185.0956,3.4819,179.5388,19321,52040
+aztecgen,az-bcbp-ecc23,aztec,bcbp,23,,,ok,,25,5,1.0,3.8045,3.9254,1.3404,2.4353,961,375
+aztecgen,az-bcbp-ecc23-svg,aztec,bcbp,23,,,ok,,25,5,1.0,3.5085,3.6266,1.2749,2.2117,961,2275
+aztecgen,az-json_nc-ecc23,aztec,json_near_capacity,23,,,ok,,25,5,1.0,164.8754,166.5598,4.0334,162.4659,17161,3165
+aztecgen,az-json_nc-ecc23-svg,aztec,json_near_capacity,23,,,ok,,25,5,1.0,160.0648,161.3318,3.8601,157.9547,17161,42729
+aztecgen,az-latin1-ecc23,aztec,latin1,23,iso-8859-1,,ok,,25,5,1.0,3.1408,3.2246,1.0463,1.8251,961,362
+aztecgen,az-latin1-ecc23-auto,aztec,latin1,23,,,ok,,25,5,1.0,3.1153,3.2135,1.0517,1.8283,961,360
+aztecgen,az-latin1-ecc23-auto-svg,aztec,latin1,23,,,ok,,25,5,1.0,2.8181,2.9307,0.9578,1.6111,961,2322
+aztecgen,az-latin1-ecc23-svg,aztec,latin1,23,iso-8859-1,,ok,,25,5,1.0,2.8382,2.9408,0.9605,1.6206,961,2354
+aztecgen,az-latin1_ambiguous-ecc23,aztec,latin1_ambiguous,23,iso-8859-1,,ok,,25,5,1.0,3.9007,4.088,1.5923,2.2297,1369,429
+aztecgen,az-latin1_ambiguous-ecc23-auto,aztec,latin1_ambiguous,23,,,ok,,0,0,0.0,,,,,,
+aztecgen,az-latin1_ambiguous-ecc23-auto-svg,aztec,latin1_ambiguous,23,,,ok,,0,0,0.0,,,,,,
+aztecgen,az-latin1_ambiguous-ecc23-svg,aztec,latin1_ambiguous,23,iso-8859-1,,ok,,25,5,1.0,3.5209,3.6554,1.4586,1.9901,1369,3510
+aztecgen,az-lower_text-ecc23,aztec,lower_text,23,,,ok,,25,5,1.0,1.8695,1.9177,0.1994,1.6966,529,265
+aztecgen,az-lower_text-ecc23-svg,aztec,lower_text,23,,,ok,,25,5,1.0,1.7039,1.7276,0.1798,1.5269,529,1311
+aztecgen,az-mixed_modes-ecc23,aztec,mixed_modes,23,,,ok,,25,5,1.0,3.7787,4.9543,1.5505,3.5782,961,362
+aztecgen,az-mixed_modes-ecc23-svg,aztec,mixed_modes,23,,,ok,,25,5,1.0,6.1513,5.634,2.6951,3.2952,961,2432
+aztecgen,az-near_capacity-ecc23,aztec,near_capacity,23,,,ok,,25,5,1.0,111.1359,113.1524,5.2729,108.7972,12769,2427
+aztecgen,az-near_capacity-ecc23-svg,aztec,near_capacity,23,,,ok,,25,5,1.0,107.8732,109.665,5.0061,106.3578,12769,33330
+aztecgen,az-numeric_long-ecc23,aztec,numeric_long,23,,,ok,,25,5,1.0,5.2305,5.4254,1.8874,3.3848,1369,437
+aztecgen,az-numeric_long-ecc23-svg,aztec,numeric_long,23,,,ok,,25,5,1.0,4.6936,4.5471,0.6819,3.2308,1369,3532
+aztecgen,az-numeric_short-ecc23,aztec,numeric_short,23,,,ok,,25,5,1.0,0.5238,0.6739,0.2858,0.3847,225,180
+aztecgen,az-numeric_short-ecc23-svg,aztec,numeric_short,23,,,ok,,25,5,1.0,0.3475,0.3732,0.0562,0.2981,225,658
+aztecgen,az-text_para-ecc23,aztec,text_para,23,,,ok,,25,5,1.0,14.8822,15.6319,4.3695,8.9968,2809,701
+aztecgen,az-text_para-ecc23-svg,aztec,text_para,23,,,ok,,25,5,1.0,14.0184,15.2827,5.2563,8.3959,2809,6984
+aztecgen,az-tiny-ecc23,aztec,tiny,23,,,ok,,25,5,1.0,0.471,0.6444,0.2861,0.3595,225,183
+aztecgen,az-tiny-ecc23-svg,aztec,tiny,23,,,ok,,25,5,1.0,0.3064,0.3334,0.1455,0.2586,225,667
+aztecgen,az-upper_c40-ecc23,aztec,upper_c40,23,,,ok,,25,5,1.0,2.1938,2.1523,0.3264,1.7504,729,303
+aztecgen,az-upper_c40-ecc23-svg,aztec,upper_c40,23,,,ok,,25,5,1.0,1.9843,1.9867,0.3278,1.5729,729,1684
+aztecgen,az-url-ecc23,aztec,url,23,,,ok,,25,5,1.0,3.3006,3.1925,0.2722,2.6396,961,357
+aztecgen,az-url-ecc23-svg,aztec,url,23,,,ok,,25,5,1.0,3.0812,3.5877,1.2996,2.4102,961,2268
+aztecgen,az-url_nc-ecc23,aztec,url_near_capacity,23,,,ok,,25,5,1.0,175.5164,177.9638,6.4912,172.0614,18225,3388
+aztecgen,az-url_nc-ecc23-svg,aztec,url_near_capacity,23,,,ok,,25,5,1.0,170.4751,171.7346,3.6099,167.1839,18225,47221
+aztecgen,az-utf8-ecc23,aztec,utf8,23,utf-8,,ok,,25,5,1.0,1.693,1.6598,0.3319,1.0461,529,267
+aztecgen,az-utf8-ecc23-auto,aztec,utf8,23,,,ok,UnicodeEncodeError: 'latin-1' codec can't encode character '\u20ac' in position 9: ordinal not in range(256),10,2,0.4,1.3993,1.4061,0.3304,1.0775,445.0,246.0
+aztecgen,az-utf8-ecc23-auto-svg,aztec,utf8,23,,,ok,UnicodeEncodeError: 'latin-1' codec can't encode character '\u20ac' in position 9: ordinal not in range(256),10,2,0.4,1.234,1.2298,0.3098,0.9148,445.0,1088.0
+aztecgen,az-utf8-ecc23-svg,aztec,utf8,23,utf-8,,ok,,25,5,1.0,1.5022,1.4632,0.3029,0.8993,529,1292
+aztecgen,az-xml_nc-ecc23,aztec,xml_near_capacity,23,,,ok,,25,5,1.0,146.026,146.9601,3.7141,142.4713,15625,2964
+aztecgen,az-xml_nc-ecc23-svg,aztec,xml_near_capacity,23,,,ok,,25,5,1.0,142.1149,142.6548,3.508,138.4717,15625,39706
+opencv,qr-alnum-eclH,qr,alnum,H,,,ok,,25,5,1.0,4.738,4.4874,0.9824,3.313,1089,2676
+opencv,qr-alnum-eclH-svg,qr,alnum,H,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-alnum-eclL,qr,alnum,L,,,ok,,25,5,1.0,3.2283,3.2948,0.5136,2.3825,625,1704
+opencv,qr-alnum-eclL-svg,qr,alnum,L,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-alnum-eclM,qr,alnum,M,,,ok,,25,5,1.0,4.6519,4.193,0.7433,2.4071,841,2166
+opencv,qr-alnum-eclM-svg,qr,alnum,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-alnum-eclQ,qr,alnum,Q,,,ok,,25,5,1.0,6.2152,6.1592,1.6163,3.5132,841,2168
+opencv,qr-alnum-eclQ-svg,qr,alnum,Q,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-base64_nc-eclM,qr,base64_near_capacity,M,,,ok,,25,5,1.0,155.8576,155.3154,4.864,149.4118,27225,55159
+opencv,qr-base64_nc-eclM-svg,qr,base64_near_capacity,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-bcbp-eclM,qr,bcbp,M,,,ok,,25,5,1.0,3.5465,4.8595,1.87,3.2644,841,2212
+opencv,qr-bcbp-eclM-svg,qr,bcbp,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-json_nc-eclM,qr,json_near_capacity,M,,,ok,,25,5,1.0,155.8581,155.6223,6.0736,148.8135,27225,54758
+opencv,qr-json_nc-eclM-svg,qr,json_near_capacity,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-kanji-eclM,qr,kanji,M,shift_jis,,ok,,25,5,1.0,5.9991,5.6471,1.1305,3.3137,1369,3326
+opencv,qr-kanji-eclM-auto,qr,kanji,M,,,ok,,25,5,1.0,5.9888,5.6157,1.1354,3.2827,1369,3326
+opencv,qr-kanji-eclM-auto-svg,qr,kanji,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-kanji-eclM-svg,qr,kanji,M,shift_jis,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-latin1-eclM,qr,latin1,M,iso-8859-1,,ok,,25,5,1.0,7.9516,8.0041,2.3042,4.4802,1681,3910
+opencv,qr-latin1-eclM-auto,qr,latin1,M,,,ok,,25,5,1.0,7.8515,7.9432,2.2725,4.4694,1681,3910
+opencv,qr-latin1-eclM-auto-svg,qr,latin1,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-latin1-eclM-svg,qr,latin1,M,iso-8859-1,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-latin1_ambiguous-eclM,qr,latin1_ambiguous,M,iso-8859-1,,ok,,25,5,1.0,7.5433,7.5346,1.3517,5.8849,1681,3969
+opencv,qr-latin1_ambiguous-eclM-auto,qr,latin1_ambiguous,M,,,ok,,25,5,1.0,7.5509,7.5303,1.3696,5.8953,1681,3969
+opencv,qr-latin1_ambiguous-eclM-auto-svg,qr,latin1_ambiguous,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-latin1_ambiguous-eclM-svg,qr,latin1_ambiguous,M,iso-8859-1,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-mixed_modes-eclM,qr,mixed_modes,M,,,ok,,25,5,1.0,11.9419,11.4962,2.5164,7.5068,2401,5472
+opencv,qr-mixed_modes-eclM-svg,qr,mixed_modes,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-near_capacity-eclH,qr,near_capacity,H,,,ok,,25,5,1.0,155.9526,157.823,9.3985,148.8193,27225,54883
+opencv,qr-near_capacity-eclH-svg,qr,near_capacity,H,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-near_capacity-eclL,qr,near_capacity,L,,,ok,,25,5,1.0,155.9287,156.047,6.2472,149.2694,27225,54391
+opencv,qr-near_capacity-eclL-svg,qr,near_capacity,L,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-near_capacity-eclM,qr,near_capacity,M,,,ok,,25,5,1.0,155.8156,155.5142,5.4344,148.8114,27225,54426
+opencv,qr-near_capacity-eclM-svg,qr,near_capacity,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-near_capacity-eclQ,qr,near_capacity,Q,,,ok,,25,5,1.0,155.8929,156.5877,7.5821,148.2982,27225,54579
+opencv,qr-near_capacity-eclQ-svg,qr,near_capacity,Q,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-numeric_long-eclM,qr,numeric_long,M,,,ok,,25,5,1.0,6.4289,8.0304,3.4595,6.2926,1089,2686
+opencv,qr-numeric_long-eclM-svg,qr,numeric_long,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-numeric_short-eclM,qr,numeric_short,M,,,ok,,25,5,1.0,2.0431,2.4961,0.9533,1.9846,441,1267
+opencv,qr-numeric_short-eclM-svg,qr,numeric_short,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-text_para-eclM,qr,text_para,M,,,ok,,25,5,1.0,19.568,22.51,4.4308,18.166,3721,8182
+opencv,qr-text_para-eclM-svg,qr,text_para,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-url-eclM,qr,url,M,,,ok,,25,5,1.0,5.9959,5.963,0.7657,4.4874,1369,3310
+opencv,qr-url-eclM-svg,qr,url,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-url_nc-eclM,qr,url_near_capacity,M,,,ok,,25,5,1.0,155.882,157.5137,12.3545,149.3133,27225,54715
+opencv,qr-url_nc-eclM-svg,qr,url_near_capacity,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-utf8-eclM,qr,utf8,M,utf-8,,ok,,25,5,1.0,4.5198,4.2018,0.6496,3.2678,1089,2650
+opencv,qr-utf8-eclM-auto,qr,utf8,M,,,ok,,25,5,1.0,4.5128,4.2,0.6645,3.2743,1089,2650
+opencv,qr-utf8-eclM-auto-svg,qr,utf8,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-utf8-eclM-svg,qr,utf8,M,utf-8,,unsupported,no native SVG writer,0,0,,,,,,,
+opencv,qr-xml_nc-eclM,qr,xml_near_capacity,M,,,ok,,25,5,1.0,156.0318,155.5703,5.9167,148.716,27225,54925
+opencv,qr-xml_nc-eclM-svg,qr,xml_near_capacity,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+pdf417gen,pdf-alnum-ecl2,pdf417,alnum,2,,,ok,,25,5,1.0,0.9721,1.1755,0.5301,0.645,3078,921
+pdf417gen,pdf-alnum-ecl2-svg,pdf417,alnum,2,,,ok,,25,5,1.0,1.1446,1.2074,0.2273,0.9367,3078,24987
+pdf417gen,pdf-alnum-ecl5,pdf417,alnum,5,,,ok,,25,5,1.0,1.9597,2.0663,0.2982,1.7548,8208,2147
+pdf417gen,pdf-alnum-ecl5-svg,pdf417,alnum,5,,,ok,,25,5,1.0,2.9991,3.0309,0.2499,2.724,8208,65160
+pdf417gen,pdf-alnum-ecl8,pdf417,alnum,8,,,ok,ValueError: Generated bar code has 92 rows. Maximum is 90 rows. Try increasing column count.,10,2,0.4,10.7711,10.783,0.1955,10.4485,45913.5,11156.5
+pdf417gen,pdf-alnum-ecl8-svg,pdf417,alnum,8,,,ok,ValueError: Generated bar code has 92 rows. Maximum is 90 rows. Try increasing column count.,10,2,0.4,19.2348,19.1851,2.0883,16.9952,45913.5,371490.0
+pdf417gen,pdf-base64_nc-ecl5,pdf417,base64_near_capacity,5,,,encode_error,ValueError: Generated bar code has 142 rows. Maximum is 90 rows. Try increasing column count.,0,0,0.0,,,,,,
+pdf417gen,pdf-base64_nc-ecl5-svg,pdf417,base64_near_capacity,5,,,encode_error,ValueError: Generated bar code has 142 rows. Maximum is 90 rows. Try increasing column count.,0,0,0.0,,,,,,
+pdf417gen,pdf-bcbp-ecl2,pdf417,bcbp,2,,,ok,,25,5,1.0,1.3481,1.3698,0.3293,1.0099,5643,1537
+pdf417gen,pdf-bcbp-ecl2-svg,pdf417,bcbp,2,,,ok,,25,5,1.0,2.0442,2.0389,0.4774,1.508,5643,45101
+pdf417gen,pdf-json_nc-ecl5,pdf417,json_near_capacity,5,,,encode_error,ValueError: Generated bar code has 116 rows. Maximum is 90 rows. Try increasing column count.,0,0,0.0,,,,,,
+pdf417gen,pdf-json_nc-ecl5-svg,pdf417,json_near_capacity,5,,,encode_error,ValueError: Generated bar code has 116 rows. Maximum is 90 rows. Try increasing column count.,0,0,0.0,,,,,,
+pdf417gen,pdf-latin1-ecl2,pdf417,latin1,2,iso-8859-1,,ok,,25,5,1.0,1.2476,1.1454,0.2568,0.7833,5130,1417
+pdf417gen,pdf-latin1-ecl2-auto,pdf417,latin1,2,,,ok,,25,5,1.0,1.3267,1.1963,0.3102,0.7442,5643,1543
+pdf417gen,pdf-latin1-ecl2-auto-svg,pdf417,latin1,2,,,ok,,25,5,1.0,2.0119,1.8133,0.5072,1.093,5643,44557
+pdf417gen,pdf-latin1-ecl2-svg,pdf417,latin1,2,iso-8859-1,,ok,,25,5,1.0,1.8133,1.7016,0.4312,1.104,5130,39672
+pdf417gen,pdf-latin1_ambiguous-ecl2,pdf417,latin1_ambiguous,2,iso-8859-1,,ok,,0,0,0.0,,,,,,
+pdf417gen,pdf-latin1_ambiguous-ecl2-auto,pdf417,latin1_ambiguous,2,,,ok,,25,5,1.0,2.2998,2.1484,0.3683,1.3846,10260,2626
+pdf417gen,pdf-latin1_ambiguous-ecl2-auto-svg,pdf417,latin1_ambiguous,2,,,ok,,25,5,1.0,3.6461,3.3807,0.5823,2.2332,10260,81627
+pdf417gen,pdf-latin1_ambiguous-ecl2-svg,pdf417,latin1_ambiguous,2,iso-8859-1,,ok,,0,0,0.0,,,,,,
+pdf417gen,pdf-lower_text-ecl2,pdf417,lower_text,2,,,ok,,25,5,1.0,0.8866,0.8675,0.0543,0.7359,3591,1025
+pdf417gen,pdf-lower_text-ecl2-svg,pdf417,lower_text,2,,,ok,,25,5,1.0,1.3033,1.2737,0.08,1.1129,3591,28792
+pdf417gen,pdf-mixed_modes-ecl2,pdf417,mixed_modes,2,,,ok,,25,5,1.0,1.649,1.6139,0.1532,1.3073,7182,1915
+pdf417gen,pdf-mixed_modes-ecl2-svg,pdf417,mixed_modes,2,,,ok,,25,5,1.0,2.6089,2.5309,0.2742,1.9926,7182,58179
+pdf417gen,pdf-near_capacity-ecl5,pdf417,near_capacity,5,,,ok,,25,5,1.0,11.9597,13.609,4.16,11.5333,45144,10968
+pdf417gen,pdf-near_capacity-ecl5-svg,pdf417,near_capacity,5,,,ok,,25,5,1.0,18.3887,18.9117,1.4407,17.7291,45144,362756
+pdf417gen,pdf-numeric_long-ecl2,pdf417,numeric_long,2,,,ok,,25,5,1.0,1.7213,1.7866,0.687,1.0288,4617,1278
+pdf417gen,pdf-numeric_long-ecl2-svg,pdf417,numeric_long,2,,,ok,,25,5,1.0,1.7535,1.7654,0.1254,1.6036,4617,37347
+pdf417gen,pdf-text_para-ecl2,pdf417,text_para,2,,,ok,,25,5,1.0,3.6249,3.715,1.3106,2.1429,16929,4221
+pdf417gen,pdf-text_para-ecl2-cols12,pdf417,text_para,2,,12,ok,,25,5,1.0,2.7387,2.9113,0.5965,1.9815,12285,3178
+pdf417gen,pdf-text_para-ecl2-cols12-svg,pdf417,text_para,2,,12,ok,,25,5,1.0,4.1967,4.6574,1.1662,3.0424,12285,94554
+pdf417gen,pdf-text_para-ecl2-cols6,pdf417,text_para,2,,6,ok,,25,5,1.0,3.0798,3.4699,0.692,2.7578,14364,3588
+pdf417gen,pdf-text_para-ecl2-cols6-svg,pdf417,text_para,2,,6,ok,,25,5,1.0,6.5298,6.2663,1.6204,4.3479,14364,113890
+pdf417gen,pdf-text_para-ecl2-svg,pdf417,text_para,2,,,ok,,25,5,1.0,5.8256,5.8015,1.8392,3.5802,16929,134406
+pdf417gen,pdf-upper_c40-ecl2,pdf417,upper_c40,2,,,ok,,25,5,1.0,1.0124,0.9829,0.0768,0.8515,4104,1140
+pdf417gen,pdf-upper_c40-ecl2-svg,pdf417,upper_c40,2,,,ok,,25,5,1.0,1.5123,1.4953,0.197,1.2843,4104,33182
+pdf417gen,pdf-url-ecl2,pdf417,url,2,,,ok,,25,5,1.0,1.1028,1.1136,0.0531,1.0421,4617,1281
+pdf417gen,pdf-url-ecl2-svg,pdf417,url,2,,,ok,,25,5,1.0,1.703,1.7319,0.0615,1.6641,4617,37801
+pdf417gen,pdf-url_nc-ecl5,pdf417,url_near_capacity,5,,,encode_error,ValueError: Generated bar code has 120 rows. Maximum is 90 rows. Try increasing column count.,0,0,0.0,,,,,,
+pdf417gen,pdf-url_nc-ecl5-svg,pdf417,url_near_capacity,5,,,encode_error,ValueError: Generated bar code has 120 rows. Maximum is 90 rows. Try increasing column count.,0,0,0.0,,,,,,
+pdf417gen,pdf-utf8-ecl2,pdf417,utf8,2,utf-8,,ok,,25,5,1.0,0.9077,0.9635,0.1802,0.7645,3591,1037
+pdf417gen,pdf-utf8-ecl2-auto,pdf417,utf8,2,,,ok,,25,5,1.0,0.904,0.9664,0.1807,0.7751,3591,1037
+pdf417gen,pdf-utf8-ecl2-auto-svg,pdf417,utf8,2,,,ok,,25,5,1.0,1.3116,1.4154,0.3153,1.0797,3591,28743
+pdf417gen,pdf-utf8-ecl2-svg,pdf417,utf8,2,utf-8,,ok,,25,5,1.0,1.3423,1.4235,0.3093,1.0886,3591,28743
+pdf417gen,pdf-xml_nc-ecl5,pdf417,xml_near_capacity,5,,,encode_error,ValueError: Generated bar code has 119 rows. Maximum is 90 rows. Try increasing column count.,0,0,0.0,,,,,,
+pdf417gen,pdf-xml_nc-ecl5-svg,pdf417,xml_near_capacity,5,,,encode_error,ValueError: Generated bar code has 119 rows. Maximum is 90 rows. Try increasing column count.,0,0,0.0,,,,,,
+ppfdm,dm-alnum,datamatrix,alnum,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-alnum-svg,datamatrix,alnum,,,,ok,,25,5,1.0,0.4411,0.543,0.3089,0.3985,484,1219
+ppfdm,dm-base64_nc,datamatrix,base64_near_capacity,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-base64_nc-svg,datamatrix,base64_near_capacity,,,,ok,,25,5,1.0,19.402,19.5682,0.4558,19.1175,17424,27727
+ppfdm,dm-bcbp,datamatrix,bcbp,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-bcbp-svg,datamatrix,bcbp,,,,ok,,25,5,1.0,1.1854,1.133,0.4468,0.6016,1296,2559
+ppfdm,dm-edifact_charset,datamatrix,edifact_charset,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-edifact_charset-svg,datamatrix,edifact_charset,,,,ok,,25,5,1.0,0.6246,0.7106,0.1379,0.574,676,1534
+ppfdm,dm-json_nc,datamatrix,json_near_capacity,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-json_nc-svg,datamatrix,json_near_capacity,,,,ok,,25,5,1.0,19.486,19.8137,0.739,19.3332,17424,27470
+ppfdm,dm-latin1,datamatrix,latin1,,iso-8859-1,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-latin1-auto,datamatrix,latin1,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-latin1-auto-svg,datamatrix,latin1,,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+ppfdm,dm-latin1-svg,datamatrix,latin1,,iso-8859-1,,unsupported,no charset/ECI support for 'iso-8859-1' payloads,0,0,,,,,,,
+ppfdm,dm-latin1_ambiguous,datamatrix,latin1_ambiguous,,iso-8859-1,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-latin1_ambiguous-auto,datamatrix,latin1_ambiguous,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-latin1_ambiguous-auto-svg,datamatrix,latin1_ambiguous,,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+ppfdm,dm-latin1_ambiguous-svg,datamatrix,latin1_ambiguous,,iso-8859-1,,unsupported,no charset/ECI support for 'iso-8859-1' payloads,0,0,,,,,,,
+ppfdm,dm-lower_text,datamatrix,lower_text,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-lower_text-svg,datamatrix,lower_text,,,,ok,,25,5,1.0,0.504,0.5207,0.039,0.4884,576,1352
+ppfdm,dm-mixed_modes,datamatrix,mixed_modes,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-mixed_modes-svg,datamatrix,mixed_modes,,,,ok,,25,5,1.0,1.5108,1.5022,0.3164,1.1296,1600,3086
+ppfdm,dm-near_capacity,datamatrix,near_capacity,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-near_capacity-svg,datamatrix,near_capacity,,,,ok,,25,5,1.0,17.5244,17.6165,0.2945,17.2301,14400,23440
+ppfdm,dm-numeric_even,datamatrix,numeric_even,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-numeric_even-svg,datamatrix,numeric_even,,,,ok,,25,5,1.0,0.5263,0.6416,0.2303,0.2331,400,1054
+ppfdm,dm-numeric_long,datamatrix,numeric_long,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-numeric_long-svg,datamatrix,numeric_long,,,,ok,,25,5,1.0,1.9943,1.8089,0.4375,0.9326,1024,2093
+ppfdm,dm-numeric_odd,datamatrix,numeric_odd,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-numeric_odd-svg,datamatrix,numeric_odd,,,,ok,,25,5,1.0,0.6482,0.678,0.201,0.2836,400,1061
+ppfdm,dm-numeric_prefix,datamatrix,numeric_prefix,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-numeric_prefix-svg,datamatrix,numeric_prefix,,,,ok,,25,5,1.0,0.3917,0.3505,0.1126,0.1916,196,730
+ppfdm,dm-numeric_short,datamatrix,numeric_short,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-numeric_short-svg,datamatrix,numeric_short,,,,ok,,25,5,1.0,0.3147,0.3153,0.0998,0.126,144,614
+ppfdm,dm-numeric_suffix,datamatrix,numeric_suffix,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-numeric_suffix-svg,datamatrix,numeric_suffix,,,,ok,,25,5,1.0,0.3821,0.3679,0.1593,0.1866,256,786
+ppfdm,dm-text_para,datamatrix,text_para,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-text_para-svg,datamatrix,text_para,,,,ok,,25,5,1.0,4.4529,4.4197,0.2573,4.0254,5184,8682
+ppfdm,dm-upper_c40,datamatrix,upper_c40,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-upper_c40-svg,datamatrix,upper_c40,,,,ok,,25,5,1.0,0.6085,0.6075,0.1021,0.5026,676,1475
+ppfdm,dm-url,datamatrix,url,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-url-svg,datamatrix,url,,,,ok,,25,5,1.0,0.8976,0.9789,0.15,0.837,1024,2159
+ppfdm,dm-url_nc,datamatrix,url_near_capacity,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-url_nc-svg,datamatrix,url_near_capacity,,,,ok,,25,5,1.0,19.2677,19.3617,0.2194,19.1582,17424,27379
+ppfdm,dm-utf8,datamatrix,utf8,,utf-8,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-utf8-auto,datamatrix,utf8,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-utf8-auto-svg,datamatrix,utf8,,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+ppfdm,dm-utf8-svg,datamatrix,utf8,,utf-8,,unsupported,no charset/ECI support for 'utf-8' payloads,0,0,,,,,,,
+ppfdm,dm-x12_charset,datamatrix,x12_charset,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-x12_charset-svg,datamatrix,x12_charset,,,,ok,,25,5,1.0,0.508,0.539,0.2104,0.425,576,1352
+ppfdm,dm-xml_nc,datamatrix,xml_near_capacity,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dm-xml_nc-svg,datamatrix,xml_near_capacity,,,,ok,,25,5,1.0,19.6106,19.7367,0.318,19.3758,17424,27783
+ppfdm,dmr-alnum,datamatrix_rect,alnum,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dmr-alnum-svg,datamatrix_rect,alnum,,,,ok,,25,5,1.0,0.3727,0.441,0.1175,0.34,432,1076
+ppfdm,dmr-lower_text,datamatrix_rect,lower_text,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dmr-lower_text-svg,datamatrix_rect,lower_text,,,,ok,,25,5,1.0,0.493,0.549,0.0795,0.4689,576,1285
+ppfdm,dmr-numeric_short,datamatrix_rect,numeric_short,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dmr-numeric_short-svg,datamatrix_rect,numeric_short,,,,ok,,25,5,1.0,0.1602,0.1689,0.0262,0.1428,144,598
+ppfdm,dmr-upper_c40,datamatrix_rect,upper_c40,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dmr-upper_c40-svg,datamatrix_rect,upper_c40,,,,ok,,25,5,1.0,0.6565,0.6291,0.0687,0.4897,768,1542
+ppfdm,dmr-x12_charset,datamatrix_rect,x12_charset,,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+ppfdm,dmr-x12_charset-svg,datamatrix_rect,x12_charset,,,,ok,,25,5,1.0,0.6587,0.6338,0.0667,0.4959,768,1542
+pylibdmtx,dm-alnum,datamatrix,alnum,,,,ok,,25,5,1.0,0.4268,0.5198,0.2116,0.3638,484,693
+pylibdmtx,dm-alnum-svg,datamatrix,alnum,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-base64_nc,datamatrix,base64_near_capacity,,,,ok,,25,5,1.0,11.9872,12.0312,0.2024,11.664,17424,10622
+pylibdmtx,dm-base64_nc-svg,datamatrix,base64_near_capacity,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-bcbp,datamatrix,bcbp,,,,ok,,25,5,1.0,0.9631,0.9643,0.1676,0.7389,1296,1253
+pylibdmtx,dm-bcbp-svg,datamatrix,bcbp,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-edifact_charset,datamatrix,edifact_charset,,,,ok,,25,5,1.0,0.7599,0.9198,0.3382,0.7424,1024,1064
+pylibdmtx,dm-edifact_charset-svg,datamatrix,edifact_charset,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-json_nc,datamatrix,json_near_capacity,,,,ok,,25,5,1.0,11.7926,11.8256,0.18,11.45,17424,10233
+pylibdmtx,dm-json_nc-svg,datamatrix,json_near_capacity,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-latin1,datamatrix,latin1,,iso-8859-1,,unsupported,no charset/ECI support for 'iso-8859-1' payloads,0,0,,,,,,,
+pylibdmtx,dm-latin1-auto,datamatrix,latin1,,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+pylibdmtx,dm-latin1-auto-svg,datamatrix,latin1,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-latin1-svg,datamatrix,latin1,,iso-8859-1,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-latin1_ambiguous,datamatrix,latin1_ambiguous,,iso-8859-1,,unsupported,no charset/ECI support for 'iso-8859-1' payloads,0,0,,,,,,,
+pylibdmtx,dm-latin1_ambiguous-auto,datamatrix,latin1_ambiguous,,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+pylibdmtx,dm-latin1_ambiguous-auto-svg,datamatrix,latin1_ambiguous,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-latin1_ambiguous-svg,datamatrix,latin1_ambiguous,,iso-8859-1,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-lower_text,datamatrix,lower_text,,,,ok,,25,5,1.0,0.7538,0.8489,0.3587,0.5087,1024,1043
+pylibdmtx,dm-lower_text-svg,datamatrix,lower_text,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-mixed_modes,datamatrix,mixed_modes,,,,ok,,25,5,1.0,1.1479,1.3102,0.5278,0.9305,1600,1478
+pylibdmtx,dm-mixed_modes-svg,datamatrix,mixed_modes,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-near_capacity,datamatrix,near_capacity,,,,ok,,25,5,1.0,14.1794,14.2442,0.4165,13.7563,20736,12331
+pylibdmtx,dm-near_capacity-svg,datamatrix,near_capacity,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-numeric_even,datamatrix,numeric_even,,,,ok,,25,5,1.0,0.5701,0.595,0.2203,0.2607,400,613
+pylibdmtx,dm-numeric_even-svg,datamatrix,numeric_even,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-numeric_long,datamatrix,numeric_long,,,,ok,,25,5,1.0,1.6408,1.5729,0.302,0.7902,1024,1066
+pylibdmtx,dm-numeric_long-svg,datamatrix,numeric_long,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-numeric_odd,datamatrix,numeric_odd,,,,ok,,25,5,1.0,0.6446,0.6186,0.2804,0.292,400,592
+pylibdmtx,dm-numeric_odd-svg,datamatrix,numeric_odd,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-numeric_prefix,datamatrix,numeric_prefix,,,,ok,,25,5,1.0,0.2731,0.3638,0.1936,0.2153,196,409
+pylibdmtx,dm-numeric_prefix-svg,datamatrix,numeric_prefix,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-numeric_short,datamatrix,numeric_short,,,,ok,,25,5,1.0,0.4606,0.4748,0.107,0.3196,144,315
+pylibdmtx,dm-numeric_short-svg,datamatrix,numeric_short,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-numeric_suffix,datamatrix,numeric_suffix,,,,ok,,25,5,1.0,0.2572,0.3012,0.1184,0.2067,256,462
+pylibdmtx,dm-numeric_suffix-svg,datamatrix,numeric_suffix,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-text_para,datamatrix,text_para,,,,ok,,25,5,1.0,4.4212,4.6947,0.84,3.519,6400,4436
+pylibdmtx,dm-text_para-svg,datamatrix,text_para,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-upper_c40,datamatrix,upper_c40,,,,ok,,25,5,1.0,0.7511,0.8874,0.3628,0.5533,1024,1069
+pylibdmtx,dm-upper_c40-svg,datamatrix,upper_c40,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-url,datamatrix,url,,,,ok,,25,5,1.0,0.9389,1.0336,0.4092,0.7542,1024,1079
+pylibdmtx,dm-url-svg,datamatrix,url,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-url_nc,datamatrix,url_near_capacity,,,,ok,,25,5,1.0,11.7697,11.8089,0.1397,11.5924,17424,10099
+pylibdmtx,dm-url_nc-svg,datamatrix,url_near_capacity,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-utf8,datamatrix,utf8,,utf-8,,unsupported,no charset/ECI support for 'utf-8' payloads,0,0,,,,,,,
+pylibdmtx,dm-utf8-auto,datamatrix,utf8,,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+pylibdmtx,dm-utf8-auto-svg,datamatrix,utf8,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-utf8-svg,datamatrix,utf8,,utf-8,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-x12_charset,datamatrix,x12_charset,,,,ok,,25,5,1.0,0.5396,0.6186,0.173,0.5154,676,829
+pylibdmtx,dm-x12_charset-svg,datamatrix,x12_charset,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dm-xml_nc,datamatrix,xml_near_capacity,,,,ok,,25,5,1.0,11.9404,11.9409,0.2793,11.4856,17424,10259
+pylibdmtx,dm-xml_nc-svg,datamatrix,xml_near_capacity,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dmr-alnum,datamatrix_rect,alnum,,,,ok,,25,5,1.0,0.4721,0.5013,0.072,0.4418,576,673
+pylibdmtx,dmr-alnum-svg,datamatrix_rect,alnum,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dmr-lower_text,datamatrix_rect,lower_text,,,,ok,"PyLibDMTXError: Could not encode data, possibly because the image is not large enough to contain the data",15,3,0.6,0.6065,0.6112,0.0154,0.5941,768,723
+pylibdmtx,dmr-lower_text-svg,datamatrix_rect,lower_text,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dmr-numeric_short,datamatrix_rect,numeric_short,,,,ok,,25,5,1.0,0.1983,0.2075,0.0303,0.1698,144,321
+pylibdmtx,dmr-numeric_short-svg,datamatrix_rect,numeric_short,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dmr-upper_c40,datamatrix_rect,upper_c40,,,,ok,"PyLibDMTXError: Could not encode data, possibly because the image is not large enough to contain the data",15,3,0.6,0.6197,0.6188,0.0185,0.59,768,744
+pylibdmtx,dmr-upper_c40-svg,datamatrix_rect,upper_c40,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pylibdmtx,dmr-x12_charset,datamatrix_rect,x12_charset,,,,ok,"PyLibDMTXError: Could not encode data, possibly because the image is not large enough to contain the data",10,2,0.4,0.6118,0.6128,0.0101,0.5996,768.0,749.5
+pylibdmtx,dmr-x12_charset-svg,datamatrix_rect,x12_charset,,,,unsupported,no native SVG writer,0,0,,,,,,,
+pystrich,az-alnum-ecc10,aztec,alnum,10,,,ok,,25,5,1.0,0.7531,0.8623,0.3972,0.5807,529,445
+pystrich,az-alnum-ecc10-svg,aztec,alnum,10,,,ok,,25,5,1.0,0.6105,0.6242,0.0987,0.48,529,5854
+pystrich,az-alnum-ecc23,aztec,alnum,23,,,ok,,25,5,1.0,1.0392,1.1559,0.4459,0.7831,729,547
+pystrich,az-alnum-ecc23-svg,aztec,alnum,23,,,ok,,25,5,1.0,0.7659,0.7462,0.0653,0.6603,729,7773
+pystrich,az-alnum-ecc50,aztec,alnum,50,,,ok,,25,5,1.0,0.9235,1.0322,0.3968,0.6883,729,545
+pystrich,az-alnum-ecc50-svg,aztec,alnum,50,,,ok,,25,5,1.0,0.6675,0.6204,0.077,0.5148,729,7860
+pystrich,az-base64_nc-ecc23,aztec,base64_near_capacity,23,,,ok,,25,5,1.0,64.5531,65.3447,4.219,60.2137,19321,8687
+pystrich,az-base64_nc-ecc23-svg,aztec,base64_near_capacity,23,,,ok,,25,5,1.0,37.4897,36.086,4.1215,30.6426,19321,228536
+pystrich,az-bcbp-ecc23,aztec,bcbp,23,,,ok,,25,5,1.0,1.7495,1.817,0.6078,1.0856,961,692
+pystrich,az-bcbp-ecc23-svg,aztec,bcbp,23,,,ok,,25,5,1.0,1.5397,1.5894,0.5442,0.9565,961,10380
+pystrich,az-json_nc-ecc23,aztec,json_near_capacity,23,,,ok,,25,5,1.0,51.6333,51.9755,8.0359,40.6074,17161,7536
+pystrich,az-json_nc-ecc23-svg,aztec,json_near_capacity,23,,,ok,,25,5,1.0,31.0735,33.1216,4.1347,29.0795,17161,187890
+pystrich,az-latin1-ecc23,aztec,latin1,23,iso-8859-1,,ok,,25,5,1.0,1.802,1.6807,0.6278,0.8702,961,691
+pystrich,az-latin1-ecc23-auto,aztec,latin1,23,,,ok,,25,5,1.0,1.3449,1.4439,0.5089,0.8067,961,691
+pystrich,az-latin1-ecc23-auto-svg,aztec,latin1,23,,,ok,,25,5,1.0,1.4679,1.5189,0.792,0.7373,961,10633
+pystrich,az-latin1-ecc23-svg,aztec,latin1,23,iso-8859-1,,ok,,25,5,1.0,1.2079,1.2256,0.3658,0.7478,961,10633
+pystrich,az-latin1_ambiguous-ecc23,aztec,latin1_ambiguous,23,iso-8859-1,,ok,,25,5,1.0,1.6964,1.742,0.6988,0.9683,1369,910
+pystrich,az-latin1_ambiguous-ecc23-auto,aztec,latin1_ambiguous,23,,,ok,,25,5,1.0,1.5777,1.6159,0.5869,0.9298,1369,910
+pystrich,az-latin1_ambiguous-ecc23-auto-svg,aztec,latin1_ambiguous,23,,,ok,,25,5,1.0,1.7693,1.7919,0.9746,0.8366,1369,16489
+pystrich,az-latin1_ambiguous-ecc23-svg,aztec,latin1_ambiguous,23,iso-8859-1,,ok,,25,5,1.0,1.4176,1.472,0.5538,0.8472,1369,16489
+pystrich,az-lower_text-ecc23,aztec,lower_text,23,,,ok,,25,5,1.0,0.9023,1.0901,0.43,0.7976,529,448
+pystrich,az-lower_text-ecc23-svg,aztec,lower_text,23,,,ok,,25,5,1.0,0.7324,0.7499,0.0722,0.6573,529,5985
+pystrich,az-mixed_modes-ecc23,aztec,mixed_modes,23,,,ok,,25,5,1.0,1.766,2.3223,0.769,1.6525,961,715
+pystrich,az-mixed_modes-ecc23-svg,aztec,mixed_modes,23,,,ok,,25,5,1.0,1.5421,1.9504,0.5528,1.4401,961,11267
+pystrich,az-near_capacity-ecc23,aztec,near_capacity,23,,,ok,,25,5,1.0,40.9167,41.0812,5.2908,33.9126,12769,5860
+pystrich,az-near_capacity-ecc23-svg,aztec,near_capacity,23,,,ok,,25,5,1.0,28.1708,32.5513,10.1168,25.0818,12769,147017
+pystrich,az-numeric_long-ecc23,aztec,numeric_long,23,,,ok,,25,5,1.0,2.5948,3.6233,2.5577,1.7156,1369,898
+pystrich,az-numeric_long-ecc23-svg,aztec,numeric_long,23,,,ok,,25,5,1.0,2.1343,2.0463,0.2829,1.4747,1369,16142
+pystrich,az-numeric_short-ecc23,aztec,numeric_short,23,,,ok,,25,5,1.0,0.2902,0.2942,0.0298,0.2475,225,272
+pystrich,az-numeric_short-ecc23-svg,aztec,numeric_short,23,,,ok,,25,5,1.0,0.2103,0.22,0.0263,0.186,225,2615
+pystrich,az-text_para-ecc23,aztec,text_para,23,,,ok,,25,5,1.0,6.46,6.9858,2.4563,3.6669,2809,1562
+pystrich,az-text_para-ecc23-svg,aztec,text_para,23,,,ok,,25,5,1.0,5.0662,5.2465,1.3416,3.1901,2809,31579
+pystrich,az-tiny-ecc23,aztec,tiny,23,,,ok,,25,5,1.0,0.2655,0.2624,0.0219,0.23,225,275
+pystrich,az-tiny-ecc23-svg,aztec,tiny,23,,,ok,,25,5,1.0,0.1829,0.1818,0.0135,0.1612,225,2657
+pystrich,az-upper_c40-ecc23,aztec,upper_c40,23,,,ok,,25,5,1.0,1.0958,1.1996,0.4608,0.8322,729,545
+pystrich,az-upper_c40-ecc23-svg,aztec,upper_c40,23,,,ok,,25,5,1.0,0.8464,0.8357,0.1033,0.7054,729,7696
+pystrich,az-url-ecc23,aztec,url,23,,,ok,,25,5,1.0,1.5249,1.4788,0.1049,1.2697,961,698
+pystrich,az-url-ecc23-svg,aztec,url,23,,,ok,,25,5,1.0,1.3157,1.2935,0.1038,1.0557,961,10414
+pystrich,az-url_nc-ecc23,aztec,url_near_capacity,23,,,ok,,25,5,1.0,59.0713,60.5869,4.5459,54.8258,18225,8096
+pystrich,az-url_nc-ecc23-svg,aztec,url_near_capacity,23,,,ok,,25,5,1.0,32.5006,34.3898,3.913,30.3973,18225,208659
+pystrich,az-utf8-ecc23,aztec,utf8,23,utf-8,,ok,,25,5,1.0,0.8815,1.0036,0.468,0.5282,529,448
+pystrich,az-utf8-ecc23-auto,aztec,utf8,23,,,ok,,25,5,1.0,0.8102,0.7712,0.1235,0.5351,529,442
+pystrich,az-utf8-ecc23-auto-svg,aztec,utf8,23,,,ok,,25,5,1.0,0.6989,0.7941,0.329,0.4121,529,6112
+pystrich,az-utf8-ecc23-svg,aztec,utf8,23,utf-8,,ok,,25,5,1.0,0.688,0.6569,0.1238,0.4211,529,6112
+pystrich,az-xml_nc-ecc23,aztec,xml_near_capacity,23,,,ok,,25,5,1.0,47.5059,45.2253,5.7674,36.2988,15625,6815
+pystrich,az-xml_nc-ecc23-svg,aztec,xml_near_capacity,23,,,ok,,25,5,1.0,30.5595,32.0733,4.057,27.7598,15625,175165
+pystrich,dm-alnum,datamatrix,alnum,,,,ok,,25,5,1.0,0.3571,0.3891,0.0846,0.3197,484,411
+pystrich,dm-alnum-svg,datamatrix,alnum,,,,ok,,25,5,1.0,0.2452,0.2545,0.0243,0.2305,484,5749
+pystrich,dm-base64_nc,datamatrix,base64_near_capacity,,,,ok,,25,5,1.0,9.9078,11.2405,2.9768,9.3504,17424,7486
+pystrich,dm-base64_nc-svg,datamatrix,base64_near_capacity,,,,ok,,25,5,1.0,7.9067,10.6656,3.6594,7.5759,17424,192639
+pystrich,dm-bcbp,datamatrix,bcbp,,,,ok,,25,5,1.0,0.9093,0.853,0.2502,0.5063,1296,850
+pystrich,dm-bcbp-svg,datamatrix,bcbp,,,,ok,,25,5,1.0,0.6469,0.6263,0.1886,0.3734,1296,14722
+pystrich,dm-edifact_charset,datamatrix,edifact_charset,,,,ok,,25,5,1.0,0.4748,0.5046,0.058,0.4397,676,514
+pystrich,dm-edifact_charset-svg,datamatrix,edifact_charset,,,,ok,,25,5,1.0,0.3381,0.3586,0.0458,0.3067,676,7796
+pystrich,dm-json_nc,datamatrix,json_near_capacity,,,,ok,,25,5,1.0,9.3294,10.9531,3.1083,9.1678,17424,7405
+pystrich,dm-json_nc-svg,datamatrix,json_near_capacity,,,,ok,,25,5,1.0,7.6014,9.0954,3.0344,7.4449,17424,193722
+pystrich,dm-latin1,datamatrix,latin1,,iso-8859-1,,ok,,25,5,1.0,0.6181,0.6753,0.1862,0.4048,1024,730
+pystrich,dm-latin1-auto,datamatrix,latin1,,,,ok,,25,5,1.0,0.6124,0.6215,0.1418,0.3852,1024,730
+pystrich,dm-latin1-auto-svg,datamatrix,latin1,,,,ok,,25,5,1.0,0.4479,0.4715,0.1196,0.2925,1024,12109
+pystrich,dm-latin1-svg,datamatrix,latin1,,iso-8859-1,,ok,,25,5,1.0,0.4629,0.4923,0.1337,0.2963,1024,12109
+pystrich,dm-latin1_ambiguous,datamatrix,latin1_ambiguous,,iso-8859-1,,ok,,25,5,1.0,0.7476,0.75,0.1293,0.5218,1296,857
+pystrich,dm-latin1_ambiguous-auto,datamatrix,latin1_ambiguous,,,,ok,,25,5,1.0,0.7061,0.7006,0.1051,0.5077,1296,857
+pystrich,dm-latin1_ambiguous-auto-svg,datamatrix,latin1_ambiguous,,,,ok,,25,5,1.0,0.5293,0.5274,0.0898,0.3707,1296,15112
+pystrich,dm-latin1_ambiguous-svg,datamatrix,latin1_ambiguous,,iso-8859-1,,ok,,25,5,1.0,0.538,0.5317,0.0901,0.3713,1296,15112
+pystrich,dm-lower_text,datamatrix,lower_text,,,,ok,,25,5,1.0,0.4072,0.4131,0.0222,0.3908,576,451
+pystrich,dm-lower_text-svg,datamatrix,lower_text,,,,ok,,25,5,1.0,0.2882,0.2941,0.0167,0.2761,576,6823
+pystrich,dm-mixed_modes,datamatrix,mixed_modes,,,,ok,,25,5,1.0,1.2081,1.2662,0.3775,0.6754,1600,969
+pystrich,dm-mixed_modes-svg,datamatrix,mixed_modes,,,,ok,,25,5,1.0,0.7597,0.741,0.1649,0.4892,1600,18004
+pystrich,dm-near_capacity,datamatrix,near_capacity,,,,ok,,25,5,1.0,8.9675,10.4352,2.6246,8.2925,14400,6227
+pystrich,dm-near_capacity-svg,datamatrix,near_capacity,,,,ok,,25,5,1.0,7.1297,7.2395,0.3827,6.8886,14400,162626
+pystrich,dm-numeric_even,datamatrix,numeric_even,,,,ok,,25,5,1.0,0.4004,0.3836,0.0893,0.2519,400,378
+pystrich,dm-numeric_even-svg,datamatrix,numeric_even,,,,ok,,25,5,1.0,0.2708,0.2479,0.0509,0.1714,400,4818
+pystrich,dm-numeric_long,datamatrix,numeric_long,,,,ok,,25,5,1.0,0.8143,0.8599,0.0977,0.7751,1024,716
+pystrich,dm-numeric_long-svg,datamatrix,numeric_long,,,,ok,,25,5,1.0,0.6094,0.6174,0.0232,0.5866,1024,11848
+pystrich,dm-numeric_odd,datamatrix,numeric_odd,,,,ok,,25,5,1.0,0.3694,0.3674,0.053,0.2776,400,368
+pystrich,dm-numeric_odd-svg,datamatrix,numeric_odd,,,,ok,,25,5,1.0,0.2532,0.2533,0.0367,0.1916,400,4858
+pystrich,dm-numeric_prefix,datamatrix,numeric_prefix,,,,ok,,25,5,1.0,0.2149,0.2167,0.017,0.1892,196,259
+pystrich,dm-numeric_prefix-svg,datamatrix,numeric_prefix,,,,ok,,25,5,1.0,0.1449,0.1488,0.014,0.1331,196,2693
+pystrich,dm-numeric_short,datamatrix,numeric_short,,,,ok,,25,5,1.0,0.1987,0.1979,0.0231,0.1463,144,218
+pystrich,dm-numeric_short-svg,datamatrix,numeric_short,,,,ok,,25,5,1.0,0.1181,0.1223,0.0182,0.0966,144,1932
+pystrich,dm-numeric_suffix,datamatrix,numeric_suffix,,,,ok,,25,5,1.0,0.2168,0.2136,0.0163,0.1814,256,269
+pystrich,dm-numeric_suffix-svg,datamatrix,numeric_suffix,,,,ok,,25,5,1.0,0.1488,0.146,0.0122,0.1267,256,3032
+pystrich,dm-text_para,datamatrix,text_para,,,,ok,,25,5,1.0,3.0569,3.0773,0.4008,2.4606,5184,2627
+pystrich,dm-text_para-svg,datamatrix,text_para,,,,ok,,25,5,1.0,2.5323,3.5394,2.5439,1.8684,5184,58454
+pystrich,dm-upper_c40,datamatrix,upper_c40,,,,ok,,25,5,1.0,0.4913,0.5106,0.0822,0.4208,676,495
+pystrich,dm-upper_c40-svg,datamatrix,upper_c40,,,,ok,,25,5,1.0,0.339,0.3352,0.0261,0.2923,676,7628
+pystrich,dm-url,datamatrix,url,,,,ok,,25,5,1.0,0.5985,0.6133,0.051,0.5724,1024,715
+pystrich,dm-url-svg,datamatrix,url,,,,ok,,25,5,1.0,0.4328,0.4438,0.0317,0.4126,1024,11807
+pystrich,dm-url_nc,datamatrix,url_near_capacity,,,,ok,,25,5,1.0,10.0015,11.196,2.8378,9.3777,17424,7353
+pystrich,dm-url_nc-svg,datamatrix,url_near_capacity,,,,ok,,25,5,1.0,7.7773,9.1713,2.9203,7.6042,17424,190621
+pystrich,dm-utf8,datamatrix,utf8,,utf-8,,ok,,25,5,1.0,0.5078,0.5375,0.0755,0.4698,1024,713
+pystrich,dm-utf8-auto,datamatrix,utf8,,,,ok,,25,5,1.0,0.5024,0.528,0.0602,0.4678,1024,713
+pystrich,dm-utf8-auto-svg,datamatrix,utf8,,,,ok,,25,5,1.0,0.3582,0.3745,0.0481,0.3308,1024,11645
+pystrich,dm-utf8-svg,datamatrix,utf8,,utf-8,,ok,,25,5,1.0,0.3605,0.3796,0.051,0.3298,1024,11645
+pystrich,dm-x12_charset,datamatrix,x12_charset,,,,ok,,25,5,1.0,0.4046,0.4004,0.0181,0.3609,576,457
+pystrich,dm-x12_charset-svg,datamatrix,x12_charset,,,,ok,,25,5,1.0,0.2982,0.2945,0.014,0.2625,576,6822
+pystrich,dm-xml_nc,datamatrix,xml_near_capacity,,,,ok,,25,5,1.0,9.7238,11.4372,3.7719,9.2356,17424,7435
+pystrich,dm-xml_nc-svg,datamatrix,xml_near_capacity,,,,ok,,25,5,1.0,7.751,9.2823,3.2745,7.489,17424,190907
+pystrich,dmr-alnum,datamatrix_rect,alnum,,,,ok,,25,5,1.0,0.383,0.4144,0.0999,0.3005,432,370
+pystrich,dmr-alnum-svg,datamatrix_rect,alnum,,,,ok,,25,5,1.0,0.2364,0.2611,0.0574,0.2133,432,4889
+pystrich,dmr-lower_text,datamatrix_rect,lower_text,,,,ok,,25,5,1.0,0.39,0.4061,0.0384,0.3557,576,456
+pystrich,dmr-lower_text-svg,datamatrix_rect,lower_text,,,,ok,,25,5,1.0,0.285,0.3029,0.0314,0.2637,576,6561
+pystrich,dmr-numeric_short,datamatrix_rect,numeric_short,,,,ok,,25,5,1.0,0.1755,0.1874,0.0256,0.1507,144,204
+pystrich,dmr-numeric_short-svg,datamatrix_rect,numeric_short,,,,ok,,25,5,1.0,0.1053,0.1151,0.0177,0.0925,144,1926
+pystrich,dmr-upper_c40,datamatrix_rect,upper_c40,,,,ok,,25,5,1.0,0.4804,0.4672,0.0358,0.3915,768,519
+pystrich,dmr-upper_c40-svg,datamatrix_rect,upper_c40,,,,ok,,25,5,1.0,0.3565,0.3456,0.0289,0.2856,768,8636
+pystrich,dmr-x12_charset,datamatrix_rect,x12_charset,,,,ok,,25,5,1.0,0.4585,0.4525,0.0363,0.3785,768,528
+pystrich,dmr-x12_charset-svg,datamatrix_rect,x12_charset,,,,ok,,25,5,1.0,0.3446,0.3418,0.0273,0.2829,768,8387
+pystrich,pdf-alnum-ecl2,pdf417,alnum,2,,,ok,,25,5,1.0,0.5696,0.6014,0.0531,0.5358,3288,775
+pystrich,pdf-alnum-ecl2-svg,pdf417,alnum,2,,,ok,,25,5,1.0,0.4361,0.4517,0.0379,0.4074,3288,34187
+pystrich,pdf-alnum-ecl5,pdf417,alnum,5,,,ok,,25,5,1.0,1.1722,1.1443,0.0619,1.0564,7170,1377
+pystrich,pdf-alnum-ecl5-svg,pdf417,alnum,5,,,ok,,25,5,1.0,0.8733,0.8679,0.0499,0.7963,7170,74237
+pystrich,pdf-alnum-ecl8,pdf417,alnum,8,,,ok,,25,5,1.0,5.5274,5.5231,0.1235,5.2828,32604,5268
+pystrich,pdf-alnum-ecl8-svg,pdf417,alnum,8,,,ok,,25,5,1.0,4.3129,4.3473,0.147,4.1522,32604,337404
+pystrich,pdf-base64_nc-ecl5,pdf417,base64_near_capacity,5,,,ok,,25,5,1.0,8.9489,8.9555,0.1575,8.7312,46899,7236
+pystrich,pdf-base64_nc-ecl5-svg,pdf417,base64_near_capacity,5,,,ok,,25,5,1.0,7.4226,7.4113,0.2232,7.0319,46899,485366
+pystrich,pdf-bcbp-ecl2,pdf417,bcbp,2,,,ok,,25,5,1.0,0.9262,0.8807,0.1654,0.6811,5535,1108
+pystrich,pdf-bcbp-ecl2-svg,pdf417,bcbp,2,,,ok,,25,5,1.0,0.6738,0.6555,0.1109,0.5098,5535,57345
+pystrich,pdf-json_nc-ecl5,pdf417,json_near_capacity,5,,,ok,,25,5,1.0,7.7478,7.7852,0.1676,7.6555,40464,6407
+pystrich,pdf-json_nc-ecl5-svg,pdf417,json_near_capacity,5,,,ok,,25,5,1.0,6.2781,6.3601,0.3,6.1101,40464,418711
+pystrich,pdf-latin1-ecl2,pdf417,latin1,2,iso-8859-1,,ok,,25,5,1.0,0.8387,0.8199,0.1201,0.6435,5076,1060
+pystrich,pdf-latin1-ecl2-auto,pdf417,latin1,2,,,ok,,25,5,1.0,0.8016,0.7791,0.145,0.5406,5076,1060
+pystrich,pdf-latin1-ecl2-auto-svg,pdf417,latin1,2,,,ok,,25,5,1.0,0.6187,0.5817,0.1037,0.4059,5076,52628
+pystrich,pdf-latin1-ecl2-svg,pdf417,latin1,2,iso-8859-1,,ok,,25,5,1.0,0.6372,0.602,0.0916,0.4583,5076,52628
+pystrich,pdf-latin1_ambiguous-ecl2,pdf417,latin1_ambiguous,2,iso-8859-1,,ok,,25,5,1.0,1.2172,1.1385,0.1587,0.8136,7887,1472
+pystrich,pdf-latin1_ambiguous-ecl2-auto,pdf417,latin1_ambiguous,2,,,ok,,25,5,1.0,1.2191,1.1337,0.1673,0.8024,7887,1472
+pystrich,pdf-latin1_ambiguous-ecl2-auto-svg,pdf417,latin1_ambiguous,2,,,ok,,25,5,1.0,0.9228,0.8607,0.1247,0.6091,7887,81689
+pystrich,pdf-latin1_ambiguous-ecl2-svg,pdf417,latin1_ambiguous,2,iso-8859-1,,ok,,25,5,1.0,0.916,0.8632,0.1316,0.6162,7887,81689
+pystrich,pdf-lower_text-ecl2,pdf417,lower_text,2,,,ok,,25,5,1.0,0.6364,0.6196,0.0391,0.5367,3696,831
+pystrich,pdf-lower_text-ecl2-svg,pdf417,lower_text,2,,,ok,,25,5,1.0,0.4608,0.4514,0.0259,0.3995,3696,38376
+pystrich,pdf-mixed_modes-ecl2,pdf417,mixed_modes,2,,,ok,,25,5,1.0,1.0273,0.9962,0.0928,0.8152,6150,1246
+pystrich,pdf-mixed_modes-ecl2-svg,pdf417,mixed_modes,2,,,ok,,25,5,1.0,0.7661,0.7566,0.0701,0.6269,6150,63744
+pystrich,pdf-near_capacity-ecl5,pdf417,near_capacity,5,,,ok,,25,5,1.0,5.8723,5.9273,0.1661,5.7522,31122,5026
+pystrich,pdf-near_capacity-ecl5-svg,pdf417,near_capacity,5,,,ok,,25,5,1.0,4.7376,4.7652,0.1139,4.6406,31122,322032
+pystrich,pdf-numeric_long-ecl2,pdf417,numeric_long,2,,,ok,,25,5,1.0,0.7645,0.7808,0.0343,0.7462,4512,971
+pystrich,pdf-numeric_long-ecl2-svg,pdf417,numeric_long,2,,,ok,,25,5,1.0,0.5841,0.5881,0.0219,0.5615,4512,46769
+pystrich,pdf-text_para-ecl2,pdf417,text_para,2,,,ok,,25,5,1.0,2.1459,2.0878,0.5778,1.3885,13608,2382
+pystrich,pdf-text_para-ecl2-cols12,pdf417,text_para,2,,12,ok,,25,5,1.0,1.9112,2.0361,0.4252,1.4182,12285,2245
+pystrich,pdf-text_para-ecl2-cols12-svg,pdf417,text_para,2,,12,ok,,25,5,1.0,1.4285,1.5114,0.3237,1.0337,12285,127265
+pystrich,pdf-text_para-ecl2-cols6,pdf417,text_para,2,,6,ok,,25,5,1.0,2.1433,2.3574,0.4326,1.8368,14364,2806
+pystrich,pdf-text_para-ecl2-cols6-svg,pdf417,text_para,2,,6,ok,,25,5,1.0,1.6032,1.8029,0.3678,1.3852,14364,149338
+pystrich,pdf-text_para-ecl2-svg,pdf417,text_para,2,,,ok,,25,5,1.0,1.626,1.5574,0.4537,0.9932,13608,140843
+pystrich,pdf-upper_c40-ecl2,pdf417,upper_c40,2,,,ok,,25,5,1.0,0.6862,0.6828,0.0244,0.6302,4104,912
+pystrich,pdf-upper_c40-ecl2-svg,pdf417,upper_c40,2,,,ok,,25,5,1.0,0.5198,0.5179,0.0253,0.4696,4104,42568
+pystrich,pdf-url-ecl2,pdf417,url,2,,,ok,,25,5,1.0,0.7347,0.7262,0.0226,0.6726,4512,959
+pystrich,pdf-url-ecl2-svg,pdf417,url,2,,,ok,,25,5,1.0,0.5583,0.5553,0.0197,0.5176,4512,46760
+pystrich,pdf-url_nc-ecl5,pdf417,url_near_capacity,5,,,ok,,25,5,1.0,8.047,8.0807,0.1364,7.8507,42150,6663
+pystrich,pdf-url_nc-ecl5-svg,pdf417,url_near_capacity,5,,,ok,,25,5,1.0,6.7542,6.7694,0.1546,6.5385,42150,436186
+pystrich,pdf-utf8-ecl2,pdf417,utf8,2,utf-8,,ok,,25,5,1.0,0.6861,0.7065,0.0694,0.6277,4158,906
+pystrich,pdf-utf8-ecl2-auto,pdf417,utf8,2,,,ok,,25,5,1.0,0.691,0.6865,0.0893,0.5472,4158,906
+pystrich,pdf-utf8-ecl2-auto-svg,pdf417,utf8,2,,,ok,,25,5,1.0,0.5106,0.5181,0.0758,0.4116,4158,43191
+pystrich,pdf-utf8-ecl2-svg,pdf417,utf8,2,utf-8,,ok,,25,5,1.0,0.5075,0.527,0.0642,0.4518,4158,43191
+pystrich,pdf-xml_nc-ecl5,pdf417,xml_near_capacity,5,,,ok,,25,5,1.0,7.5128,7.5504,0.1741,7.3651,39240,6319
+pystrich,pdf-xml_nc-ecl5-svg,pdf417,xml_near_capacity,5,,,ok,,25,5,1.0,6.074,6.1088,0.0867,6.0209,39240,406074
+pystrich,qr-alnum-eclH,qr,alnum,H,,,ok,,25,5,1.0,1.1121,1.2163,0.3026,0.8725,1089,816
+pystrich,qr-alnum-eclH-svg,qr,alnum,H,,,ok,,25,5,1.0,0.8718,0.8157,0.0982,0.681,1089,11736
+pystrich,qr-alnum-eclL,qr,alnum,L,,,ok,,25,5,1.0,0.8708,0.8936,0.2423,0.6909,625,561
+pystrich,qr-alnum-eclL-svg,qr,alnum,L,,,ok,,25,5,1.0,0.5841,0.5897,0.0201,0.565,625,7331
+pystrich,qr-alnum-eclM,qr,alnum,M,,,ok,,25,5,1.0,0.9465,1.0485,0.2162,0.8267,841,673
+pystrich,qr-alnum-eclM-svg,qr,alnum,M,,,ok,,25,5,1.0,0.7474,0.7258,0.1004,0.5477,841,9513
+pystrich,qr-alnum-eclQ,qr,alnum,Q,,,ok,,25,5,1.0,1.1462,1.1268,0.2624,0.8373,841,688
+pystrich,qr-alnum-eclQ-svg,qr,alnum,Q,,,ok,,25,5,1.0,0.7786,0.8068,0.1042,0.6824,841,9640
+pystrich,qr-base64_nc-eclM,qr,base64_near_capacity,M,,,ok,,25,5,1.0,29.3524,31.2424,4.2743,27.1746,27225,12031
+pystrich,qr-base64_nc-eclM-svg,qr,base64_near_capacity,M,,,ok,,25,5,1.0,25.5496,27.6868,3.825,24.0773,27225,300642
+pystrich,qr-bcbp-eclM,qr,bcbp,M,,,ok,,25,5,1.0,0.9892,1.2445,0.3596,0.9415,841,691
+pystrich,qr-bcbp-eclM-svg,qr,bcbp,M,,,ok,,25,5,1.0,0.8464,1.0863,0.3294,0.8096,841,9594
+pystrich,qr-json_nc-eclM,qr,json_near_capacity,M,,,ok,,25,5,1.0,27.9682,29.1726,2.9716,26.2681,27225,12021
+pystrich,qr-json_nc-eclM-svg,qr,json_near_capacity,M,,,ok,,25,5,1.0,24.409,26.9249,3.7483,23.6,27225,299908
+pystrich,qr-kanji-eclM,qr,kanji,M,shift_jis,,ok,,25,5,1.0,0.9348,0.9658,0.2054,0.6568,841,685
+pystrich,qr-kanji-eclM-auto,qr,kanji,M,,,ok,,25,5,1.0,1.2953,1.2578,0.2297,0.8433,1369,956
+pystrich,qr-kanji-eclM-auto-svg,qr,kanji,M,,,ok,,25,5,1.0,1.1019,1.07,0.2067,0.6967,1369,14986
+pystrich,qr-kanji-eclM-svg,qr,kanji,M,shift_jis,,ok,,25,5,1.0,0.7358,0.7339,0.1197,0.5267,841,9601
+pystrich,qr-latin1-eclM,qr,latin1,M,iso-8859-1,,ok,,25,5,1.0,1.6152,1.6786,0.3957,1.0679,1681,1105
+pystrich,qr-latin1-eclM-auto,qr,latin1,M,,,ok,,25,5,1.0,1.5729,1.5331,0.2553,1.0692,1681,1105
+pystrich,qr-latin1-eclM-auto-svg,qr,latin1,M,,,ok,,25,5,1.0,1.3459,1.3183,0.2306,0.9046,1681,18419
+pystrich,qr-latin1-eclM-svg,qr,latin1,M,iso-8859-1,,ok,,25,5,1.0,1.3576,1.3272,0.2354,0.8916,1681,18419
+pystrich,qr-latin1_ambiguous-eclM,qr,latin1_ambiguous,M,iso-8859-1,,ok,,25,5,1.0,1.3746,1.4532,0.3057,1.1294,1369,955
+pystrich,qr-latin1_ambiguous-eclM-auto,qr,latin1_ambiguous,M,,,ok,,25,5,1.0,1.3639,1.3416,0.2002,1.1256,1369,955
+pystrich,qr-latin1_ambiguous-eclM-auto-svg,qr,latin1_ambiguous,M,,,ok,,25,5,1.0,1.1769,1.155,0.1769,0.9643,1369,15507
+pystrich,qr-latin1_ambiguous-eclM-svg,qr,latin1_ambiguous,M,iso-8859-1,,ok,,25,5,1.0,1.1916,1.1679,0.1789,0.9574,1369,15507
+pystrich,qr-mixed_modes-eclM,qr,mixed_modes,M,,,ok,,25,5,1.0,2.4495,2.4353,0.6124,1.7542,1681,1128
+pystrich,qr-mixed_modes-eclM-svg,qr,mixed_modes,M,,,ok,,25,5,1.0,1.5978,1.6532,0.2744,1.2357,1681,19227
+pystrich,qr-near_capacity-eclH,qr,near_capacity,H,,,ok,,25,5,1.0,21.5547,23.7128,4.5923,20.9108,27225,12023
+pystrich,qr-near_capacity-eclH-svg,qr,near_capacity,H,,,ok,,25,5,1.0,18.475,20.0696,3.2574,17.9884,27225,299253
+pystrich,qr-near_capacity-eclL,qr,near_capacity,L,,,ok,,25,5,1.0,31.8124,33.1622,5.8822,27.6816,27225,11769
+pystrich,qr-near_capacity-eclL-svg,qr,near_capacity,L,,,ok,,25,5,1.0,26.8833,28.9992,3.7225,25.029,27225,295366
+pystrich,qr-near_capacity-eclM,qr,near_capacity,M,,,ok,,25,5,1.0,30.0805,28.9262,2.8323,25.2863,27225,11831
+pystrich,qr-near_capacity-eclM-svg,qr,near_capacity,M,,,ok,,25,5,1.0,23.4843,25.7854,3.7864,22.3707,27225,294972
+pystrich,qr-near_capacity-eclQ,qr,near_capacity,Q,,,ok,,25,5,1.0,23.8821,26.1938,4.2105,22.6474,27225,11882
+pystrich,qr-near_capacity-eclQ-svg,qr,near_capacity,Q,,,ok,,25,5,1.0,20.0595,21.6498,3.3021,19.6319,27225,296484
+pystrich,qr-numeric_long-eclM,qr,numeric_long,M,,,ok,,25,5,1.0,1.6925,1.9604,0.883,1.3217,1089,816
+pystrich,qr-numeric_long-eclM-svg,qr,numeric_long,M,,,ok,,25,5,1.0,1.1688,1.2314,0.1515,1.118,1089,12251
+pystrich,qr-numeric_short-eclM,qr,numeric_short,M,,,ok,,25,5,1.0,1.1208,1.1036,0.3442,0.5277,441,401
+pystrich,qr-numeric_short-eclM-svg,qr,numeric_short,M,,,ok,,25,5,1.0,0.3996,0.3994,0.0148,0.3763,441,5233
+pystrich,qr-text_para-eclM,qr,text_para,M,,,ok,,25,5,1.0,5.3058,5.465,1.4507,3.7629,3721,2179
+pystrich,qr-text_para-eclM-svg,qr,text_para,M,,,ok,,25,5,1.0,3.4009,3.8075,0.6326,3.263,3721,41915
+pystrich,qr-url-eclM,qr,url,M,,,ok,,25,5,1.0,1.3777,1.3911,0.2454,1.1068,1369,937
+pystrich,qr-url-eclM-svg,qr,url,M,,,ok,,25,5,1.0,1.1241,1.0706,0.0892,0.9373,1369,15114
+pystrich,qr-url_nc-eclM,qr,url_near_capacity,M,,,ok,,25,5,1.0,33.2138,31.8986,3.1569,27.756,27225,12061
+pystrich,qr-url_nc-eclM-svg,qr,url_near_capacity,M,,,ok,,25,5,1.0,25.8596,28.2001,3.8589,24.5046,27225,298315
+pystrich,qr-utf8-eclM,qr,utf8,M,utf-8,,ok,,25,5,1.0,1.074,1.0756,0.1997,0.854,1089,808
+pystrich,qr-utf8-eclM-auto,qr,utf8,M,,,ok,,25,5,1.0,1.0523,0.9791,0.1186,0.8222,1089,808
+pystrich,qr-utf8-eclM-auto-svg,qr,utf8,M,,,ok,,25,5,1.0,0.8928,0.8296,0.1022,0.6899,1089,12073
+pystrich,qr-utf8-eclM-svg,qr,utf8,M,utf-8,,ok,,25,5,1.0,0.8981,0.8396,0.1017,0.6846,1089,12073
+pystrich,qr-xml_nc-eclM,qr,xml_near_capacity,M,,,ok,,25,5,1.0,27.4958,29.0394,2.994,26.2822,27225,11960
+pystrich,qr-xml_nc-eclM-svg,qr,xml_near_capacity,M,,,ok,,25,5,1.0,24.0962,26.6717,3.7542,23.3927,27225,298631
+pystrich-git,az-alnum-ecc10,aztec,alnum,10,,,ok,,25,5,1.0,0.7552,0.7553,0.1198,0.5776,529,445
+pystrich-git,az-alnum-ecc10-svg,aztec,alnum,10,,,ok,,25,5,1.0,0.6175,0.6239,0.0978,0.4785,529,5854
+pystrich-git,az-alnum-ecc23,aztec,alnum,23,,,ok,,25,5,1.0,1.0124,0.9485,0.1202,0.7862,729,547
+pystrich-git,az-alnum-ecc23-svg,aztec,alnum,23,,,ok,,25,5,1.0,0.7618,0.7421,0.0669,0.6497,729,7773
+pystrich-git,az-alnum-ecc50,aztec,alnum,50,,,ok,,25,5,1.0,0.8626,0.8548,0.0982,0.6784,729,545
+pystrich-git,az-alnum-ecc50-svg,aztec,alnum,50,,,ok,,25,5,1.0,0.6718,0.6248,0.0846,0.5087,729,7860
+pystrich-git,az-base64_nc-ecc23,aztec,base64_near_capacity,23,,,ok,,25,5,1.0,64.4358,65.2175,4.114,60.2164,19321,8687
+pystrich-git,az-base64_nc-ecc23-svg,aztec,base64_near_capacity,23,,,ok,,25,5,1.0,37.4353,36.186,4.0786,30.874,19321,228536
+pystrich-git,az-bcbp-ecc23,aztec,bcbp,23,,,ok,,25,5,1.0,1.7378,1.816,0.5975,1.0996,961,692
+pystrich-git,az-bcbp-ecc23-svg,aztec,bcbp,23,,,ok,,25,5,1.0,1.5492,1.5956,0.5322,0.9841,961,10380
+pystrich-git,az-json_nc-ecc23,aztec,json_near_capacity,23,,,ok,,25,5,1.0,51.6445,51.7863,7.9546,40.6395,17161,7536
+pystrich-git,az-json_nc-ecc23-svg,aztec,json_near_capacity,23,,,ok,,25,5,1.0,31.0132,33.2705,4.0826,29.3757,17161,187890
+pystrich-git,az-latin1-ecc23,aztec,latin1,23,iso-8859-1,,ok,,25,5,1.0,1.4294,1.4763,0.4188,0.8649,961,691
+pystrich-git,az-latin1-ecc23-auto,aztec,latin1,23,,,ok,,25,5,1.0,1.3242,1.3336,0.3755,0.8268,961,691
+pystrich-git,az-latin1-ecc23-auto-svg,aztec,latin1,23,,,ok,,25,5,1.0,1.176,1.1854,0.3351,0.733,961,10633
+pystrich-git,az-latin1-ecc23-svg,aztec,latin1,23,iso-8859-1,,ok,,25,5,1.0,1.2065,1.2015,0.3355,0.7414,961,10633
+pystrich-git,az-latin1_ambiguous-ecc23,aztec,latin1_ambiguous,23,iso-8859-1,,ok,,25,5,1.0,1.6703,1.6886,0.614,0.9621,1369,910
+pystrich-git,az-latin1_ambiguous-ecc23-auto,aztec,latin1_ambiguous,23,,,ok,,25,5,1.0,1.5842,1.6358,0.5941,0.9468,1369,910
+pystrich-git,az-latin1_ambiguous-ecc23-auto-svg,aztec,latin1_ambiguous,23,,,ok,,25,5,1.0,1.3934,1.4624,0.5518,0.8275,1369,16489
+pystrich-git,az-latin1_ambiguous-ecc23-svg,aztec,latin1_ambiguous,23,iso-8859-1,,ok,,25,5,1.0,1.409,1.4868,0.5717,0.8323,1369,16489
+pystrich-git,az-lower_text-ecc23,aztec,lower_text,23,,,ok,,25,5,1.0,0.8843,0.9129,0.1061,0.7956,529,448
+pystrich-git,az-lower_text-ecc23-svg,aztec,lower_text,23,,,ok,,25,5,1.0,0.7555,0.7725,0.107,0.6597,529,5985
+pystrich-git,az-mixed_modes-ecc23,aztec,mixed_modes,23,,,ok,,25,5,1.0,1.8111,2.2897,0.6817,1.6888,961,715
+pystrich-git,az-mixed_modes-ecc23-svg,aztec,mixed_modes,23,,,ok,,25,5,1.0,1.5561,1.9519,0.5594,1.4356,961,11267
+pystrich-git,az-near_capacity-ecc23,aztec,near_capacity,23,,,ok,,25,5,1.0,41.5165,41.5356,5.2223,34.2361,12769,5860
+pystrich-git,az-near_capacity-ecc23-svg,aztec,near_capacity,23,,,ok,,25,5,1.0,27.0239,29.0371,3.8357,25.2001,12769,147017
+pystrich-git,az-numeric_long-ecc23,aztec,numeric_long,23,,,ok,,25,5,1.0,2.5579,3.6049,2.5923,1.6958,1369,898
+pystrich-git,az-numeric_long-ecc23-svg,aztec,numeric_long,23,,,ok,,25,5,1.0,2.0998,2.0346,0.2835,1.4841,1369,16142
+pystrich-git,az-numeric_short-ecc23,aztec,numeric_short,23,,,ok,,25,5,1.0,0.2844,0.2933,0.0322,0.2464,225,272
+pystrich-git,az-numeric_short-ecc23-svg,aztec,numeric_short,23,,,ok,,25,5,1.0,0.2083,0.224,0.0319,0.1877,225,2615
+pystrich-git,az-text_para-ecc23,aztec,text_para,23,,,ok,,25,5,1.0,6.3822,6.7246,1.9904,3.6555,2809,1562
+pystrich-git,az-text_para-ecc23-svg,aztec,text_para,23,,,ok,,25,5,1.0,5.121,5.2413,1.3719,3.2013,2809,31579
+pystrich-git,az-tiny-ecc23,aztec,tiny,23,,,ok,,25,5,1.0,0.2607,0.2621,0.022,0.2249,225,275
+pystrich-git,az-tiny-ecc23-svg,aztec,tiny,23,,,ok,,25,5,1.0,0.1832,0.191,0.034,0.1627,225,2657
+pystrich-git,az-upper_c40-ecc23,aztec,upper_c40,23,,,ok,,25,5,1.0,0.9712,0.982,0.1291,0.8309,729,545
+pystrich-git,az-upper_c40-ecc23-svg,aztec,upper_c40,23,,,ok,,25,5,1.0,0.8508,0.8285,0.097,0.7008,729,7696
+pystrich-git,az-url-ecc23,aztec,url,23,,,ok,,25,5,1.0,1.5261,1.4759,0.1046,1.2658,961,698
+pystrich-git,az-url-ecc23-svg,aztec,url,23,,,ok,,25,5,1.0,1.3181,1.2774,0.1028,1.0519,961,10414
+pystrich-git,az-url_nc-ecc23,aztec,url_near_capacity,23,,,ok,,25,5,1.0,59.6942,60.7341,4.9893,55.4604,18225,8096
+pystrich-git,az-url_nc-ecc23-svg,aztec,url_near_capacity,23,,,ok,,25,5,1.0,32.3136,34.3979,4.0078,30.6678,18225,208659
+pystrich-git,az-utf8-ecc23,aztec,utf8,23,utf-8,,ok,,25,5,1.0,0.7997,0.8088,0.1579,0.5299,529,448
+pystrich-git,az-utf8-ecc23-auto,aztec,utf8,23,,,ok,,25,5,1.0,0.8159,0.7784,0.1271,0.5351,529,442
+pystrich-git,az-utf8-ecc23-auto-svg,aztec,utf8,23,,,ok,,25,5,1.0,0.6716,0.6497,0.1238,0.4137,529,6112
+pystrich-git,az-utf8-ecc23-svg,aztec,utf8,23,utf-8,,ok,,25,5,1.0,0.6816,0.6527,0.1208,0.414,529,6112
+pystrich-git,az-xml_nc-ecc23,aztec,xml_near_capacity,23,,,ok,,25,5,1.0,46.9013,45.7323,6.4145,36.4551,15625,6815
+pystrich-git,az-xml_nc-ecc23-svg,aztec,xml_near_capacity,23,,,ok,,25,5,1.0,29.2571,32.1336,4.1186,28.0105,15625,175165
+pystrich-git,dm-alnum,datamatrix,alnum,,,,ok,,25,5,1.0,0.3539,0.3914,0.0837,0.3266,484,411
+pystrich-git,dm-alnum-svg,datamatrix,alnum,,,,ok,,25,5,1.0,0.2456,0.2582,0.0264,0.2307,484,5749
+pystrich-git,dm-base64_nc,datamatrix,base64_near_capacity,,,,ok,,25,5,1.0,9.563,11.1246,3.1073,9.4071,17424,7486
+pystrich-git,dm-base64_nc-svg,datamatrix,base64_near_capacity,,,,ok,,25,5,1.0,8.1132,10.7855,3.6577,7.5586,17424,192639
+pystrich-git,dm-bcbp,datamatrix,bcbp,,,,ok,,25,5,1.0,0.8726,0.8348,0.2471,0.5102,1296,850
+pystrich-git,dm-bcbp-svg,datamatrix,bcbp,,,,ok,,25,5,1.0,0.6375,0.6282,0.19,0.3751,1296,14722
+pystrich-git,dm-edifact_charset,datamatrix,edifact_charset,,,,ok,,25,5,1.0,0.4783,0.5064,0.0602,0.4378,676,514
+pystrich-git,dm-edifact_charset-svg,datamatrix,edifact_charset,,,,ok,,25,5,1.0,0.3461,0.3705,0.0637,0.3059,676,7796
+pystrich-git,dm-json_nc,datamatrix,json_near_capacity,,,,ok,,25,5,1.0,9.3481,10.9656,3.1518,9.2151,17424,7405
+pystrich-git,dm-json_nc-svg,datamatrix,json_near_capacity,,,,ok,,25,5,1.0,7.6471,9.0969,2.9453,7.4281,17424,193722
+pystrich-git,dm-latin1,datamatrix,latin1,,iso-8859-1,,ok,,25,5,1.0,0.6225,0.6695,0.1826,0.4056,1024,730
+pystrich-git,dm-latin1-auto,datamatrix,latin1,,,,ok,,25,5,1.0,0.5948,0.6252,0.1543,0.3831,1024,730
+pystrich-git,dm-latin1-auto-svg,datamatrix,latin1,,,,ok,,25,5,1.0,0.4405,0.47,0.1214,0.2837,1024,12109
+pystrich-git,dm-latin1-svg,datamatrix,latin1,,iso-8859-1,,ok,,25,5,1.0,0.4632,0.4995,0.1392,0.298,1024,12109
+pystrich-git,dm-latin1_ambiguous,datamatrix,latin1_ambiguous,,iso-8859-1,,ok,,25,5,1.0,0.7455,0.7441,0.1254,0.5251,1296,857
+pystrich-git,dm-latin1_ambiguous-auto,datamatrix,latin1_ambiguous,,,,ok,,25,5,1.0,0.6999,0.7011,0.1067,0.5135,1296,857
+pystrich-git,dm-latin1_ambiguous-auto-svg,datamatrix,latin1_ambiguous,,,,ok,,25,5,1.0,0.5315,0.5241,0.0864,0.3659,1296,15112
+pystrich-git,dm-latin1_ambiguous-svg,datamatrix,latin1_ambiguous,,iso-8859-1,,ok,,25,5,1.0,0.5348,0.5344,0.093,0.3707,1296,15112
+pystrich-git,dm-lower_text,datamatrix,lower_text,,,,ok,,25,5,1.0,0.4024,0.4205,0.0297,0.3933,576,451
+pystrich-git,dm-lower_text-svg,datamatrix,lower_text,,,,ok,,25,5,1.0,0.2872,0.3183,0.1114,0.2759,576,6823
+pystrich-git,dm-mixed_modes,datamatrix,mixed_modes,,,,ok,,25,5,1.0,1.1903,1.2576,0.3708,0.6723,1600,969
+pystrich-git,dm-mixed_modes-svg,datamatrix,mixed_modes,,,,ok,,25,5,1.0,0.7646,0.7552,0.1663,0.4929,1600,18004
+pystrich-git,dm-near_capacity,datamatrix,near_capacity,,,,ok,,25,5,1.0,8.7164,10.2507,2.4322,8.2822,14400,6227
+pystrich-git,dm-near_capacity-svg,datamatrix,near_capacity,,,,ok,,25,5,1.0,7.1944,7.2946,0.3936,6.8911,14400,162626
+pystrich-git,dm-numeric_even,datamatrix,numeric_even,,,,ok,,25,5,1.0,0.3975,0.3835,0.0885,0.2502,400,378
+pystrich-git,dm-numeric_even-svg,datamatrix,numeric_even,,,,ok,,25,5,1.0,0.2747,0.2478,0.053,0.173,400,4818
+pystrich-git,dm-numeric_long,datamatrix,numeric_long,,,,ok,,25,5,1.0,0.8154,0.8632,0.1048,0.7724,1024,716
+pystrich-git,dm-numeric_long-svg,datamatrix,numeric_long,,,,ok,,25,5,1.0,0.6229,0.6283,0.036,0.5831,1024,11848
+pystrich-git,dm-numeric_odd,datamatrix,numeric_odd,,,,ok,,25,5,1.0,0.3754,0.3682,0.054,0.2768,400,368
+pystrich-git,dm-numeric_odd-svg,datamatrix,numeric_odd,,,,ok,,25,5,1.0,0.2526,0.2545,0.0349,0.192,400,4858
+pystrich-git,dm-numeric_prefix,datamatrix,numeric_prefix,,,,ok,,25,5,1.0,0.2138,0.2177,0.0154,0.1946,196,259
+pystrich-git,dm-numeric_prefix-svg,datamatrix,numeric_prefix,,,,ok,,25,5,1.0,0.1444,0.1487,0.0153,0.1322,196,2693
+pystrich-git,dm-numeric_short,datamatrix,numeric_short,,,,ok,,25,5,1.0,0.2004,0.1965,0.0265,0.1442,144,218
+pystrich-git,dm-numeric_short-svg,datamatrix,numeric_short,,,,ok,,25,5,1.0,0.1171,0.1198,0.0191,0.0907,144,1932
+pystrich-git,dm-numeric_suffix,datamatrix,numeric_suffix,,,,ok,,25,5,1.0,0.2193,0.2148,0.0173,0.1842,256,269
+pystrich-git,dm-numeric_suffix-svg,datamatrix,numeric_suffix,,,,ok,,25,5,1.0,0.1483,0.1465,0.0134,0.1238,256,3032
+pystrich-git,dm-text_para,datamatrix,text_para,,,,ok,,25,5,1.0,3.0368,3.0638,0.4092,2.4486,5184,2627
+pystrich-git,dm-text_para-svg,datamatrix,text_para,,,,ok,,25,5,1.0,2.5039,3.649,2.7314,1.8492,5184,58454
+pystrich-git,dm-upper_c40,datamatrix,upper_c40,,,,ok,,25,5,1.0,0.4919,0.5162,0.0837,0.4201,676,495
+pystrich-git,dm-upper_c40-svg,datamatrix,upper_c40,,,,ok,,25,5,1.0,0.3343,0.3397,0.0324,0.2923,676,7628
+pystrich-git,dm-url,datamatrix,url,,,,ok,,25,5,1.0,0.5914,0.6016,0.0312,0.5661,1024,715
+pystrich-git,dm-url-svg,datamatrix,url,,,,ok,,25,5,1.0,0.4283,0.439,0.0216,0.411,1024,11807
+pystrich-git,dm-url_nc,datamatrix,url_near_capacity,,,,ok,,25,5,1.0,9.5528,10.9649,2.7679,9.3962,17424,7353
+pystrich-git,dm-url_nc-svg,datamatrix,url_near_capacity,,,,ok,,25,5,1.0,7.7798,9.2216,2.898,7.5705,17424,190621
+pystrich-git,dm-utf8,datamatrix,utf8,,utf-8,,ok,,25,5,1.0,0.5017,0.5342,0.0748,0.4703,1024,713
+pystrich-git,dm-utf8-auto,datamatrix,utf8,,,,ok,,25,5,1.0,0.4965,0.5238,0.0634,0.4691,1024,713
+pystrich-git,dm-utf8-auto-svg,datamatrix,utf8,,,,ok,,25,5,1.0,0.3599,0.3758,0.0507,0.3286,1024,11645
+pystrich-git,dm-utf8-svg,datamatrix,utf8,,utf-8,,ok,,25,5,1.0,0.3619,0.3773,0.0506,0.3293,1024,11645
+pystrich-git,dm-x12_charset,datamatrix,x12_charset,,,,ok,,25,5,1.0,0.406,0.4007,0.0192,0.3608,576,457
+pystrich-git,dm-x12_charset-svg,datamatrix,x12_charset,,,,ok,,25,5,1.0,0.2991,0.2952,0.0147,0.2645,576,6822
+pystrich-git,dm-xml_nc,datamatrix,xml_near_capacity,,,,ok,,25,5,1.0,9.6779,11.4019,3.6682,9.2181,17424,7435
+pystrich-git,dm-xml_nc-svg,datamatrix,xml_near_capacity,,,,ok,,25,5,1.0,7.7021,9.2689,3.1488,7.529,17424,190907
+pystrich-git,dmr-alnum,datamatrix_rect,alnum,,,,ok,,25,5,1.0,0.4017,0.4133,0.1008,0.302,432,370
+pystrich-git,dmr-alnum-svg,datamatrix_rect,alnum,,,,ok,,25,5,1.0,0.2295,0.2597,0.0586,0.2123,432,4889
+pystrich-git,dmr-lower_text,datamatrix_rect,lower_text,,,,ok,,25,5,1.0,0.3855,0.4043,0.0393,0.3565,576,456
+pystrich-git,dmr-lower_text-svg,datamatrix_rect,lower_text,,,,ok,,25,5,1.0,0.2891,0.3036,0.0325,0.2651,576,6561
+pystrich-git,dmr-numeric_short,datamatrix_rect,numeric_short,,,,ok,,25,5,1.0,0.1795,0.1901,0.0278,0.1494,144,204
+pystrich-git,dmr-numeric_short-svg,datamatrix_rect,numeric_short,,,,ok,,25,5,1.0,0.1059,0.1153,0.0183,0.0949,144,1926
+pystrich-git,dmr-upper_c40,datamatrix_rect,upper_c40,,,,ok,,25,5,1.0,0.4806,0.4661,0.0381,0.3904,768,519
+pystrich-git,dmr-upper_c40-svg,datamatrix_rect,upper_c40,,,,ok,,25,5,1.0,0.3611,0.3467,0.0306,0.2812,768,8636
+pystrich-git,dmr-x12_charset,datamatrix_rect,x12_charset,,,,ok,,25,5,1.0,0.4599,0.4515,0.0352,0.3816,768,528
+pystrich-git,dmr-x12_charset-svg,datamatrix_rect,x12_charset,,,,ok,,25,5,1.0,0.3474,0.3428,0.0304,0.2864,768,8387
+pystrich-git,pdf-alnum-ecl2,pdf417,alnum,2,,,ok,,25,5,1.0,0.5787,0.602,0.0532,0.538,3288,775
+pystrich-git,pdf-alnum-ecl2-svg,pdf417,alnum,2,,,ok,,25,5,1.0,0.4297,0.4506,0.0386,0.4052,3288,34187
+pystrich-git,pdf-alnum-ecl5,pdf417,alnum,5,,,ok,,25,5,1.0,1.1633,1.1463,0.0711,1.0321,7170,1377
+pystrich-git,pdf-alnum-ecl5-svg,pdf417,alnum,5,,,ok,,25,5,1.0,0.8751,0.8611,0.0419,0.7834,7170,74237
+pystrich-git,pdf-alnum-ecl8,pdf417,alnum,8,,,ok,,25,5,1.0,5.4777,5.5087,0.1691,5.2938,32604,5268
+pystrich-git,pdf-alnum-ecl8-svg,pdf417,alnum,8,,,ok,,25,5,1.0,4.3,4.3235,0.1568,4.1592,32604,337404
+pystrich-git,pdf-base64_nc-ecl5,pdf417,base64_near_capacity,5,,,ok,,25,5,1.0,9.0001,9.0219,0.2829,8.6526,46899,7236
+pystrich-git,pdf-base64_nc-ecl5-svg,pdf417,base64_near_capacity,5,,,ok,,25,5,1.0,7.4546,8.5197,2.9392,7.1002,46899,485366
+pystrich-git,pdf-bcbp-ecl2,pdf417,bcbp,2,,,ok,,25,5,1.0,0.9155,0.8676,0.1518,0.6778,5535,1108
+pystrich-git,pdf-bcbp-ecl2-svg,pdf417,bcbp,2,,,ok,,25,5,1.0,0.6895,0.8014,0.3318,0.5156,5535,57345
+pystrich-git,pdf-json_nc-ecl5,pdf417,json_near_capacity,5,,,ok,,25,5,1.0,7.7409,7.7862,0.1343,7.6144,40464,6407
+pystrich-git,pdf-json_nc-ecl5-svg,pdf417,json_near_capacity,5,,,ok,,25,5,1.0,6.3386,6.3118,0.147,6.1231,40464,418711
+pystrich-git,pdf-latin1-ecl2,pdf417,latin1,2,iso-8859-1,,ok,,25,5,1.0,0.8194,0.8047,0.118,0.6392,5076,1060
+pystrich-git,pdf-latin1-ecl2-auto,pdf417,latin1,2,,,ok,,25,5,1.0,0.7945,0.7753,0.1424,0.5471,5076,1060
+pystrich-git,pdf-latin1-ecl2-auto-svg,pdf417,latin1,2,,,ok,,25,5,1.0,0.6234,0.5793,0.1035,0.4056,5076,52628
+pystrich-git,pdf-latin1-ecl2-svg,pdf417,latin1,2,iso-8859-1,,ok,,25,5,1.0,0.6366,0.5972,0.0858,0.4646,5076,52628
+pystrich-git,pdf-latin1_ambiguous-ecl2,pdf417,latin1_ambiguous,2,iso-8859-1,,ok,,25,5,1.0,1.2169,1.1326,0.1653,0.8021,7887,1472
+pystrich-git,pdf-latin1_ambiguous-ecl2-auto,pdf417,latin1_ambiguous,2,,,ok,,25,5,1.0,1.2058,1.1298,0.1713,0.7892,7887,1472
+pystrich-git,pdf-latin1_ambiguous-ecl2-auto-svg,pdf417,latin1_ambiguous,2,,,ok,,25,5,1.0,0.9133,0.8608,0.1267,0.6084,7887,81689
+pystrich-git,pdf-latin1_ambiguous-ecl2-svg,pdf417,latin1_ambiguous,2,iso-8859-1,,ok,,25,5,1.0,0.9158,0.862,0.1186,0.6162,7887,81689
+pystrich-git,pdf-lower_text-ecl2,pdf417,lower_text,2,,,ok,,25,5,1.0,0.6267,0.6151,0.0379,0.5322,3696,831
+pystrich-git,pdf-lower_text-ecl2-svg,pdf417,lower_text,2,,,ok,,25,5,1.0,0.4709,0.4627,0.0247,0.4075,3696,38376
+pystrich-git,pdf-mixed_modes-ecl2,pdf417,mixed_modes,2,,,ok,,25,5,1.0,1.0254,0.9976,0.0951,0.7965,6150,1246
+pystrich-git,pdf-mixed_modes-ecl2-svg,pdf417,mixed_modes,2,,,ok,,25,5,1.0,0.7762,0.7604,0.0634,0.6179,6150,63744
+pystrich-git,pdf-near_capacity-ecl5,pdf417,near_capacity,5,,,ok,,25,5,1.0,5.8856,5.9107,0.1295,5.789,31122,5026
+pystrich-git,pdf-near_capacity-ecl5-svg,pdf417,near_capacity,5,,,ok,,25,5,1.0,4.7694,4.7706,0.1362,4.6191,31122,322032
+pystrich-git,pdf-numeric_long-ecl2,pdf417,numeric_long,2,,,ok,,25,5,1.0,0.7735,0.7778,0.0352,0.7287,4512,971
+pystrich-git,pdf-numeric_long-ecl2-svg,pdf417,numeric_long,2,,,ok,,25,5,1.0,0.5842,0.5871,0.0233,0.558,4512,46769
+pystrich-git,pdf-text_para-ecl2,pdf417,text_para,2,,,ok,,25,5,1.0,2.1642,2.0785,0.5738,1.3562,13608,2382
+pystrich-git,pdf-text_para-ecl2-cols12,pdf417,text_para,2,,12,ok,,25,5,1.0,1.8945,2.0158,0.421,1.4018,12285,2245
+pystrich-git,pdf-text_para-ecl2-cols12-svg,pdf417,text_para,2,,12,ok,,25,5,1.0,1.4147,1.5225,0.3227,1.0555,12285,127265
+pystrich-git,pdf-text_para-ecl2-cols6,pdf417,text_para,2,,6,ok,,25,5,1.0,2.1464,2.3546,0.4281,1.82,14364,2806
+pystrich-git,pdf-text_para-ecl2-cols6-svg,pdf417,text_para,2,,6,ok,,25,5,1.0,1.6145,1.8339,0.3763,1.4145,14364,149338
+pystrich-git,pdf-text_para-ecl2-svg,pdf417,text_para,2,,,ok,,25,5,1.0,1.6229,1.5653,0.4535,0.9841,13608,140843
+pystrich-git,pdf-upper_c40-ecl2,pdf417,upper_c40,2,,,ok,,25,5,1.0,0.682,0.6805,0.0265,0.6321,4104,912
+pystrich-git,pdf-upper_c40-ecl2-svg,pdf417,upper_c40,2,,,ok,,25,5,1.0,0.5239,0.5169,0.0261,0.4637,4104,42568
+pystrich-git,pdf-url-ecl2,pdf417,url,2,,,ok,,25,5,1.0,0.7333,0.7304,0.0267,0.6679,4512,959
+pystrich-git,pdf-url-ecl2-svg,pdf417,url,2,,,ok,,25,5,1.0,0.5587,0.5552,0.0184,0.5093,4512,46760
+pystrich-git,pdf-url_nc-ecl5,pdf417,url_near_capacity,5,,,ok,,25,5,1.0,8.047,8.0961,0.2086,7.836,42150,6663
+pystrich-git,pdf-url_nc-ecl5-svg,pdf417,url_near_capacity,5,,,ok,,25,5,1.0,6.8228,8.2697,3.0465,6.5737,42150,436186
+pystrich-git,pdf-utf8-ecl2,pdf417,utf8,2,utf-8,,ok,,25,5,1.0,0.6893,0.7014,0.0716,0.624,4158,906
+pystrich-git,pdf-utf8-ecl2-auto,pdf417,utf8,2,,,ok,,25,5,1.0,0.6872,0.6845,0.0906,0.5473,4158,906
+pystrich-git,pdf-utf8-ecl2-auto-svg,pdf417,utf8,2,,,ok,,25,5,1.0,0.5154,0.5218,0.0793,0.4054,4158,43191
+pystrich-git,pdf-utf8-ecl2-svg,pdf417,utf8,2,utf-8,,ok,,25,5,1.0,0.51,0.5281,0.0658,0.4528,4158,43191
+pystrich-git,pdf-xml_nc-ecl5,pdf417,xml_near_capacity,5,,,ok,,25,5,1.0,7.5279,7.5696,0.1743,7.3327,39240,6319
+pystrich-git,pdf-xml_nc-ecl5-svg,pdf417,xml_near_capacity,5,,,ok,,25,5,1.0,6.1562,6.1449,0.1315,5.9566,39240,406074
+pystrich-git,qr-alnum-eclH,qr,alnum,H,,,ok,,25,5,1.0,1.0899,1.1049,0.1651,0.8665,1089,816
+pystrich-git,qr-alnum-eclH-svg,qr,alnum,H,,,ok,,25,5,1.0,0.8532,0.8104,0.0995,0.6801,1089,11736
+pystrich-git,qr-alnum-eclL,qr,alnum,L,,,ok,,25,5,1.0,0.722,0.7686,0.1054,0.6753,625,561
+pystrich-git,qr-alnum-eclL-svg,qr,alnum,L,,,ok,,25,5,1.0,0.5837,0.5889,0.0221,0.5569,625,7331
+pystrich-git,qr-alnum-eclM,qr,alnum,M,,,ok,,25,5,1.0,0.9251,0.948,0.0959,0.8222,841,673
+pystrich-git,qr-alnum-eclM-svg,qr,alnum,M,,,ok,,25,5,1.0,0.7383,0.7115,0.0739,0.5425,841,9513
+pystrich-git,qr-alnum-eclQ,qr,alnum,Q,,,ok,,25,5,1.0,1.034,1.0415,0.1831,0.8277,841,688
+pystrich-git,qr-alnum-eclQ-svg,qr,alnum,Q,,,ok,,25,5,1.0,0.7247,0.7902,0.1057,0.6845,841,9640
+pystrich-git,qr-base64_nc-eclM,qr,base64_near_capacity,M,,,ok,,25,5,1.0,28.5989,29.9175,2.9922,27.1217,27225,12031
+pystrich-git,qr-base64_nc-eclM-svg,qr,base64_near_capacity,M,,,ok,,25,5,1.0,25.4351,27.7537,3.9279,24.1108,27225,300642
+pystrich-git,qr-bcbp-eclM,qr,bcbp,M,,,ok,,25,5,1.0,0.9977,1.2518,0.3584,0.9401,841,691
+pystrich-git,qr-bcbp-eclM-svg,qr,bcbp,M,,,ok,,25,5,1.0,0.8652,1.0945,0.3308,0.7972,841,9594
+pystrich-git,qr-json_nc-eclM,qr,json_near_capacity,M,,,ok,,25,5,1.0,27.6842,29.1757,3.0757,26.3319,27225,12021
+pystrich-git,qr-json_nc-eclM-svg,qr,json_near_capacity,M,,,ok,,25,5,1.0,24.9825,27.2076,3.9118,23.6267,27225,299908
+pystrich-git,qr-kanji-eclM,qr,kanji,M,shift_jis,,ok,,25,5,1.0,0.8927,0.9478,0.3269,0.6443,841,685
+pystrich-git,qr-kanji-eclM-auto,qr,kanji,M,,,ok,,25,5,1.0,1.299,1.2689,0.2319,0.8384,1369,956
+pystrich-git,qr-kanji-eclM-auto-svg,qr,kanji,M,,,ok,,25,5,1.0,1.0984,1.0702,0.202,0.6849,1369,14986
+pystrich-git,qr-kanji-eclM-svg,qr,kanji,M,shift_jis,,ok,,25,5,1.0,0.7412,0.7362,0.1178,0.5362,841,9601
+pystrich-git,qr-latin1-eclM,qr,latin1,M,iso-8859-1,,ok,,25,5,1.0,1.6005,1.5512,0.2606,1.0677,1681,1105
+pystrich-git,qr-latin1-eclM-auto,qr,latin1,M,,,ok,,25,5,1.0,1.573,1.5537,0.2842,1.0632,1681,1105
+pystrich-git,qr-latin1-eclM-auto-svg,qr,latin1,M,,,ok,,25,5,1.0,1.3513,1.318,0.2298,0.8886,1681,18419
+pystrich-git,qr-latin1-eclM-svg,qr,latin1,M,iso-8859-1,,ok,,25,5,1.0,1.3707,1.3262,0.2252,0.9077,1681,18419
+pystrich-git,qr-latin1_ambiguous-eclM,qr,latin1_ambiguous,M,iso-8859-1,,ok,,25,5,1.0,1.3629,1.345,0.2049,1.1218,1369,955
+pystrich-git,qr-latin1_ambiguous-eclM-auto,qr,latin1_ambiguous,M,,,ok,,25,5,1.0,1.3704,1.3428,0.1988,1.1249,1369,955
+pystrich-git,qr-latin1_ambiguous-eclM-auto-svg,qr,latin1_ambiguous,M,,,ok,,25,5,1.0,1.1735,1.1538,0.1793,0.956,1369,15507
+pystrich-git,qr-latin1_ambiguous-eclM-svg,qr,latin1_ambiguous,M,iso-8859-1,,ok,,25,5,1.0,1.189,1.1658,0.181,0.9617,1369,15507
+pystrich-git,qr-mixed_modes-eclM,qr,mixed_modes,M,,,ok,,25,5,1.0,2.1691,2.3407,0.6071,1.7642,1681,1128
+pystrich-git,qr-mixed_modes-eclM-svg,qr,mixed_modes,M,,,ok,,25,5,1.0,1.5611,1.6477,0.2699,1.2516,1681,19227
+pystrich-git,qr-near_capacity-eclH,qr,near_capacity,H,,,ok,,25,5,1.0,21.3461,23.5343,4.2925,20.8586,27225,12023
+pystrich-git,qr-near_capacity-eclH-svg,qr,near_capacity,H,,,ok,,25,5,1.0,18.478,20.0691,3.2911,17.8924,27225,299253
+pystrich-git,qr-near_capacity-eclL,qr,near_capacity,L,,,ok,,25,5,1.0,31.5033,32.1963,4.2728,27.4511,27225,11769
+pystrich-git,qr-near_capacity-eclL-svg,qr,near_capacity,L,,,ok,,25,5,1.0,26.8989,28.9577,3.8742,24.9339,27225,295366
+pystrich-git,qr-near_capacity-eclM,qr,near_capacity,M,,,ok,,25,5,1.0,29.7235,28.8442,2.9318,25.1501,27225,11831
+pystrich-git,qr-near_capacity-eclM-svg,qr,near_capacity,M,,,ok,,25,5,1.0,23.5124,25.7458,3.8662,22.2808,27225,294972
+pystrich-git,qr-near_capacity-eclQ,qr,near_capacity,Q,,,ok,,25,5,1.0,23.7712,25.1517,2.8344,22.416,27225,11882
+pystrich-git,qr-near_capacity-eclQ-svg,qr,near_capacity,Q,,,ok,,25,5,1.0,19.9446,21.5211,3.0361,19.5305,27225,296484
+pystrich-git,qr-numeric_long-eclM,qr,numeric_long,M,,,ok,,25,5,1.0,1.4864,1.9276,0.8273,1.3271,1089,816
+pystrich-git,qr-numeric_long-eclM-svg,qr,numeric_long,M,,,ok,,25,5,1.0,1.171,1.2376,0.1546,1.1087,1089,12251
+pystrich-git,qr-numeric_short-eclM,qr,numeric_short,M,,,ok,,25,5,1.0,0.6186,0.7961,0.3151,0.492,441,401
+pystrich-git,qr-numeric_short-eclM-svg,qr,numeric_short,M,,,ok,,25,5,1.0,0.3974,0.4017,0.0159,0.3793,441,5233
+pystrich-git,qr-text_para-eclM,qr,text_para,M,,,ok,,25,5,1.0,5.0273,5.0504,1.1163,3.7591,3721,2179
+pystrich-git,qr-text_para-eclM-svg,qr,text_para,M,,,ok,,25,5,1.0,3.3941,3.8111,0.6227,3.2384,3721,41915
+pystrich-git,qr-url-eclM,qr,url,M,,,ok,,25,5,1.0,1.3638,1.3029,0.161,1.1044,1369,937
+pystrich-git,qr-url-eclM-svg,qr,url,M,,,ok,,25,5,1.0,1.1377,1.0801,0.0931,0.9489,1369,15114
+pystrich-git,qr-url_nc-eclM,qr,url_near_capacity,M,,,ok,,25,5,1.0,32.9057,31.6534,2.995,27.6602,27225,12061
+pystrich-git,qr-url_nc-eclM-svg,qr,url_near_capacity,M,,,ok,,25,5,1.0,26.1764,28.5173,4.0738,24.7306,27225,298315
+pystrich-git,qr-utf8-eclM,qr,utf8,M,utf-8,,ok,,25,5,1.0,1.0581,1.0009,0.1288,0.846,1089,808
+pystrich-git,qr-utf8-eclM-auto,qr,utf8,M,,,ok,,25,5,1.0,1.0444,0.9782,0.117,0.8165,1089,808
+pystrich-git,qr-utf8-eclM-auto-svg,qr,utf8,M,,,ok,,25,5,1.0,0.8843,0.8231,0.1044,0.6819,1089,12073
+pystrich-git,qr-utf8-eclM-svg,qr,utf8,M,utf-8,,ok,,25,5,1.0,0.8889,0.8312,0.1049,0.692,1089,12073
+pystrich-git,qr-xml_nc-eclM,qr,xml_near_capacity,M,,,ok,,25,5,1.0,27.5433,28.8415,2.9659,25.975,27225,11960
+pystrich-git,qr-xml_nc-eclM-svg,qr,xml_near_capacity,M,,,ok,,25,5,1.0,24.6864,26.9501,3.9686,23.2712,27225,298631
+qrcode,qr-alnum-eclH,qr,alnum,H,,,ok,,25,5,1.0,3.0304,3.1629,1.0214,2.292,1089,397
+qrcode,qr-alnum-eclH-svg,qr,alnum,H,,,ok,,25,5,1.0,3.851,3.6283,0.4799,2.9669,1089,11267
+qrcode,qr-alnum-eclL,qr,alnum,L,,,ok,,25,5,1.0,1.7593,1.8074,0.166,1.712,625,293
+qrcode,qr-alnum-eclL-svg,qr,alnum,L,,,ok,,25,5,1.0,2.2931,2.3557,0.1292,2.2454,625,6832
+qrcode,qr-alnum-eclM,qr,alnum,M,,,ok,,25,5,1.0,2.4086,2.3492,0.3987,1.715,841,339
+qrcode,qr-alnum-eclM-svg,qr,alnum,M,,,ok,,25,5,1.0,3.097,3.0133,0.3925,2.2281,841,8718
+qrcode,qr-alnum-eclQ,qr,alnum,Q,,,ok,,25,5,1.0,2.4008,2.6937,0.3836,2.3413,841,350
+qrcode,qr-alnum-eclQ-svg,qr,alnum,Q,,,ok,,25,5,1.0,3.4261,3.5525,0.5341,2.9893,841,9493
+qrcode,qr-base64_nc-eclM,qr,base64_near_capacity,M,,,ok,,25,5,1.0,88.1985,88.2217,1.4624,85.6698,27225,5330
+qrcode,qr-base64_nc-eclM-svg,qr,base64_near_capacity,M,,,ok,,25,5,1.0,110.1114,112.8228,8.9764,107.1954,27225,321973
+qrcode,qr-bcbp-eclM,qr,bcbp,M,,,ok,,25,5,1.0,2.6649,3.3398,1.1065,2.4018,841,346
+qrcode,qr-bcbp-eclM-svg,qr,bcbp,M,,,ok,,25,5,1.0,3.1664,4.2351,1.4012,3.0768,841,9072
+qrcode,qr-json_nc-eclM,qr,json_near_capacity,M,,,ok,,25,5,1.0,87.2664,87.35,1.1664,85.3136,27225,5361
+qrcode,qr-json_nc-eclM-svg,qr,json_near_capacity,M,,,ok,,25,5,1.0,107.8049,108.2918,1.4951,106.8852,27225,316336
+qrcode,qr-kanji-eclM,qr,kanji,M,shift_jis,,unsupported,no charset/ECI support for 'shift_jis' payloads,0,0,,,,,,,
+qrcode,qr-kanji-eclM-auto,qr,kanji,M,,,ok,,25,5,1.0,4.0427,3.7802,0.6759,2.389,1369,445
+qrcode,qr-kanji-eclM-auto-svg,qr,kanji,M,,,ok,,25,5,1.0,5.1346,4.7742,0.8174,3.1577,1369,14813
+qrcode,qr-kanji-eclM-svg,qr,kanji,M,shift_jis,,unsupported,no charset/ECI support for 'shift_jis' payloads,0,0,,,,,,,
+qrcode,qr-latin1-eclM,qr,latin1,M,iso-8859-1,,unsupported,no charset/ECI support for 'iso-8859-1' payloads,0,0,,,,,,,
+qrcode,qr-latin1-eclM-auto,qr,latin1,M,,,ok,,25,5,1.0,4.967,5.0996,1.2989,3.0716,1681,529
+qrcode,qr-latin1-eclM-auto-svg,qr,latin1,M,,,ok,,25,5,1.0,6.2704,6.3854,1.6426,3.903,1681,17700
+qrcode,qr-latin1-eclM-svg,qr,latin1,M,iso-8859-1,,unsupported,no charset/ECI support for 'iso-8859-1' payloads,0,0,,,,,,,
+qrcode,qr-latin1_ambiguous-eclM,qr,latin1_ambiguous,M,iso-8859-1,,unsupported,no charset/ECI support for 'iso-8859-1' payloads,0,0,,,,,,,
+qrcode,qr-latin1_ambiguous-eclM-auto,qr,latin1_ambiguous,M,,,ok,,25,5,1.0,4.8414,4.8356,0.7287,3.9369,1681,516
+qrcode,qr-latin1_ambiguous-eclM-auto-svg,qr,latin1_ambiguous,M,,,ok,,25,5,1.0,6.1777,6.0909,0.8178,5.1139,1681,17798
+qrcode,qr-latin1_ambiguous-eclM-svg,qr,latin1_ambiguous,M,iso-8859-1,,unsupported,no charset/ECI support for 'iso-8859-1' payloads,0,0,,,,,,,
+qrcode,qr-mixed_modes-eclM,qr,mixed_modes,M,,,ok,,25,5,1.0,6.1744,6.5396,2.1574,4.0747,2025,582
+qrcode,qr-mixed_modes-eclM-svg,qr,mixed_modes,M,,,ok,,25,5,1.0,7.732,7.6099,1.6343,5.1066,2025,22784
+qrcode,qr-near_capacity-eclH,qr,near_capacity,H,,,ok,,25,5,1.0,81.5447,81.5968,1.2881,79.6357,27225,5383
+qrcode,qr-near_capacity-eclH-svg,qr,near_capacity,H,,,ok,,25,5,1.0,102.949,103.8627,2.388,101.4531,27225,318996
+qrcode,qr-near_capacity-eclL,qr,near_capacity,L,,,ok,,25,5,1.0,94.977,95.0679,1.2472,93.5146,27225,5335
+qrcode,qr-near_capacity-eclL-svg,qr,near_capacity,L,,,ok,,25,5,1.0,116.1871,118.1336,4.9157,114.9028,27225,319537
+qrcode,qr-near_capacity-eclM,qr,near_capacity,M,,,ok,,25,5,1.0,86.6681,86.9116,0.8294,85.7732,27225,5363
+qrcode,qr-near_capacity-eclM-svg,qr,near_capacity,M,,,ok,,25,5,1.0,108.4035,109.4993,3.1447,106.6434,27225,316496
+qrcode,qr-near_capacity-eclQ,qr,near_capacity,Q,,,ok,,25,5,1.0,83.1742,83.4765,1.2494,81.9857,27225,5423
+qrcode,qr-near_capacity-eclQ-svg,qr,near_capacity,Q,,,ok,,25,5,1.0,105.0995,105.988,2.2485,103.806,27225,320906
+qrcode,qr-numeric_long-eclM,qr,numeric_long,M,,,ok,,25,5,1.0,3.2567,4.1782,1.5596,3.0911,1089,392
+qrcode,qr-numeric_long-eclM-svg,qr,numeric_long,M,,,ok,,25,5,1.0,4.0634,4.115,0.1809,3.9513,1089,11727
+qrcode,qr-numeric_short-eclM,qr,numeric_short,M,,,ok,,25,5,1.0,2.5335,2.0381,0.6815,1.1569,441,242
+qrcode,qr-numeric_short-eclM-svg,qr,numeric_short,M,,,ok,,25,5,1.0,1.5714,1.5878,0.0642,1.4968,441,4605
+qrcode,qr-text_para-eclM,qr,text_para,M,,,ok,,25,5,1.0,11.7888,13.2418,2.0893,11.333,3721,925
+qrcode,qr-text_para-eclM-svg,qr,text_para,M,,,ok,,25,5,1.0,16.1845,17.0091,2.8155,14.3293,3721,44096
+qrcode,qr-url-eclM,qr,url,M,,,ok,,25,5,1.0,4.0624,3.9087,0.3737,3.141,1369,456
+qrcode,qr-url-eclM-svg,qr,url,M,,,ok,,25,5,1.0,5.2351,5.0864,0.5456,3.9983,1369,15443
+qrcode,qr-url_nc-eclM,qr,url_near_capacity,M,,,ok,,25,5,1.0,87.2673,87.6439,1.4664,85.8019,27225,5384
+qrcode,qr-url_nc-eclM-svg,qr,url_near_capacity,M,,,ok,,25,5,1.0,108.4135,110.2943,6.0517,106.8468,27225,316613
+qrcode,qr-utf8-eclM,qr,utf8,M,utf-8,,unsupported,no charset/ECI support for 'utf-8' payloads,0,0,,,,,,,
+qrcode,qr-utf8-eclM-auto,qr,utf8,M,,,ok,,25,5,1.0,3.1337,2.9164,0.3976,2.3751,1089,376
+qrcode,qr-utf8-eclM-auto-svg,qr,utf8,M,,,ok,,25,5,1.0,4.0421,3.7149,0.5023,3.065,1089,11832
+qrcode,qr-utf8-eclM-svg,qr,utf8,M,utf-8,,unsupported,no charset/ECI support for 'utf-8' payloads,0,0,,,,,,,
+qrcode,qr-xml_nc-eclM,qr,xml_near_capacity,M,,,ok,,25,5,1.0,87.3085,88.4367,5.1513,85.8082,27225,5382
+qrcode,qr-xml_nc-eclM-svg,qr,xml_near_capacity,M,,,ok,,25,5,1.0,108.8684,109.5085,1.8651,107.3368,27225,322458
+qrcodegen,qr-alnum-eclH,qr,alnum,H,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-alnum-eclH-svg,qr,alnum,H,,,ok,,25,5,1.0,4.5372,4.3171,0.3567,3.8325,1089,8079
+qrcodegen,qr-alnum-eclL,qr,alnum,L,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-alnum-eclL-svg,qr,alnum,L,,,ok,,25,5,1.0,2.8949,2.8704,0.103,2.7123,625,5028
+qrcodegen,qr-alnum-eclM,qr,alnum,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-alnum-eclM-svg,qr,alnum,M,,,ok,,25,5,1.0,3.8927,3.9933,0.581,3.0613,841,6495
+qrcodegen,qr-alnum-eclQ,qr,alnum,Q,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-alnum-eclQ-svg,qr,alnum,Q,,,ok,,25,5,1.0,3.9461,4.1706,0.3692,3.7785,841,6672
+qrcodegen,qr-base64_nc-eclM,qr,base64_near_capacity,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-base64_nc-eclM-svg,qr,base64_near_capacity,M,,,ok,,25,5,1.0,132.5903,133.3463,2.1265,131.232,27225,218394
+qrcodegen,qr-bcbp-eclM,qr,bcbp,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-bcbp-eclM-svg,qr,bcbp,M,,,ok,,25,5,1.0,4.5556,5.5692,1.4109,4.3911,841,6630
+qrcodegen,qr-json_nc-eclM,qr,json_near_capacity,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-json_nc-eclM-svg,qr,json_near_capacity,M,,,ok,,25,5,1.0,131.2532,132.3765,2.3605,130.8661,27225,213513
+qrcodegen,qr-kanji-eclM,qr,kanji,M,shift_jis,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-kanji-eclM-auto,qr,kanji,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-kanji-eclM-auto-svg,qr,kanji,M,,,ok,,25,5,1.0,6.8341,6.386,0.9982,4.4087,1369,10182
+qrcodegen,qr-kanji-eclM-svg,qr,kanji,M,shift_jis,,unsupported,no charset/ECI support for 'shift_jis' payloads,0,0,,,,,,,
+qrcodegen,qr-latin1-eclM,qr,latin1,M,iso-8859-1,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-latin1-eclM-auto,qr,latin1,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-latin1-eclM-auto-svg,qr,latin1,M,,,ok,,25,5,1.0,7.4552,7.801,2.035,5.0565,1681,12362
+qrcodegen,qr-latin1-eclM-svg,qr,latin1,M,iso-8859-1,,unsupported,no charset/ECI support for 'iso-8859-1' payloads,0,0,,,,,,,
+qrcodegen,qr-latin1_ambiguous-eclM,qr,latin1_ambiguous,M,iso-8859-1,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-latin1_ambiguous-eclM-auto,qr,latin1_ambiguous,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-latin1_ambiguous-eclM-auto-svg,qr,latin1_ambiguous,M,,,ok,,25,5,1.0,7.3986,7.5718,0.8629,6.7746,1681,12381
+qrcodegen,qr-latin1_ambiguous-eclM-svg,qr,latin1_ambiguous,M,iso-8859-1,,unsupported,no charset/ECI support for 'iso-8859-1' payloads,0,0,,,,,,,
+qrcodegen,qr-mixed_modes-eclM,qr,mixed_modes,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-mixed_modes-eclM-svg,qr,mixed_modes,M,,,ok,,25,5,1.0,11.1483,10.7711,2.2644,7.3674,2401,18574
+qrcodegen,qr-near_capacity-eclH,qr,near_capacity,H,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-near_capacity-eclH-svg,qr,near_capacity,H,,,ok,,25,5,1.0,115.3323,116.1754,2.0643,114.2512,27225,215261
+qrcodegen,qr-near_capacity-eclL,qr,near_capacity,L,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-near_capacity-eclL-svg,qr,near_capacity,L,,,ok,,25,5,1.0,147.593,148.1019,2.4591,145.8111,27225,215586
+qrcodegen,qr-near_capacity-eclM,qr,near_capacity,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-near_capacity-eclM-svg,qr,near_capacity,M,,,ok,,25,5,1.0,131.6013,135.4773,11.3754,130.3555,27225,213571
+qrcodegen,qr-near_capacity-eclQ,qr,near_capacity,Q,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-near_capacity-eclQ-svg,qr,near_capacity,Q,,,ok,,25,5,1.0,122.6166,123.1445,1.8539,121.2862,27225,216472
+qrcodegen,qr-numeric_long-eclM,qr,numeric_long,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-numeric_long-eclM-svg,qr,numeric_long,M,,,ok,,25,5,1.0,5.3035,5.5869,1.1592,4.9996,1089,8448
+qrcodegen,qr-numeric_short-eclM,qr,numeric_short,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-numeric_short-eclM-svg,qr,numeric_short,M,,,ok,,25,5,1.0,4.0535,3.4023,1.091,2.0157,441,3540
+qrcodegen,qr-text_para-eclM,qr,text_para,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-text_para-eclM-svg,qr,text_para,M,,,ok,,25,5,1.0,19.3222,20.8025,2.4907,18.7191,3721,30080
+qrcodegen,qr-url-eclM,qr,url,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-url-eclM-svg,qr,url,M,,,ok,,25,5,1.0,6.8375,6.5226,0.7565,5.0214,1369,10705
+qrcodegen,qr-url_nc-eclM,qr,url_near_capacity,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-url_nc-eclM-svg,qr,url_near_capacity,M,,,ok,,25,5,1.0,131.4732,132.5956,2.1433,130.8478,27225,211429
+qrcodegen,qr-utf8-eclM,qr,utf8,M,utf-8,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-utf8-eclM-auto,qr,utf8,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-utf8-eclM-auto-svg,qr,utf8,M,,,ok,,25,5,1.0,5.0566,4.7917,0.5639,3.8224,1089,8455
+qrcodegen,qr-utf8-eclM-svg,qr,utf8,M,utf-8,,unsupported,no charset/ECI support for 'utf-8' payloads,0,0,,,,,,,
+qrcodegen,qr-xml_nc-eclM,qr,xml_near_capacity,M,,,unsupported,no documented raster output (vector-only library),0,0,,,,,,,
+qrcodegen,qr-xml_nc-eclM-svg,qr,xml_near_capacity,M,,,ok,,25,5,1.0,131.4675,133.2795,4.5613,130.6886,27225,217687
+segno,qr-alnum-eclH,qr,alnum,H,,,ok,,25,5,1.0,2.7249,2.5325,0.3154,2.0925,1089,363
+segno,qr-alnum-eclH-svg,qr,alnum,H,,,ok,,25,5,1.0,2.41,2.2307,0.284,1.8448,1089,1893
+segno,qr-alnum-eclL,qr,alnum,L,,,ok,,25,5,1.0,1.6041,1.6089,0.0337,1.5617,625,256
+segno,qr-alnum-eclL-svg,qr,alnum,L,,,ok,,25,5,1.0,1.3943,1.3995,0.0298,1.3529,625,1234
+segno,qr-alnum-eclM,qr,alnum,M,,,ok,,25,5,1.0,2.1768,2.1367,0.3439,1.574,841,305
+segno,qr-alnum-eclM-svg,qr,alnum,M,,,ok,,25,5,1.0,1.9161,1.8333,0.2266,1.3721,841,1583
+segno,qr-alnum-eclQ,qr,alnum,Q,,,ok,,25,5,1.0,2.2531,2.4617,0.3451,2.107,841,315
+segno,qr-alnum-eclQ-svg,qr,alnum,Q,,,ok,,25,5,1.0,1.9184,2.1303,0.3107,1.849,841,1565
+segno,qr-base64_nc-eclM,qr,base64_near_capacity,M,,,ok,,25,5,1.0,71.2532,72.6682,3.6403,70.1714,27225,5502
+segno,qr-base64_nc-eclM-svg,qr,base64_near_capacity,M,,,ok,,25,5,1.0,65.2639,67.6489,7.4829,62.9948,27225,41919
+segno,qr-bcbp-eclM,qr,bcbp,M,,,ok,,25,5,1.0,2.2369,2.9087,0.9127,2.1631,841,313
+segno,qr-bcbp-eclM-svg,qr,bcbp,M,,,ok,,25,5,1.0,1.973,2.5983,0.8526,1.8737,841,1577
+segno,qr-json_nc-eclM,qr,json_near_capacity,M,,,ok,,25,5,1.0,72.3651,73.0337,2.3879,70.4258,27225,5488
+segno,qr-json_nc-eclM-svg,qr,json_near_capacity,M,,,ok,,25,5,1.0,64.2721,67.1206,9.3767,63.2381,27225,41812
+segno,qr-kanji-eclM,qr,kanji,M,shift_jis,,ok,,25,5,1.0,2.1911,2.2003,0.3948,1.5803,841,306
+segno,qr-kanji-eclM-auto,qr,kanji,M,,,ok,,25,5,1.0,2.2209,2.2191,0.3956,1.5947,841,306
+segno,qr-kanji-eclM-auto-svg,qr,kanji,M,,,ok,,25,5,1.0,1.9177,1.9573,0.361,1.3594,841,1559
+segno,qr-kanji-eclM-svg,qr,kanji,M,shift_jis,,ok,,25,5,1.0,1.9467,1.96,0.364,1.3862,841,1559
+segno,qr-latin1-eclM,qr,latin1,M,iso-8859-1,,ok,,25,5,1.0,4.4522,4.5228,1.3072,2.7785,1681,488
+segno,qr-latin1-eclM-auto,qr,latin1,M,,,ok,,25,5,1.0,4.3046,4.1816,0.767,2.7942,1681,488
+segno,qr-latin1-eclM-auto-svg,qr,latin1,M,,,ok,,25,5,1.0,3.8685,3.7688,0.7096,2.4339,1681,2862
+segno,qr-latin1-eclM-svg,qr,latin1,M,iso-8859-1,,ok,,25,5,1.0,3.8726,3.8131,0.6831,2.4471,1681,2862
+segno,qr-latin1_ambiguous-eclM,qr,latin1_ambiguous,M,iso-8859-1,,ok,,0,0,0.0,,,,,,
+segno,qr-latin1_ambiguous-eclM-auto,qr,latin1_ambiguous,M,,,ok,,0,0,0.0,,,,,,
+segno,qr-latin1_ambiguous-eclM-auto-svg,qr,latin1_ambiguous,M,,,ok,,0,0,0.0,,,,,,
+segno,qr-latin1_ambiguous-eclM-svg,qr,latin1_ambiguous,M,iso-8859-1,,ok,,0,0,0.0,,,,,,
+segno,qr-mixed_modes-eclM,qr,mixed_modes,M,,,ok,,25,5,1.0,6.2651,6.1379,1.2208,4.2498,2401,643
+segno,qr-mixed_modes-eclM-svg,qr,mixed_modes,M,,,ok,,25,5,1.0,5.7384,5.7343,1.363,3.8353,2401,4056
+segno,qr-near_capacity-eclH,qr,near_capacity,H,,,ok,,25,5,1.0,69.733,70.4971,2.1498,68.1243,27225,5495
+segno,qr-near_capacity-eclH-svg,qr,near_capacity,H,,,ok,,25,5,1.0,63.7443,67.5089,15.2075,61.3476,27225,41776
+segno,qr-near_capacity-eclL,qr,near_capacity,L,,,ok,,25,5,1.0,74.4506,74.545,1.5665,72.5298,27225,5452
+segno,qr-near_capacity-eclL-svg,qr,near_capacity,L,,,ok,,25,5,1.0,67.8404,68.3132,2.0905,65.75,27225,41127
+segno,qr-near_capacity-eclM,qr,near_capacity,M,,,ok,,25,5,1.0,72.0515,73.225,2.4146,70.7675,27225,5474
+segno,qr-near_capacity-eclM-svg,qr,near_capacity,M,,,ok,,25,5,1.0,65.2883,65.583,1.3799,63.4236,27225,41152
+segno,qr-near_capacity-eclQ,qr,near_capacity,Q,,,ok,,25,5,1.0,69.841,70.5676,1.6932,68.9903,27225,5483
+segno,qr-near_capacity-eclQ-svg,qr,near_capacity,Q,,,ok,,25,5,1.0,63.9658,64.4665,1.807,62.2743,27225,41645
+segno,qr-numeric_long-eclM,qr,numeric_long,M,,,ok,,25,5,1.0,2.9396,3.7527,1.3211,2.73,1089,362
+segno,qr-numeric_long-eclM-svg,qr,numeric_long,M,,,ok,,25,5,1.0,2.5015,2.5159,0.0456,2.4564,1089,1976
+segno,qr-numeric_short-eclM,qr,numeric_short,M,,,ok,,25,5,1.0,2.4047,2.2097,0.4932,1.0864,441,207
+segno,qr-numeric_short-eclM-svg,qr,numeric_short,M,,,ok,,25,5,1.0,0.9689,0.9691,0.021,0.9338,441,931
+segno,qr-text_para-eclM,qr,text_para,M,,,ok,,25,5,1.0,10.1958,11.2755,1.8611,9.5548,3721,924
+segno,qr-text_para-eclM-svg,qr,text_para,M,,,ok,,25,5,1.0,9.3911,10.5015,2.0394,8.7154,3721,6107
+segno,qr-url-eclM,qr,url,M,,,ok,,25,5,1.0,3.5761,3.4787,0.3224,2.7741,1369,426
+segno,qr-url-eclM-svg,qr,url,M,,,ok,,25,5,1.0,3.1763,3.0917,0.2965,2.4692,1369,2417
+segno,qr-url_nc-eclM,qr,url_near_capacity,M,,,ok,,25,5,1.0,71.7636,72.3077,1.9627,70.2158,27225,5495
+segno,qr-url_nc-eclM-svg,qr,url_near_capacity,M,,,ok,,25,5,1.0,65.5417,66.1075,2.5498,63.1681,27225,41568
+segno,qr-utf8-eclM,qr,utf8,M,utf-8,,ok,,25,5,1.0,2.8268,2.6419,0.3595,2.1582,1089,351
+segno,qr-utf8-eclM-auto,qr,utf8,M,,,ok,,25,5,1.0,2.7758,2.4752,0.5035,1.5965,1089,355
+segno,qr-utf8-eclM-auto-svg,qr,utf8,M,,,ok,,25,5,1.0,2.4312,2.1912,0.4665,1.3697,1089,1945
+segno,qr-utf8-eclM-svg,qr,utf8,M,utf-8,,ok,,25,5,1.0,2.4964,2.2965,0.2964,1.8965,1089,2029
+segno,qr-xml_nc-eclM,qr,xml_near_capacity,M,,,ok,,25,5,1.0,72.3585,74.9077,8.1601,70.2553,27225,5500
+segno,qr-xml_nc-eclM-svg,qr,xml_near_capacity,M,,,ok,,25,5,1.0,65.4417,66.0765,2.2521,63.364,27225,41902
+treepoem,az-alnum-ecc10,aztec,alnum,10,,,ok,,25,5,1.0,302.3774,306.1571,21.6716,272.8162,729,3021
+treepoem,az-alnum-ecc10-svg,aztec,alnum,10,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-alnum-ecc23,aztec,alnum,23,,,ok,,25,5,1.0,303.891,305.2256,21.4861,271.6158,729,3034
+treepoem,az-alnum-ecc23-svg,aztec,alnum,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-alnum-ecc50,aztec,alnum,50,,,ok,,25,5,1.0,301.1952,306.4781,19.4794,274.2503,961,3161
+treepoem,az-alnum-ecc50-svg,aztec,alnum,50,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-base64_nc-ecc23,aztec,base64_near_capacity,23,,,ok,,25,5,1.0,1653.8641,1884.3003,468.5044,1586.8007,19321,12778
+treepoem,az-base64_nc-ecc23-svg,aztec,base64_near_capacity,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-bcbp-ecc23,aztec,bcbp,23,,,ok,,25,5,1.0,320.146,321.2368,14.5566,293.5253,961,3195
+treepoem,az-bcbp-ecc23-svg,aztec,bcbp,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-json_nc-ecc23,aztec,json_near_capacity,23,,,ok,,25,5,1.0,1683.1653,1757.3292,217.37,1601.7683,17161,11538
+treepoem,az-json_nc-ecc23-svg,aztec,json_near_capacity,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-latin1-ecc23,aztec,latin1,23,iso-8859-1,,ok,,25,5,1.0,314.7556,314.709,17.6066,271.1566,961,3180
+treepoem,az-latin1-ecc23-auto,aztec,latin1,23,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+treepoem,az-latin1-ecc23-auto-svg,aztec,latin1,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-latin1-ecc23-svg,aztec,latin1,23,iso-8859-1,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-latin1_ambiguous-ecc23,aztec,latin1_ambiguous,23,iso-8859-1,,ok,,25,5,1.0,317.0093,318.532,16.8655,286.8928,1369,3449
+treepoem,az-latin1_ambiguous-ecc23-auto,aztec,latin1_ambiguous,23,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+treepoem,az-latin1_ambiguous-ecc23-auto-svg,aztec,latin1_ambiguous,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-latin1_ambiguous-ecc23-svg,aztec,latin1_ambiguous,23,iso-8859-1,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-lower_text-ecc23,aztec,lower_text,23,,,ok,,25,5,1.0,308.6062,311.3679,18.3519,276.7591,729,3033
+treepoem,az-lower_text-ecc23-svg,aztec,lower_text,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-mixed_modes-ecc23,aztec,mixed_modes,23,,,ok,,25,5,1.0,321.9039,327.4842,16.9531,306.943,961,3205
+treepoem,az-mixed_modes-ecc23-svg,aztec,mixed_modes,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-near_capacity-ecc23,aztec,near_capacity,23,,,ok,,25,5,1.0,1321.9064,1344.6726,55.0785,1284.9991,12769,9430
+treepoem,az-near_capacity-ecc23-svg,aztec,near_capacity,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-numeric_long-ecc23,aztec,numeric_long,23,,,ok,,25,5,1.0,332.9265,332.9069,18.8288,291.888,1369,3433
+treepoem,az-numeric_long-ecc23-svg,aztec,numeric_long,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-numeric_short-ecc23,aztec,numeric_short,23,,,ok,,25,5,1.0,308.701,310.3399,20.0237,281.7743,361,2741
+treepoem,az-numeric_short-ecc23-svg,aztec,numeric_short,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-text_para-ecc23,aztec,text_para,23,,,ok,,25,5,1.0,385.5911,385.1198,30.0287,331.3581,2809,4296
+treepoem,az-text_para-ecc23-svg,aztec,text_para,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-tiny-ecc23,aztec,tiny,23,,,ok,,25,5,1.0,299.86,303.3273,16.861,274.8576,361,2743
+treepoem,az-tiny-ecc23-svg,aztec,tiny,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-upper_c40-ecc23,aztec,upper_c40,23,,,ok,,25,5,1.0,308.8171,306.3581,14.2697,277.9671,729,3036
+treepoem,az-upper_c40-ecc23-svg,aztec,upper_c40,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-url-ecc23,aztec,url,23,,,ok,,25,5,1.0,325.1296,329.6621,18.8988,301.896,961,3198
+treepoem,az-url-ecc23-svg,aztec,url,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-url_nc-ecc23,aztec,url_near_capacity,23,,,ok,,25,5,1.0,1752.9868,1982.6599,504.972,1663.054,18225,12126
+treepoem,az-url_nc-ecc23-svg,aztec,url_near_capacity,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-utf8-ecc23,aztec,utf8,23,utf-8,,ok,,25,5,1.0,302.4944,304.4143,16.5938,275.4192,729,3042
+treepoem,az-utf8-ecc23-auto,aztec,utf8,23,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+treepoem,az-utf8-ecc23-auto-svg,aztec,utf8,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-utf8-ecc23-svg,aztec,utf8,23,utf-8,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,az-xml_nc-ecc23,aztec,xml_near_capacity,23,,,ok,,25,5,1.0,1548.1237,1574.889,60.1868,1507.2461,15625,10982
+treepoem,az-xml_nc-ecc23-svg,aztec,xml_near_capacity,23,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-alnum,datamatrix,alnum,,,,ok,,25,5,1.0,306.018,308.9819,17.4195,287.6818,484,2866
+treepoem,dm-alnum-svg,datamatrix,alnum,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-base64_nc,datamatrix,base64_near_capacity,,,,ok,,25,5,1.0,469.8734,467.9772,17.6162,437.0579,17424,11459
+treepoem,dm-base64_nc-svg,datamatrix,base64_near_capacity,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-bcbp,datamatrix,bcbp,,,,ok,,25,5,1.0,309.281,310.699,18.9807,269.4827,1296,3352
+treepoem,dm-bcbp-svg,datamatrix,bcbp,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-edifact_charset,datamatrix,edifact_charset,,,,ok,,25,5,1.0,308.9034,311.9935,16.4551,290.103,676,3002
+treepoem,dm-edifact_charset-svg,datamatrix,edifact_charset,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-json_nc,datamatrix,json_near_capacity,,,,ok,,25,5,1.0,463.3615,459.9173,17.4761,431.7189,17424,11311
+treepoem,dm-json_nc-svg,datamatrix,json_near_capacity,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-latin1,datamatrix,latin1,,iso-8859-1,,ok,,25,5,1.0,310.6759,314.897,20.5057,287.1714,1296,3318
+treepoem,dm-latin1-auto,datamatrix,latin1,,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+treepoem,dm-latin1-auto-svg,datamatrix,latin1,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-latin1-svg,datamatrix,latin1,,iso-8859-1,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-latin1_ambiguous,datamatrix,latin1_ambiguous,,iso-8859-1,,ok,,25,5,1.0,303.5894,311.3435,20.441,278.2456,1296,3347
+treepoem,dm-latin1_ambiguous-auto,datamatrix,latin1_ambiguous,,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+treepoem,dm-latin1_ambiguous-auto-svg,datamatrix,latin1_ambiguous,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-latin1_ambiguous-svg,datamatrix,latin1_ambiguous,,iso-8859-1,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-lower_text,datamatrix,lower_text,,,,ok,,25,5,1.0,306.0847,310.3868,21.5846,268.0764,576,2927
+treepoem,dm-lower_text-svg,datamatrix,lower_text,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-mixed_modes,datamatrix,mixed_modes,,,,ok,,25,5,1.0,335.2754,330.195,20.8866,298.9029,1296,3357
+treepoem,dm-mixed_modes-svg,datamatrix,mixed_modes,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-near_capacity,datamatrix,near_capacity,,,,ok,,25,5,1.0,434.6619,431.6329,16.7962,400.6031,14400,9899
+treepoem,dm-near_capacity-svg,datamatrix,near_capacity,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-numeric_even,datamatrix,numeric_even,,,,ok,,25,5,1.0,303.4546,304.3937,19.8363,267.278,400,2779
+treepoem,dm-numeric_even-svg,datamatrix,numeric_even,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-numeric_long,datamatrix,numeric_long,,,,ok,,25,5,1.0,300.6044,306.2149,21.7849,273.3528,1024,3193
+treepoem,dm-numeric_long-svg,datamatrix,numeric_long,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-numeric_odd,datamatrix,numeric_odd,,,,ok,,25,5,1.0,307.7922,306.2057,19.5637,274.898,400,2770
+treepoem,dm-numeric_odd-svg,datamatrix,numeric_odd,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-numeric_prefix,datamatrix,numeric_prefix,,,,ok,,25,5,1.0,300.8513,303.4047,17.148,278.5829,196,2642
+treepoem,dm-numeric_prefix-svg,datamatrix,numeric_prefix,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-numeric_short,datamatrix,numeric_short,,,,ok,,25,5,1.0,310.4129,312.1098,23.96,271.9729,144,2601
+treepoem,dm-numeric_short-svg,datamatrix,numeric_short,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-numeric_suffix,datamatrix,numeric_suffix,,,,ok,,25,5,1.0,306.9591,307.263,17.5358,271.452,256,2678
+treepoem,dm-numeric_suffix-svg,datamatrix,numeric_suffix,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-text_para,datamatrix,text_para,,,,ok,,25,5,1.0,352.2343,351.5178,17.6574,326.6148,5184,5372
+treepoem,dm-text_para-svg,datamatrix,text_para,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-upper_c40,datamatrix,upper_c40,,,,ok,,25,5,1.0,307.6579,309.7852,19.022,277.0177,676,2975
+treepoem,dm-upper_c40-svg,datamatrix,upper_c40,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-url,datamatrix,url,,,,ok,,25,5,1.0,317.955,314.4573,20.5653,276.3422,1024,3195
+treepoem,dm-url-svg,datamatrix,url,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-url_nc,datamatrix,url_near_capacity,,,,ok,,25,5,1.0,492.984,491.344,14.5094,463.6125,17424,11348
+treepoem,dm-url_nc-svg,datamatrix,url_near_capacity,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-utf8,datamatrix,utf8,,utf-8,,ok,,25,5,1.0,311.3968,309.1285,14.1252,275.5665,1024,3199
+treepoem,dm-utf8-auto,datamatrix,utf8,,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+treepoem,dm-utf8-auto-svg,datamatrix,utf8,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-utf8-svg,datamatrix,utf8,,utf-8,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-x12_charset,datamatrix,x12_charset,,,,ok,,25,5,1.0,310.2562,315.5979,20.8261,285.2677,576,2922
+treepoem,dm-x12_charset-svg,datamatrix,x12_charset,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dm-xml_nc,datamatrix,xml_near_capacity,,,,ok,,25,5,1.0,455.0422,457.6055,10.7453,441.809,17424,11487
+treepoem,dm-xml_nc-svg,datamatrix,xml_near_capacity,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dmr-alnum,datamatrix_rect,alnum,,,,ok,,25,5,1.0,302.0379,306.018,21.7608,275.8318,432,2762
+treepoem,dmr-alnum-svg,datamatrix_rect,alnum,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dmr-lower_text,datamatrix_rect,lower_text,,,,ok,,25,5,1.0,301.0303,305.4299,19.9579,270.048,576,2868
+treepoem,dmr-lower_text-svg,datamatrix_rect,lower_text,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dmr-numeric_short,datamatrix_rect,numeric_short,,,,ok,,25,5,1.0,301.6107,301.9305,19.7566,268.2025,144,2568
+treepoem,dmr-numeric_short-svg,datamatrix_rect,numeric_short,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dmr-upper_c40,datamatrix_rect,upper_c40,,,,ok,,25,5,1.0,307.6066,307.2568,15.8697,274.796,768,2962
+treepoem,dmr-upper_c40-svg,datamatrix_rect,upper_c40,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,dmr-x12_charset,datamatrix_rect,x12_charset,,,,ok,,25,5,1.0,311.4416,310.5163,20.2512,271.6389,768,2951
+treepoem,dmr-x12_charset-svg,datamatrix_rect,x12_charset,,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-alnum-ecl2,pdf417,alnum,2,,,ok,,25,5,1.0,323.5087,323.2743,10.1781,310.662,3960,3479
+treepoem,pdf-alnum-ecl2-svg,pdf417,alnum,2,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-alnum-ecl5,pdf417,alnum,5,,,ok,,25,5,1.0,338.8776,342.6288,14.4462,319.462,8208,4443
+treepoem,pdf-alnum-ecl5-svg,pdf417,alnum,5,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-alnum-ecl8,pdf417,alnum,8,,,ok,,25,5,1.0,494.1337,493.9432,18.8126,452.1676,36540,11115
+treepoem,pdf-alnum-ecl8-svg,pdf417,alnum,8,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-base64_nc-ecl5,pdf417,base64_near_capacity,5,,,ok,,25,5,1.0,693.3002,700.2996,23.7935,662.9902,50127,14131
+treepoem,pdf-base64_nc-ecl5-svg,pdf417,base64_near_capacity,5,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-bcbp-ecl2,pdf417,bcbp,2,,,ok,,25,5,1.0,329.1524,331.3128,18.4908,295.9301,6006,3868
+treepoem,pdf-bcbp-ecl2-svg,pdf417,bcbp,2,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-json_nc-ecl5,pdf417,json_near_capacity,5,,,ok,,25,5,1.0,633.3203,634.2523,23.0299,597.9498,42768,12371
+treepoem,pdf-json_nc-ecl5-svg,pdf417,json_near_capacity,5,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-latin1-ecl2,pdf417,latin1,2,iso-8859-1,,ok,,25,5,1.0,327.506,331.768,17.5843,300.4486,5343,3743
+treepoem,pdf-latin1-ecl2-auto,pdf417,latin1,2,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+treepoem,pdf-latin1-ecl2-auto-svg,pdf417,latin1,2,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-latin1-ecl2-svg,pdf417,latin1,2,iso-8859-1,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-latin1_ambiguous-ecl2,pdf417,latin1_ambiguous,2,iso-8859-1,,ok,,25,5,1.0,327.483,331.0202,16.4143,308.8863,6930,4106
+treepoem,pdf-latin1_ambiguous-ecl2-auto,pdf417,latin1_ambiguous,2,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+treepoem,pdf-latin1_ambiguous-ecl2-auto-svg,pdf417,latin1_ambiguous,2,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-latin1_ambiguous-ecl2-svg,pdf417,latin1_ambiguous,2,iso-8859-1,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-lower_text-ecl2,pdf417,lower_text,2,,,ok,,25,5,1.0,321.7303,324.8241,15.1825,290.8416,4110,3479
+treepoem,pdf-lower_text-ecl2-svg,pdf417,lower_text,2,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-mixed_modes-ecl2,pdf417,mixed_modes,2,,,ok,,25,5,1.0,334.7503,335.6478,14.0297,311.17,7392,4224
+treepoem,pdf-mixed_modes-ecl2-svg,pdf417,mixed_modes,2,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-near_capacity-ecl5,pdf417,near_capacity,5,,,ok,,25,5,1.0,570.3341,573.6497,19.8244,541.4104,34800,10739
+treepoem,pdf-near_capacity-ecl5-svg,pdf417,near_capacity,5,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-numeric_long-ecl2,pdf417,numeric_long,2,,,ok,,25,5,1.0,321.9381,329.8735,26.8758,293.825,5754,3885
+treepoem,pdf-numeric_long-ecl2-svg,pdf417,numeric_long,2,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-text_para-ecl2,pdf417,text_para,2,,,ok,,25,5,1.0,383.6945,378.7164,39.6001,319.7847,15375,6035
+treepoem,pdf-text_para-ecl2-cols12,pdf417,text_para,2,,12,ok,,25,5,1.0,368.9574,375.4527,30.8642,318.9602,12285,5429
+treepoem,pdf-text_para-ecl2-cols12-svg,pdf417,text_para,2,,12,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-text_para-ecl2-cols6,pdf417,text_para,2,,6,ok,,25,5,1.0,370.3352,377.3447,22.7756,341.5391,14364,5933
+treepoem,pdf-text_para-ecl2-cols6-svg,pdf417,text_para,2,,6,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-text_para-ecl2-svg,pdf417,text_para,2,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-upper_c40-ecl2,pdf417,upper_c40,2,,,ok,,25,5,1.0,326.3066,324.846,13.2627,297.3347,4680,3659
+treepoem,pdf-upper_c40-ecl2-svg,pdf417,upper_c40,2,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-url-ecl2,pdf417,url,2,,,ok,,25,5,1.0,320.1877,323.5707,12.6372,290.8443,5343,3780
+treepoem,pdf-url-ecl2-svg,pdf417,url,2,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-url_nc-ecl5,pdf417,url_near_capacity,5,,,ok,,25,5,1.0,644.3636,652.4574,28.1496,619.7706,46656,13279
+treepoem,pdf-url_nc-ecl5-svg,pdf417,url_near_capacity,5,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-utf8-ecl2,pdf417,utf8,2,utf-8,,ok,,25,5,1.0,325.8109,324.8245,13.0783,300.0178,4680,3667
+treepoem,pdf-utf8-ecl2-auto,pdf417,utf8,2,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+treepoem,pdf-utf8-ecl2-auto-svg,pdf417,utf8,2,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-utf8-ecl2-svg,pdf417,utf8,2,utf-8,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,pdf-xml_nc-ecl5,pdf417,xml_near_capacity,5,,,ok,,25,5,1.0,625.1323,628.2455,24.9377,584.3895,41445,12213
+treepoem,pdf-xml_nc-ecl5-svg,pdf417,xml_near_capacity,5,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-alnum-eclH,qr,alnum,H,,,ok,,25,5,1.0,315.4197,310.6373,15.387,279.8457,1089,3281
+treepoem,qr-alnum-eclH-svg,qr,alnum,H,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-alnum-eclL,qr,alnum,L,,,ok,,25,5,1.0,308.5736,310.1865,12.8804,284.8909,625,2963
+treepoem,qr-alnum-eclL-svg,qr,alnum,L,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-alnum-eclM,qr,alnum,M,,,ok,,25,5,1.0,308.0493,309.248,15.3496,279.1138,841,3105
+treepoem,qr-alnum-eclM-svg,qr,alnum,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-alnum-eclQ,qr,alnum,Q,,,ok,,25,5,1.0,304.2629,309.6528,16.6247,286.1884,841,3113
+treepoem,qr-alnum-eclQ-svg,qr,alnum,Q,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-base64_nc-eclM,qr,base64_near_capacity,M,,,ok,,25,5,1.0,1160.7342,1164.6358,42.463,1074.5339,27225,17089
+treepoem,qr-base64_nc-eclM-svg,qr,base64_near_capacity,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-bcbp-eclM,qr,bcbp,M,,,ok,,25,5,1.0,331.7783,329.3947,26.0266,285.8005,841,3117
+treepoem,qr-bcbp-eclM-svg,qr,bcbp,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-json_nc-eclM,qr,json_near_capacity,M,,,ok,,25,5,1.0,797.5184,800.9277,22.5948,768.3161,27225,16725
+treepoem,qr-json_nc-eclM-svg,qr,json_near_capacity,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-kanji-eclM,qr,kanji,M,shift_jis,,ok,,25,5,1.0,310.4184,313.9286,21.0393,280.9733,841,3112
+treepoem,qr-kanji-eclM-auto,qr,kanji,M,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+treepoem,qr-kanji-eclM-auto-svg,qr,kanji,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-kanji-eclM-svg,qr,kanji,M,shift_jis,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-latin1-eclM,qr,latin1,M,iso-8859-1,,ok,,25,5,1.0,331.9295,335.5006,22.8322,302.7183,1681,3639
+treepoem,qr-latin1-eclM-auto,qr,latin1,M,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+treepoem,qr-latin1-eclM-auto-svg,qr,latin1,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-latin1-eclM-svg,qr,latin1,M,iso-8859-1,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-latin1_ambiguous-eclM,qr,latin1_ambiguous,M,iso-8859-1,,ok,,25,5,1.0,331.0005,332.3209,15.7483,297.9319,1369,3461
+treepoem,qr-latin1_ambiguous-eclM-auto,qr,latin1_ambiguous,M,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+treepoem,qr-latin1_ambiguous-eclM-auto-svg,qr,latin1_ambiguous,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-latin1_ambiguous-eclM-svg,qr,latin1_ambiguous,M,iso-8859-1,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-mixed_modes-eclM,qr,mixed_modes,M,,,ok,,25,5,1.0,336.1074,339.9585,20.794,306.3134,1681,3647
+treepoem,qr-mixed_modes-eclM-svg,qr,mixed_modes,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-near_capacity-eclH,qr,near_capacity,H,,,ok,,25,5,1.0,859.2455,863.86,23.9579,836.1088,27225,16917
+treepoem,qr-near_capacity-eclH-svg,qr,near_capacity,H,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-near_capacity-eclL,qr,near_capacity,L,,,ok,,25,5,1.0,1409.0595,1429.1045,50.0552,1383.794,27225,16542
+treepoem,qr-near_capacity-eclL-svg,qr,near_capacity,L,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-near_capacity-eclM,qr,near_capacity,M,,,ok,,25,5,1.0,1156.9153,1171.654,38.5964,1129.8868,27225,16690
+treepoem,qr-near_capacity-eclM-svg,qr,near_capacity,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-near_capacity-eclQ,qr,near_capacity,Q,,,ok,,25,5,1.0,946.8325,956.0609,24.3651,928.9334,27225,16742
+treepoem,qr-near_capacity-eclQ-svg,qr,near_capacity,Q,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-numeric_long-eclM,qr,numeric_long,M,,,ok,,25,5,1.0,317.2658,315.2306,14.931,283.8681,1089,3292
+treepoem,qr-numeric_long-eclM-svg,qr,numeric_long,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-numeric_short-eclM,qr,numeric_short,M,,,ok,,25,5,1.0,301.1034,303.9367,15.3186,272.2953,441,2798
+treepoem,qr-numeric_short-eclM-svg,qr,numeric_short,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-text_para-eclM,qr,text_para,M,,,ok,,25,5,1.0,373.0308,373.9321,19.2843,336.1731,3721,4837
+treepoem,qr-text_para-eclM-svg,qr,text_para,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-url-eclM,qr,url,M,,,ok,,25,5,1.0,331.6531,331.24,18.0466,308.3226,1369,3421
+treepoem,qr-url-eclM-svg,qr,url,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-url_nc-eclM,qr,url_near_capacity,M,,,ok,,25,5,1.0,1176.739,1182.7006,36.9937,1121.0199,27225,16644
+treepoem,qr-url_nc-eclM-svg,qr,url_near_capacity,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-utf8-eclM,qr,utf8,M,utf-8,,ok,,25,5,1.0,321.1183,322.9418,17.7561,296.6448,1089,3276
+treepoem,qr-utf8-eclM-auto,qr,utf8,M,,,unsupported,cannot take non-ASCII text without a declared charset,0,0,,,,,,,
+treepoem,qr-utf8-eclM-auto-svg,qr,utf8,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-utf8-eclM-svg,qr,utf8,M,utf-8,,unsupported,no native SVG writer,0,0,,,,,,,
+treepoem,qr-xml_nc-eclM,qr,xml_near_capacity,M,,,ok,,25,5,1.0,795.7309,800.3149,24.1494,768.2618,27225,16848
+treepoem,qr-xml_nc-eclM-svg,qr,xml_near_capacity,M,,,unsupported,no native SVG writer,0,0,,,,,,,
+zxingcpp,az-alnum-ecc10,aztec,alnum,10,,,ok,,25,5,1.0,0.136,0.1346,0.0138,0.1057,529,393
+zxingcpp,az-alnum-ecc10-svg,aztec,alnum,10,,,ok,,25,5,1.0,0.0873,0.0848,0.0107,0.0597,529,1813
+zxingcpp,az-alnum-ecc23,aztec,alnum,23,,,ok,,25,5,1.0,0.1745,0.2263,0.1991,0.1265,729,497
+zxingcpp,az-alnum-ecc23-svg,aztec,alnum,23,,,ok,,25,5,1.0,0.1113,0.1062,0.0164,0.0769,729,2403
+zxingcpp,az-alnum-ecc50,aztec,alnum,50,,,ok,,25,5,1.0,0.1721,0.2073,0.0834,0.136,729,495
+zxingcpp,az-alnum-ecc50-svg,aztec,alnum,50,,,ok,,25,5,1.0,0.1167,0.1142,0.0132,0.0852,729,2492
+zxingcpp,az-base64_nc-ecc23,aztec,base64_near_capacity,23,,,ok,,25,5,1.0,3.9691,3.9419,0.1357,3.7323,20449,8664
+zxingcpp,az-base64_nc-ecc23-svg,aztec,base64_near_capacity,23,,,ok,,25,5,1.0,15.4276,15.0376,0.7368,13.9727,20449,73590
+zxingcpp,az-bcbp-ecc23,aztec,bcbp,23,,,ok,,25,5,1.0,0.2297,0.2513,0.0529,0.1801,961,600
+zxingcpp,az-bcbp-ecc23-svg,aztec,bcbp,23,,,ok,,25,5,1.0,0.1558,0.1841,0.0552,0.1233,961,2936
+zxingcpp,az-json_nc-ecc23,aztec,json_near_capacity,23,,,ok,,25,5,1.0,3.4638,3.4863,0.0948,3.3727,18225,7713
+zxingcpp,az-json_nc-ecc23-svg,aztec,json_near_capacity,23,,,ok,,25,5,1.0,11.5073,11.4993,0.2579,11.1549,18225,61131
+zxingcpp,az-latin1-ecc23,aztec,latin1,23,iso-8859-1,,ok,,25,5,1.0,0.2778,0.3156,0.2123,0.1385,961,591
+zxingcpp,az-latin1-ecc23-auto,aztec,latin1,23,,,ok,,25,5,1.0,0.2734,0.2729,0.1292,0.1366,961,591
+zxingcpp,az-latin1-ecc23-auto-svg,aztec,latin1,23,,,ok,,25,5,1.0,0.1504,0.1684,0.062,0.0845,961,3080
+zxingcpp,az-latin1-ecc23-svg,aztec,latin1,23,iso-8859-1,,ok,,25,5,1.0,0.1537,0.1684,0.0611,0.0812,961,3080
+zxingcpp,az-latin1_ambiguous-ecc23,aztec,latin1_ambiguous,23,iso-8859-1,,ok,,0,0,0.0,,,,,,
+zxingcpp,az-latin1_ambiguous-ecc23-auto,aztec,latin1_ambiguous,23,,,ok,,0,0,0.0,,,,,,
+zxingcpp,az-latin1_ambiguous-ecc23-auto-svg,aztec,latin1_ambiguous,23,,,ok,,0,0,0.0,,,,,,
+zxingcpp,az-latin1_ambiguous-ecc23-svg,aztec,latin1_ambiguous,23,iso-8859-1,,ok,,0,0,0.0,,,,,,
+zxingcpp,az-lower_text-ecc23,aztec,lower_text,23,,,ok,,25,5,1.0,0.1482,0.1793,0.069,0.1282,529,404
+zxingcpp,az-lower_text-ecc23-svg,aztec,lower_text,23,,,ok,,25,5,1.0,0.0913,0.0953,0.0151,0.0782,529,1974
+zxingcpp,az-mixed_modes-ecc23,aztec,mixed_modes,23,,,ok,,25,5,1.0,0.3439,0.3299,0.1572,0.1964,961,610
+zxingcpp,az-mixed_modes-ecc23-svg,aztec,mixed_modes,23,,,ok,,25,5,1.0,0.1659,0.228,0.087,0.148,961,3217
+zxingcpp,az-near_capacity-ecc23,aztec,near_capacity,23,,,ok,,25,5,1.0,2.4618,3.0296,1.1573,2.4217,12769,5665
+zxingcpp,az-near_capacity-ecc23-svg,aztec,near_capacity,23,,,ok,,25,5,1.0,6.6812,6.7168,0.1977,6.5577,12769,42352
+zxingcpp,az-numeric_long-ecc23,aztec,numeric_long,23,,,ok,,25,5,1.0,0.2819,0.2547,0.0505,0.1683,1369,830
+zxingcpp,az-numeric_long-ecc23-svg,aztec,numeric_long,23,,,ok,,25,5,1.0,0.2457,0.209,0.0583,0.1171,1369,4678
+zxingcpp,az-numeric_short-ecc23,aztec,numeric_short,23,,,ok,,25,5,1.0,0.0863,0.0879,0.0069,0.0763,225,224
+zxingcpp,az-numeric_short-ecc23-svg,aztec,numeric_short,23,,,ok,,25,5,1.0,0.05,0.0498,0.005,0.0409,225,944
+zxingcpp,az-text_para-ecc23,aztec,text_para,23,,,ok,,25,5,1.0,0.6055,0.6996,0.3024,0.3952,2809,1471
+zxingcpp,az-text_para-ecc23-svg,aztec,text_para,23,,,ok,,25,5,1.0,0.6391,0.7105,0.2394,0.3621,2809,9111
+zxingcpp,az-tiny-ecc23,aztec,tiny,23,,,ok,,25,5,1.0,0.0931,0.0927,0.0073,0.0773,225,228
+zxingcpp,az-tiny-ecc23-svg,aztec,tiny,23,,,ok,,25,5,1.0,0.0506,0.0511,0.0058,0.0425,225,959
+zxingcpp,az-upper_c40-ecc23,aztec,upper_c40,23,,,ok,,25,5,1.0,0.1738,0.2,0.079,0.126,729,499
+zxingcpp,az-upper_c40-ecc23-svg,aztec,upper_c40,23,,,ok,,25,5,1.0,0.1129,0.109,0.0177,0.0803,729,2385
+zxingcpp,az-url-ecc23,aztec,url,23,,,ok,,25,5,1.0,0.2127,0.2532,0.0955,0.1787,961,595
+zxingcpp,az-url-ecc23-svg,aztec,url,23,,,ok,,25,5,1.0,0.1485,0.1478,0.0148,0.1187,961,3083
+zxingcpp,az-url_nc-ecc23,aztec,url_near_capacity,23,,,ok,,25,5,1.0,3.7703,3.7993,0.1004,3.6775,19321,8292
+zxingcpp,az-url_nc-ecc23-svg,aztec,url_near_capacity,23,,,ok,,25,5,1.0,12.8594,12.9308,0.188,12.7201,19321,65319
+zxingcpp,az-utf8-ecc23,aztec,utf8,23,utf-8,,ok,,25,5,1.0,0.172,0.191,0.081,0.1115,529,413
+zxingcpp,az-utf8-ecc23-auto,aztec,utf8,23,,,ok,,25,5,1.0,0.1754,0.1901,0.08,0.1055,529,413
+zxingcpp,az-utf8-ecc23-auto-svg,aztec,utf8,23,,,ok,,25,5,1.0,0.0955,0.1022,0.0251,0.0605,529,1927
+zxingcpp,az-utf8-ecc23-svg,aztec,utf8,23,utf-8,,ok,,25,5,1.0,0.0977,0.1023,0.0257,0.0599,529,1927
+zxingcpp,az-xml_nc-ecc23,aztec,xml_near_capacity,23,,,ok,,25,5,1.0,3.3727,4.0338,1.4944,3.2474,17161,7378
+zxingcpp,az-xml_nc-ecc23-svg,aztec,xml_near_capacity,23,,,ok,,25,5,1.0,10.6468,10.6991,0.1562,10.5266,17161,58174
+zxingcpp,dm-alnum,datamatrix,alnum,,,,ok,,25,5,1.0,0.1513,0.159,0.0243,0.1284,484,399
+zxingcpp,dm-alnum-svg,datamatrix,alnum,,,,ok,,25,5,1.0,0.0986,0.0991,0.0095,0.0775,484,1904
+zxingcpp,dm-base64_nc,datamatrix,base64_near_capacity,,,,ok,,25,5,1.0,3.3605,3.3753,0.0795,3.2778,17424,7414
+zxingcpp,dm-base64_nc-svg,datamatrix,base64_near_capacity,,,,ok,,25,5,1.0,10.8585,10.885,0.167,10.6676,17424,59080
+zxingcpp,dm-bcbp,datamatrix,bcbp,,,,ok,,25,5,1.0,0.3189,0.3034,0.0782,0.1942,1296,828
+zxingcpp,dm-bcbp-svg,datamatrix,bcbp,,,,ok,,25,5,1.0,0.251,0.2434,0.086,0.1282,1296,4494
+zxingcpp,dm-edifact_charset,datamatrix,edifact_charset,,,,ok,,25,5,1.0,0.1831,0.1945,0.0254,0.1714,676,492
+zxingcpp,dm-edifact_charset-svg,datamatrix,edifact_charset,,,,ok,,25,5,1.0,0.1291,0.1377,0.0205,0.1145,676,2523
+zxingcpp,dm-json_nc,datamatrix,json_near_capacity,,,,ok,,25,5,1.0,3.336,3.3717,0.1371,3.2508,17424,7454
+zxingcpp,dm-json_nc-svg,datamatrix,json_near_capacity,,,,ok,,25,5,1.0,10.963,10.9873,0.1665,10.7648,17424,59634
+zxingcpp,dm-latin1,datamatrix,latin1,,iso-8859-1,,ok,,25,5,1.0,0.2622,0.2573,0.0525,0.1579,1024,694
+zxingcpp,dm-latin1-auto,datamatrix,latin1,,,,ok,,25,5,1.0,0.257,0.2526,0.0506,0.1546,1024,694
+zxingcpp,dm-latin1-auto-svg,datamatrix,latin1,,,,ok,,25,5,1.0,0.189,0.1952,0.0555,0.1008,1024,3802
+zxingcpp,dm-latin1-svg,datamatrix,latin1,,iso-8859-1,,ok,,25,5,1.0,0.2006,0.2046,0.0677,0.099,1024,3802
+zxingcpp,dm-latin1_ambiguous,datamatrix,latin1_ambiguous,,iso-8859-1,,ok,,0,0,0.0,,,,,,
+zxingcpp,dm-latin1_ambiguous-auto,datamatrix,latin1_ambiguous,,,,ok,,0,0,0.0,,,,,,
+zxingcpp,dm-latin1_ambiguous-auto-svg,datamatrix,latin1_ambiguous,,,,ok,,0,0,0.0,,,,,,
+zxingcpp,dm-latin1_ambiguous-svg,datamatrix,latin1_ambiguous,,iso-8859-1,,ok,,0,0,0.0,,,,,,
+zxingcpp,dm-lower_text,datamatrix,lower_text,,,,ok,,25,5,1.0,0.1621,0.1634,0.0134,0.142,576,438
+zxingcpp,dm-lower_text-svg,datamatrix,lower_text,,,,ok,,25,5,1.0,0.1077,0.1104,0.0113,0.0911,576,2290
+zxingcpp,dm-mixed_modes,datamatrix,mixed_modes,,,,ok,,25,5,1.0,0.3059,0.3279,0.0573,0.2467,1296,851
+zxingcpp,dm-mixed_modes-svg,datamatrix,mixed_modes,,,,ok,,25,5,1.0,0.2618,0.2864,0.0726,0.1924,1296,4708
+zxingcpp,dm-near_capacity,datamatrix,near_capacity,,,,ok,,25,5,1.0,2.6927,3.338,1.3128,2.6424,14400,6142
+zxingcpp,dm-near_capacity-svg,datamatrix,near_capacity,,,,ok,,25,5,1.0,8.1599,8.1941,0.1463,8.031,14400,49413
+zxingcpp,dm-numeric_even,datamatrix,numeric_even,,,,ok,,25,5,1.0,0.1354,0.1323,0.0227,0.0994,400,359
+zxingcpp,dm-numeric_even-svg,datamatrix,numeric_even,,,,ok,,25,5,1.0,0.0849,0.0804,0.0182,0.0521,400,1662
+zxingcpp,dm-numeric_long,datamatrix,numeric_long,,,,ok,,25,5,1.0,0.2558,0.2619,0.0171,0.2468,1024,690
+zxingcpp,dm-numeric_long-svg,datamatrix,numeric_long,,,,ok,,25,5,1.0,0.2003,0.2025,0.0107,0.1869,1024,3807
+zxingcpp,dm-numeric_odd,datamatrix,numeric_odd,,,,ok,,25,5,1.0,0.1316,0.1349,0.0155,0.1136,400,350
+zxingcpp,dm-numeric_odd-svg,datamatrix,numeric_odd,,,,ok,,25,5,1.0,0.0899,0.0896,0.0123,0.07,400,1643
+zxingcpp,dm-numeric_prefix,datamatrix,numeric_prefix,,,,ok,,25,5,1.0,0.099,0.099,0.0098,0.0819,196,246
+zxingcpp,dm-numeric_prefix-svg,datamatrix,numeric_prefix,,,,ok,,25,5,1.0,0.057,0.057,0.0088,0.043,196,1055
+zxingcpp,dm-numeric_short,datamatrix,numeric_short,,,,ok,,25,5,1.0,0.0927,0.0917,0.0103,0.0697,144,201
+zxingcpp,dm-numeric_short-svg,datamatrix,numeric_short,,,,ok,,25,5,1.0,0.0479,0.0486,0.0089,0.031,144,822
+zxingcpp,dm-numeric_suffix,datamatrix,numeric_suffix,,,,ok,,25,5,1.0,0.0982,0.1036,0.0145,0.0833,256,263
+zxingcpp,dm-numeric_suffix-svg,datamatrix,numeric_suffix,,,,ok,,25,5,1.0,0.0591,0.0597,0.0109,0.0462,256,1178
+zxingcpp,dm-text_para,datamatrix,text_para,,,,ok,,25,5,1.0,1.0041,0.9486,0.0912,0.827,5184,2596
+zxingcpp,dm-text_para-svg,datamatrix,text_para,,,,ok,,25,5,1.0,1.7516,1.6182,0.2672,1.2679,5184,17590
+zxingcpp,dm-upper_c40,datamatrix,upper_c40,,,,ok,,25,5,1.0,0.1797,0.1827,0.0126,0.1647,676,475
+zxingcpp,dm-upper_c40-svg,datamatrix,upper_c40,,,,ok,,25,5,1.0,0.1272,0.125,0.0112,0.1057,676,2477
+zxingcpp,dm-url,datamatrix,url,,,,ok,,25,5,1.0,0.2466,0.2485,0.0095,0.2368,1024,691
+zxingcpp,dm-url-svg,datamatrix,url,,,,ok,,25,5,1.0,0.1852,0.1886,0.0092,0.1766,1024,3710
+zxingcpp,dm-url_nc,datamatrix,url_near_capacity,,,,ok,,25,5,1.0,3.3793,3.3851,0.0389,3.3088,17424,7339
+zxingcpp,dm-url_nc-svg,datamatrix,url_near_capacity,,,,ok,,25,5,1.0,10.9121,10.9716,0.2099,10.6759,17424,59313
+zxingcpp,dm-utf8,datamatrix,utf8,,utf-8,,ok,,25,5,1.0,0.1851,0.1992,0.0331,0.1596,676,484
+zxingcpp,dm-utf8-auto,datamatrix,utf8,,,,ok,,25,5,1.0,0.1853,0.1961,0.0335,0.1552,676,484
+zxingcpp,dm-utf8-auto-svg,datamatrix,utf8,,,,ok,,25,5,1.0,0.1263,0.1384,0.0306,0.1016,676,2560
+zxingcpp,dm-utf8-svg,datamatrix,utf8,,utf-8,,ok,,25,5,1.0,0.1296,0.1395,0.0321,0.0999,676,2560
+zxingcpp,dm-x12_charset,datamatrix,x12_charset,,,,ok,,25,5,1.0,0.1697,0.1692,0.0101,0.1474,576,438
+zxingcpp,dm-x12_charset-svg,datamatrix,x12_charset,,,,ok,,25,5,1.0,0.114,0.1144,0.0106,0.0939,576,2221
+zxingcpp,dm-xml_nc,datamatrix,xml_near_capacity,,,,ok,,25,5,1.0,3.3049,3.7793,1.2321,3.2362,17424,7403
+zxingcpp,dm-xml_nc-svg,datamatrix,xml_near_capacity,,,,ok,,25,5,1.0,10.6572,10.6848,0.1941,10.3362,17424,58818
+zxingcpp,dmr-alnum,datamatrix_rect,alnum,,,,ok,,25,5,1.0,0.1868,0.2111,0.0524,0.1663,432,351
+zxingcpp,dmr-alnum-svg,datamatrix_rect,alnum,,,,ok,,25,5,1.0,0.1256,0.1433,0.04,0.1131,432,1747
+zxingcpp,dmr-lower_text,datamatrix_rect,lower_text,,,,ok,,25,5,1.0,0.2179,0.221,0.0225,0.1912,576,437
+zxingcpp,dmr-lower_text-svg,datamatrix_rect,lower_text,,,,ok,,25,5,1.0,0.1517,0.1606,0.0227,0.1263,576,2287
+zxingcpp,dmr-numeric_short,datamatrix_rect,numeric_short,,,,ok,,25,5,1.0,0.0918,0.1175,0.072,0.0726,144,193
+zxingcpp,dmr-numeric_short-svg,datamatrix_rect,numeric_short,,,,ok,,25,5,1.0,0.0488,0.051,0.0135,0.0337,144,859
+zxingcpp,dmr-upper_c40,datamatrix_rect,upper_c40,,,,ok,,25,5,1.0,0.2844,0.2888,0.0449,0.2319,768,499
+zxingcpp,dmr-upper_c40-svg,datamatrix_rect,upper_c40,,,,ok,,25,5,1.0,0.2221,0.216,0.0272,0.1611,768,2710
+zxingcpp,dmr-x12_charset,datamatrix_rect,x12_charset,,,,ok,,25,5,1.0,0.28,0.2732,0.0323,0.2243,768,504
+zxingcpp,dmr-x12_charset-svg,datamatrix_rect,x12_charset,,,,ok,,25,5,1.0,0.2245,0.2111,0.0297,0.1685,768,2693
+zxingcpp,pdf-alnum-ecl2,pdf417,alnum,2,,,ok,,25,5,1.0,0.425,0.4367,0.0436,0.3806,3960,910
+zxingcpp,pdf-alnum-ecl2-svg,pdf417,alnum,2,,,ok,,25,5,1.0,0.155,0.1599,0.0186,0.1295,3960,3209
+zxingcpp,pdf-alnum-ecl5,pdf417,alnum,5,,,ok,,25,5,1.0,0.8382,0.8457,0.0255,0.8074,8208,1683
+zxingcpp,pdf-alnum-ecl5-svg,pdf417,alnum,5,,,ok,,25,5,1.0,0.4022,0.4002,0.0301,0.3419,8208,7058
+zxingcpp,pdf-alnum-ecl8,pdf417,alnum,8,,,ok,,25,5,1.0,3.8213,4.6288,1.7843,3.5339,36540,6266
+zxingcpp,pdf-alnum-ecl8-svg,pdf417,alnum,8,,,ok,,25,5,1.0,4.2073,4.2378,0.1234,4.065,36540,33695
+zxingcpp,pdf-base64_nc-ecl5,pdf417,base64_near_capacity,5,,,ok,,25,5,1.0,4.9401,5.0586,0.262,4.7867,50127,8455
+zxingcpp,pdf-base64_nc-ecl5-svg,pdf417,base64_near_capacity,5,,,ok,,25,5,1.0,7.278,7.269,0.1764,7.0327,50127,47017
+zxingcpp,pdf-bcbp-ecl2,pdf417,bcbp,2,,,ok,,25,5,1.0,0.6375,0.6359,0.1368,0.4741,6006,1234
+zxingcpp,pdf-bcbp-ecl2-svg,pdf417,bcbp,2,,,ok,,25,5,1.0,0.2607,0.2697,0.078,0.1782,6006,4968
+zxingcpp,pdf-json_nc-ecl5,pdf417,json_near_capacity,5,,,ok,,25,5,1.0,4.3117,4.2946,0.1136,4.1075,42768,7015
+zxingcpp,pdf-json_nc-ecl5-svg,pdf417,json_near_capacity,5,,,ok,,25,5,1.0,5.5598,5.6084,0.2541,5.3605,42768,39764
+zxingcpp,pdf-latin1-ecl2,pdf417,latin1,2,iso-8859-1,,ok,,25,5,1.0,0.5178,0.5439,0.0931,0.4231,4932,1071
+zxingcpp,pdf-latin1-ecl2-auto,pdf417,latin1,2,,,ok,,25,5,1.0,0.5247,0.541,0.0867,0.4251,4932,1071
+zxingcpp,pdf-latin1-ecl2-auto-svg,pdf417,latin1,2,,,ok,,25,5,1.0,0.1986,0.209,0.0426,0.1522,4932,4063
+zxingcpp,pdf-latin1-ecl2-svg,pdf417,latin1,2,iso-8859-1,,ok,,25,5,1.0,0.202,0.2112,0.0436,0.1533,4932,4063
+zxingcpp,pdf-latin1_ambiguous-ecl2,pdf417,latin1_ambiguous,2,iso-8859-1,,ok,,0,0,0.0,,,,,,
+zxingcpp,pdf-latin1_ambiguous-ecl2-auto,pdf417,latin1_ambiguous,2,,,ok,,0,0,0.0,,,,,,
+zxingcpp,pdf-latin1_ambiguous-ecl2-auto-svg,pdf417,latin1_ambiguous,2,,,ok,,0,0,0.0,,,,,,
+zxingcpp,pdf-latin1_ambiguous-ecl2-svg,pdf417,latin1_ambiguous,2,iso-8859-1,,ok,,0,0,0.0,,,,,,
+zxingcpp,pdf-lower_text-ecl2,pdf417,lower_text,2,,,ok,,25,5,1.0,0.4512,0.4453,0.0218,0.4045,4110,931
+zxingcpp,pdf-lower_text-ecl2-svg,pdf417,lower_text,2,,,ok,,25,5,1.0,0.1664,0.1651,0.011,0.1417,4110,3503
+zxingcpp,pdf-mixed_modes-ecl2,pdf417,mixed_modes,2,,,ok,,25,5,1.0,0.7917,0.7783,0.0587,0.6554,7392,1500
+zxingcpp,pdf-mixed_modes-ecl2-svg,pdf417,mixed_modes,2,,,ok,,25,5,1.0,0.3376,0.3321,0.0306,0.2678,7392,6077
+zxingcpp,pdf-near_capacity-ecl5,pdf417,near_capacity,5,,,ok,,25,5,1.0,3.519,3.5543,0.2105,3.361,34800,5990
+zxingcpp,pdf-near_capacity-ecl5-svg,pdf417,near_capacity,5,,,ok,,25,5,1.0,3.9954,4.0194,0.0854,3.9289,34800,32106
+zxingcpp,pdf-numeric_long-ecl2,pdf417,numeric_long,2,,,ok,,25,5,1.0,0.6323,0.6189,0.0438,0.5546,5754,1241
+zxingcpp,pdf-numeric_long-ecl2-svg,pdf417,numeric_long,2,,,ok,,25,5,1.0,0.2534,0.2567,0.0194,0.225,5754,4637
+zxingcpp,pdf-text_para-ecl2,pdf417,text_para,2,,,ok,,25,5,1.0,1.561,1.4861,0.4144,0.9701,15375,2831
+zxingcpp,pdf-text_para-ecl2-cols12,pdf417,text_para,2,,12,ok,,25,5,1.0,1.2876,1.343,0.2931,0.887,12285,2260
+zxingcpp,pdf-text_para-ecl2-cols12-svg,pdf417,text_para,2,,12,ok,,25,5,1.0,0.8425,0.9154,0.3211,0.4387,12285,11447
+zxingcpp,pdf-text_para-ecl2-cols6,pdf417,text_para,2,,6,ok,,25,5,1.0,1.3997,1.5354,0.2962,1.1811,14364,2798
+zxingcpp,pdf-text_para-ecl2-cols6-svg,pdf417,text_para,2,,6,ok,,25,5,1.0,0.9429,1.1074,0.3422,0.728,14364,12156
+zxingcpp,pdf-text_para-ecl2-svg,pdf417,text_para,2,,,ok,,25,5,1.0,1.0806,1.1011,0.4864,0.5299,15375,13218
+zxingcpp,pdf-upper_c40-ecl2,pdf417,upper_c40,2,,,ok,,25,5,1.0,0.52,0.5233,0.0676,0.4725,4680,1021
+zxingcpp,pdf-upper_c40-ecl2-svg,pdf417,upper_c40,2,,,ok,,25,5,1.0,0.1973,0.1991,0.0244,0.17,4680,3886
+zxingcpp,pdf-url-ecl2,pdf417,url,2,,,ok,,25,5,1.0,0.5504,0.5641,0.0368,0.5242,5343,1157
+zxingcpp,pdf-url-ecl2-svg,pdf417,url,2,,,ok,,25,5,1.0,0.2172,0.2208,0.0144,0.1997,5343,4360
+zxingcpp,pdf-url_nc-ecl5,pdf417,url_near_capacity,5,,,ok,,25,5,1.0,4.7111,4.7039,0.0958,4.4698,46656,7637
+zxingcpp,pdf-url_nc-ecl5-svg,pdf417,url_near_capacity,5,,,ok,,25,5,1.0,6.3916,6.3885,0.1399,6.1068,46656,43334
+zxingcpp,pdf-utf8-ecl2,pdf417,utf8,2,utf-8,,ok,,25,5,1.0,0.4696,0.5168,0.085,0.433,4320,971
+zxingcpp,pdf-utf8-ecl2-auto,pdf417,utf8,2,,,ok,,25,5,1.0,0.4667,0.5167,0.0845,0.4349,4320,971
+zxingcpp,pdf-utf8-ecl2-auto-svg,pdf417,utf8,2,,,ok,,25,5,1.0,0.1756,0.2004,0.0429,0.1565,4320,3533
+zxingcpp,pdf-utf8-ecl2-svg,pdf417,utf8,2,utf-8,,ok,,25,5,1.0,0.1748,0.201,0.0435,0.154,4320,3533
+zxingcpp,pdf-xml_nc-ecl5,pdf417,xml_near_capacity,5,,,ok,,25,5,1.0,4.2263,4.2944,0.2807,4.014,41445,7038
+zxingcpp,pdf-xml_nc-ecl5-svg,pdf417,xml_near_capacity,5,,,ok,,25,5,1.0,5.2706,5.2642,0.0786,5.1467,41445,38199
+zxingcpp,qr-alnum-eclH,qr,alnum,H,,,ok,,25,5,1.0,0.4196,0.4319,0.148,0.3233,1089,813
+zxingcpp,qr-alnum-eclH-svg,qr,alnum,H,,,ok,,25,5,1.0,0.3004,0.2777,0.0386,0.2233,1089,3426
+zxingcpp,qr-alnum-eclL,qr,alnum,L,,,ok,,25,5,1.0,0.2766,0.3987,0.1648,0.2517,625,563
+zxingcpp,qr-alnum-eclL-svg,qr,alnum,L,,,ok,,25,5,1.0,0.1765,0.1776,0.0078,0.1642,625,2107
+zxingcpp,qr-alnum-eclM,qr,alnum,M,,,ok,,25,5,1.0,0.3449,0.5173,0.21,0.2621,841,685
+zxingcpp,qr-alnum-eclM-svg,qr,alnum,M,,,ok,,25,5,1.0,0.2346,0.222,0.0293,0.1587,841,2642
+zxingcpp,qr-alnum-eclQ,qr,alnum,Q,,,ok,,25,5,1.0,0.4234,0.5493,0.268,0.3318,841,679
+zxingcpp,qr-alnum-eclQ-svg,qr,alnum,Q,,,ok,,25,5,1.0,0.2424,0.2661,0.0393,0.2202,841,2821
+zxingcpp,qr-base64_nc-eclM,qr,base64_near_capacity,M,,,ok,,25,5,1.0,9.0085,9.0433,0.1459,8.8334,27225,12090
+zxingcpp,qr-base64_nc-eclM-svg,qr,base64_near_capacity,M,,,ok,,25,5,1.0,26.0995,26.2311,0.4943,25.4553,27225,92607
+zxingcpp,qr-bcbp-eclM,qr,bcbp,M,,,ok,,25,5,1.0,0.3633,0.4471,0.1224,0.3326,841,700
+zxingcpp,qr-bcbp-eclM-svg,qr,bcbp,M,,,ok,,25,5,1.0,0.2588,0.3445,0.1181,0.2388,841,2825
+zxingcpp,qr-json_nc-eclM,qr,json_near_capacity,M,,,ok,,25,5,1.0,8.9051,8.9242,0.1164,8.7627,27225,11866
+zxingcpp,qr-json_nc-eclM-svg,qr,json_near_capacity,M,,,ok,,25,5,1.0,25.899,25.9506,0.3838,25.5101,27225,93090
+zxingcpp,qr-kanji-eclM,qr,kanji,M,shift_jis,,ok,,25,5,1.0,0.3397,0.3484,0.0522,0.2675,841,660
+zxingcpp,qr-kanji-eclM-auto,qr,kanji,M,,,ok,,25,5,1.0,0.3452,0.3475,0.052,0.2622,841,660
+zxingcpp,qr-kanji-eclM-auto-svg,qr,kanji,M,,,ok,,25,5,1.0,0.2384,0.2451,0.0476,0.1715,841,2802
+zxingcpp,qr-kanji-eclM-svg,qr,kanji,M,shift_jis,,ok,,25,5,1.0,0.2395,0.2428,0.0472,0.1654,841,2802
+zxingcpp,qr-latin1-eclM,qr,latin1,M,iso-8859-1,,ok,,25,5,1.0,0.6177,0.6044,0.1007,0.4225,1681,1115
+zxingcpp,qr-latin1-eclM-auto,qr,latin1,M,,,ok,,25,5,1.0,0.6207,0.605,0.099,0.4207,1681,1115
+zxingcpp,qr-latin1-eclM-auto-svg,qr,latin1,M,,,ok,,25,5,1.0,0.5178,0.5038,0.1113,0.3016,1681,5388
+zxingcpp,qr-latin1-eclM-svg,qr,latin1,M,iso-8859-1,,ok,,25,5,1.0,0.5141,0.5025,0.1105,0.3087,1681,5388
+zxingcpp,qr-latin1_ambiguous-eclM,qr,latin1_ambiguous,M,iso-8859-1,,ok,,0,0,0.0,,,,,,
+zxingcpp,qr-latin1_ambiguous-eclM-auto,qr,latin1_ambiguous,M,,,ok,,0,0,0.0,,,,,,
+zxingcpp,qr-latin1_ambiguous-eclM-auto-svg,qr,latin1_ambiguous,M,,,ok,,0,0,0.0,,,,,,
+zxingcpp,qr-latin1_ambiguous-eclM-svg,qr,latin1_ambiguous,M,iso-8859-1,,ok,,0,0,0.0,,,,,,
+zxingcpp,qr-mixed_modes-eclM,qr,mixed_modes,M,,,ok,,25,5,1.0,0.6458,0.6883,0.124,0.5201,1681,1123
+zxingcpp,qr-mixed_modes-eclM-svg,qr,mixed_modes,M,,,ok,,25,5,1.0,0.5374,0.5874,0.1303,0.4082,1681,5606
+zxingcpp,qr-near_capacity-eclH,qr,near_capacity,H,,,ok,,25,5,1.0,8.7949,8.8415,0.1339,8.672,27225,12023
+zxingcpp,qr-near_capacity-eclH-svg,qr,near_capacity,H,,,ok,,25,5,1.0,25.8401,25.8704,0.4773,25.2232,27225,93131
+zxingcpp,qr-near_capacity-eclL,qr,near_capacity,L,,,ok,,25,5,1.0,8.8076,8.8988,0.3173,8.5909,27225,11769
+zxingcpp,qr-near_capacity-eclL-svg,qr,near_capacity,L,,,ok,,25,5,1.0,25.5994,25.7076,0.4058,25.2258,27225,93261
+zxingcpp,qr-near_capacity-eclM,qr,near_capacity,M,,,ok,,25,5,1.0,8.7115,8.7511,0.1233,8.6007,27225,11831
+zxingcpp,qr-near_capacity-eclM-svg,qr,near_capacity,M,,,ok,,25,5,1.0,25.5337,25.6226,0.499,25.1037,27225,92321
+zxingcpp,qr-near_capacity-eclQ,qr,near_capacity,Q,,,ok,,25,5,1.0,8.7554,8.8562,0.3482,8.6412,27225,11882
+zxingcpp,qr-near_capacity-eclQ-svg,qr,near_capacity,Q,,,ok,,25,5,1.0,25.6766,26.159,2.0569,25.2524,27225,92491
+zxingcpp,qr-numeric_long-eclM,qr,numeric_long,M,,,ok,,25,5,1.0,0.4469,0.6422,0.2621,0.4155,1089,814
+zxingcpp,qr-numeric_long-eclM-svg,qr,numeric_long,M,,,ok,,25,5,1.0,0.3178,0.3252,0.0245,0.3023,1089,3480
+zxingcpp,qr-numeric_short-eclM,qr,numeric_short,M,,,ok,,25,5,1.0,0.269,0.3479,0.1535,0.198,441,401
+zxingcpp,qr-numeric_short-eclM-svg,qr,numeric_short,M,,,ok,,25,5,1.0,0.1272,0.1366,0.0209,0.1144,441,1485
+zxingcpp,qr-text_para-eclM,qr,text_para,M,,,ok,,25,5,1.0,1.375,1.518,0.2268,1.3062,3721,2165
+zxingcpp,qr-text_para-eclM-svg,qr,text_para,M,,,ok,,25,5,1.0,1.4923,1.7834,0.4175,1.4102,3721,12024
+zxingcpp,qr-url-eclM,qr,url,M,,,ok,,25,5,1.0,0.5079,0.4944,0.0567,0.4152,1369,944
+zxingcpp,qr-url-eclM-svg,qr,url,M,,,ok,,25,5,1.0,0.4004,0.3742,0.0468,0.3108,1369,4448
+zxingcpp,qr-url_nc-eclM,qr,url_near_capacity,M,,,ok,,25,5,1.0,9.0042,9.0498,0.1213,8.9067,27225,11959
+zxingcpp,qr-url_nc-eclM-svg,qr,url_near_capacity,M,,,ok,,25,5,1.0,25.6644,25.6736,0.3938,25.2065,27225,91991
+zxingcpp,qr-utf8-eclM,qr,utf8,M,utf-8,,ok,,25,5,1.0,0.4296,0.3941,0.0692,0.265,1089,807
+zxingcpp,qr-utf8-eclM-auto,qr,utf8,M,,,ok,,25,5,1.0,0.4269,0.3874,0.0671,0.2639,1089,807
+zxingcpp,qr-utf8-eclM-auto-svg,qr,utf8,M,,,ok,,25,5,1.0,0.3236,0.2884,0.0679,0.1699,1089,3500
+zxingcpp,qr-utf8-eclM-svg,qr,utf8,M,utf-8,,ok,,25,5,1.0,0.3175,0.2769,0.0615,0.1701,1089,3500
+zxingcpp,qr-xml_nc-eclM,qr,xml_near_capacity,M,,,ok,,25,5,1.0,8.9132,8.9377,0.11,8.7694,27225,11960
+zxingcpp,qr-xml_nc-eclM-svg,qr,xml_near_capacity,M,,,ok,,25,5,1.0,25.8797,25.925,0.5719,25.2287,27225,92735

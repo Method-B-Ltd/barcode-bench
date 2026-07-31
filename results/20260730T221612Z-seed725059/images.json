@@ -1,0 +1,81 @@
+{
+ "base": {
+  "tag": "barcode-bench-base",
+  "bytes": 129087081,
+  "id": "a1e028236d55ab8a2ec45d7c693137b5adb5d230baecdbae4f9f75cf51b6ce66"
+ },
+ "encoders": {
+  "pystrich": {
+   "tag": "barcode-bench-pystrich",
+   "bytes": 160774229,
+   "id": "ba8fec8cad3245cecba10fdb1d44d613298479625b1af08db1f2fc3d2cee9b54",
+   "delta_bytes": 31693824
+  },
+  "pystrich-git": {
+   "tag": "barcode-bench-pystrich-git",
+   "bytes": 160773955,
+   "id": "19e582931615f02d0ae9a449ff60293c17c7f799948d5555d2816015fa659112",
+   "delta_bytes": 31694336
+  },
+  "zxingcpp": {
+   "tag": "barcode-bench-zxingcpp",
+   "bytes": 160867413,
+   "id": "ff3e163314b8015f09428d1df029633f783e03ca708e6309917b797d8dee2c4c",
+   "delta_bytes": 31787008
+  },
+  "segno": {
+   "tag": "barcode-bench-segno",
+   "bytes": 138181712,
+   "id": "1c5cf76c09f3e64a7bc5d9aae9d2b71793c0eb40147993b540b586bb292ab2af",
+   "delta_bytes": 9101312
+  },
+  "qrcode": {
+   "tag": "barcode-bench-qrcode",
+   "bytes": 159199822,
+   "id": "50ba607a9b6ff01f146aadb0a400cd3e6451fcef9e5c069dc4820bc5d067a3c6",
+   "delta_bytes": 30119424
+  },
+  "qrcodegen": {
+   "tag": "barcode-bench-qrcodegen",
+   "bytes": 137672276,
+   "id": "5e2e14b9d1053ee568f312a67c1e4b3438366df6bc1be89ba4ea158bf6e067c0",
+   "delta_bytes": 8591872
+  },
+  "aztecgen": {
+   "tag": "barcode-bench-aztecgen",
+   "bytes": 158913618,
+   "id": "8f50b9ba609c436875d90567cd7fb5622f336654cfc3213a8bda444af9eca0d5",
+   "delta_bytes": 29833216
+  },
+  "pdf417gen": {
+   "tag": "barcode-bench-pdf417gen",
+   "bytes": 158971987,
+   "id": "82c468221aaa4236db61cbb009b6ccc23583be1364665fbda62c3039cf019996",
+   "delta_bytes": 29891584
+  },
+  "pylibdmtx": {
+   "tag": "barcode-bench-pylibdmtx",
+   "bytes": 168012895,
+   "id": "74a7b5f140c3028b2b0642ed5bb65de6035f9c1544bdc44263b1490fb559b323",
+   "delta_bytes": 38932480
+  },
+  "ppfdm": {
+   "tag": "barcode-bench-ppfdm",
+   "bytes": 137657421,
+   "id": "ac1558a5d700af7ce1ff7c0a1b42efd8c038cca88b39671eab04fbf4eacf974a",
+   "delta_bytes": 8577024
+  },
+  "opencv": {
+   "tag": "barcode-bench-opencv",
+   "bytes": 367222357,
+   "id": "41d394b48a062ca0d24839305386c855ccd378a123b812c6af8e1aa6c9180ab0",
+   "delta_bytes": 238141952
+  },
+  "treepoem": {
+   "tag": "barcode-bench-treepoem",
+   "bytes": 230398050,
+   "id": "0e048434d255b9bc44360d3f9e677ecd39252a7d15bde27a77200217609a0eb4",
+   "delta_bytes": 101317632
+  }
+ }
+}
