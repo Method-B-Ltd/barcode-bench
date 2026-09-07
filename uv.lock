@@ -724,15 +724,15 @@ wheels = [
 
 [[package]]
 name = "pystrich"
-version = "0.19"
+version = "0.20"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pillow" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/76/d1/30aa3a5224c7b9fd53b411c66938b3eee77e584a29d1f20f9f280a5eb190/pystrich-0.19.tar.gz", hash = "sha256:0ccb8133cfe5a92f792047d5d3959b4fef1c99aae8980835c28231fac70f4fec", size = 290768, upload-time = "2026-07-23T19:17:31.939Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/20/43/59de87934e6e0c804ab95f0b64ab5a59949865907fd2964af8d4ce215f0f/pystrich-0.20.tar.gz", hash = "sha256:0b49b446068348173ac37fc42dc1a25722d948480c6cb0a58c1e31d4b402e6f5", size = 290983, upload-time = "2026-08-27T11:22:02.394Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6f/d4/0a2060e6a6221ea0dd36db54dfb6c689b768d20daacffcf72cbe8e1020c3/pystrich-0.19-py3-none-any.whl", hash = "sha256:1f29928c49dfad11ab1785ca3a7df6c59dd9108534615034cd024462e1f626bc", size = 236346, upload-time = "2026-07-23T19:17:30.539Z" },
+    { url = "https://files.pythonhosted.org/packages/07/51/b7ae875155273424e901f3d14dfec2983ca80272058ccbd4454634c8fe86/pystrich-0.20-py3-none-any.whl", hash = "sha256:d4cbe70da69ee9afd526e760bbd0274919de45c6cb75aab99c2702160cd0b66d", size = 237591, upload-time = "2026-08-27T11:22:00.773Z" },
 ]
 
 [[package]]
